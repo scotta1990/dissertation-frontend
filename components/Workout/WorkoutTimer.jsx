@@ -1,24 +1,26 @@
-import { useContext, useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { CurrentWorkoutContext } from "../../store/current-workout-context";
+import { useEffect } from "react";
+import { Text, View } from "react-native";
+import { useDispatch, useSelector } from "react-redux";
+import { increaseWorkoutDuration } from "../../store/redux/currentWorkout";
 
 const WorkoutTimer = ({ containerStyle, textStyle }) => {
-  const currentWorkoutCtx = useContext(CurrentWorkoutContext);
-  const [totalSeconds, setTotalSeconds] = useState(0);
+  const workoutDuration = useSelector(
+    (state) => state.currentWorkout.workoutDuration
+  );
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const id = setInterval(() => {
-      setTotalSeconds(currentWorkoutCtx.getDuration());
-      currentWorkoutCtx.increaseDuration();
+      dispatch(increaseWorkoutDuration());
     }, 1000);
     return () => {
       clearInterval(id);
     };
   }, []);
 
-  var hours = Math.floor(totalSeconds / 3600);
-  var minutes = Math.floor((totalSeconds % 3600) / 60);
-  var seconds = Math.floor(totalSeconds % 60);
+  var hours = Math.floor(workoutDuration / 3600);
+  var minutes = Math.floor((workoutDuration % 3600) / 60);
+  var seconds = Math.floor(workoutDuration % 60);
 
   return (
     <View style={containerStyle}>
