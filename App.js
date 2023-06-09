@@ -3,7 +3,6 @@ import AuthNavigator from "./authentication/AuthNavigator";
 import AuthContextProvider, { AuthContext } from "./store/auth-context";
 import { useContext } from "react";
 import WorkoutNavigation from "./navigation/WorkoutNavigation";
-import CurrentWorkoutContextProvider from "./store/current-workout-context";
 import { Provider } from "react-redux";
 import { store } from "./store/redux/store";
 
@@ -35,9 +34,7 @@ export default function App() {
     <>
       <Provider store={store}>
         <AuthContextProvider>
-          <CurrentWorkoutContextProvider>
-            <Navigation />
-          </CurrentWorkoutContextProvider>
+          <Navigation />
         </AuthContextProvider>
       </Provider>
     </>

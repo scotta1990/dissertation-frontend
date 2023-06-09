@@ -1,11 +1,11 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-import React, { useContext } from "react";
+import React from "react";
 import { GlobalStyles } from "../constants/styles";
 import Card from "../components/UI/Card";
 import RecentWorkoutsList from "../components/Workout/RecentWorkoutsList";
 import Button from "../components/UI/Button";
-import Ionicons from "@expo/vector-icons/Ionicons";
-import { CurrentWorkoutContext } from "../store/current-workout-context";
+import { useDispatch, useSelector } from "react-redux";
+import { startWorkout } from "../store/redux/currentWorkout";
 
 const data = [
   { id: 1, date: "2023-06-02", duration: "1 hour 5 minutes" },
@@ -14,13 +14,17 @@ const data = [
 ];
 
 const WorkoutSummary = ({ navigation }) => {
-  const currentWorkoutCtx = useContext(CurrentWorkoutContext);
+  const workoutInProgress = useSelector(
+    (store) => store.currentWorkout.workoutInProgress
+  );
+  const dispatch = useDispatch();
+  // const currentWorkoutCtx = useContext(CurrentWorkoutContext);
 
   function pressHandler() {
-    if (currentWorkoutCtx.workoutInProgress) {
+    if (workoutInProgress) {
       navigation.navigate("CurrentWorkout");
     } else {
-      currentWorkoutCtx.startWorkout();
+      dispatch(startWorkout());
       navigation.navigate("CurrentWorkout");
     }
   }
@@ -45,9 +49,7 @@ const WorkoutSummary = ({ navigation }) => {
         backgroundColor={GlobalStyles.colors.accent}
         onPress={pressHandler}
       >
-        {currentWorkoutCtx.workoutInProgress
-          ? "Resume Workout"
-          : "Start a Work"}
+        {workoutInProgress ? "Resume Workout" : "Start a Work"}
       </Button>
     </SafeAreaView>
   );

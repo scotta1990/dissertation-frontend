@@ -3,7 +3,9 @@ import React from "react";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
 import WorkoutItem from "../components/Workout/WorkoutItem";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { cancelCurrentWorkout } from "../store/redux/currentWorkout";
+import { Alert } from "react-native";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
@@ -11,10 +13,32 @@ const renderWorkoutItem = ({ item, index }) => {
 
 const CurrentWorkout = ({ navigation }) => {
   const currentWorkout = useSelector((store) => store.currentWorkout);
+  const dispatch = useDispatch();
 
   function addExerciseOnPressHandler() {
     navigation.navigate("AddWorkoutExercise");
   }
+
+  function cancelWorkoutOnPressHandler() {
+    Alert.alert(
+      "Cancel Workout",
+      "Are you sure you want to cancel this workout?",
+      [
+        {
+          text: "Cancel",
+          style: "cancel",
+        },
+        {
+          text: "Ok",
+          onPress: () => {
+            dispatch(cancelCurrentWorkout());
+            navigation.navigate("WorkoutSummary");
+          },
+        },
+      ]
+    );
+  }
+
   return (
     <View style={styles.mainContainer}>
       <View style={styles.mainContainer}>
@@ -39,6 +63,7 @@ const CurrentWorkout = ({ navigation }) => {
           <Button
             style={styles.buttonRow}
             backgroundColor={GlobalStyles.colors.error}
+            onPress={cancelWorkoutOnPressHandler}
           >
             Cancel Workout
           </Button>
