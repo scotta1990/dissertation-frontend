@@ -3,11 +3,21 @@ import { createSlice } from "@reduxjs/toolkit";
 export const currentWorkoutSlice = createSlice({
   name: "currentWorkout",
   initialState: {
-    workoutItems: [],
     workoutInProgress: false,
+    workoutItems: [],
     workoutDuration: 0,
   },
   reducers: {
+    startWorkout: (state, action) => {
+      state.workoutInProgress = true;
+    },
+
+    cancelCurrentWorkout: (state, action) => {
+      state.workoutInProgress = false;
+      state.workoutItems = [];
+      state.workoutDuration = 0;
+    },
+
     addExercise: (state, action) => {
       const id =
         state.workoutItems.length > 0
@@ -55,11 +65,19 @@ export const currentWorkoutSlice = createSlice({
     },
 
     increaseWorkoutDuration: (state) => {
-      state.workoutDuration += 1;
+      const newDuration = (state.workoutDuration += 1);
+      state.workoutDuration = newDuration;
     },
   },
 });
 
-export const { addExercise, removeExercise, addSet, removeSet } =
-  currentWorkoutSlice.actions;
+export const {
+  startWorkout,
+  cancelCurrentWorkout,
+  addExercise,
+  removeExercise,
+  addSet,
+  removeSet,
+  increaseWorkoutDuration,
+} = currentWorkoutSlice.actions;
 export default currentWorkoutSlice.reducer;
