@@ -3,14 +3,13 @@ import React from "react";
 import Card from "../UI/Card";
 import SetRow from "./SetRow";
 
-function renderSetRow(item, index, exerciseId) {
-  return <SetRow set={item} setIndex={index} exerciseId={exerciseId} />;
+function renderSetRow(item, index, workoutItemId) {
+  return <SetRow set={item} setIndex={index} workoutItemId={workoutItemId} />;
 }
 
-const WorkoutSetsList = ({ exerciseId, workoutSets }) => {
+const WorkoutSetsList = ({ workoutItemId, workoutSets }) => {
   return (
     <Card>
-      {/* <View style={{ flex: 1 }}> */}
       <View style={styles.setContainer}>
         <View style={styles.setItemContainer}>
           <Text style={styles.headerText}>Set</Text>
@@ -25,11 +24,12 @@ const WorkoutSetsList = ({ exerciseId, workoutSets }) => {
           <Text style={styles.headerText}>Done</Text>
         </View>
       </View>
-      {/* </View> */}
       <FlatList
         data={workoutSets}
         keyExtractor={(item) => item.id}
-        renderItem={({ item, index }) => renderSetRow(item, index, exerciseId)}
+        renderItem={({ item, index }) =>
+          renderSetRow(item, index, workoutItemId)
+        }
       />
     </Card>
   );

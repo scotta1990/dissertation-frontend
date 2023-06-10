@@ -54,14 +54,24 @@ export const currentWorkoutSlice = createSlice({
       state.workoutItems[index].sets.push(set);
     },
 
-    removeSet: (state, action) => {
-      const exerciseIndex = state.workoutItems.findIndex(
-        (item) => item.id === action.payload.exerciseId
+    updateSet: (state, action) => {
+      const workoutItemIndex = state.workoutItems.findIndex(
+        (item) => item.id === action.payload.workoutItemId
       );
-      const setIndex = state.workoutItems[exerciseIndex].sets.findIndex(
+      const setIndex = state.workoutItems[workoutItemIndex].sets.findIndex(
+        (item) => item.id === action.payload.set.id
+      );
+      state.workoutItems[workoutItemIndex].sets[setIndex] = action.payload.set;
+    },
+
+    removeSet: (state, action) => {
+      const workoutItemIndex = state.workoutItems.findIndex(
+        (item) => item.id === action.payload.workoutItemId
+      );
+      const setIndex = state.workoutItems[workoutItemIndex].sets.findIndex(
         (item) => item.id === action.payload.setId
       );
-      state.workoutItems[exerciseIndex].sets.splice(setIndex, 1);
+      state.workoutItems[workoutItemIndex].sets.splice(setIndex, 1);
     },
 
     increaseWorkoutDuration: (state) => {
@@ -77,6 +87,7 @@ export const {
   addExercise,
   removeExercise,
   addSet,
+  updateSet,
   removeSet,
   increaseWorkoutDuration,
 } = currentWorkoutSlice.actions;

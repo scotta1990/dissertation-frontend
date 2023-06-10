@@ -6,39 +6,42 @@ import { GlobalStyles } from "../../constants/styles";
 import WorkoutSetsList from "./WorkoutSetsList";
 import Button from "../UI/Button";
 import { addSet, removeExercise } from "../../store/redux/currentWorkout";
+import { ToastProvider } from "react-native-toast-notifications";
 
 const WorkoutItem = ({ workoutItem }) => {
   const dispatch = useDispatch();
 
   return (
     <Card>
-      <View style={styles.mainContainer}>
-        <View style={styles.exerciseHeaderContainer}>
-          <Text style={styles.exerciseHeaderText}>
-            {workoutItem.id} {workoutItem.exercise.name}
-          </Text>
+      <ToastProvider>
+        <View style={styles.mainContainer}>
+          <View style={styles.exerciseHeaderContainer}>
+            <Text style={styles.exerciseHeaderText}>
+              {workoutItem.id} {workoutItem.exercise.name}
+            </Text>
+            <Button
+              textStyle={{ color: "red" }}
+              onPress={() =>
+                dispatch(removeExercise({ workoutItemId: workoutItem.id }))
+              }
+            >
+              X
+            </Button>
+          </View>
+          <WorkoutSetsList
+            workoutItemId={workoutItem.id}
+            workoutSets={workoutItem.sets}
+          />
           <Button
-            textStyle={{ color: "red" }}
-            onPress={() =>
-              dispatch(removeExercise({ workoutItemId: workoutItem.id }))
-            }
+            textStyle={{ color: "blue" }}
+            onPress={() => {
+              dispatch(addSet({ workoutItemId: workoutItem.id }));
+            }}
           >
-            X
+            Add Set
           </Button>
         </View>
-        <WorkoutSetsList
-          exerciseId={workoutItem.id}
-          workoutSets={workoutItem.sets}
-        />
-        <Button
-          textStyle={{ color: "blue" }}
-          onPress={() => {
-            dispatch(addSet({ workoutItemId: workoutItem.id }));
-          }}
-        >
-          Add Set
-        </Button>
-      </View>
+      </ToastProvider>
     </Card>
   );
 };
