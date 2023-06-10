@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View, TextInput } from "react-native";
 import CheckBox from "expo-checkbox";
-import React, { useState } from "react";
+import { useState } from "react";
 import { GlobalStyles } from "../../constants/styles";
 import { useDispatch } from "react-redux";
-import { removeSet } from "../../store/redux/currentWorkout";
+import { removeSet, updateSet } from "../../store/redux/currentWorkout";
 import Swipeable from "react-native-gesture-handler/Swipeable";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { useToast } from "react-native-toast-notifications";
 
 const rightSwipeActions = () => {
   return (
@@ -35,35 +36,83 @@ const rightSwipeActions = () => {
   );
 };
 
-const SetRow = ({ set, setIndex, exerciseId }) => {
+const SetRow = ({ set, setIndex, workoutItemId }) => {
   const dispatch = useDispatch();
-  const [isDone, setIsDone] = useState(false);
+  const toast = useToast();
+  const [measurementValue, setMeasurementValue] = useState(set.measurement);
+  const [countValue, setCountValue] = useState(set.count);
+  const [isDone, setIsDone] = useState(set.done);
   const isDeletable = setIndex !== 0;
   const isAlternate = setIndex % 2 == 0;
+
+  function workoutDone(value) {
+    if (measurementValue > 0 && countValue > 0) {
+      setIsDone(value);
+      dispatch(
+        updateSet({
+          workoutItemId: workoutItemId,
+          set: {
+            id: set.id,
+            measurement: measurementValue,
+            count: countValue,
+            done: value,
+          },
+        })
+      );
+    } else {
+      toast.show(
+        "Your set doesn't look right, add more information to complete your set!",
+        {
+          type: "warning",
+          placement: "top",
+          duration: 4000,
+          animationType: "zoom-in",
+        }
+      );
+    }
+  }
 
   const content = (
     <View
       style={[
         styles.setContainer,
-        isAlternate ? styles.setContainerRow : styles.setContainerRowAlternate,
+        isDone
+          ? styles.setContainerRowDone
+          : isAlternate
+          ? styles.setContainerRow
+          : styles.setContainerRowAlternate,
       ]}
     >
       <View style={styles.setItemContainer}>
         <Text
-          style={isAlternate ? styles.setNumText : styles.setNumTextAlternate}
+          style={
+            isAlternate || isDone
+              ? styles.setNumText
+              : styles.setNumTextAlternate
+          }
         >
           {setIndex + 1}
         </Text>
       </View>
       <View style={styles.setItemContainer}>
         <TextInput
-          style={styles.setText}
+          style={[styles.setText, isDone && { color: "white" }]}
           placeholder="kg"
-          value={set.measurement}
+          keyboardType="numeric"
+          value={measurementValue}
+          onChangeText={setMeasurementValue}
+          editable={!isDone}
         />
       </View>
       <View style={styles.setItemContainer}>
-        <TextInput style={styles.setText} placeholder="0" />
+        <TextInput
+          style={[styles.setText, isDone && { color: "white" }]}
+          placeholder="0"
+          keyboardType="numeric"
+          value={countValue}
+          onChangeText={setCountValue}
+          editable={!isDone}
+        />
       </View>
       <View style={styles.setItemContainer}>
         <CheckBox
@@ -76,7 +125,7 @@ const SetRow = ({ set, setIndex, exerciseId }) => {
               : GlobalStyles.colors.secondary
           }
           value={isDone}
-          onValueChange={setIsDone}
+          onValueChange={workoutDone}
         />
       </View>
     </View>
@@ -88,7 +137,9 @@ const SetRow = ({ set, setIndex, exerciseId }) => {
         <Swipeable
           renderRightActions={rightSwipeActions}
           onSwipeableRightOpen={() => {
-            dispatch(removeSet({ exerciseId: exerciseId, setId: set.id }));
+            dispatch(
+              removeSet({ workoutItemId: workoutItemId, setId: set.id })
+            );
           }}
         >
           {content}
@@ -119,6 +170,9 @@ const styles = StyleSheet.create({
     backgroundColor: GlobalStyles.colors.primaryWhite,
     borderColor: GlobalStyles.colors.secondary,
     borderWidth: 1.5,
+  },
+  setContainerRowDone: {
+    backgroundColor: GlobalStyles.colors.successBackground,
   },
   setItemContainer: {
     width: 50,
