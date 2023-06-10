@@ -1,58 +1,45 @@
-import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-  Modal,
-} from "react-native";
-import React, { useContext, useEffect, useState } from "react";
-import { ExercisesContext } from "../store/exercise-context";
+import { StyleSheet, TextInput, View } from "react-native";
+import { useEffect, useState } from "react";
 import { GlobalStyles } from "../constants/styles";
 import ExercisesList from "../components/Exercise/ExercisesList";
-import ExerciseBodyPartList from "../components/Exercise/ExerciseBodyPartList";
+import { useSelector } from "react-redux";
+import ExerciseBodyPartFilter from "../components/Exercise/ExerciseBodyPartFilter";
 
 const AddWorkoutExercise = () => {
-  const exercisesCtx = useContext(ExercisesContext);
+  const exerciseList = useSelector((state) => state.exercises.exerciseList);
+  const bodyPartsFilter = useSelector(
+    (state) => state.exercises.bodyPartsFilter
+  );
+
   const [exerciseFilter, setExerciseFilter] = useState("");
-  const [bodyPartSelected, setBodyPartSelect] = useState("");
   const [filteredExercises, setFilteredExercises] = useState([]);
 
   useEffect(() => {
-    if (bodyPartSelected != "" || exerciseFilter != "") {
+    if (bodyPartsFilter != "" || exerciseFilter != "") {
       setFilteredExercises(
-        exercisesCtx.exercises.filter((exercise) => {
+        exerciseList.filter((exercise) => {
           return (
             exercise.name
               .toLowerCase()
               .includes(exerciseFilter.toLowerCase()) &&
-            (exercise.bodyPart === bodyPartSelected || bodyPartSelected === "")
+            (exercise.bodyPart === bodyPartsFilter || bodyPartsFilter === "")
           );
         })
       );
     } else {
-      setFilteredExercises(exercisesCtx.exercises);
+      setFilteredExercises(exerciseList);
     }
-  }, [exerciseFilter, bodyPartSelected]);
+  }, [exerciseFilter, bodyPartsFilter]);
 
   return (
     <View style={styles.mainContainer}>
-      <View style={styles.bodyPartFilterContainer}>
-        <Text style={styles.bodyPartFilterHeaderText}>
-          Filter by a Body Part:
-        </Text>
-        <ExerciseBodyPartList
-          bodyParts={exercisesCtx.bodyParts}
-          selectedItem={bodyPartSelected}
-          onSelect={setBodyPartSelect}
-        />
-      </View>
+      <ExerciseBodyPartFilter />
       <TextInput
         style={styles.exerciseInputFilter}
         placeholder="Search by exercise name"
         onChangeText={setExerciseFilter}
       />
-      <View style={{ flex: 1 }}>
+      <View style={styles.mainContainer}>
         <ExercisesList exerciseData={filteredExercises} />
       </View>
     </View>
