@@ -7,12 +7,6 @@ import Button from "../components/UI/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
 
-const data = [
-  { id: 1, date: "2023-06-02", duration: "1 hour 5 minutes" },
-  { id: 2, date: "2023-05-31", duration: "55 minutes" },
-  { id: 3, date: "2023-05-02", duration: "1 hour" },
-];
-
 const WorkoutSummary = ({ navigation }) => {
   const workoutsList = useSelector((store) => store.workouts.workoutsList);
   const workoutInProgress = useSelector(
