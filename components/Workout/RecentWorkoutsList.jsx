@@ -13,7 +13,7 @@ const RecentWorkoutsList = ({ recentWorkouts }) => {
     <FlatList
       data={recentWorkouts}
       renderItem={renderRecentWorkoutItem}
-      keyExtractor={(item) => item.id}
+      keyExtractor={(item) => item.startDate}
     />
   );
 };
