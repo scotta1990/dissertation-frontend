@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import WorkoutSummary from "../screens/WorkoutSummary";
-import ProfileNavigation from "./ProfileNavigation";
+import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
 
@@ -28,8 +28,8 @@ const CoreNavigation = () => {
         }}
       />
       <Tab.Screen
-        name="Profile"
-        component={ProfileNavigation}
+        name="You"
+        component={YouNavigation}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="person-outline" size={42} color={color} />
