@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { GlobalStyles } from "../../constants/styles";
+import {
+  convertDateToString,
+  convertDurationToString,
+} from "../../utils/utils";
 
 const RecentWorkoutItem = ({ recentWorkoutItem, alternate = false }) => {
   return (
@@ -14,7 +18,7 @@ const RecentWorkoutItem = ({ recentWorkoutItem, alternate = false }) => {
     >
       <View>
         <Text style={styles.recentWorkoutDateText}>
-          {recentWorkoutItem.date}
+          {convertDateToString(recentWorkoutItem.startDate)}
         </Text>
       </View>
       <View style={styles.recentWorkoutDurationContainer}>
@@ -25,7 +29,7 @@ const RecentWorkoutItem = ({ recentWorkoutItem, alternate = false }) => {
               : styles.recentWorkoutDurationTextAlternate
           }
         >
-          {recentWorkoutItem.duration}
+          {convertDurationToString(recentWorkoutItem.workoutDuration)}
         </Text>
       </View>
     </View>
@@ -39,7 +43,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     margin: 8,
-    padding: 8,
+    padding: 10,
     borderRadius: 8,
   },
   recentWorkoutItemContainer: {

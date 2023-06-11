@@ -4,16 +4,19 @@ export const currentWorkoutSlice = createSlice({
   name: "currentWorkout",
   initialState: {
     workoutInProgress: false,
+    workoutStartDate: "",
     workoutItems: [],
     workoutDuration: 0,
   },
   reducers: {
     startWorkout: (state, action) => {
+      state.workoutStartDate = Date.now();
       state.workoutInProgress = true;
     },
 
     cancelCurrentWorkout: (state, action) => {
       state.workoutInProgress = false;
+      state.workoutStartDate = "";
       state.workoutItems = [];
       state.workoutDuration = 0;
     },
@@ -78,6 +81,8 @@ export const currentWorkoutSlice = createSlice({
       const newDuration = (state.workoutDuration += 1);
       state.workoutDuration = newDuration;
     },
+
+    finishCurrentWorkout: (state) => {},
   },
 });
 
