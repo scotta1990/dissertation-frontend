@@ -1,11 +1,12 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import CurrentWorkout from "../screens/CurrentWorkout";
 import { GlobalStyles } from "../constants/styles";
 import Button from "../components/UI/Button";
 import WorkoutNavigationHeader from "../components/Workout/WorkoutNavigationHeader";
 import CoreNavigation from "./CoreNavigation";
 import AddWorkoutExercise from "../screens/AddWorkoutExercise";
+
 const Stack = createNativeStackNavigator();
 
 const WorkoutNavigation = () => {
@@ -27,15 +28,16 @@ const WorkoutNavigation = () => {
         options={{
           title: "",
           headerTitle: ({ title }) => <WorkoutNavigationHeader />,
-          headerRight: () => (
-            <Button
-              backgroundColor={GlobalStyles.colors.successBackground}
-              textStyle={{ fontSize: 12 }}
-              style={{ minWidth: 90 }}
-            >
-              Finish
-            </Button>
-          ),
+          // headerRight: () => (
+          //   <Button
+          //     backgroundColor={GlobalStyles.colors.successBackground}
+          //     textStyle={{ fontSize: 12 }}
+          //     style={{ minWidth: 90 }}
+          //     onPress={finishWorkoutOnPressHandler}
+          //   >
+          //     Finish
+          //   </Button>
+          // ),
         }}
       />
       <Stack.Screen
