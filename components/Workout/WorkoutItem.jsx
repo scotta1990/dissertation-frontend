@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import { useDispatch } from "react-redux";
-import React, { useContext } from "react";
+import React from "react";
 import Card from "../UI/Card";
 import { GlobalStyles } from "../../constants/styles";
 import WorkoutSetsList from "./WorkoutSetsList";
 import Button from "../UI/Button";
 import { addSet, removeExercise } from "../../store/redux/currentWorkout";
 import { ToastProvider } from "react-native-toast-notifications";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 const WorkoutItem = ({ workoutItem }) => {
   const dispatch = useDispatch();
@@ -17,15 +18,15 @@ const WorkoutItem = ({ workoutItem }) => {
         <View style={styles.mainContainer}>
           <View style={styles.exerciseHeaderContainer}>
             <Text style={styles.exerciseHeaderText}>
-              {workoutItem.id} {workoutItem.exercise.name}
+              {workoutItem.exercise.name}
             </Text>
             <Button
-              textStyle={{ color: "red" }}
+              textStyle={{ color: GlobalStyles.colors.error }}
               onPress={() =>
                 dispatch(removeExercise({ workoutItemId: workoutItem.id }))
               }
             >
-              X
+              <Ionicons name="trash-bin-outline" size={24} />
             </Button>
           </View>
           <WorkoutSetsList
@@ -33,7 +34,9 @@ const WorkoutItem = ({ workoutItem }) => {
             workoutSets={workoutItem.sets}
           />
           <Button
-            textStyle={{ color: "blue" }}
+            backgroundColor={GlobalStyles.colors.accent}
+            style={styles.button}
+            textStyle={{ fontSize: 12 }}
             onPress={() => {
               dispatch(addSet({ workoutItemId: workoutItem.id }));
             }}
@@ -55,11 +58,19 @@ const styles = StyleSheet.create({
   exerciseHeaderContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
     marginHorizontal: 18,
   },
   exerciseHeaderText: {
     textTransform: "uppercase",
     fontSize: 16,
+    fontWeight: "bold",
     color: GlobalStyles.colors.primaryBlack,
+  },
+  button: {
+    flex: 1,
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
+    marginHorizontal: 18,
   },
 });

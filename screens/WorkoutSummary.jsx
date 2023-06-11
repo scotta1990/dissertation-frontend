@@ -14,6 +14,7 @@ const data = [
 ];
 
 const WorkoutSummary = ({ navigation }) => {
+  const workoutsList = useSelector((store) => store.workouts.workoutsList);
   const workoutInProgress = useSelector(
     (store) => store.currentWorkout.workoutInProgress
   );
@@ -42,7 +43,7 @@ const WorkoutSummary = ({ navigation }) => {
           </Text>
         </View>
         {/* Recent Workout List */}
-        <RecentWorkoutsList recentWorkouts={data} />
+        <RecentWorkoutsList recentWorkouts={workoutsList} />
       </Card>
       <Button
         style={styles.button}
