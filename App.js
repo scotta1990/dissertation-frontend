@@ -5,6 +5,7 @@ import { useContext } from "react";
 import WorkoutNavigation from "./navigation/WorkoutNavigation";
 import { Provider } from "react-redux";
 import { store } from "./store/redux/store";
+import { ToastProvider } from "react-native-toast-notifications";
 
 const navTheme = DefaultTheme;
 navTheme.colors.background = "#EEEEEE";

@@ -6,6 +6,10 @@ import WorkoutItem from "../components/Workout/WorkoutItem";
 import { useDispatch, useSelector } from "react-redux";
 import { cancelCurrentWorkout } from "../store/redux/currentWorkout";
 import { Alert } from "react-native";
+import { useToast } from "react-native-toast-notifications";
+import Toast from "react-native-toast-notifications";
+import { useRef } from "react";
+import { addWorkout } from "../store/redux/workouts";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
@@ -14,6 +18,7 @@ const renderWorkoutItem = ({ item, index }) => {
 const CurrentWorkout = ({ navigation }) => {
   const currentWorkout = useSelector((store) => store.currentWorkout);
   const dispatch = useDispatch();
+  const toastRef = useRef();
 
   function addExerciseOnPressHandler() {
     navigation.navigate("AddWorkoutExercise");
@@ -39,8 +44,42 @@ const CurrentWorkout = ({ navigation }) => {
     );
   }
 
+  function finishWorkoutOnPressHandler() {
+    const doneWorkoutitems = currentWorkout.workoutItems.filter(
+      (workoutItem) => {
+        return workoutItem.sets.find((set) => set.done == true);
+      }
+    );
+
+    if (doneWorkoutitems.length > 0) {
+      dispatch(
+        addWorkout({
+          workout: {
+            startDate: currentWorkout.workoutStartDate,
+            endDate: Date.now(),
+            workoutDuration: currentWorkout.workoutDuration,
+            workoutItems: currentWorkout.workoutItems,
+          },
+        })
+      );
+      dispatch(cancelCurrentWorkout());
+      navigation.navigate("WorkoutSummary");
+      return;
+    }
+    toastRef.current.show(
+      "You need to add some completed exercises to your workout to finish it.",
+      {
+        type: "warning",
+        placement: "top",
+        duration: 6000,
+        animationType: "zoom-in",
+      }
+    );
+  }
+
   return (
     <View style={styles.mainContainer}>
+      <Toast ref={toastRef} />
       <View style={styles.mainContainer}>
         {currentWorkout.workoutItems.length > 0 ? (
           <FlatList
@@ -70,6 +109,7 @@ const CurrentWorkout = ({ navigation }) => {
           <Button
             style={styles.buttonRow}
             backgroundColor={GlobalStyles.colors.successBackground}
+            onPress={finishWorkoutOnPressHandler}
           >
             Finish Workout
           </Button>
