@@ -3,23 +3,15 @@ import React from "react";
 import BodyMeasurementsList from "../components/BodyMeasurements/BodyMeasurementsList";
 import { GlobalStyles } from "../constants/styles";
 
-const ProfileMenu = ({ navigation }) => {
+const YouSummary = ({ navigation }) => {
   function measurementPressHandler() {
     navigation.navigate("Measurements");
   }
 
-  return (
-    <View style={styles.mainContainer}>
-      <Button
-        title="Your Measurements"
-        onPress={measurementPressHandler}
-        color={GlobalStyles.colors.primary}
-      />
-    </View>
-  );
+  return <View style={styles.mainContainer}></View>;
 };
 
-export default ProfileMenu;
+export default YouSummary;
 
 const styles = StyleSheet.create({
   mainContainer: {
