@@ -6,7 +6,6 @@ import WorkoutItem from "../components/Workout/WorkoutItem";
 import { useDispatch, useSelector } from "react-redux";
 import { cancelCurrentWorkout } from "../store/redux/currentWorkout";
 import { Alert } from "react-native";
-import { useToast } from "react-native-toast-notifications";
 import Toast from "react-native-toast-notifications";
 import { useRef } from "react";
 import { addWorkout } from "../store/redux/workouts";
@@ -45,13 +44,13 @@ const CurrentWorkout = ({ navigation }) => {
   }
 
   function finishWorkoutOnPressHandler() {
-    const doneWorkoutitems = currentWorkout.workoutItems.filter(
+    const doneWorkoutItems = currentWorkout.workoutItems.filter(
       (workoutItem) => {
         return workoutItem.sets.find((set) => set.done == true);
       }
     );
 
-    if (doneWorkoutitems.length > 0) {
+    if (doneWorkoutItems.length > 0) {
       dispatch(
         addWorkout({
           workout: {
@@ -126,16 +125,17 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   buttonsContainer: {
-    margin: 8,
+    marginHorizontal: 8,
+    marginBottom: 30,
     padding: 8,
     justifyContent: "flex-end",
   },
   buttonsRow: {
     flexDirection: "row",
-    marginTop: 8,
+    marginTop: 10,
     justifyContent: "space-between",
   },
   buttonRow: {
-    width: "48%",
+    width: "49%",
   },
 });

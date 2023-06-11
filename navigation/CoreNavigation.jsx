@@ -3,14 +3,39 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import WorkoutSummary from "../screens/WorkoutSummary";
 import ProfileNavigation from "./ProfileNavigation";
+import { Ionicons } from "@expo/vector-icons";
+import { GlobalStyles } from "../constants/styles";
 
 const Tab = createBottomTabNavigator();
 
 const CoreNavigation = () => {
   return (
-    <Tab.Navigator screenOptions={{ headerShown: false }}>
-      <Tab.Screen name="Workout" component={WorkoutSummary} />
-      <Tab.Screen name="Profile" component={ProfileNavigation} />
+    <Tab.Navigator
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: GlobalStyles.colors.primary,
+        tabBarInactiveTintColor: GlobalStyles.colors.secondary,
+        tabBarStyle: { height: "7%" },
+      }}
+    >
+      <Tab.Screen
+        name="Workout"
+        component={WorkoutSummary}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="barbell-outline" size={42} color={color} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Profile"
+        component={ProfileNavigation}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="person-outline" size={42} color={color} />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 };
