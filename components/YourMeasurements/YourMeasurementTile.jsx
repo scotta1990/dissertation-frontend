@@ -4,12 +4,28 @@ import YourMeasurementValueBox from "./YourMeasurementValueBox";
 import { GlobalStyles } from "../../constants/styles";
 import { Ionicons } from "@expo/vector-icons";
 
-const YourMeasurementTile = () => {
+const YourMeasurementTile = ({ measurement }) => {
   return (
     <View style={styles.measurementContainer}>
       <View style={styles.measurementInnerContainer}>
-        <Text style={styles.measurementTitleText}>Body Weight (kg)</Text>
-        <Text style={styles.measurementValueText}>77kg</Text>
+        <View style={styles.measurementTitleTextContainer}>
+          <Text
+            style={[
+              styles.measurementTitleText,
+              styles.measurementTitleTextCapitalize,
+            ]}
+          >
+            {measurement.measurementType.name}
+          </Text>
+          <Text style={styles.measurementTitleText}>
+            {" "}
+            ({measurement.measurementType.metricType})
+          </Text>
+        </View>
+        <Text style={styles.measurementValueText}>
+          {measurement.measurements[0].value}
+          {measurement.measurementType.metricType}
+        </Text>
       </View>
       <View style={styles.iconContainer}>
         <Ionicons name="chevron-down" size={17} />
@@ -22,7 +38,8 @@ export default YourMeasurementTile;
 
 const styles = StyleSheet.create({
   measurementContainer: {
-    margin: 10,
+    margin: 8,
+    marginVertical: 13,
     paddingHorizontal: 10,
     borderColor: GlobalStyles.colors.secondary,
     borderWidth: 1,
@@ -32,18 +49,28 @@ const styles = StyleSheet.create({
     borderTopEndRadius: 0,
   },
   measurementInnerContainer: {
+    marginHorizontal: 12,
+    marginTop: 8,
     flexDirection: "row",
     justifyContent: "space-between",
   },
+  measurementTitleTextContainer: {
+    flexDirection: "row",
+  },
   measurementTitleText: {
-    fontSize: 12,
     fontWeight: "bold",
     color: GlobalStyles.colors.primary,
   },
+  measurementTitleTextCapitalize: {
+    textTransform: "capitalize",
+  },
   measurementValueText: {
+    fontSize: 18,
+    fontWeight: "bold",
     color: GlobalStyles.colors.secondary,
   },
   iconContainer: {
+    marginTop: -10,
     justifyContent: "flex-end",
     alignItems: "center",
   },

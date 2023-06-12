@@ -11,6 +11,19 @@ const yourMeasurements = [
     measurements: [
       {
         dateCreated: Date.now(),
+        value: 35,
+      },
+      {
+        dateCreated: Date.now() - 5,
+        value: 34,
+      },
+    ],
+  },
+  {
+    measurementType: { name: "body weight", metricType: "kg" },
+    measurements: [
+      {
+        dateCreated: Date.now(),
         value: 75,
       },
       {
@@ -40,7 +53,6 @@ export default YouSummary;
 
 const styles = StyleSheet.create({
   mainContainer: {
-    // flex: 1,
     margin: 8,
     padding: 8,
   },
@@ -49,7 +61,6 @@ const styles = StyleSheet.create({
     paddingLeft: 8,
   },
   yourMeasurementsHeaderText: {
-    fontSize: 12,
     fontWeight: "bold",
   },
 });

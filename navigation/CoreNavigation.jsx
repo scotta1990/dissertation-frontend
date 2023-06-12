@@ -15,7 +15,7 @@ const CoreNavigation = () => {
         headerShown: false,
         tabBarActiveTintColor: GlobalStyles.colors.primary,
         tabBarInactiveTintColor: GlobalStyles.colors.secondary,
-        tabBarStyle: { height: "7%" },
+        // tabBarStyle: { height: 90 },
       }}
     >
       <Tab.Screen
@@ -23,7 +23,7 @@ const CoreNavigation = () => {
         component={WorkoutSummary}
         options={{
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="barbell-outline" size={42} color={color} />
+            <Ionicons name="barbell-outline" size={35} color={color} />
           ),
         }}
       />
@@ -32,7 +32,7 @@ const CoreNavigation = () => {
         component={YouNavigation}
         options={{
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person-outline" size={42} color={color} />
+            <Ionicons name="person-outline" size={35} color={color} />
           ),
         }}
       />
