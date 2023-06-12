@@ -25,18 +25,12 @@ const WorkoutSummary = ({ navigation }) => {
   }
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <View style={styles.mainContainer}>
-        <Text>WorkoutSummary</Text>
-      </View>
-      {/* Recent Workouts Block */}
       <Card>
-        {/* Recent Workout Header */}
         <View style={styles.recentWorkoutsHeaderContainer}>
           <Text style={styles.recentWorkoutHeaderText}>
             Your Recent Workouts
           </Text>
         </View>
-        {/* Recent Workout List */}
         <RecentWorkoutsList recentWorkouts={workoutsList} />
       </Card>
       <Button
