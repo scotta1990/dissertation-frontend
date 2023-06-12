@@ -56,7 +56,6 @@ const styles = StyleSheet.create({
     paddingLeft: 8,
   },
   recentWorkoutHeaderText: {
-    fontSize: 12,
     fontWeight: "bold",
   },
   button: {
