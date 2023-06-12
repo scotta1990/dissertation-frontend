@@ -5,7 +5,7 @@ import YourMeasurementTile from "./YourMeasurementTile";
 import { FlatList } from "react-native";
 
 const renderYourMeasurementItem = ({ item }) => {
-  return <YourMeasurementTile />;
+  return <YourMeasurementTile measurement={item} />;
 };
 
 const YourMeasurementsList = ({ yourMeasurements }) => {
