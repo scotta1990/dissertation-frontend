@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { GlobalStyles } from "../../constants/styles";
 
-const BodyMeasurementValueBox = ({ title, value, metricType }) => {
+const YourMeasurementValueBox = ({ title, value, metricType }) => {
   return (
     <View style={styles.measurementValueContainer}>
       <View style={styles.measurementValueTitleContainer}>
@@ -15,7 +15,7 @@ const BodyMeasurementValueBox = ({ title, value, metricType }) => {
   );
 };
 
-export default BodyMeasurementValueBox;
+export default YourMeasurementValueBox;
 
 const styles = StyleSheet.create({
   measurementValueContainer: {
