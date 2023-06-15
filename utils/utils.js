@@ -10,3 +10,28 @@ export function convertDurationToString(durationValue) {
     minutes > 0 ? minutes + "m " : ""
   } ${seconds + "s"}`;
 }
+
+export function combineMeasurementsAndTypes(
+  yourMeasurements,
+  measurementTypes
+) {
+  const yourMeasurementsCorrected = [];
+
+  measurementTypes.map((measurementType) => {
+    const measurements = yourMeasurements.find(
+      (measurement) => measurement.measurementTypeId == measurementType.id
+    );
+
+    var combinedMeasurement;
+
+    if (measurements !== undefined) {
+      measurements.measurementType = measurementType;
+      combinedMeasurement = measurements;
+    } else {
+      combinedMeasurement = { measurementType: measurementType };
+    }
+
+    yourMeasurementsCorrected.push(combinedMeasurement);
+  });
+  return yourMeasurementsCorrected;
+}
