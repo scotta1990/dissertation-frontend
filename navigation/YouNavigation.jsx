@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import YouSummary from "../screens/YouSummary";
+import UpdateYourMeasurements from "../screens/UpdateYourMeasurements";
 
 const Stack = createNativeStackNavigator();
 
@@ -13,6 +14,10 @@ const ProfileNavigation = () => {
         options={{
           headerShown: false,
         }}
+      />
+      <Stack.Screen
+        name="UpdateYourMeasurements"
+        component={UpdateYourMeasurements}
       />
     </Stack.Navigator>
   );

@@ -1,13 +1,16 @@
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { GlobalStyles } from "../constants/styles";
 import { SafeAreaView } from "react-native";
 import Card from "../components/UI/Card";
+import Button from "../components/UI/Button";
 import YourMeasurementsList from "../components/YourMeasurements/YourMeasurementsList";
+import { combineMeasurementsAndTypes } from "../utils/utils";
+import { bodyMeasurementTypes } from "../constants/measurementTypes";
 
 const yourMeasurements = [
   {
-    measurementType: { name: "waist", metricType: "cm" },
+    measurementTypeId: 2,
     measurements: [
       {
         dateCreated: Date.now(),
@@ -20,7 +23,7 @@ const yourMeasurements = [
     ],
   },
   {
-    measurementType: { name: "body weight", metricType: "kg" },
+    measurementTypeId: 8,
     measurements: [
       {
         dateCreated: Date.now(),
@@ -34,7 +37,16 @@ const yourMeasurements = [
   },
 ];
 
-const YouSummary = () => {
+const YouSummary = ({ navigation }) => {
+  function updateButtonPressHandler() {
+    navigation.navigate("UpdateYourMeasurements");
+  }
+
+  const data = combineMeasurementsAndTypes(
+    yourMeasurements,
+    bodyMeasurementTypes
+  );
+
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
       <Card>
@@ -42,8 +54,16 @@ const YouSummary = () => {
           <Text style={styles.yourMeasurementsHeaderText}>
             Your Measurements
           </Text>
+          <Button
+            style={styles.button}
+            textStyle={styles.buttonText}
+            backgroundColor={GlobalStyles.colors.primary}
+            onPress={updateButtonPressHandler}
+          >
+            Update
+          </Button>
         </View>
-        <YourMeasurementsList yourMeasurements={yourMeasurements} />
+        <YourMeasurementsList yourMeasurements={data} />
       </Card>
     </SafeAreaView>
   );
@@ -57,10 +77,18 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   yourMeasurementsHeaderContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
     marginLeft: 8,
     paddingLeft: 8,
   },
   yourMeasurementsHeaderText: {
     fontWeight: "bold",
+  },
+  button: {
+    marginRight: 8,
+  },
+  buttonText: {
+    fontSize: 12,
   },
 });

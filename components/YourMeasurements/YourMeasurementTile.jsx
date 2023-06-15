@@ -19,12 +19,14 @@ const YourMeasurementTile = ({ measurement }) => {
           </Text>
           <Text style={styles.measurementTitleText}>
             {" "}
-            ({measurement.measurementType.metricType})
+            ({measurement.measurementType.metric})
           </Text>
         </View>
         <Text style={styles.measurementValueText}>
-          {measurement.measurements[0].value}
-          {measurement.measurementType.metricType}
+          {measurement.measurements
+            ? measurement.measurements[0].value +
+              measurement.measurementType.metric
+            : "-"}
         </Text>
       </View>
       <View style={styles.iconContainer}>
