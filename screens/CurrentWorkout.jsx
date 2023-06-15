@@ -9,6 +9,7 @@ import { Alert } from "react-native";
 import Toast from "react-native-toast-notifications";
 import { useRef } from "react";
 import { addWorkout } from "../store/redux/workouts";
+import { KeyboardAwareFlatList } from "react-native-keyboard-aware-scroll-view";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
@@ -81,10 +82,11 @@ const CurrentWorkout = ({ navigation }) => {
       <Toast ref={toastRef} />
       <View style={styles.mainContainer}>
         {currentWorkout.workoutItems.length > 0 ? (
-          <FlatList
+          <KeyboardAwareFlatList
             data={currentWorkout.workoutItems}
             keyExtractor={(item) => item.id}
             renderItem={renderWorkoutItem}
+            removeClippedSubviews={false}
           />
         ) : (
           ""
