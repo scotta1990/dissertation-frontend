@@ -7,6 +7,8 @@ export const workoutsSlice = createSlice({
   },
   reducers: {
     addWorkout: (state, action) => {
+      console.log(action.payload.workout);
+      console.log(action.payload.workout.workoutItems[0]);
       state.workoutsList.push(action.payload.workout);
     },
   },

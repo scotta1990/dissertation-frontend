@@ -1,4 +1,4 @@
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import React from "react";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
@@ -10,6 +10,7 @@ import Toast from "react-native-toast-notifications";
 import { useRef } from "react";
 import { addWorkout } from "../store/redux/workouts";
 import { KeyboardAwareFlatList } from "react-native-keyboard-aware-scroll-view";
+import { createWorkout } from "../utils/database/workouts";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
@@ -17,6 +18,7 @@ const renderWorkoutItem = ({ item, index }) => {
 
 const CurrentWorkout = ({ navigation }) => {
   const currentWorkout = useSelector((store) => store.currentWorkout);
+  const token = useSelector((store) => store.auth.token);
   const dispatch = useDispatch();
   const toastRef = useRef();
 
@@ -44,7 +46,7 @@ const CurrentWorkout = ({ navigation }) => {
     );
   }
 
-  function finishWorkoutOnPressHandler() {
+  async function finishWorkoutOnPressHandler() {
     const doneWorkoutItems = currentWorkout.workoutItems.filter(
       (workoutItem) => {
         return workoutItem.sets.find((set) => set.done == true);
@@ -52,19 +54,33 @@ const CurrentWorkout = ({ navigation }) => {
     );
 
     if (doneWorkoutItems.length > 0) {
-      dispatch(
-        addWorkout({
-          workout: {
-            startDate: currentWorkout.workoutStartDate,
-            endDate: Date.now(),
-            workoutDuration: currentWorkout.workoutDuration,
-            workoutItems: currentWorkout.workoutItems,
-          },
-        })
-      );
-      dispatch(cancelCurrentWorkout());
-      navigation.navigate("WorkoutSummary");
-      return;
+      newWorkout = {
+        startDate: currentWorkout.workoutStartDate,
+        endDate: Date.now(),
+        duration: currentWorkout.duration,
+        workoutItems: currentWorkout.workoutItems.map((item) => {
+          return { ...item, exerciseId: item.exercise.id };
+        }),
+      };
+      try {
+        await createWorkout(newWorkout, token);
+        dispatch(
+          addWorkout({
+            workout: newWorkout,
+          })
+        );
+        dispatch(cancelCurrentWorkout());
+        navigation.navigate("WorkoutSummary");
+        return;
+      } catch (error) {
+        console.log(error);
+        toastRef.current.show(error.response.data, {
+          type: "warning",
+          placement: "top",
+          duration: 6000,
+          animationType: "zoom-in",
+        });
+      }
     }
     toastRef.current.show(
       "You need to add some completed exercises to your workout to finish it.",
