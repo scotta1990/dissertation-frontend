@@ -1,6 +1,4 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import YourMeasurementValueBox from "./YourMeasurementValueBox";
 import { GlobalStyles } from "../../constants/styles";
 import { Ionicons } from "@expo/vector-icons";
 

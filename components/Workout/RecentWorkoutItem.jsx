@@ -29,7 +29,7 @@ const RecentWorkoutItem = ({ recentWorkoutItem, alternate = false }) => {
               : styles.recentWorkoutDurationTextAlternate
           }
         >
-          {convertDurationToString(recentWorkoutItem.workoutDuration)}
+          {convertDurationToString(recentWorkoutItem.duration)}
         </Text>
       </View>
     </View>
