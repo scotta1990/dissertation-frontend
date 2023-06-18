@@ -1,60 +1,26 @@
 import { useState } from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 import FormInput from "../components/FormInput";
 import FormButton from "../components/FormButton";
-import { GlobalStyles } from "../../constants/styles";
-
-const userObject = {
-  firstName: "",
-  lastName: "",
-  email: "",
-  password: "",
-};
 
 const AuthForm = ({ isLogin, onSubmit, credentialsInvalid }) => {
-  const [user, setUser] = useState(userObject);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  const {
-    firstName: firstNameIsValid,
-    email: emailIsValid,
-    password: passwordIsValid,
-  } = credentialsInvalid;
-
-  const formName = isLogin ? "Login" : "Sign up";
+  const { email: emailIsValid, password: passwordIsValid } = credentialsInvalid;
 
   function submitHandler() {
-    onSubmit(user);
+    onSubmit(email, password);
   }
 
   return (
     <View>
-      {!isLogin && (
-        <FormInput
-          label={"First Name"}
-          textInputConfig={{
-            onChangeText: (value) => setUser({ ...user, firstName: value }),
-            value: user.firstName,
-          }}
-          isInvalid={firstNameIsValid}
-        />
-      )}
-      {!isLogin && (
-        <FormInput
-          label={"Last Name"}
-          textInputConfig={{
-            keyboardType: "email-address",
-            onChangeText: (value) => setUser({ ...user, lastName: value }),
-            value: user.lastName,
-          }}
-        />
-      )}
-
       <FormInput
         label={"Email"}
         textInputConfig={{
           keyboardType: "email-address",
-          onChangeText: (value) => setUser({ ...user, email: value }),
-          value: user.email,
+          onChangeText: setEmail,
+          value: email,
         }}
         isInvalid={emailIsValid}
       />
@@ -62,8 +28,8 @@ const AuthForm = ({ isLogin, onSubmit, credentialsInvalid }) => {
         label={"Password"}
         textInputConfig={{
           secureTextEntry: true,
-          onChangeText: (value) => setUser({ ...user, password: value }),
-          value: user.password,
+          onChangeText: setPassword,
+          value: password,
         }}
         isInvalid={passwordIsValid}
       />

@@ -6,7 +6,7 @@ export const currentWorkoutSlice = createSlice({
     workoutInProgress: false,
     workoutStartDate: "",
     workoutItems: [],
-    workoutDuration: 0,
+    duration: 0,
   },
   reducers: {
     startWorkout: (state, action) => {
@@ -18,7 +18,7 @@ export const currentWorkoutSlice = createSlice({
       state.workoutInProgress = false;
       state.workoutStartDate = "";
       state.workoutItems = [];
-      state.workoutDuration = 0;
+      state.duration = 0;
     },
 
     addExercise: (state, action) => {
@@ -77,9 +77,9 @@ export const currentWorkoutSlice = createSlice({
       state.workoutItems[workoutItemIndex].sets.splice(setIndex, 1);
     },
 
-    increaseWorkoutDuration: (state) => {
-      const newDuration = (state.workoutDuration += 1);
-      state.workoutDuration = newDuration;
+    increaseDuration: (state) => {
+      const newDuration = (state.duration += 1);
+      state.duration = newDuration;
     },
 
     finishCurrentWorkout: (state) => {},
@@ -94,6 +94,6 @@ export const {
   addSet,
   updateSet,
   removeSet,
-  increaseWorkoutDuration,
+  increaseDuration,
 } = currentWorkoutSlice.actions;
 export default currentWorkoutSlice.reducer;

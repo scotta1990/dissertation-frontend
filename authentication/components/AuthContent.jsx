@@ -1,17 +1,13 @@
-import {
-  Alert,
-  KeyboardAvoidingView,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
-import React, { useState } from "react";
+import { Alert, KeyboardAvoidingView, StyleSheet, Text } from "react-native";
+import React, { useState, useRef } from "react";
 import { useNavigation } from "@react-navigation/native";
 import AuthForm from "./AuthForm";
 import { GlobalStyles } from "../../constants/styles";
 import FormButton from "./FormButton";
+import Toast from "react-native-toast-notifications";
 
 const AuthContent = ({ isLogin, onAuthenticate }) => {
+  const toastRef = useRef();
   const [credentialsInvalid, setCredentialsInvalid] = useState({
     email: false,
     password: false,
@@ -26,15 +22,10 @@ const AuthContent = ({ isLogin, onAuthenticate }) => {
     }
   }
 
-  function submitHandler(credentials) {
-    let { firstName, lastName, email, password } = credentials;
-
-    firstName = firstName.trim();
-    lastName = lastName.trim();
+  async function submitHandler(email, password) {
     email = email.trim();
     password = password.trim();
 
-    const firstNameIsValid = firstName.length > 2;
     const emailIsValid = email.includes("@");
     const passwordIsValid = password.length > 6;
 
@@ -44,14 +35,21 @@ const AuthContent = ({ isLogin, onAuthenticate }) => {
         email: !emailIsValid,
         password: !passwordIsValid,
       });
-      console.log(credentialsInvalid);
       return;
     }
-    onAuthenticate({ firstName, lastName, email, password });
+    try {
+      await onAuthenticate(email, password);
+    } catch (error) {
+      toastRef.current.show(error + ", please try again.", {
+        type: "warning",
+        duration: 6000,
+      });
+    }
   }
 
   return (
     <KeyboardAvoidingView style={styles.mainContainer}>
+      <Toast ref={toastRef} />
       <Text style={styles.title}>{isLogin ? "Login" : "Sign Up"}</Text>
       <AuthForm
         isLogin={isLogin}
