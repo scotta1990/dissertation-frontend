@@ -4,10 +4,14 @@ import { baseUrl } from "./database/config";
 const authenticate = async (mode, email, password) => {
   const url = `${baseUrl}/user/${mode}`;
 
-  return await axios.post(url, {
-    email: email,
-    password: password,
-  });
+  return await axios.post(
+    url,
+    {
+      email: email,
+      password: password,
+    },
+    { timeout: 900 }
+  );
 };
 
 export const createUser = async (email, password) => {
