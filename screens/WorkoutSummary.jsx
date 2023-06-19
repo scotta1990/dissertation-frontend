@@ -1,19 +1,38 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { GlobalStyles } from "../constants/styles";
 import Card from "../components/UI/Card";
 import RecentWorkoutsList from "../components/Workout/RecentWorkoutsList";
 import Button from "../components/UI/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
+import { getAllWorkouts } from "../utils/database/workouts";
+import { addWorkout } from "../store/redux/workouts";
+import LoadingOverlay from "../components/UI/LoadingOverlay";
 
 const WorkoutSummary = ({ navigation }) => {
+  const [isFetching, setIsFetching] = useState(true);
+  const token = useSelector((store) => store.auth.token);
   const workoutsList = useSelector((store) => store.workouts.workoutsList);
   const workoutInProgress = useSelector(
     (store) => store.currentWorkout.workoutInProgress
   );
   const dispatch = useDispatch();
-  // const currentWorkoutCtx = useContext(CurrentWorkoutContext);
+
+  useEffect(() => {
+    (async () => {
+      setIsFetching(true);
+      if (token) {
+        try {
+          const workouts = await getAllWorkouts(token);
+          dispatch(addWorkout(workouts));
+        } catch (error) {
+          console.log(error);
+        }
+        setIsFetching(false);
+      }
+    })();
+  }, [token]);
 
   function pressHandler() {
     if (workoutInProgress) {
@@ -23,6 +42,11 @@ const WorkoutSummary = ({ navigation }) => {
       navigation.navigate("CurrentWorkout");
     }
   }
+
+  if (isFetching) {
+    return <LoadingOverlay />;
+  }
+
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
       <Card>
