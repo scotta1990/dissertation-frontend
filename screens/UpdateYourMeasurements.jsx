@@ -1,47 +1,67 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { StyleSheet, View } from "react-native";
+import React, { useState } from "react";
 import YourMeasurementsList from "../components/YourMeasurements/YourMeasurementsList";
-import { combineMeasurementsAndTypes } from "../utils/utils";
-import { bodyMeasurementTypes } from "../constants/measurementTypes";
 import { GlobalStyles } from "../constants/styles";
+import { useDispatch, useSelector } from "react-redux";
+import Button from "../components/UI/Button";
+import {
+  createMeasurement,
+  getMeasurementsProfile,
+} from "../utils/database/yourMeasurements";
+import { setMeasurementsProfile } from "../store/redux/yourMeasurements";
+import { combineMeasurementsAndTypes } from "../utils/utils";
 
-const yourMeasurements = [
-  {
-    measurementTypeId: 2,
-    measurements: [
-      {
-        dateCreated: Date.now(),
-        value: 35,
-      },
-      {
-        dateCreated: Date.now() - 5,
-        value: 34,
-      },
-    ],
-  },
-  {
-    measurementTypeId: 8,
-    measurements: [
-      {
-        dateCreated: Date.now(),
-        value: 75,
-      },
-      {
-        dateCreated: Date.now() - 5,
-        value: 77,
-      },
-    ],
-  },
-];
-
-const UpdateYourMeasurements = () => {
-  const data = combineMeasurementsAndTypes(
-    yourMeasurements,
-    bodyMeasurementTypes
+const UpdateYourMeasurements = ({ navigation }) => {
+  const measurementsProfile = useSelector(
+    (store) => store.yourMeasurements.measurementsProfile
   );
+  const measurementTypes = useSelector(
+    (store) => store.yourMeasurements.measurementTypes
+  );
+  const dispatch = useDispatch();
+  const token = useSelector((store) => store.auth.token);
+  const [inputs, setInputs] = useState({});
+
+  async function onPressSubmitHandler() {
+    const submit = async (key, value) => {
+      try {
+        const response = await createMeasurement(token, {
+          measurementTypeId: key,
+          value: value,
+        });
+        const measurementsProfile = await getMeasurementsProfile(token);
+        dispatch(
+          setMeasurementsProfile({
+            measurementsProfile: combineMeasurementsAndTypes(
+              measurementsProfile,
+              measurementTypes
+            ),
+          })
+        );
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    Object.entries(inputs).forEach(([key, value]) => {
+      submit(key, value);
+    });
+    navigation.goBack();
+  }
+
   return (
     <View style={styles.mainContainer}>
-      <YourMeasurementsList yourMeasurements={data} isUpdatable={true} />
+      <YourMeasurementsList
+        yourMeasurements={measurementsProfile}
+        isUpdatable={true}
+        setMeasurements={setInputs}
+      />
+      <Button
+        backgroundColor={GlobalStyles.colors.accent}
+        onPress={onPressSubmitHandler}
+      >
+        TEST
+      </Button>
     </View>
   );
 };

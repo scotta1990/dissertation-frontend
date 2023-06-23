@@ -1,51 +1,64 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { GlobalStyles } from "../constants/styles";
 import { SafeAreaView } from "react-native";
 import Card from "../components/UI/Card";
 import Button from "../components/UI/Button";
 import YourMeasurementsList from "../components/YourMeasurements/YourMeasurementsList";
 import { combineMeasurementsAndTypes } from "../utils/utils";
-import { bodyMeasurementTypes } from "../constants/measurementTypes";
-
-const yourMeasurements = [
-  {
-    measurementTypeId: 2,
-    measurements: [
-      {
-        dateCreated: Date.now(),
-        value: 35,
-      },
-      {
-        dateCreated: Date.now() - 5,
-        value: 34,
-      },
-    ],
-  },
-  {
-    measurementTypeId: 8,
-    measurements: [
-      {
-        dateCreated: Date.now(),
-        value: 75,
-      },
-      {
-        dateCreated: Date.now() - 5,
-        value: 77,
-      },
-    ],
-  },
-];
+// import { bodyMeasurementTypes } from "../constants/measurementTypes";
+import {
+  getMeasurementTypes,
+  getMeasurementsProfile,
+} from "../utils/database/yourMeasurements";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  setMeasurementTypes,
+  setMeasurementsProfile,
+} from "../store/redux/yourMeasurements";
+import LoadingOverlay from "../components/UI/LoadingOverlay";
 
 const YouSummary = ({ navigation }) => {
+  const [isFetching, setIsFetching] = useState(true);
+  const token = useSelector((store) => store.auth.token);
+  const measurementTypes = useSelector(
+    (store) => store.yourMeasurements.measurementTypes
+  );
+  const measurementsProfile = useSelector(
+    (store) => store.yourMeasurements.measurementsProfile
+  );
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    (async () => {
+      setIsFetching(true);
+      try {
+        const measurementTypes = await getMeasurementTypes(token);
+        dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
+        const measurementsProfile = await getMeasurementsProfile(token);
+        dispatch(
+          setMeasurementsProfile({
+            measurementsProfile: combineMeasurementsAndTypes(
+              measurementsProfile,
+              measurementTypes
+            ),
+          })
+        );
+      } catch (error) {
+        console.log(error);
+      }
+      setIsFetching(false);
+    })();
+  }, [token]);
+
+  if (isFetching) {
+    return <LoadingOverlay />;
+  }
+
   function updateButtonPressHandler() {
     navigation.navigate("UpdateYourMeasurements");
   }
-
-  const data = combineMeasurementsAndTypes(
-    yourMeasurements,
-    bodyMeasurementTypes
-  );
 
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
@@ -63,7 +76,7 @@ const YouSummary = ({ navigation }) => {
             Update
           </Button>
         </View>
-        <YourMeasurementsList yourMeasurements={data} />
+        <YourMeasurementsList yourMeasurements={measurementsProfile} />
       </Card>
     </SafeAreaView>
   );

@@ -19,7 +19,7 @@ export function combineMeasurementsAndTypes(
 
   measurementTypes.map((measurementType) => {
     const measurements = yourMeasurements.find(
-      (measurement) => measurement.measurementTypeId == measurementType.id
+      (measurement) => measurement.measurementTypeId == measurementType._id
     );
 
     var combinedMeasurement;
