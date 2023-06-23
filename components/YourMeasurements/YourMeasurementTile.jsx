@@ -1,11 +1,14 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 import { GlobalStyles } from "../../constants/styles";
 import { Ionicons } from "@expo/vector-icons";
+import { useState } from "react";
 
 const YourMeasurementTile = ({ measurement }) => {
-  return (
-    <View style={styles.measurementContainer}>
-      <View style={styles.measurementInnerContainer}>
+  const [collapsed, setCollapsed] = useState(true);
+
+  const CollapsedContent = () => {
+    return (
+      <View style={styles.collapsedInnerContainer}>
         <View style={styles.measurementTitleTextContainer}>
           <Text
             style={[
@@ -22,14 +25,31 @@ const YourMeasurementTile = ({ measurement }) => {
         </View>
         <Text style={styles.measurementValueText}>
           {measurement.measurements
-            ? measurement.measurements[0].value +
-              measurement.measurementType.metric
+            ? measurement.measurements[measurement.measurements.length - 1]
+                .value + measurement.measurementType.metric
             : "-"}
         </Text>
       </View>
-      <View style={styles.iconContainer}>
-        <Ionicons name="chevron-down" size={17} />
-      </View>
+    );
+  };
+
+  return (
+    <View
+      style={[
+        styles.measurementContainer,
+        collapsed && styles.collapsedContainer,
+      ]}
+    >
+      {collapsed ? <CollapsedContent /> : ""}
+      <Pressable
+        onPress={() => {
+          collapsed ? setCollapsed(false) : setCollapsed(true);
+        }}
+      >
+        <View style={styles.iconContainer}>
+          <Ionicons name="chevron-down" size={17} />
+        </View>
+      </Pressable>
     </View>
   );
 };
@@ -43,12 +63,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     borderColor: GlobalStyles.colors.secondary,
     borderWidth: 1,
-    borderTopWidth: 0,
     borderRadius: 8,
+  },
+  collapsedContainer: {
+    borderTopWidth: 0,
     borderTopStartRadius: 0,
     borderTopEndRadius: 0,
   },
-  measurementInnerContainer: {
+  collapsedInnerContainer: {
     marginHorizontal: 12,
     marginTop: 8,
     flexDirection: "row",

@@ -10,17 +10,28 @@ const renderYourMeasurementItem = ({ item }) => {
   return <YourMeasurementTile measurement={item} />;
 };
 
-const renderUpdatableYourMeasurementItem = ({ item }) => {
-  return <YourMeasurementUpdateTile measurement={item} />;
+const renderUpdatableYourMeasurementItem = ({ item }, setMeasurements) => {
+  return (
+    <YourMeasurementUpdateTile
+      measurement={item}
+      setMeasurements={setMeasurements}
+    />
+  );
 };
 
-const YourMeasurementsList = ({ yourMeasurements, isUpdatable = false }) => {
+const YourMeasurementsList = ({
+  yourMeasurements,
+  isUpdatable = false,
+  setMeasurements = undefined,
+}) => {
   if (isUpdatable) {
     return (
       <KeyboardAwareFlatList
         data={yourMeasurements}
         keyExtractor={(item) => item.measurementType.name}
-        renderItem={renderUpdatableYourMeasurementItem}
+        renderItem={(item) =>
+          renderUpdatableYourMeasurementItem(item, setMeasurements)
+        }
         removeClippedSubviews={false}
       />
     );

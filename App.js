@@ -3,6 +3,7 @@ import AuthNavigator from "./authentication/AuthNavigator";
 import WorkoutNavigation from "./navigation/WorkoutNavigation";
 import { Provider, useSelector } from "react-redux";
 import { store } from "./store/redux/store";
+import { ToastProvider } from "react-native-toast-notifications";
 
 const navTheme = DefaultTheme;
 navTheme.colors.background = "#EEEEEE";
@@ -32,7 +33,9 @@ export default function App() {
   return (
     <>
       <Provider store={store}>
-        <Navigation />
+        <ToastProvider>
+          <Navigation />
+        </ToastProvider>
       </Provider>
     </>
   );
