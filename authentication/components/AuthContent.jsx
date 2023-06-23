@@ -1,13 +1,11 @@
 import { Alert, KeyboardAvoidingView, StyleSheet, Text } from "react-native";
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import AuthForm from "./AuthForm";
 import { GlobalStyles } from "../../constants/styles";
 import FormButton from "./FormButton";
-import Toast from "react-native-toast-notifications";
 
 const AuthContent = ({ isLogin, onAuthenticate }) => {
-  const toastRef = useRef();
   const [credentialsInvalid, setCredentialsInvalid] = useState({
     email: false,
     password: false,
@@ -37,19 +35,12 @@ const AuthContent = ({ isLogin, onAuthenticate }) => {
       });
       return;
     }
-    try {
-      await onAuthenticate(email, password);
-    } catch (error) {
-      toastRef.current.show(error + ", please try again.", {
-        type: "warning",
-        duration: 6000,
-      });
-    }
+
+    await onAuthenticate(email, password);
   }
 
   return (
     <KeyboardAvoidingView style={styles.mainContainer}>
-      <Toast ref={toastRef} />
       <Text style={styles.title}>{isLogin ? "Login" : "Sign Up"}</Text>
       <AuthForm
         isLogin={isLogin}

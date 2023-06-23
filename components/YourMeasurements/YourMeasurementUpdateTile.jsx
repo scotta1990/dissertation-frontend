@@ -2,12 +2,24 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 import { GlobalStyles } from "../../constants/styles";
 import { useState } from "react";
 
-const YourMeasurementUpdateTile = ({ measurement }) => {
+const YourMeasurementUpdateTile = ({ measurement, setMeasurements }) => {
   const placeholderValue = measurement.measurements
-    ? measurement.measurements[0].value.toString()
+    ? measurement.measurements[
+        measurement.measurements.length - 1
+      ].value.toString()
     : "-";
 
   const [measurementInputText, setMeasurementInputText] = useState("");
+
+  function changeInputText(input) {
+    setMeasurementInputText(input);
+    setMeasurements((prev) => {
+      return {
+        ...prev,
+        [measurement.measurementType._id]: input,
+      };
+    });
+  }
 
   return (
     <View style={styles.measurementContainer}>
@@ -31,7 +43,7 @@ const YourMeasurementUpdateTile = ({ measurement }) => {
             style={styles.measurementValueText}
             keyboardType="numeric"
             value={measurementInputText}
-            onChangeText={setMeasurementInputText}
+            onChangeText={changeInputText}
             placeholder={placeholderValue}
             placeholderTextColor={GlobalStyles.colors.secondary}
           />

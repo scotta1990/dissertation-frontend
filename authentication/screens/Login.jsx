@@ -1,29 +1,35 @@
 import { login } from "../../utils/auth";
-import { Alert } from "react-native";
 import AuthContent from "../components/AuthContent";
 import { useDispatch } from "react-redux";
 import { authenticate } from "../../store/redux/auth";
 import { useState } from "react";
 import LoadingOverlay from "../../components/UI/LoadingOverlay";
 import ErrorOverlay from "../../components/UI/ErrorOverlay";
+import { useToast } from "react-native-toast-notifications";
 
 const Login = () => {
   const dispatch = useDispatch();
   const [isFetching, setIsFetching] = useState(false);
   const [error, setError] = useState();
+  const toast = useToast();
 
   async function loginHandler(email, password) {
     try {
       setIsFetching(true);
       const response = await login(email, password);
-      console.log(response.data.token);
       dispatch(authenticate(response.data));
     } catch (error) {
-      console.log(error);
       if (error.response) {
-        throw new Error(`${error.response.data}`);
+        toast.show(error.response.data + ", please try again.", {
+          type: "warning",
+          placement: "center",
+          animationType: "zoom-in",
+          animationDuration: 300,
+          duration: 7000,
+        });
+      } else {
+        setError("Could not connect for login... try again later.");
       }
-      setError("Could not connect for login... try again later.");
     }
     setIsFetching(false);
   }

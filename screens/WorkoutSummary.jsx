@@ -7,8 +7,9 @@ import Button from "../components/UI/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
 import { getAllWorkouts } from "../utils/database/workouts";
-import { addWorkout } from "../store/redux/workouts";
+import { setWorkouts } from "../store/redux/workouts";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
+import { useEffect } from "react";
 
 const WorkoutSummary = ({ navigation }) => {
   const [isFetching, setIsFetching] = useState(true);
@@ -25,7 +26,7 @@ const WorkoutSummary = ({ navigation }) => {
       if (token) {
         try {
           const workouts = await getAllWorkouts(token);
-          dispatch(addWorkout(workouts));
+          dispatch(setWorkouts({ workouts: workouts }));
         } catch (error) {
           console.log(error);
         }
