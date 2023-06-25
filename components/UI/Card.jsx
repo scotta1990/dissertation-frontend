@@ -9,8 +9,8 @@ export default Card;
 
 const styles = StyleSheet.create({
   mainContainer: {
-    margin: 8,
-    padding: 8,
+    margin: 12,
+    padding: 10,
     backgroundColor: GlobalStyles.colors.primaryWhite,
     borderRadius: 8,
     shadowColor: GlobalStyles.colors.primaryBlack,
