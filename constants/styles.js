@@ -22,4 +22,8 @@ export const GlobalStyles = {
       paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     },
   }),
+  layoutDebug: {
+    borderColor: "red",
+    borderWidth: 1,
+  },
 };
