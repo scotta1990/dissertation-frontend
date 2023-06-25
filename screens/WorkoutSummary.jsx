@@ -72,10 +72,6 @@ const WorkoutSummary = ({ navigation }) => {
 export default WorkoutSummary;
 
 const styles = StyleSheet.create({
-  mainContainer: {
-    margin: 8,
-    padding: 8,
-  },
   recentWorkoutsHeaderContainer: {
     marginLeft: 8,
     paddingLeft: 8,

@@ -99,9 +99,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   button: {
-    marginRight: 8,
+    margin: 10,
+    marginTop: 0,
   },
   buttonText: {
-    fontSize: 12,
+    fontSize: 13,
   },
 });
