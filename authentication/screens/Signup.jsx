@@ -5,6 +5,7 @@ import { authenticate } from "../../store/redux/auth";
 import { createUser } from "../../utils/auth";
 import AuthContent from "../components/AuthContent";
 import { useDispatch } from "react-redux";
+import { useState } from "react";
 
 const Signup = () => {
   const dispatch = useDispatch();
