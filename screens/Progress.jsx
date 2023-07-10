@@ -23,7 +23,6 @@ const Progress = () => {
           "649344043a65421e6b78128a"
         );
         setMeasurementData(measurementData);
-        console.log(measurementData);
       } catch (error) {
         console.log(error);
       }
@@ -72,7 +71,7 @@ const Progress = () => {
           data={{
             labels: plotLabels(
               measurementData.map((item) => item.DateString),
-              8
+              10
             ),
             datasets: [
               {
