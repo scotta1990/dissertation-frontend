@@ -59,8 +59,9 @@ const UpdateYourMeasurements = ({ navigation }) => {
       <Button
         backgroundColor={GlobalStyles.colors.accent}
         onPress={onPressSubmitHandler}
+        style={styles.button}
       >
-        TEST
+        Submit
       </Button>
     </View>
   );
@@ -72,5 +73,9 @@ const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
     backgroundColor: GlobalStyles.colors.primaryWhite,
+  },
+  button: {
+    margin: 8,
+    padding: 8,
   },
 });
