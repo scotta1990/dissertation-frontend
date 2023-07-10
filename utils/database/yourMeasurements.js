@@ -19,6 +19,15 @@ export const getMeasurementsProfile = async (token) => {
   return response.data;
 };
 
+export const getRecentMeasurementsByType = async (token, measurementTypeId) => {
+  const url = `${baseUrl}/yourMeasurements?measurementTypeId=${measurementTypeId}`;
+
+  const response = await axios.get(url, {
+    headers: { "x-access-token": token },
+  });
+  return response.data;
+};
+
 export const createMeasurement = async (token, measurement) => {
   const url = `${baseUrl}/yourMeasurements/`;
 

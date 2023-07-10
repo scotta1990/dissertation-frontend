@@ -5,6 +5,7 @@ import WorkoutSummary from "../screens/WorkoutSummary";
 import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
+import Progress from "../screens/Progress";
 
 const Tab = createBottomTabNavigator();
 
@@ -24,6 +25,15 @@ const CoreNavigation = () => {
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="barbell-outline" size={35} color={color} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Progress"
+        component={Progress}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="analytics-outline" size={35} color={color} />
           ),
         }}
       />
