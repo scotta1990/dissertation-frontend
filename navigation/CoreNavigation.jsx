@@ -6,6 +6,7 @@ import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
 import Progress from "../screens/Progress";
+import ProgressNavigation from "./ProgressNavigation";
 
 const Tab = createBottomTabNavigator();
 
@@ -29,12 +30,14 @@ const CoreNavigation = () => {
         }}
       />
       <Tab.Screen
-        name="Progress"
-        component={Progress}
+        name="YourProgress"
+        component={ProgressNavigation}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="analytics-outline" size={35} color={color} />
           ),
+          headerShown: true,
+          title: "Your Progress",
         }}
       />
       <Tab.Screen
