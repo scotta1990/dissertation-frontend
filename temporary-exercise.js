@@ -2,7 +2,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=rBt5cGfu3VBgN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0D63P5t5lDHmde",
     id: "0001",
     name: "3/4 sit-up",
     target: "abs",
@@ -10,7 +10,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ODDRVLLU+UbbDO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5TE-ZpWHPp04H3",
     id: "0002",
     name: "45° side bend",
     target: "abs",
@@ -18,7 +18,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vf7T=1a-jSWOwR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mQBtC-PJE1oBrp",
     id: "0003",
     name: "air bike",
     target: "abs",
@@ -26,7 +26,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KzWaONoZjemh6W",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x48laSCyf8MSPt",
     id: "1512",
     name: "all fours squad stretch",
     target: "quads",
@@ -34,7 +34,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0-ugoMhmi0betf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6l6CV6ZTHjDDOC",
     id: "0006",
     name: "alternate heel touchers",
     target: "abs",
@@ -42,7 +42,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uP4m4ox27NOAmu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/N4XeBqUxJE1vov",
     id: "0007",
     name: "alternate lateral pulldown",
     target: "lats",
@@ -50,7 +50,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wXJyqRFzXNM1mQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/g05AO7Rnt9Q644",
     id: "1368",
     name: "ankle circles",
     target: "calves",
@@ -58,7 +58,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YJWsn1nNpvzmcf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CHa53Jewvdk4J5",
     id: "3293",
     name: "archer pull up",
     target: "lats",
@@ -66,7 +66,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=Q32KSP3jEdPxi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9TYiH1k7tooY2v",
     id: "3294",
     name: "archer push up",
     target: "pectorals",
@@ -74,7 +74,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VojM7PxHNxcj0C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V0a54F0OluNSx1",
     id: "2355",
     name: "arm slingers hanging bent knee legs",
     target: "abs",
@@ -82,7 +82,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yHV3wc1SubFepX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aPV6pAnCXtZQpm",
     id: "2333",
     name: "arm slingers hanging straight legs",
     target: "abs",
@@ -90,7 +90,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6MEVtv+Zy8lVHm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iN36i9RhzHlGTH",
     id: "3214",
     name: "arms apart circular toe touch (male)",
     target: "glutes",
@@ -98,7 +98,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VgnbGE4ViHH6I7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Qh1Ri5VvamDt3p",
     id: "3204",
     name: "arms overhead full sit-up (male)",
     target: "abs",
@@ -106,7 +106,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tZ0OQH1M-OtHhU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dAw0dWYNlBMUn2",
     id: "0009",
     name: "assisted chest dip (kneeling)",
     target: "pectorals",
@@ -114,7 +114,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rWIl2WuZKsKueI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ke18BqmttYnlh7",
     id: "0011",
     name: "assisted hanging knee raise",
     target: "abs",
@@ -122,7 +122,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6c0fEun8hnVqxG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/M0DofHlqKCpTl7",
     id: "0010",
     name: "assisted hanging knee raise with throw down",
     target: "abs",
@@ -130,7 +130,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hxPwa4jSnm1I60",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Wf0ui14qcawLAZ",
     id: "1708",
     name: "assisted lying calves stretch",
     target: "calves",
@@ -138,7 +138,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Hl=Hd73YLwI3+Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WvOPN4KadXyH-C",
     id: "1709",
     name: "assisted lying glutes stretch",
     target: "glutes",
@@ -146,7 +146,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q7loZbGlWf-+E7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9X8vgjBCw1BuNk",
     id: "1710",
     name: "assisted lying gluteus and piriformis stretch",
     target: "glutes",
@@ -154,7 +154,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9vjwqiTSUe07EX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IXQSX7XxB6QGvR",
     id: "0012",
     name: "assisted lying leg raise with lateral throw down",
     target: "abs",
@@ -162,7 +162,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/boVA3h86DE20-M",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tJAHNXOHfDXEOv",
     id: "0013",
     name: "assisted lying leg raise with throw down",
     target: "abs",
@@ -170,7 +170,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F=e1r_ATFpoMjV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-t58ooZthB0-2Z",
     id: "0014",
     name: "assisted motion russian twist",
     target: "abs",
@@ -178,7 +178,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sUJdVAMLk_aW_A",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qG9hSkmY04PD0U",
     id: "0015",
     name: "assisted parallel close grip pull-up",
     target: "lats",
@@ -186,7 +186,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oP5m3f1E2Cj4AU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fbhsavOMvtW7mO",
     id: "0016",
     name: "assisted prone hamstring",
     target: "hamstrings",
@@ -194,7 +194,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/EenlnFGx5Qi1r6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ujx18NW97PNtYp",
     id: "1713",
     name: "assisted prone lying quads stretch",
     target: "quads",
@@ -202,7 +202,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8Hkt3nCYdGkqgN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QeOtNL12L0k1kx",
     id: "1714",
     name: "assisted prone rectus femoris stretch",
     target: "abs",
@@ -210,7 +210,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hmxlhLOOgk7kFy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cfjKN8UyIB08Xj",
     id: "0017",
     name: "assisted pull-up",
     target: "lats",
@@ -218,7 +218,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9QmRo9K7eg7ZBJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rE3rPXfhDNXw8q",
     id: "1716",
     name: "assisted seated pectoralis major stretch with stability ball",
     target: "pectorals",
@@ -226,7 +226,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OP-urDZXHTRvBE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rs9huem9ndkeNG",
     id: "1712",
     name: "assisted side lying adductor stretch",
     target: "adductors",
@@ -234,7 +234,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/i0SurwW7TP9hxw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RHB8Bnedkehb4S",
     id: "1758",
     name: "assisted sit-up",
     target: "abs",
@@ -242,7 +242,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kGPzmAOFjhczep",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fnOMlFHoBWpexr",
     id: "1431",
     name: "assisted standing chin-up",
     target: "lats",
@@ -250,7 +250,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DbGmuGTelhDdii",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h9fLXV43w3GemC",
     id: "1432",
     name: "assisted standing pull-up",
     target: "lats",
@@ -258,7 +258,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DVgbknxVlUti7V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/257s9W4C0SzvfA",
     id: "0018",
     name: "assisted standing triceps extension (with towel)",
     target: "triceps",
@@ -266,7 +266,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4r_PflI+rfe=BV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zJ81sPa0t1iSxb",
     id: "0019",
     name: "assisted triceps dip (kneeling)",
     target: "triceps",
@@ -274,7 +274,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gAGOeVi+HxkElc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/50jNqwxrf3YN5Z",
     id: "2364",
     name: "assisted wide-grip chest dip (kneeling)",
     target: "pectorals",
@@ -282,7 +282,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+f11E+nWIclANj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/r3qvay5l1C31Gu",
     id: "3220",
     name: "astride jumps (male)",
     target: "cardiovascular system",
@@ -290,7 +290,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/m+0r=RpmK47Cv-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KAc7U-R5jI9w-t",
     id: "3672",
     name: "back and forth step",
     target: "cardiovascular system",
@@ -298,7 +298,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0HJ+zoK-yPkAS2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Dck590DRKXBOyy",
     id: "1314",
     name: "back extension on exercise ball",
     target: "spine",
@@ -306,7 +306,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BSC9-J31Vq7WY4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/94mVA5GoNaxVw0",
     id: "3297",
     name: "back lever",
     target: "upper back",
@@ -314,7 +314,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Wu02i9BmWgfSv6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GoSFi25RSuZRk9",
     id: "1405",
     name: "back pec stretch",
     target: "lats",
@@ -322,7 +322,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sXt3Yekhj6vskc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UEZZj4rTPLNYHa",
     id: "1473",
     name: "backward jump",
     target: "quads",
@@ -330,7 +330,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vDX_H06Tz_Uuxt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lDhNadgTosg425",
     id: "0020",
     name: "balance board",
     target: "quads",
@@ -338,7 +338,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5jm-xG8Ep1ZjQj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/huRD8dmvEyoCtN",
     id: "0968",
     name: "band alternating biceps curl",
     target: "biceps",
@@ -346,7 +346,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wzli58Q-nTW3=A",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0sIIUyZguxZ5Bg",
     id: "0969",
     name: "band alternating v-up",
     target: "abs",
@@ -354,7 +354,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wgy0gOeBIgdKH6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZsocioUIxpVWk9",
     id: "0970",
     name: "band assisted pull-up",
     target: "lats",
@@ -362,7 +362,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8Mk3rz7EZHGghr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IMTxaip5bafPVn",
     id: "0971",
     name: "band assisted wheel rollerout",
     target: "abs",
@@ -370,7 +370,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P6fXCBR6it4buG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2E6-iIrOutiogS",
     id: "1254",
     name: "band bench press",
     target: "pectorals",
@@ -378,7 +378,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+KqQtk3D+dkSs=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Rf0J3T0vBeOHk2",
     id: "0980",
     name: "band bent-over hip extension",
     target: "glutes",
@@ -386,7 +386,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+nPii9HpMwcm4Y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XfI4aXjS2aopdR",
     id: "0972",
     name: "band bicycle crunch",
     target: "abs",
@@ -394,7 +394,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mWaSj=KLqkJPrB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cXkF6ogzVmjxPu",
     id: "0974",
     name: "band close-grip pulldown",
     target: "lats",
@@ -402,7 +402,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zp8Z+26jVTDC=j",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VSs-1fM48SHUx4",
     id: "0975",
     name: "band close-grip push-up",
     target: "triceps",
@@ -410,7 +410,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IJpDFSdZEAJEeu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6D5OSI8kU76T6Q",
     id: "0976",
     name: "band concentration curl",
     target: "biceps",
@@ -418,7 +418,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GSxtUeiTRkusVp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fCgWKwjHBhLcOU",
     id: "3117",
     name: "band fixed back close grip pulldown",
     target: "lats",
@@ -426,7 +426,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0U2k-qWtbFmd-Y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lRwEuMDUb2LTME",
     id: "3116",
     name: "band fixed back underhand pulldown",
     target: "lats",
@@ -434,7 +434,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2VN9IYd1xW1QtO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RCq-k3psrTeniE",
     id: "0977",
     name: "band front lateral raise",
     target: "delts",
@@ -442,7 +442,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pE6W=I_5y6Tw-p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LGnlm56-WXtj22",
     id: "0978",
     name: "band front raise",
     target: "delts",
@@ -450,7 +450,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-10__TaAH_kYh_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UTyj0kPBDDDiQf",
     id: "1408",
     name: "band hip lift",
     target: "glutes",
@@ -458,7 +458,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9VryXzupG9itc_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1mtHSmNEGWwMqf",
     id: "0979",
     name: "band horizontal pallof press",
     target: "abs",
@@ -466,7 +466,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GI7v_sqluBb427",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/INxsophd0LX7PK",
     id: "0981",
     name: "band jack knife sit-up",
     target: "abs",
@@ -474,7 +474,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5bFTDyLtk1-MXm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mvx5-1MBD8mRqh",
     id: "0983",
     name: "band kneeling one arm pulldown",
     target: "lats",
@@ -482,7 +482,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8em8qSMdEfjdUT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3jSoYN7SE2qSBu",
     id: "0985",
     name: "band kneeling twisting crunch",
     target: "abs",
@@ -490,7 +490,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MF7bBarqksoY3y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oa20ArdD76XofK",
     id: "0984",
     name: "band lying hip internal rotation",
     target: "glutes",
@@ -498,7 +498,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5J-nBgxNxd6kfD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jNJUyHnbK2Upbl",
     id: "1002",
     name: "band lying straight leg raise",
     target: "abs",
@@ -506,7 +506,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TNVOAjYSsEIzka",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/D84eMMQvTXd93-",
     id: "0986",
     name: "band one arm overhead biceps curl",
     target: "biceps",
@@ -514,7 +514,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-kE+0WODa2qOzx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OHmdDCQVkbX7Jd",
     id: "0987",
     name: "band one arm single leg split squat",
     target: "quads",
@@ -522,7 +522,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QGtfQW=0yU5X5D",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dwSe9bfG2mv-Ob",
     id: "0988",
     name: "band one arm standing low row",
     target: "upper back",
@@ -530,7 +530,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2Yj_h6H5KEL46a",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MPbKfwF1XMu5Wz",
     id: "0989",
     name: "band one arm twisting chest press",
     target: "pectorals",
@@ -538,7 +538,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Y4NH82CXyGyiMM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xwhL35-T0F4kAS",
     id: "0990",
     name: "band one arm twisting seated row",
     target: "upper back",
@@ -546,7 +546,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/n07UBtuMOSZ6yp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lEfTx0iO--d6JK",
     id: "0991",
     name: "band pull through",
     target: "glutes",
@@ -554,7 +554,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Bq5gP3tg6z2ikR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Agsz3B8GClPOkX",
     id: "0992",
     name: "band push sit-up",
     target: "abs",
@@ -562,7 +562,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9KgM4i_tYLQswh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ECX0W-ARwCSQkq",
     id: "0993",
     name: "band reverse fly",
     target: "delts",
@@ -570,7 +570,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IZbBOZEhn9kCo4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eDhFF4pmj2qhuU",
     id: "0994",
     name: "band reverse wrist curl",
     target: "forearms",
@@ -578,7 +578,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-bmQZGwOiliVv_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4lcautmys0AwbV",
     id: "0996",
     name: "band seated hip internal rotation",
     target: "glutes",
@@ -586,7 +586,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W40ejqCvk7eQbE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8X6qciC0gvhZb-",
     id: "1011",
     name: "band seated twist",
     target: "abs",
@@ -594,7 +594,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KisIYlowK4vjJW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ySvJ6HX5wWPlk9",
     id: "0997",
     name: "band shoulder press",
     target: "delts",
@@ -602,7 +602,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fYTLTzn52lF-c9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/O4X59I8kBE6kW1",
     id: "1018",
     name: "band shrug",
     target: "traps",
@@ -610,7 +610,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pLkIq4EPxw27SJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pj2BTNFpAK4UWY",
     id: "0998",
     name: "band side triceps extension",
     target: "triceps",
@@ -618,7 +618,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/e6wUpcmAzDZK4T",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kncMovrdCfRcPJ",
     id: "0999",
     name: "band single leg calf raise",
     target: "calves",
@@ -626,7 +626,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZmFdL0PmYYbBuz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/F4c7ZrtwVEsDXj",
     id: "1000",
     name: "band single leg reverse calf raise",
     target: "calves",
@@ -634,7 +634,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FwNx2-ZcFBau5Y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yHN7K1pzqx-Pmr",
     id: "1001",
     name: "band single leg split squat",
     target: "quads",
@@ -642,7 +642,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qMEoYJ8C7Iw6yX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LgoA-ELNluZGLU",
     id: "1004",
     name: "band squat",
     target: "glutes",
@@ -650,7 +650,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LUDZHC=-HzKHt8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/v2C7WJdLZHjRwx",
     id: "1003",
     name: "band squat row",
     target: "glutes",
@@ -658,7 +658,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g7i8JQFIqvh5aH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tOYaTe6pUglAv-",
     id: "1005",
     name: "band standing crunch",
     target: "abs",
@@ -666,7 +666,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YMVEdTq5xBMibA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/O1s8-1n71T9bNz",
     id: "1022",
     name: "band standing rear delt row",
     target: "delts",
@@ -674,7 +674,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NN-77Qdd=sXu5L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iCXigkNNJh-WP7",
     id: "1007",
     name: "band standing twisting crunch",
     target: "abs",
@@ -682,7 +682,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w2k_2Sq9+FAzOQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2nQE-SGRtDDjAj",
     id: "1008",
     name: "band step-up",
     target: "glutes",
@@ -690,7 +690,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Eg2Uf9Cg=xXLOT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SBgiyqJtr5I9Qo",
     id: "1009",
     name: "band stiff leg deadlift",
     target: "glutes",
@@ -698,7 +698,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/btdq=_ZGmVrz5-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JjYphmKXa6wSc8",
     id: "1023",
     name: "band straight back stiff leg deadlift",
     target: "glutes",
@@ -706,7 +706,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/C=K6MsEryOY2YN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vsW1rroIO3cvKD",
     id: "1010",
     name: "band straight leg deadlift",
     target: "spine",
@@ -714,7 +714,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qrnruWpspfpEjd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cBOR9aoLpd2uEP",
     id: "1012",
     name: "band twisting overhead press",
     target: "delts",
@@ -722,7 +722,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gtmVhLDXcu1Rg_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PvbIiAcbZCL3Og",
     id: "1369",
     name: "band two legs calf raise - (band under both legs) v. 2",
     target: "calves",
@@ -730,7 +730,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Mt1UnAmws=fI8G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pKww0xM4AsbUEr",
     id: "1013",
     name: "band underhand pulldown",
     target: "lats",
@@ -738,7 +738,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/j7+_zHo7UoYTO4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/THIme-TPAbqyBz",
     id: "1014",
     name: "band v-up",
     target: "abs",
@@ -746,7 +746,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cPCIbx2kHQEAxw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jN0Mv82qU1BkpO",
     id: "1015",
     name: "band vertical pallof press",
     target: "abs",
@@ -754,7 +754,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-VpXVGBPMmhuk9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V4E45TfFEaqrc1",
     id: "1016",
     name: "band wrist curl",
     target: "forearms",
@@ -762,7 +762,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zfV6ShWUuHrC55",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dEc6r3CuvPdpJu",
     id: "1017",
     name: "band y-raise",
     target: "delts",
@@ -770,7 +770,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cXNP29mamJQD0d",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/J3ut-qIv142ZXK",
     id: "0023",
     name: "barbell alternate biceps curl",
     target: "biceps",
@@ -778,7 +778,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5A_vnL4vqsHHOa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BcjGJ8mErm-hn3",
     id: "0024",
     name: "barbell bench front squat",
     target: "quads",
@@ -786,7 +786,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w==lyrfMjW5Otw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/S-Dpk2i6rU4g9W",
     id: "0025",
     name: "barbell bench press",
     target: "pectorals",
@@ -794,7 +794,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VV9XV_Pjs_r+a5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8mmmlQb7qTL1Kw",
     id: "0026",
     name: "barbell bench squat",
     target: "quads",
@@ -802,7 +802,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/U=Op6nI-V5sFBn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/381KN7GgbevT1l",
     id: "1316",
     name: "barbell bent arm pullover",
     target: "lats",
@@ -810,7 +810,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_ecMhuZ21dXXgJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5Le8qdECWEpxzw",
     id: "0027",
     name: "barbell bent over row",
     target: "upper back",
@@ -818,7 +818,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RnaPPEEwC=fIhH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4jZiACdSzBFGTj",
     id: "2407",
     name: "barbell biceps curl (with arm blaster)",
     target: "biceps",
@@ -826,7 +826,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/S4ecrEaoaD9ez-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TM0l7pvcGr5j70",
     id: "0028",
     name: "barbell clean and press",
     target: "quads",
@@ -834,7 +834,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xO9th+CfGYUNnX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rE9sfvlhhZtdk2",
     id: "0029",
     name: "barbell clean-grip front squat",
     target: "glutes",
@@ -842,7 +842,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8ZGr8VLdgAapf3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vJGN2zMdB-MmDs",
     id: "0030",
     name: "barbell close-grip bench press",
     target: "triceps",
@@ -850,7 +850,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YwCS30Fdmc0i1v",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aMJyigIfuOTs8r",
     id: "0031",
     name: "barbell curl",
     target: "biceps",
@@ -858,7 +858,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/N4lnUKT7pAzeic",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/K4sNGkiX2qr5zq",
     id: "0032",
     name: "barbell deadlift",
     target: "glutes",
@@ -866,7 +866,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MGjN1aK=+sJN-N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MHyNgL9pFPbvSG",
     id: "0033",
     name: "barbell decline bench press",
     target: "pectorals",
@@ -874,7 +874,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gb=UGaS5PqNRBj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EkPxgq80zuzpOA",
     id: "0034",
     name: "barbell decline bent arm pullover",
     target: "lats",
@@ -882,7 +882,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_aR2x-3zbI4pVz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ee5CAPINvoEQ9j",
     id: "0035",
     name: "barbell decline close grip to skull press",
     target: "triceps",
@@ -890,7 +890,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MUKV_KQRpCpLvI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pHpIrxtsaiI7jf",
     id: "1255",
     name: "barbell decline pullover",
     target: "pectorals",
@@ -898,7 +898,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p+X_dX510uwfdR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OgsOqTtEDUq2Lj",
     id: "0036",
     name: "barbell decline wide-grip press",
     target: "pectorals",
@@ -906,7 +906,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5-h3968mCsSZMo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-9yct5Un9tP1tA",
     id: "0037",
     name: "barbell decline wide-grip pullover",
     target: "lats",
@@ -914,7 +914,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ug=RGyfup0aCFS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gpSPfzUv04Z6PQ",
     id: "0038",
     name: "barbell drag curl",
     target: "biceps",
@@ -922,7 +922,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UyUNtX+wcz4uYs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pSw-DKOEkdB230",
     id: "1370",
     name: "barbell floor calf raise",
     target: "calves",
@@ -930,7 +930,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-EBYD8Hxzz0iKN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LQRM3dvglmSToT",
     id: "0039",
     name: "barbell front chest squat",
     target: "glutes",
@@ -938,7 +938,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sXmFIIBYKj1K2J",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bZX1F7nM9xlebv",
     id: "0041",
     name: "barbell front raise",
     target: "delts",
@@ -946,7 +946,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/poBVyKPBYNg1V0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yc2r0EBo2Kne76",
     id: "0040",
     name: "barbell front raise and pullover",
     target: "pectorals",
@@ -954,7 +954,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xP4BjZERBE8L-Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/R6WhBrvGr7CYWf",
     id: "0042",
     name: "barbell front squat",
     target: "glutes",
@@ -962,7 +962,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kpm7WABa4kp+Mt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7Cd0Szwpy9euoL",
     id: "0043",
     name: "barbell full squat",
     target: "glutes",
@@ -970,7 +970,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+wbl9dc033K=nf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LDT5bWUWKT0c1y",
     id: "1461",
     name: "barbell full squat (back pov)",
     target: "glutes",
@@ -978,7 +978,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0+fr1NkzuZ5=8O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EJoEH01NrfDeiQ",
     id: "1462",
     name: "barbell full squat (side pov)",
     target: "glutes",
@@ -986,7 +986,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6Kess1kBESa52n",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Vz5wY7jLMossxX",
     id: "1545",
     name: "barbell full zercher squat",
     target: "glutes",
@@ -994,7 +994,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/L-oSwZb=++Xza4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/63enRYcIwUH6Gw",
     id: "1409",
     name: "barbell glute bridge",
     target: "glutes",
@@ -1002,7 +1002,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XZbqf8sOr7XV8N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2Ecf-ZxLkJVxR0",
     id: "3562",
     name: "barbell glute bridge two legs on bench (male)",
     target: "glutes",
@@ -1010,7 +1010,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rHJ0OHhKDfmgXk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h27rgAGbYOQM4Z",
     id: "0044",
     name: "barbell good morning",
     target: "hamstrings",
@@ -1018,7 +1018,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LB4XII8QL0p7cd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/n231RppBrIaLUK",
     id: "0045",
     name: "barbell guillotine bench press",
     target: "pectorals",
@@ -1026,7 +1026,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WgBzXA_zUPQ3qU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rP9m-cRPFW5lkD",
     id: "0046",
     name: "barbell hack squat",
     target: "glutes",
@@ -1034,7 +1034,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kiNdQJICLOA4iT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V6KniFmHlEBPYB",
     id: "1436",
     name: "barbell high bar squat",
     target: "glutes",
@@ -1042,7 +1042,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LkBghLLvbOhy=k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3OKfKvX30dY7eN",
     id: "0047",
     name: "barbell incline bench press",
     target: "pectorals",
@@ -1050,7 +1050,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qs+ST_ysUih3BU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jmpS4yWANMungB",
     id: "1719",
     name: "barbell incline close grip bench press",
     target: "triceps",
@@ -1058,7 +1058,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/v4SqRLYM1WnKPt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oCX71WJKEpd-fe",
     id: "0048",
     name: "barbell incline reverse-grip press",
     target: "triceps",
@@ -1066,7 +1066,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vMX2wP9cVc03FE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wcqJ9hVPmA4pab",
     id: "0049",
     name: "barbell incline row",
     target: "upper back",
@@ -1074,7 +1074,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jLH-+VQCLJXtO_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DXajY8JEvWg6GB",
     id: "0050",
     name: "barbell incline shoulder raise",
     target: "serratus anterior",
@@ -1082,7 +1082,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xz3NsW6dWDMSLE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/r8vdKHDswaOBgw",
     id: "0051",
     name: "barbell jefferson squat",
     target: "glutes",
@@ -1090,7 +1090,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/T4o7U3bH6vA=yT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pZk1W-26ECUU5I",
     id: "0052",
     name: "barbell jm bench press",
     target: "triceps",
@@ -1098,7 +1098,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WGfErA03veMGkc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tWpWJfilGzEsw7",
     id: "0053",
     name: "barbell jump squat",
     target: "glutes",
@@ -1106,7 +1106,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_4CEP+H_mHOx=c",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7s5MLlK7-ZIREr",
     id: "1410",
     name: "barbell lateral lunge",
     target: "glutes",
@@ -1114,7 +1114,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/k2_-Zad8V5IQnP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gCj0T1Xaa2Hk4X",
     id: "1435",
     name: "barbell low bar squat",
     target: "glutes",
@@ -1122,7 +1122,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lcLWLFbpsInErO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jsPODld-49dEca",
     id: "0054",
     name: "barbell lunge",
     target: "glutes",
@@ -1130,7 +1130,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8BFIl4LrcptYWV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rukwBA2aeCQNrL",
     id: "1720",
     name: "barbell lying back of the head tricep extension",
     target: "triceps",
@@ -1138,7 +1138,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aPU5VhLbTa-6tK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6IQTpRJmXcBlb8",
     id: "0055",
     name: "barbell lying close-grip press",
     target: "triceps",
@@ -1146,7 +1146,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Kilb+OV52Lze58",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xDXNLGGSq2T3jV",
     id: "0056",
     name: "barbell lying close-grip triceps extension",
     target: "triceps",
@@ -1154,7 +1154,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MCOx0sW3DaJGYd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vySgQo0Tey3dXE",
     id: "0057",
     name: "barbell lying extension",
     target: "triceps",
@@ -1162,7 +1162,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Fn33_6dXckMTNo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Dr02kek9V3ZaFO",
     id: "0058",
     name: "barbell lying lifting (on hip)",
     target: "glutes",
@@ -1170,7 +1170,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/br=NDnUG=8LTxF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6tembUeDbZtLwa",
     id: "0059",
     name: "barbell lying preacher curl",
     target: "biceps",
@@ -1178,7 +1178,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0pU5aqC45nboqs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fMkmKslCT757nS",
     id: "0061",
     name: "barbell lying triceps extension",
     target: "triceps",
@@ -1186,7 +1186,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SVxkn+BDjZIWGv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/swwRwWj-0pbxrY",
     id: "0060",
     name: "barbell lying triceps extension skull crusher",
     target: "triceps",
@@ -1194,7 +1194,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cLDbwfKwblm2Kw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1PHovsrvUMaeuT",
     id: "0063",
     name: "barbell narrow stance squat",
     target: "glutes",
@@ -1202,7 +1202,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Mgy6Nc08N13eOu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oxy15fJQBl0kWk",
     id: "0064",
     name: "barbell one arm bent over row",
     target: "upper back",
@@ -1210,7 +1210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q53qAgKfeKfagf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NFhejoe1P7hpE2",
     id: "0065",
     name: "barbell one arm floor press",
     target: "triceps",
@@ -1218,7 +1218,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gOoKcyObC7rc00",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JaaCFbDcUzEVmo",
     id: "0066",
     name: "barbell one arm side deadlift",
     target: "glutes",
@@ -1226,7 +1226,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dvktrzYmLlJmu+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QawfUBqRI4jDjj",
     id: "0067",
     name: "barbell one arm snatch",
     target: "delts",
@@ -1234,7 +1234,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0b-lx+yGO8B+J6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IvF-SNi081-zbH",
     id: "0068",
     name: "barbell one leg squat",
     target: "quads",
@@ -1242,7 +1242,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yy8_Wp3kuNcc5s",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0qezoQZWjwSxqU",
     id: "0069",
     name: "barbell overhead squat",
     target: "quads",
@@ -1250,7 +1250,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xj_gMo-m-M8ltu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xBKv7gBRgidmVz",
     id: "1411",
     name: "barbell palms down wrist curl over a bench",
     target: "forearms",
@@ -1258,7 +1258,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/comsNWQT=lrtBM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/K0vg7kdIFuyOdD",
     id: "1412",
     name: "barbell palms up wrist curl over a bench",
     target: "forearms",
@@ -1266,7 +1266,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/z1_=rjjiV9KB1L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uobDspwggBBfJb",
     id: "3017",
     name: "barbell pendlay row",
     target: "upper back",
@@ -1274,7 +1274,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/onSQBw66HnGqRb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zxTdfRLh6JwFgf",
     id: "1751",
     name: "barbell pin presses",
     target: "triceps",
@@ -1282,7 +1282,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MKHN9D=UgdElWh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rAHNKU5AflpG05",
     id: "0070",
     name: "barbell preacher curl",
     target: "biceps",
@@ -1290,7 +1290,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+jnBnfSEv+AK8T",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fuBKVWeTzt24Xs",
     id: "0071",
     name: "barbell press sit-up",
     target: "abs",
@@ -1298,7 +1298,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=YYoVwuVN2nogA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oJ4R5eHQc62dbM",
     id: "0072",
     name: "barbell prone incline curl",
     target: "biceps",
@@ -1306,7 +1306,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=vKDLBasVGI1ne",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/theSp0yytpZgvn",
     id: "0073",
     name: "barbell pullover",
     target: "lats",
@@ -1314,7 +1314,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tnrqhclWI+drQr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jGY-faqXWmV3iv",
     id: "0022",
     name: "barbell pullover to press",
     target: "lats",
@@ -1322,7 +1322,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0p2y8hwUWW5ZXB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sm3rXP0gAujzJB",
     id: "0074",
     name: "barbell rack pull",
     target: "glutes",
@@ -1330,7 +1330,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/enwhT=+DuNIk5K",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dYFcASoXFo9BYG",
     id: "0075",
     name: "barbell rear delt raise",
     target: "delts",
@@ -1338,7 +1338,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+LKdNXq05_0Abf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nfiffZ2a-468Ht",
     id: "0076",
     name: "barbell rear delt row",
     target: "delts",
@@ -1346,7 +1346,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PkD5vI-sZWPjtM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GUqAxzOY1LFrPo",
     id: "0078",
     name: "barbell rear lunge",
     target: "glutes",
@@ -1354,7 +1354,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MucVfy-yNhDD7Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1f8JVE9yJdWPO7",
     id: "0077",
     name: "barbell rear lunge v. 2",
     target: "glutes",
@@ -1362,7 +1362,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kKNkGNNNrdVRc0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EAM8F3QyYloyWj",
     id: "0079",
     name: "barbell revers wrist curl v. 2",
     target: "forearms",
@@ -1370,7 +1370,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3+t5MaashO8Wxy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mYHPMbLQlE5GWK",
     id: "2187",
     name: "barbell reverse close-grip bench press",
     target: "triceps",
@@ -1378,7 +1378,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WvjsHi7h2JEyG5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x9s3jQcC3ywIhp",
     id: "0080",
     name: "barbell reverse curl",
     target: "biceps",
@@ -1386,7 +1386,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mtiLGU44T57gY-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WEMQyzQ5Qmh44w",
     id: "0118",
     name: "barbell reverse grip bent over row",
     target: "upper back",
@@ -1394,7 +1394,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QUnIn=+xs1MxUd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aVNNHh2wbqZNal",
     id: "1256",
     name: "barbell reverse grip decline bench press",
     target: "pectorals",
@@ -1402,7 +1402,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YcHZJods3ZDGcc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AOuevjJgBZdTR4",
     id: "1257",
     name: "barbell reverse grip incline bench press",
     target: "pectorals",
@@ -1410,7 +1410,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rsfFEYZHtxp_BU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NkWi9wwjHjz-N5",
     id: "1317",
     name: "barbell reverse grip incline bench row",
     target: "upper back",
@@ -1418,7 +1418,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PLaPJ7qyPBmkYu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VBmxkxUUabG4jN",
     id: "1721",
     name: "barbell reverse grip skullcrusher",
     target: "triceps",
@@ -1426,7 +1426,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6_zDESldkbNKvS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/z1HKel9cIzA9SR",
     id: "0081",
     name: "barbell reverse preacher curl",
     target: "biceps",
@@ -1434,7 +1434,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Z7cAlTIqqDxf8p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HAwdfedESY3cBj",
     id: "0082",
     name: "barbell reverse wrist curl",
     target: "forearms",
@@ -1442,7 +1442,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/byBrQ3MGo9BRCW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5InftvDK6CCzwm",
     id: "0084",
     name: "barbell rollerout",
     target: "abs",
@@ -1450,7 +1450,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F=rKEUIkcweR9Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3YIZy9s6C2W-v2",
     id: "0083",
     name: "barbell rollerout from bench",
     target: "abs",
@@ -1458,7 +1458,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dbMGq0xrRH+t8-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/j9U5vLthHmSAOA",
     id: "0085",
     name: "barbell romanian deadlift",
     target: "glutes",
@@ -1466,7 +1466,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b3gJkhs43-Ctdf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FhzBL0tPc9CFum",
     id: "0086",
     name: "barbell seated behind head military press",
     target: "delts",
@@ -1474,7 +1474,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WwvhOFqjw+BTtA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ipF1eEyT2GbFHV",
     id: "0087",
     name: "barbell seated bradford rocky press",
     target: "delts",
@@ -1482,7 +1482,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4e=tBm6FbFFNCR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5Wx8bDW8Am51EN",
     id: "0088",
     name: "barbell seated calf raise",
     target: "calves",
@@ -1490,7 +1490,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/C4kfvu3Bmc2+kg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/a-L5h4jgJemJqt",
     id: "1371",
     name: "barbell seated calf raise",
     target: "calves",
@@ -1498,7 +1498,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4e=A+++Q4uoSGu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/04GdImZAp6mODb",
     id: "1718",
     name: "barbell seated close grip behind neck triceps extension",
     target: "triceps",
@@ -1506,7 +1506,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_fYgKp_QZyhoE+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/j3LRoy9pRIsddv",
     id: "0089",
     name: "barbell seated close-grip concentration curl",
     target: "biceps",
@@ -1514,7 +1514,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7kXAYPOe+LSAqO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wqwscxnQwPuYo7",
     id: "0090",
     name: "barbell seated good morning",
     target: "glutes",
@@ -1522,7 +1522,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pJH8Id+uS3Le_y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BOHo5enytRLVtQ",
     id: "0091",
     name: "barbell seated overhead press",
     target: "delts",
@@ -1530,7 +1530,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AjxKZXkhN8iOBP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LF7Det1pYUZrJF",
     id: "0092",
     name: "barbell seated overhead triceps extension",
     target: "triceps",
@@ -1538,7 +1538,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/U+PMax+WeY+Sm2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KmQSoSpGbdc6ZZ",
     id: "0094",
     name: "barbell seated twist",
     target: "abs",
@@ -1546,7 +1546,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+Z86FBt=zZmsYs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2iES6hB5p737XP",
     id: "0095",
     name: "barbell shrug",
     target: "traps",
@@ -1554,7 +1554,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nz-GWkUvrrO4=3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kiTXPb54hMTmJP",
     id: "0096",
     name: "barbell side bent v. 2",
     target: "abs",
@@ -1562,7 +1562,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/d-+RjGDgib=8GM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3kctqRSFGudlsx",
     id: "0098",
     name: "barbell side split squat",
     target: "quads",
@@ -1570,7 +1570,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QP=j+JMO_NQcbA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YnXnns3VTc3b-J",
     id: "0097",
     name: "barbell side split squat v. 2",
     target: "quads",
@@ -1578,7 +1578,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fvFjI63lb0Ym=1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Bw-MD3-RBblsXT",
     id: "1756",
     name: "barbell single leg deadlift",
     target: "glutes",
@@ -1586,7 +1586,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MwLz80yyw-wst8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sjGFbBH1Xf31yN",
     id: "0099",
     name: "barbell single leg split squat",
     target: "quads",
@@ -1594,7 +1594,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xKit=iqTjY9nTm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ADs09n-Q1q2UJX",
     id: "2799",
     name: "barbell sitted alternate leg raise",
     target: "abs",
@@ -1602,7 +1602,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p-4f1vck0FA6Y_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iPjYM-e4nbj-d8",
     id: "2800",
     name: "barbell sitted alternate leg raise (female)",
     target: "abs",
@@ -1610,7 +1610,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gt4pDkZZd0Hs3Y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dL4a1vJgLJYXa1",
     id: "0100",
     name: "barbell skier",
     target: "delts",
@@ -1618,7 +1618,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6LV7JC7vpJfxhq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x9bOROSP8qr8TN",
     id: "0101",
     name: "barbell speed squat",
     target: "glutes",
@@ -1626,7 +1626,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/892hy-=4cgOk06",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wG3ZaXRhswFl7h",
     id: "2810",
     name: "barbell split squat v. 2",
     target: "quads",
@@ -1634,7 +1634,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GY9SEuRS6iuW48",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xKk1uFgE8WGO2i",
     id: "0102",
     name: "barbell squat (on knees)",
     target: "quads",
@@ -1642,7 +1642,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+AzBKIa0w=fa8s",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EgbVACYUrmuSvk",
     id: "2798",
     name: "barbell squat jump step rear lunge",
     target: "quads",
@@ -1650,7 +1650,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jxC2ArMm5WcQK2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oB19By4dh5YEAv",
     id: "0103",
     name: "barbell standing ab rollerout",
     target: "abs",
@@ -1658,7 +1658,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/f4Z+7to3MMLH=-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/suC7EtiLOEioNC",
     id: "0104",
     name: "barbell standing back wrist curl",
     target: "forearms",
@@ -1666,7 +1666,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/E2Tzp6hxiEOl6S",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TPac70JJ8YPld4",
     id: "0105",
     name: "barbell standing bradford press",
     target: "delts",
@@ -1674,7 +1674,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xK8vE-M9q8M7-=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uHoBlFRPKPms7q",
     id: "1372",
     name: "barbell standing calf raise",
     target: "calves",
@@ -1682,7 +1682,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uAJAjIMNkrOFz5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uzDHQJKxF1pIiL",
     id: "0106",
     name: "barbell standing close grip curl",
     target: "biceps",
@@ -1690,7 +1690,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nYqQ4UEUvyo7zZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GvUm7qJSY1cvym",
     id: "1456",
     name: "barbell standing close grip military press",
     target: "delts",
@@ -1698,7 +1698,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6CtBdw9AfNoheX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gak-9VgHK9q92t",
     id: "2414",
     name: "barbell standing concentration curl",
     target: "biceps",
@@ -1706,7 +1706,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/37imXBK+PaceXK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Bj7qvtpKbMjsqL",
     id: "0107",
     name: "barbell standing front raise over head",
     target: "delts",
@@ -1714,7 +1714,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ls3FInxqaHkoCJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IELnhHuhK44nSr",
     id: "0108",
     name: "barbell standing leg calf raise",
     target: "calves",
@@ -1722,7 +1722,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-dxtLWPwWeq1a7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e9Y5-13pFWS9vs",
     id: "0109",
     name: "barbell standing overhead triceps extension",
     target: "triceps",
@@ -1730,7 +1730,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fvaO8Fik+Qo4rl",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bw1rbzp4C2oItf",
     id: "0110",
     name: "barbell standing reverse grip curl",
     target: "biceps",
@@ -1738,7 +1738,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/apzTFKRooj2XfH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WqG8sO96etYPaw",
     id: "0111",
     name: "barbell standing rocking leg calf raise",
     target: "calves",
@@ -1746,7 +1746,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Xvpnc4KiwCJVZk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Sc0POrmOyY6MFN",
     id: "0112",
     name: "barbell standing twist",
     target: "abs",
@@ -1754,7 +1754,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_XQT0Z1oyYXKqL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UvKd86RyFj0eX5",
     id: "1629",
     name: "barbell standing wide grip biceps curl",
     target: "biceps",
@@ -1762,7 +1762,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NemefvHR4HtsNp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4Cpv4i1XcVe2wx",
     id: "1457",
     name: "barbell standing wide military press",
     target: "delts",
@@ -1770,7 +1770,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4Fe3BZEaoSWDYe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QABG4NZj-hGgBG",
     id: "0113",
     name: "barbell standing wide-grip curl",
     target: "biceps",
@@ -1778,7 +1778,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=humAkwutLSjw2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GqOEKihsPizEVI",
     id: "0114",
     name: "barbell step-up",
     target: "glutes",
@@ -1786,7 +1786,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kzl7I5aAO7xkFC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1Lu9SeEmI5EnTa",
     id: "0115",
     name: "barbell stiff leg good morning",
     target: "glutes",
@@ -1794,7 +1794,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8dU2hHlJsH89tJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vVcvy-layMjc4t",
     id: "0116",
     name: "barbell straight leg deadlift",
     target: "hamstrings",
@@ -1802,7 +1802,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oRhjbCVnkfmnBJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DqCI8XPSlJVTY0",
     id: "0117",
     name: "barbell sumo deadlift",
     target: "glutes",
@@ -1810,7 +1810,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bfF8PfLGxQd4Vs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/n2xSYtVCc5w0NE",
     id: "3305",
     name: "barbell thruster",
     target: "delts",
@@ -1818,7 +1818,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kHVt6KrTo7hHwp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YX69O0JLR9sdai",
     id: "0120",
     name: "barbell upright row",
     target: "delts",
@@ -1826,7 +1826,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yWsdlGeOoLmc1k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZaQVGNtyJ9L7Wp",
     id: "0119",
     name: "barbell upright row v. 2",
     target: "delts",
@@ -1834,7 +1834,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pifffcMuMVP2XM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rFZAolCVJXSvth",
     id: "0121",
     name: "barbell upright row v. 3",
     target: "delts",
@@ -1842,7 +1842,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/watw+utSuWzZih",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/69dTBJXWDsJvoe",
     id: "0122",
     name: "barbell wide bench press",
     target: "pectorals",
@@ -1850,7 +1850,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8=sX1ks57_6xdZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ym4vz17aPhIB8X",
     id: "1258",
     name: "barbell wide reverse grip bench press",
     target: "pectorals",
@@ -1858,7 +1858,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r6sR+JsJxAAiXp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zuGXG2isL-6-Y7",
     id: "0124",
     name: "barbell wide squat",
     target: "quads",
@@ -1866,7 +1866,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KmWKIRk8_ag3vo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rXilWFtBTHfVpz",
     id: "0123",
     name: "barbell wide-grip upright row",
     target: "delts",
@@ -1874,7 +1874,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hv+M-P0_Zh1P9=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QB8AL7DeqztylG",
     id: "0126",
     name: "barbell wrist curl",
     target: "forearms",
@@ -1882,7 +1882,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QE904BcYHpH8bO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pGJeefNoiJdVdM",
     id: "0125",
     name: "barbell wrist curl v. 2",
     target: "forearms",
@@ -1890,7 +1890,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/R8YmrMzYP4NF8l",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8Be0DhN1Q4Pp1f",
     id: "0127",
     name: "barbell zercher squat",
     target: "glutes",
@@ -1898,7 +1898,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GrQH0IenuGxeo-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Y82TzZOH5BIVzr",
     id: "3212",
     name: "basic toe touch (male)",
     target: "glutes",
@@ -1906,7 +1906,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZG2RLvjWO4+YvM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0Fs3u5KnRFJy0a",
     id: "0128",
     name: "battling ropes",
     target: "delts",
@@ -1914,7 +1914,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jou5F+Ti-__asf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BhodHrCUacj-hk",
     id: "3360",
     name: "bear crawl",
     target: "cardiovascular system",
@@ -1922,7 +1922,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "assisted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yZpVU7y_AN7fuu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vVLiGHat6lRegr",
     id: "1259",
     name: "behind head chest stretch",
     target: "pectorals",
@@ -1930,7 +1930,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l-zEN-xTNX5A_j",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vFtUbKfr9XHpNj",
     id: "0129",
     name: "bench dip (knees bent)",
     target: "triceps",
@@ -1938,7 +1938,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/E1-wS4JXlQqDsK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/W8ri7jxeN8YESK",
     id: "1399",
     name: "bench dip on floor",
     target: "triceps",
@@ -1946,7 +1946,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/onwrulWmwzlvpV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YLpbPRol7y80bS",
     id: "0130",
     name: "bench hip extension",
     target: "glutes",
@@ -1954,7 +1954,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rSLePY-b98379x",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nIMOnN3gZ-AgXJ",
     id: "3019",
     name: "bench pull-ups",
     target: "lats",
@@ -1962,7 +1962,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/E_y6rwB4WWGGq+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/leHcxUNuioBSlX",
     id: "3639",
     name: "bent knee lying twist (male)",
     target: "glutes",
@@ -1970,7 +1970,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/skgCPKAOuut1CZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NFfCNerOIxXBZi",
     id: "1770",
     name: "biceps leg concentration curl",
     target: "biceps",
@@ -1978,7 +1978,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wxE4JID0wFMOS7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pzxMbJY7-lycAx",
     id: "0139",
     name: "biceps narrow pull-ups",
     target: "biceps",
@@ -1986,7 +1986,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xEN2RdzcjOHqL1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7UJLEhgdC6FhpY",
     id: "0140",
     name: "biceps pull-up",
     target: "biceps",
@@ -1994,7 +1994,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YtB-3kj6F1gOTX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/I70qG8sNHNWaL1",
     id: "0137",
     name: "body-up",
     target: "triceps",
@@ -2002,7 +2002,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IggC6xIG_9TugM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XToG436lZqv0ZK",
     id: "3543",
     name: "bodyweight drop jump squat",
     target: "glutes",
@@ -2010,7 +2010,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/U4AVJMzAYXK6T6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/umc7CzfpHW6K-X",
     id: "3544",
     name: "bodyweight incline side plank",
     target: "abs",
@@ -2018,7 +2018,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1I0DKkAvdjfGqm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kr3qJSsowsOuDB",
     id: "1771",
     name: "bodyweight kneeling triceps extension",
     target: "triceps",
@@ -2026,7 +2026,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jSqN=JT1LVq7jn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-gUK631s2TH2n2",
     id: "1769",
     name: "bodyweight side lying biceps curl",
     target: "biceps",
@@ -2034,7 +2034,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/86M9gbv_266qVc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ihJUKsRGfOd-wA",
     id: "3168",
     name: "bodyweight squatting row",
     target: "upper back",
@@ -2042,7 +2042,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2XBjmxCNAC4Ag+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UwdY-4eeFs-Cdq",
     id: "3167",
     name: "bodyweight squatting row (with towel)",
     target: "upper back",
@@ -2050,7 +2050,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r2-dAvC6jMXbTW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1ZMkSi5ciDVSaf",
     id: "1373",
     name: "bodyweight standing calf raise",
     target: "calves",
@@ -2058,7 +2058,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6LbWAz8Ns+Y3hS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OOO86InhCzQRil",
     id: "3156",
     name: "bodyweight standing close-grip one arm row",
     target: "upper back",
@@ -2066,7 +2066,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KqxKL1T52iZLID",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Y944oaBNWlvTAs",
     id: "3158",
     name: "bodyweight standing close-grip row",
     target: "upper back",
@@ -2074,7 +2074,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/svnD=238-zuMp=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Bkp4HWABUOo09D",
     id: "3162",
     name: "bodyweight standing one arm row",
     target: "upper back",
@@ -2082,7 +2082,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YZtNFrHP1DQUlR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3V-mjtzIq2po8Z",
     id: "3161",
     name: "bodyweight standing one arm row (with towel)",
     target: "upper back",
@@ -2090,7 +2090,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P9eDpyo6wNDqkX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xuYSl3ACxvZGFk",
     id: "3166",
     name: "bodyweight standing row",
     target: "upper back",
@@ -2098,7 +2098,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wOhlj4YMHh+dDZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Vwbnu7AE7xttS3",
     id: "3165",
     name: "bodyweight standing row (with towel)",
     target: "upper back",
@@ -2106,7 +2106,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AMYaYkd53ANRhk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qtIh8hmCN5lrfD",
     id: "0138",
     name: "bottoms-up",
     target: "abs",
@@ -2114,7 +2114,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pUpvP3mrHekt6T",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/io7qquHPSYNOmr",
     id: "1374",
     name: "box jump down with one leg stabilization",
     target: "calves",
@@ -2122,7 +2122,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cWI7q1741DTYxQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IhwkT0WHm9Um4C",
     id: "2466",
     name: "bridge - mountain climber (cross body)",
     target: "abs",
@@ -2130,7 +2130,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/55ZUigjSE_mS_p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7yOj68zvcVA97Y",
     id: "1160",
     name: "burpee",
     target: "cardiovascular system",
@@ -2138,7 +2138,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RlFRQw3+1qwn05",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZFVhbO7p6Vqpac",
     id: "0870",
     name: "butt-ups",
     target: "abs",
@@ -2146,7 +2146,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pLXUI-ICodmHCy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Xs8eD-M4esoHBA",
     id: "1494",
     name: "butterfly yoga pose",
     target: "adductors",
@@ -2154,7 +2154,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hdb80-wBgBF7pz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TYUiRerNhn-6ja",
     id: "0148",
     name: "cable alternate shoulder press",
     target: "delts",
@@ -2162,7 +2162,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6dM9Jz4bTOk1En",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WbyBu6FdzG-JYo",
     id: "0149",
     name: "cable alternate triceps extension",
     target: "triceps",
@@ -2170,7 +2170,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1wU09AJZaMyIli",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0k9xeFjtUesTFb",
     id: "3235",
     name: "cable assisted inverse leg curl",
     target: "hamstrings",
@@ -2178,7 +2178,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QUNOH_wMQ0SN5Y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1TckJTF6m5fLGi",
     id: "0150",
     name: "cable bar lateral pulldown",
     target: "lats",
@@ -2186,7 +2186,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IEn6354WHpoy2V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jHveTyI-uR-hx0",
     id: "0151",
     name: "cable bench press",
     target: "pectorals",
@@ -2194,7 +2194,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qoXNJ5qUGTQNMW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/saBDCUsXDkPP1t",
     id: "1630",
     name: "cable close grip curl",
     target: "biceps",
@@ -2202,7 +2202,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nQ7FYHj1GT_8=w",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u69hwPIiDLDaAw",
     id: "1631",
     name: "cable concentration curl",
     target: "biceps",
@@ -2210,7 +2210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zzaJiPidzej-2V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tCrEu9f2e9xEOU",
     id: "0152",
     name: "cable concentration extension (on knee)",
     target: "triceps",
@@ -2218,7 +2218,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9k+2DO0t2+Ictm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SuubC29apZ7UpD",
     id: "0153",
     name: "cable cross-over lateral pulldown",
     target: "lats",
@@ -2226,7 +2226,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+uYlb1Q5zETIg0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rikRVRLJ926io0",
     id: "0154",
     name: "cable cross-over revers fly",
     target: "delts",
@@ -2234,7 +2234,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/28d4c0_tlOTu_k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/b8ivAns5wE7NPg",
     id: "0155",
     name: "cable cross-over variation",
     target: "pectorals",
@@ -2242,7 +2242,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aDPfcH2vCZfnS4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pUzBxJ1M9umIEO",
     id: "0868",
     name: "cable curl",
     target: "biceps",
@@ -2250,7 +2250,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_cNPax_kN8JlXE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4v49ia-2cRTsoq",
     id: "0157",
     name: "cable deadlift",
     target: "glutes",
@@ -2258,7 +2258,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fd1_qWgBebcOYz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4E7UyTNxEzSFtU",
     id: "0158",
     name: "cable decline fly",
     target: "pectorals",
@@ -2266,7 +2266,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iV67zRjLMdLg1A",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HugcxRKqOLUaHb",
     id: "1260",
     name: "cable decline one arm press",
     target: "pectorals",
@@ -2274,7 +2274,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SMj2P4q-zGH=Bk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RKYmidrdTLI-a7",
     id: "1261",
     name: "cable decline press",
     target: "pectorals",
@@ -2282,7 +2282,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ktI=iFpZPvAMA7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OTk9npHTBSzM-O",
     id: "0159",
     name: "cable decline seated wide-grip row",
     target: "upper back",
@@ -2290,7 +2290,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rbAQqB=3BlgElf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/S02Xpbrtecfk9N",
     id: "1632",
     name: "cable drag curl",
     target: "biceps",
@@ -2298,7 +2298,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/y4KO9J_j=BxXoY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qGm10VLo740cgu",
     id: "0160",
     name: "cable floor seated wide-grip row",
     target: "upper back",
@@ -2306,7 +2306,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=SQUhW+5tz_U96",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yUuERrhBFzGGcW",
     id: "0161",
     name: "cable forward raise",
     target: "delts",
@@ -2314,7 +2314,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tHTb6Y8+o6ElKh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PADR3cs-vpFUMt",
     id: "0162",
     name: "cable front raise",
     target: "delts",
@@ -2322,7 +2322,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CVlpGSE8Jt6_tO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Q7KY5L4t4cAUV0",
     id: "0164",
     name: "cable front shoulder raise",
     target: "delts",
@@ -2330,7 +2330,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0BmlhyIk0MQCFZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UpCH5IyHBOcz2u",
     id: "0165",
     name: "cable hammer curl (with rope)",
     target: "biceps",
@@ -2338,7 +2338,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LOSKIuzkE71mNH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GRqeYKJ1QnWjEF",
     id: "1722",
     name: "cable high pulley overhead tricep extension",
     target: "triceps",
@@ -2346,7 +2346,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hSd-fm0o7I5WNq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8Ro8z43kCZ9oD6",
     id: "0167",
     name: "cable high row (kneeling)",
     target: "upper back",
@@ -2354,7 +2354,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=qhbij4QoKmjCU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nNcm8mKeNf6Zeh",
     id: "0168",
     name: "cable hip adduction",
     target: "adductors",
@@ -2362,7 +2362,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YPBu7u6xzMFYBr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZZPPYXI-CK0vBv",
     id: "0169",
     name: "cable incline bench press",
     target: "pectorals",
@@ -2370,7 +2370,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SE7RIVdaTUcm7n",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/byrCvSLjuodN9E",
     id: "1318",
     name: "cable incline bench row",
     target: "upper back",
@@ -2378,7 +2378,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9nWF=5arSNmTon",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4IcR2ADyG503Q8",
     id: "0171",
     name: "cable incline fly",
     target: "pectorals",
@@ -2386,7 +2386,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M=HHg93bV8JWsk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VIbkUghjLtrlO1",
     id: "0170",
     name: "cable incline fly (on stability ball)",
     target: "pectorals",
@@ -2394,7 +2394,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kWkWHAD96HZd+Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h9P9WLJxkFD6W7",
     id: "0172",
     name: "cable incline pushdown",
     target: "lats",
@@ -2402,7 +2402,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nA0oGwGEkm3Apn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IAB7gAKgB8sXvz",
     id: "0173",
     name: "cable incline triceps extension",
     target: "triceps",
@@ -2410,7 +2410,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7DTeWuoPHy6ZzF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XFbYA3SeUgZECM",
     id: "0174",
     name: "cable judo flip",
     target: "abs",
@@ -2418,7 +2418,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dORgtubDhxr=PB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/n4K3Hx8CRlagXd",
     id: "0860",
     name: "cable kickback",
     target: "triceps",
@@ -2426,7 +2426,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KQHTiGx+H4DKPb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gksBFPMedw5wOW",
     id: "0175",
     name: "cable kneeling crunch",
     target: "abs",
@@ -2434,7 +2434,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PWIcCLOY_2RK=G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MJfqw-4J0RBS9G",
     id: "3697",
     name: "cable kneeling rear delt row (with rope) (male)",
     target: "delts",
@@ -2442,7 +2442,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DHvHs=h4Jos0PI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6D9LbnCDLPbrVY",
     id: "0176",
     name: "cable kneeling triceps extension",
     target: "triceps",
@@ -2450,7 +2450,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2T+FyXLBEoEtrn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/764MvIQ5T9rtBo",
     id: "2330",
     name: "cable lat pulldown full range of motion",
     target: "lats",
@@ -2458,7 +2458,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VyurNVSqXdVNO9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DDOewxFCCHHJhE",
     id: "0177",
     name: "cable lateral pulldown (with rope attachment)",
     target: "lats",
@@ -2466,7 +2466,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b3DZPq+A1lwC+8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/adsx5eHVNWT4DE",
     id: "2616",
     name: "cable lateral pulldown with v-bar",
     target: "lats",
@@ -2474,7 +2474,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uvYYbD2AuhP9ae",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/s77z3Mm-L4VAA8",
     id: "0178",
     name: "cable lateral raise",
     target: "delts",
@@ -2482,7 +2482,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DUQ7zZKoBDLnvR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/z1LbPD0P8c6ylD",
     id: "0179",
     name: "cable low fly",
     target: "pectorals",
@@ -2490,7 +2490,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+608q8zJDhl69Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WLGugDcPXbrpWl",
     id: "0180",
     name: "cable low seated row",
     target: "upper back",
@@ -2498,7 +2498,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oz2CrCEj9XE8_3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FNi79qtReKaCzh",
     id: "1634",
     name: "cable lying bicep curl",
     target: "biceps",
@@ -2506,7 +2506,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZfKWD-N8eMTL4G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GJA94D7g59r6cB",
     id: "0182",
     name: "cable lying close-grip curl",
     target: "biceps",
@@ -2514,7 +2514,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OIqdtpMo5gPba=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rjelgeoDIs3-eo",
     id: "0184",
     name: "cable lying extension pullover (with rope attachment)",
     target: "lats",
@@ -2522,7 +2522,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8Iyk4f6ob0fd=R",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2Vntbn2AYQUPX9",
     id: "0185",
     name: "cable lying fly",
     target: "pectorals",
@@ -2530,7 +2530,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=-p4H4eH3Y98ZQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fujxAcmvzKuPFB",
     id: "0186",
     name: "cable lying triceps extension v. 2",
     target: "triceps",
@@ -2538,7 +2538,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r_2MYEOKfr6Dqh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lsAG1G5JTxCLSr",
     id: "0188",
     name: "cable middle fly",
     target: "pectorals",
@@ -2546,7 +2546,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OqS1o0J+3E=3MV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kuUhgEukDDFC-H",
     id: "0189",
     name: "cable one arm bent over row",
     target: "upper back",
@@ -2554,7 +2554,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5zpW71VP2bWNTg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/a2ozJ7TI7KDr1f",
     id: "0190",
     name: "cable one arm curl",
     target: "biceps",
@@ -2562,7 +2562,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r-2QhhdcM_c4Yj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/q1SHg8cPLJZqnN",
     id: "1262",
     name: "cable one arm decline chest fly",
     target: "pectorals",
@@ -2570,7 +2570,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mux3TF_B4TBq+j",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AKQcBj9bBXiirG",
     id: "1263",
     name: "cable one arm fly on exercise ball",
     target: "pectorals",
@@ -2578,7 +2578,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xJC0mBAKY347p6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hx9XM8LYNsUMXa",
     id: "1264",
     name: "cable one arm incline fly on exercise ball",
     target: "pectorals",
@@ -2586,7 +2586,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/D-vbgcwJt0e3m9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NTqgOUzNeQ-sgi",
     id: "1265",
     name: "cable one arm incline press",
     target: "pectorals",
@@ -2594,7 +2594,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KQScyyAHAIBqau",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bS6M7N-8lc7zx9",
     id: "1266",
     name: "cable one arm incline press on exercise ball",
     target: "pectorals",
@@ -2602,7 +2602,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xEKyQuuuioxMy3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zr01OKZNm08S4-",
     id: "0191",
     name: "cable one arm lateral bent-over",
     target: "pectorals",
@@ -2610,7 +2610,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Id_HF9BxeNIfIY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cvBTyDXG82ozMS",
     id: "0192",
     name: "cable one arm lateral raise",
     target: "delts",
@@ -2618,7 +2618,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7sA6xrd0rpAyA+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HpaJcgnFJDOgRs",
     id: "1633",
     name: "cable one arm preacher curl",
     target: "biceps",
@@ -2626,7 +2626,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/U+CD8=z=6f7Bfj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/j05SKp9zqIo1uv",
     id: "1267",
     name: "cable one arm press on exercise ball",
     target: "pectorals",
@@ -2634,7 +2634,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qA_0U_=Gd+R0uQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zF7MVDzxiCP0N2",
     id: "3563",
     name: "cable one arm pulldown",
     target: "lats",
@@ -2642,7 +2642,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6M37w5HQzG54jA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GIbrte1dgUe6Jh",
     id: "1635",
     name: "cable one arm reverse preacher curl",
     target: "biceps",
@@ -2650,7 +2650,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/h5=vtxi2hf-MRw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CQahMZ4e7wn4-W",
     id: "0193",
     name: "cable one arm straight back high row (kneeling)",
     target: "upper back",
@@ -2658,7 +2658,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nXYwJd6ozf7wjR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TRUEu6gbR3k-n0",
     id: "1723",
     name: "cable one arm tricep pushdown",
     target: "triceps",
@@ -2666,7 +2666,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HX4wRLj92PM3Gt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/X7E993bZwmxDsW",
     id: "1636",
     name: "cable overhead curl",
     target: "biceps",
@@ -2674,7 +2674,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/d0-ufM+GEAxelL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w9AFWdLfWAohFR",
     id: "1637",
     name: "cable overhead curl on exercise ball",
     target: "biceps",
@@ -2682,7 +2682,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YoQa+WvfnUg9D7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hB-joa-8u4HE0A",
     id: "0194",
     name: "cable overhead triceps extension (rope attachment)",
     target: "triceps",
@@ -2690,7 +2690,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aYi5kc+qc-=Z-D",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VlgQaa4H1gKM2D",
     id: "1319",
     name: "cable palm rotational row",
     target: "upper back",
@@ -2698,7 +2698,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oWgCCz_wT0c0Fb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w28lFSgwjmlJti",
     id: "0195",
     name: "cable preacher curl",
     target: "biceps",
@@ -2706,7 +2706,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SPtNq=6E2u1EnX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iDxzrzvfvBunzs",
     id: "1268",
     name: "cable press on exercise ball",
     target: "pectorals",
@@ -2714,7 +2714,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WJaswqAf-SyFxS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/L501gauxZUcf6V",
     id: "0196",
     name: "cable pull through (with rope)",
     target: "glutes",
@@ -2722,7 +2722,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TU9omDyY05+HFq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cumihuHp-2gNJS",
     id: "0198",
     name: "cable pulldown",
     target: "lats",
@@ -2730,7 +2730,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mqfl+=rLilZNoo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WTa4NLDKCxqFQ3",
     id: "0197",
     name: "cable pulldown (pro lat bar)",
     target: "lats",
@@ -2738,7 +2738,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HbvkdQvXTgsBOz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u29XTkx9SpVjlQ",
     id: "1638",
     name: "cable pulldown bicep curl",
     target: "biceps",
@@ -2746,7 +2746,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7dbJeoaV+3D8i0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WjZ0swtRBCRQwq",
     id: "0201",
     name: "cable pushdown",
     target: "triceps",
@@ -2754,7 +2754,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/s5JvjX3zO6a1Xn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fQPJst3LBlnmt4",
     id: "0199",
     name: "cable pushdown (straight arm) v. 2",
     target: "lats",
@@ -2762,7 +2762,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WZkBk8CtW-Q_YA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/q1ACXCynyLCrKU",
     id: "0200",
     name: "cable pushdown (with rope attachment)",
     target: "triceps",
@@ -2770,7 +2770,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RkVHiu+I34mLSi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IBqW1Au2CvhPSe",
     id: "0202",
     name: "cable rear delt row (stirrups)",
     target: "delts",
@@ -2778,7 +2778,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/K28VAtjymY7s+p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/i1Uf1bF32bgKeD",
     id: "0203",
     name: "cable rear delt row (with rope)",
     target: "delts",
@@ -2786,7 +2786,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aOnXEVaee4iEXD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OQq765N7K5ybuM",
     id: "0204",
     name: "cable rear drive",
     target: "triceps",
@@ -2794,7 +2794,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2=lOqDn_gutjmm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GwllRGuibN0M8g",
     id: "0205",
     name: "cable rear pulldown",
     target: "lats",
@@ -2802,7 +2802,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IJ56ygpcSL85Bx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0reuba7MnuFlU0",
     id: "0873",
     name: "cable reverse crunch",
     target: "abs",
@@ -2810,7 +2810,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sR3eME9GO3GG7B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oAGyO0Aq1Vjf4U",
     id: "0206",
     name: "cable reverse curl",
     target: "biceps",
@@ -2818,7 +2818,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/t-g2RZHt52xenU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0Mu1fsv-fEkHU-",
     id: "2406",
     name: "cable reverse grip triceps pushdown (sz-bar) (with arm blaster)",
     target: "triceps",
@@ -2826,7 +2826,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o4k8P5Q4c9Gmea",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8dSjkxOdSzJfdr",
     id: "1413",
     name: "cable reverse one arm curl",
     target: "biceps",
@@ -2834,7 +2834,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-Vqd+EcJlc2Pyq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HBLuklTnk08emw",
     id: "0209",
     name: "cable reverse preacher curl",
     target: "biceps",
@@ -2842,7 +2842,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BUbaIZytMJN1-7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NqwaN4t7C3W4TJ",
     id: "0210",
     name: "cable reverse wrist curl",
     target: "forearms",
@@ -2850,7 +2850,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/96WRKFb48SO+VX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GMu5a0uGjcDVxF",
     id: "0207",
     name: "cable reverse-grip pushdown",
     target: "triceps",
@@ -2858,7 +2858,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q0NgDZ4JnYV+op",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IZTYXmVOeJZicR",
     id: "0208",
     name: "cable reverse-grip straight back seated high row",
     target: "upper back",
@@ -2866,7 +2866,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5TNi2ySq-8XFo1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/z1ZXeaFL8bOzk3",
     id: "1320",
     name: "cable rope crossover seated row",
     target: "upper back",
@@ -2874,7 +2874,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PaVP9iuwEzk7Gr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EqvmLmSvCVyC8X",
     id: "1321",
     name: "cable rope elevated seated row",
     target: "upper back",
@@ -2882,7 +2882,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g=Q_E1NJksGaXn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DyfGPMc0Tgxnro",
     id: "1322",
     name: "cable rope extension incline bench row",
     target: "upper back",
@@ -2890,7 +2890,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XJO5_74mXKFmhW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cCgDkbq9GjZ8hS",
     id: "1639",
     name: "cable rope hammer preacher curl",
     target: "biceps",
@@ -2898,7 +2898,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/shM2258KcvvAfJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/js6c-hoszaXaBV",
     id: "1724",
     name: "cable rope high pulley overhead tricep extension",
     target: "triceps",
@@ -2906,7 +2906,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0JxqRCC6fQ88PA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8YP4BKKbIXlUZb",
     id: "1725",
     name: "cable rope incline tricep extension",
     target: "triceps",
@@ -2914,7 +2914,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/K1m+ArQ5qhqv-N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QX4jK0JHWvplAE",
     id: "1726",
     name: "cable rope lying on floor tricep extension",
     target: "triceps",
@@ -2922,7 +2922,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DIoz=Iylr59hdX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2xrldvcNG3vJ-9",
     id: "1640",
     name: "cable rope one arm hammer preacher curl",
     target: "biceps",
@@ -2930,7 +2930,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/D_DZtZ6s0tgn=Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/s0g5oOR0WjjO0z",
     id: "1323",
     name: "cable rope seated row",
     target: "upper back",
@@ -2938,7 +2938,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zvlCybOB1Xj2Mg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/obOCQ8kCd6xEPb",
     id: "0211",
     name: "cable russian twists (on stability ball)",
     target: "abs",
@@ -2946,7 +2946,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FO4RWBRiU-0pO8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/O84jQ1jNEw52gj",
     id: "2144",
     name: "cable seated chest press",
     target: "pectorals",
@@ -2954,7 +2954,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XvbaijWGuD-w-a",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YWz-o-ON-MDSLY",
     id: "0212",
     name: "cable seated crunch",
     target: "abs",
@@ -2962,7 +2962,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_QdSJgFWJXYqnx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-rxTXUniFHJSav",
     id: "1641",
     name: "cable seated curl",
     target: "biceps",
@@ -2970,7 +2970,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CdRJRpZ0=MO4H=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ct27oxDrgZDoaw",
     id: "0213",
     name: "cable seated high row (v-bar)",
     target: "lats",
@@ -2978,7 +2978,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/G5XMskKxFT4ggf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bdvIDUtoccimGG",
     id: "0214",
     name: "cable seated one arm alternate row",
     target: "upper back",
@@ -2986,7 +2986,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/U+9c8FapjSMkm4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ksgo8xOb1x0UUr",
     id: "1642",
     name: "cable seated one arm concentration curl",
     target: "biceps",
@@ -2994,7 +2994,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/apFH4e+hEuwsRi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TFAwFX9wqYopiv",
     id: "1643",
     name: "cable seated overhead curl",
     target: "biceps",
@@ -3002,7 +3002,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DMvQ9VUB+iSPsa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8uFj0H5xB6SPQj",
     id: "0215",
     name: "cable seated rear lateral raise",
     target: "delts",
@@ -3010,7 +3010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/28kg8IdA8RU39L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bl2en9ERfbZzKH",
     id: "0861",
     name: "cable seated row",
     target: "upper back",
@@ -3018,7 +3018,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PGx=TBaZefRfa+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MvKRZZbkzpDXag",
     id: "0216",
     name: "cable seated shoulder internal rotation",
     target: "delts",
@@ -3026,7 +3026,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/G8BeStjMlP03vw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/E1dzuwdOyXGqVw",
     id: "2399",
     name: "cable seated twist",
     target: "abs",
@@ -3034,7 +3034,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qZj_qlVsjJc6-3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EdWEjFixHgkKvU",
     id: "0218",
     name: "cable seated wide-grip row",
     target: "upper back",
@@ -3042,7 +3042,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xlI+o6OEsfS57L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CRR2C8JW-E9qoM",
     id: "0219",
     name: "cable shoulder press",
     target: "delts",
@@ -3050,7 +3050,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iLmEh+evjJvb0b",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EBa5Petfc0r81n",
     id: "0220",
     name: "cable shrug",
     target: "traps",
@@ -3058,7 +3058,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OdtMQ1lxQdMhL4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/b45fx8-xZilp4k",
     id: "0222",
     name: "cable side bend",
     target: "abs",
@@ -3066,7 +3066,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/82_qB49c3dbPP_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/daL84bZemK37A7",
     id: "0221",
     name: "cable side bend crunch (bosu ball)",
     target: "abs",
@@ -3074,7 +3074,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gJ7VzPooms6stc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dKJpefQoUIg0BU",
     id: "0223",
     name: "cable side crunch",
     target: "abs",
@@ -3082,7 +3082,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q-zxRFgXERNwsk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7uAClkVIDSW3uu",
     id: "1717",
     name: "cable squat row (with rope attachment)",
     target: "lats",
@@ -3090,7 +3090,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LK2qsW-aG56yQf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1TXiHmDOuecBL7",
     id: "1644",
     name: "cable squatting curl",
     target: "biceps",
@@ -3098,7 +3098,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b3R8ngkQdDlmZE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CvFLJgyHkWb7VF",
     id: "0224",
     name: "cable standing back wrist curl",
     target: "forearms",
@@ -3106,7 +3106,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ay3IgcsCM028-N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KJqo9kgbVyNIyi",
     id: "1375",
     name: "cable standing calf raise",
     target: "calves",
@@ -3114,7 +3114,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CUmmZ9BEqSiT2u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/L1AxpDejNCYQDe",
     id: "0225",
     name: "cable standing cross-over high reverse fly",
     target: "delts",
@@ -3122,7 +3122,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0-z--ZC1K=baMa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4Y3psH-kLpCgyo",
     id: "0226",
     name: "cable standing crunch",
     target: "abs",
@@ -3130,7 +3130,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wvbWffXZ4zXVM=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/S3F8GKOaRabFVA",
     id: "0874",
     name: "cable standing crunch (with rope attachment)",
     target: "abs",
@@ -3138,7 +3138,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/h8nLsEX8haAenB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LPpVUXBaQ79e80",
     id: "0227",
     name: "cable standing fly",
     target: "pectorals",
@@ -3146,7 +3146,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WnXn4Smn6oWKF-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fgulSamSdEup4x",
     id: "0228",
     name: "cable standing hip extension",
     target: "glutes",
@@ -3154,7 +3154,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q_FLrYomkOvAsG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XuYGU-vZQsaPZU",
     id: "0229",
     name: "cable standing inner curl",
     target: "biceps",
@@ -3162,7 +3162,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gfHU7w5fEZI0+U",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-dBVvBliIMb34r",
     id: "0230",
     name: "cable standing lift",
     target: "abs",
@@ -3170,7 +3170,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rVI-3GiF3gr6ke",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CKYMMsE8TCObcD",
     id: "0231",
     name: "cable standing one arm triceps extension",
     target: "triceps",
@@ -3178,7 +3178,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/a4qz5=Bbs7kmDU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ajCroXxLbajo7o",
     id: "1376",
     name: "cable standing one leg calf raise",
     target: "calves",
@@ -3186,7 +3186,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zP3blocX0acc4m",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zJwFUDHeYMw2J3",
     id: "0232",
     name: "cable standing pulldown (with rope)",
     target: "biceps",
@@ -3194,7 +3194,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cJkGSESgSwEPxk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MQ5G2dxPVwqUak",
     id: "0233",
     name: "cable standing rear delt row (with rope)",
     target: "delts",
@@ -3202,7 +3202,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TxSzNG8J8evrfk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gToHZuqtYlVL8T",
     id: "1727",
     name: "cable standing reverse grip one arm overhead tricep extension",
     target: "triceps",
@@ -3210,7 +3210,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=nRMe_osZOTIcC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/I6Ib6Q4KRGwTK9",
     id: "0234",
     name: "cable standing row (v-bar)",
     target: "upper back",
@@ -3218,7 +3218,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/low0VYs0g23nQ9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7HHs2jaH8fpq77",
     id: "0235",
     name: "cable standing shoulder external rotation",
     target: "delts",
@@ -3226,7 +3226,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NZpvul_ahmmsdF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WU1r8UPbC0sDP-",
     id: "0236",
     name: "cable standing twist row (v-bar)",
     target: "upper back",
@@ -3234,7 +3234,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WkvjCuiv2HSmIb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/enhpwXGm1dCYOJ",
     id: "1269",
     name: "cable standing up straight crossovers",
     target: "pectorals",
@@ -3242,7 +3242,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PC5s3J-UBLGwW2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3JWEcY6gTcPFlx",
     id: "0238",
     name: "cable straight arm pulldown",
     target: "lats",
@@ -3250,7 +3250,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TtnFEeCdcjVJIB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ptgI6uUxfbLzOu",
     id: "0237",
     name: "cable straight arm pulldown (with rope)",
     target: "lats",
@@ -3258,7 +3258,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uFli+i3AFGEEs3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oLaTT7u9Ko5XKR",
     id: "0239",
     name: "cable straight back seated row",
     target: "upper back",
@@ -3266,7 +3266,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ovq2FmfQBhZOBO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BFsR5LjjtP-fSW",
     id: "0240",
     name: "cable supine reverse fly",
     target: "delts",
@@ -3274,7 +3274,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o=x0jVO+RlXs9T",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/08pOYbSu-ZdqrG",
     id: "2464",
     name: "cable thibaudeau kayak row",
     target: "lats",
@@ -3282,7 +3282,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/EjmC+zBhB_O1hC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YiCBWmy8Idqq2-",
     id: "0241",
     name: "cable triceps pushdown (v-bar)",
     target: "triceps",
@@ -3290,7 +3290,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iv+oi30Nga19il",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dgR4-fDhe2JG-H",
     id: "2405",
     name: "cable triceps pushdown (v-bar) (with arm blaster)",
     target: "triceps",
@@ -3298,7 +3298,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BD8=yEVpn5fRaI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/N3ZKptau6AZ9nB",
     id: "0242",
     name: "cable tuck reverse crunch",
     target: "abs",
@@ -3306,7 +3306,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ItFoE8ZBWi88ti",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nsWcoMnyWFFGe5",
     id: "0243",
     name: "cable twist",
     target: "abs",
@@ -3314,7 +3314,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Vdawt-XBRsJyW4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/349chB9ZMMPRnQ",
     id: "0862",
     name: "cable twist (up-down)",
     target: "abs",
@@ -3322,7 +3322,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Qq1cYj-AHQ+unR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6CjdVYmYC5pMKU",
     id: "0244",
     name: "cable twisting pull",
     target: "lats",
@@ -3330,7 +3330,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vaLk1+9iwmUyEX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Xw-wLa6Exr-hSb",
     id: "1645",
     name: "cable two arm curl on incline bench",
     target: "biceps",
@@ -3338,7 +3338,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TcyWtOYhdk5zi5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4Z7sxmgC0rx8I1",
     id: "1728",
     name: "cable two arm tricep kickback",
     target: "triceps",
@@ -3346,7 +3346,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xDuvnSR5qtf_2=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Uy7OoU7ryoC1HP",
     id: "0245",
     name: "cable underhand pulldown",
     target: "lats",
@@ -3354,7 +3354,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gkwSzn4qz=iI4T",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4H9r1jvJA8Psrz",
     id: "1270",
     name: "cable upper chest crossovers",
     target: "pectorals",
@@ -3362,7 +3362,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Mq7aSO9GtRW18V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nAHWWugWBZ9Wmv",
     id: "1324",
     name: "cable upper row",
     target: "upper back",
@@ -3370,7 +3370,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0p1=7YueT=kxo1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pem3DvAIFjvgUD",
     id: "0246",
     name: "cable upright row",
     target: "delts",
@@ -3378,7 +3378,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-MR50UFSa_I4Ao",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3ykv70-a1FLEm4",
     id: "1325",
     name: "cable wide grip rear pulldown behind neck",
     target: "lats",
@@ -3386,7 +3386,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gNRegnyhjsJVCC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BTpJM9DWw6Qldz",
     id: "0247",
     name: "cable wrist curl",
     target: "forearms",
@@ -3394,7 +3394,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/G1IJMFT8+=LP-I",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/D6dJYE68VFnkXX",
     id: "1407",
     name: "calf push stretch with hands against wall",
     target: "calves",
@@ -3402,7 +3402,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+s+FRvKsZ=Ieuf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/d7r0WBnzvVwdhS",
     id: "1377",
     name: "calf stretch with hands against wall",
     target: "calves",
@@ -3410,7 +3410,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TRmscZVOgkfRRs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h1tM7FT0K7e08Z",
     id: "1378",
     name: "calf stretch with rope",
     target: "calves",
@@ -3418,7 +3418,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UbS-cO1N1gb0y3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jZjUQGOk0tBoqH",
     id: "0248",
     name: "cambered bar lying row",
     target: "upper back",
@@ -3426,7 +3426,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oV0viPAsCmv=mi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/D70B4Bu69ZKLYo",
     id: "2963",
     name: "captains chair straight leg raise",
     target: "abs",
@@ -3434,7 +3434,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NJYxOE-6QL00p2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZqJVmBUT1zc1C4",
     id: "1548",
     name: "chair leg extended stretch",
     target: "quads",
@@ -3442,7 +3442,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P5XiKyFEXXWeu_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GMcbagImeP9NFO",
     id: "1271",
     name: "chest and front of shoulder stretch",
     target: "pectorals",
@@ -3450,7 +3450,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/I=VTYNWc3uBfU_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7QzBdGt0b0YQTN",
     id: "0251",
     name: "chest dip",
     target: "pectorals",
@@ -3458,7 +3458,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zDlH4Nm_=9FDcG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wwqempMljDWEun",
     id: "1430",
     name: "chest dip (on dip-pull-up cage)",
     target: "pectorals",
@@ -3466,7 +3466,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_o8LhIqT-Ch_R0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1eWdcEx2Haag9h",
     id: "2462",
     name: "chest dip on straight bar",
     target: "pectorals",
@@ -3474,7 +3474,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NmFE7ZrS9KYUpK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zyWtgXe8VbhkWZ",
     id: "1272",
     name: "chest stretch with exercise ball",
     target: "pectorals",
@@ -3482,7 +3482,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p61R=DqQXvccbv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9C4ceDq4VTQEcy",
     id: "3216",
     name: "chest tap push-up (male)",
     target: "pectorals",
@@ -3490,7 +3490,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iotrGMyOONwzaD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Xf4yqI8PZNPwU1",
     id: "1326",
     name: "chin-up",
     target: "lats",
@@ -3498,7 +3498,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g-J3u1yxJeWQpP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/g0OKXwMa91YXv7",
     id: "0253",
     name: "chin-ups (narrow parallel grip)",
     target: "upper back",
@@ -3506,7 +3506,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Z32iHDX5V3Gn0K",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ftN6TsNk6HI-kl",
     id: "0257",
     name: "circles knee stretch",
     target: "calves",
@@ -3514,7 +3514,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gYrOzO21c=joXh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eW2Cc8CgXHXsuI",
     id: "1273",
     name: "clap push up",
     target: "pectorals",
@@ -3522,7 +3522,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/f0ER4Ey8ekgv3g",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dzjTz4hn-56MU5",
     id: "0258",
     name: "clock push-up",
     target: "pectorals",
@@ -3530,7 +3530,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ndXK6LrgtLJfMR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/T6A4oXCpho11-O",
     id: "1327",
     name: "close grip chin-up",
     target: "lats",
@@ -3538,7 +3538,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7q9+g0L87=N1V9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9NVNr-3JNPvViJ",
     id: "0259",
     name: "close-grip push-up",
     target: "triceps",
@@ -3546,7 +3546,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QEoUAkf8r=L3mA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0nShrjgVgvPnRK",
     id: "2398",
     name: "close-grip push-up (on knees)",
     target: "triceps",
@@ -3554,7 +3554,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ah1mtvZLvBfBhc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TQEn-3f09qE5i8",
     id: "0260",
     name: "cocoons",
     target: "abs",
@@ -3562,7 +3562,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_niJeQp376=atn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/c6Y6MQpFigtNLg",
     id: "1468",
     name: "crab twist toe touch",
     target: "abs",
@@ -3570,7 +3570,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tGNlv2QRTZLnKJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nYecC9bCul71gn",
     id: "0262",
     name: "cross body crunch",
     target: "abs",
@@ -3578,7 +3578,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WagOh2IZ7p8JRD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KqympWi1Hr4R67",
     id: "0267",
     name: "crunch (hands overhead)",
     target: "abs",
@@ -3586,7 +3586,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w1Jg4tX8yzI+WM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NbaEcbPS2ECDPs",
     id: "0271",
     name: "crunch (on stability ball)",
     target: "abs",
@@ -3594,7 +3594,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/efJVn=6YR55Nd0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YgWzRyW5Bde9FK",
     id: "0272",
     name: "crunch (on stability ball, arms straight)",
     target: "abs",
@@ -3602,7 +3602,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mxkTrXhBqINCs5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tnf-tXlTS3miEK",
     id: "0274",
     name: "crunch floor",
     target: "abs",
@@ -3610,7 +3610,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/77NLv_K7PR1nww",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Tp8L3H6nxTZz3i",
     id: "3016",
     name: "curl-up",
     target: "abs",
@@ -3618,7 +3618,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9t9T_wx7flNi3R",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/X03Dw5wXpMJseg",
     id: "3769",
     name: "curtsey squat",
     target: "glutes",
@@ -3626,7 +3626,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Gj7__o_ZNKpvm5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XNXMPBFUj-nJWt",
     id: "2331",
     name: "cycle cross trainer",
     target: "cardiovascular system",
@@ -3634,7 +3634,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0S6gFzXe78fq3U",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XxjOedIG1Vj4KG",
     id: "0276",
     name: "dead bug",
     target: "abs",
@@ -3642,7 +3642,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/v_90mZxbrkZKVR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pj5umP95uN9HeK",
     id: "0277",
     name: "decline crunch",
     target: "abs",
@@ -3650,7 +3650,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YSju5+AaNSYy5B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zH4P1Ug8oR44Sa",
     id: "0279",
     name: "decline push-up",
     target: "pectorals",
@@ -3658,7 +3658,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aLvjqTZABvueRX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MnyI2cRRLZzU4u",
     id: "0282",
     name: "decline sit-up",
     target: "abs",
@@ -3666,7 +3666,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TqsDOAmM9a2d-O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BQiNlaIA6apPMc",
     id: "1274",
     name: "deep push up",
     target: "pectorals",
@@ -3674,7 +3674,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wxY=G3a1hC0e23",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cF4mH5ylUTGNlh",
     id: "0283",
     name: "diamond push-up",
     target: "triceps",
@@ -3682,7 +3682,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ksA4VsC4813zMs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kPtPBnU-Bai6qY",
     id: "0284",
     name: "donkey calf raise",
     target: "calves",
@@ -3690,7 +3690,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0PJHVDpP+EWhSt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e6zKL8fS8KE0Q9",
     id: "1275",
     name: "drop push up",
     target: "pectorals",
@@ -3698,7 +3698,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/t893WOvJ-J2ve5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2HtqW8ABGADTkB",
     id: "0285",
     name: "dumbbell alternate biceps curl",
     target: "biceps",
@@ -3706,7 +3706,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ssYZ=e+pMX+f2e",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/m0KPOAwow1tbl-",
     id: "2403",
     name: "dumbbell alternate biceps curl (with arm blaster)",
     target: "biceps",
@@ -3714,7 +3714,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+6JvpAav9_oMBO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/T1Oxz6lAukl4oQ",
     id: "1646",
     name: "dumbbell alternate hammer preacher curl",
     target: "biceps",
@@ -3722,7 +3722,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CKw+Ri1arb8gR9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CZNa2oTNCFKTUW",
     id: "1647",
     name: "dumbbell alternate preacher curl",
     target: "biceps",
@@ -3730,7 +3730,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yH7ytMhU-=MSIb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OT4L5zuZYuo3Kl",
     id: "1648",
     name: "dumbbell alternate seated hammer curl",
     target: "biceps",
@@ -3738,7 +3738,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O7s1R4S7vgZR92",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zU0-7BWugNoPI5",
     id: "0286",
     name: "dumbbell alternate side press",
     target: "delts",
@@ -3746,7 +3746,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hOQ_+s==6pA9Yt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5cmgmtjuGt3U0l",
     id: "1649",
     name: "dumbbell alternating bicep curl with leg raised on exercise ball",
     target: "biceps",
@@ -3754,7 +3754,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zArn0phPpaSFYW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wWU-Di8sJMr9uh",
     id: "1650",
     name: "dumbbell alternating seated bicep curl on exercise ball",
     target: "biceps",
@@ -3762,7 +3762,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SMVfcUAWR4X+TV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WheFBKcjB2XcfI",
     id: "2137",
     name: "dumbbell arnold press",
     target: "delts",
@@ -3770,7 +3770,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9stp7hXGl6H0QW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/H1xYeqmf7qoVUA",
     id: "0287",
     name: "dumbbell arnold press v. 2",
     target: "delts",
@@ -3778,7 +3778,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uff6+ljkmuL8up",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/r48iTvSdEBcztm",
     id: "0288",
     name: "dumbbell around pullover",
     target: "pectorals",
@@ -3786,7 +3786,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MQz_beFIR9-fF5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BAXI3jx4HjWKDc",
     id: "0289",
     name: "dumbbell bench press",
     target: "pectorals",
@@ -3794,7 +3794,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yLAhY1L8DABo1F",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-mMZo-ewTCWK3F",
     id: "0290",
     name: "dumbbell bench seated press",
     target: "delts",
@@ -3802,7 +3802,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aybnzu_cCU+Ws9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7ndqQFSGMkyVug",
     id: "0291",
     name: "dumbbell bench squat",
     target: "glutes",
@@ -3810,7 +3810,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AZZCJBJ9f=yrmT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/68dj9FxUSn6aB6",
     id: "0293",
     name: "dumbbell bent over row",
     target: "upper back",
@@ -3818,7 +3818,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q8j1DOi5PDf3PZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nCnCvogx4DnI1i",
     id: "1651",
     name: "dumbbell bicep curl lunge with bowling motion",
     target: "biceps",
@@ -3826,7 +3826,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/weFBSycxFksFyB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IP6p4hRLWjNTt4",
     id: "1652",
     name: "dumbbell bicep curl on exercise ball with leg raised",
     target: "biceps",
@@ -3834,7 +3834,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cxXxQDzHFY7bbH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ce5kr2HjjUzZHL",
     id: "1653",
     name: "dumbbell bicep curl with stork stance",
     target: "biceps",
@@ -3842,7 +3842,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wK9R+SP5ayeo=U",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sR8UJfWpxfowli",
     id: "0294",
     name: "dumbbell biceps curl",
     target: "biceps",
@@ -3850,7 +3850,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rgSdn11UwBpSP4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6SBSgv994TPjeT",
     id: "2401",
     name: "dumbbell biceps curl (with arm blaster)",
     target: "biceps",
@@ -3858,7 +3858,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dHdANqsF6i9+qI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JxYrpocdTzWE-0",
     id: "1654",
     name: "dumbbell biceps curl reverse",
     target: "biceps",
@@ -3866,7 +3866,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RrZRx6Fos0D9Uz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lNYSqEdiyGnFIV",
     id: "1655",
     name: "dumbbell biceps curl squat",
     target: "biceps",
@@ -3874,7 +3874,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pchW8iAKjHB9=n",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gI5gzk19MYSwWc",
     id: "1656",
     name: "dumbbell biceps curl v sit on bosu ball",
     target: "biceps",
@@ -3882,7 +3882,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CEzMLHrQEhTOdK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cotyYv5h7uaHA5",
     id: "1201",
     name: "dumbbell burpee",
     target: "cardiovascular system",
@@ -3890,7 +3890,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ERX9DnR18gtk5z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TpJ2qIfSSuIKLK",
     id: "0295",
     name: "dumbbell clean",
     target: "glutes",
@@ -3898,7 +3898,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cAlvps=BHUCRiS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aAejZdjtqOhYir",
     id: "1731",
     name: "dumbbell close grip press",
     target: "triceps",
@@ -3906,7 +3906,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tQJE=UgCzwXtqp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/K5yQR7fUflZvMo",
     id: "0296",
     name: "dumbbell close-grip press",
     target: "triceps",
@@ -3914,7 +3914,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F8w8qtTpB7_VS3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iTyCAmNhG0Ofo1",
     id: "0297",
     name: "dumbbell concentration curl",
     target: "biceps",
@@ -3922,7 +3922,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VfI-Pmm8SKRjdP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GUXeeBsmjCC73i",
     id: "3635",
     name: "dumbbell contralateral forward lunge",
     target: "glutes",
@@ -3930,7 +3930,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/k=_oj_mJHq1yf1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bT8SU3TbZAXRVg",
     id: "0298",
     name: "dumbbell cross body hammer curl",
     target: "biceps",
@@ -3938,7 +3938,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kXeUclsVHGn_p_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/npVuQbSZU7c63V",
     id: "1657",
     name: "dumbbell cross body hammer curl v. 2",
     target: "biceps",
@@ -3946,7 +3946,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YHuDZOZeJeQcQc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XrJv7z2u03gqRR",
     id: "0299",
     name: "dumbbell cuban press",
     target: "delts",
@@ -3954,7 +3954,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dhpXWo8YeAIjMK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bz1TVxhJOzcpEO",
     id: "2136",
     name: "dumbbell cuban press v. 2",
     target: "delts",
@@ -3962,7 +3962,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/e0oo1KaxlD_qu6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AVqKPdNpEqmkel",
     id: "0300",
     name: "dumbbell deadlift",
     target: "glutes",
@@ -3970,7 +3970,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M7wKXk3bO+_CBI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/88I7OLGlE3UhqD",
     id: "0301",
     name: "dumbbell decline bench press",
     target: "pectorals",
@@ -3978,7 +3978,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ASFnpAyao0AQBG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yRGct7oNINedUX",
     id: "0302",
     name: "dumbbell decline fly",
     target: "pectorals",
@@ -3986,7 +3986,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NL61d_c-ZBnM1H",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5ysU-KNuNE1gOD",
     id: "0303",
     name: "dumbbell decline hammer press",
     target: "pectorals",
@@ -3994,7 +3994,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-anPlQK+TGkSaG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/H2Z64TVa2wn-G6",
     id: "1276",
     name: "dumbbell decline one arm fly",
     target: "pectorals",
@@ -4002,7 +4002,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rq8dyy-7e9Tw7_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/whiL3aWddpUGeb",
     id: "1617",
     name: "dumbbell decline one arm hammer press",
     target: "triceps",
@@ -4010,7 +4010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lTrZo88TQhN98S",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/stK2PVgH7UkUuE",
     id: "0305",
     name: "dumbbell decline shrug",
     target: "traps",
@@ -4018,7 +4018,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mBIBHdWfsU-IpE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/chkKpOLSqx4G27",
     id: "0304",
     name: "dumbbell decline shrug v. 2",
     target: "traps",
@@ -4026,7 +4026,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TwhwP7Xv=9lQyU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3bK9DDcu7nv-di",
     id: "0306",
     name: "dumbbell decline triceps extension",
     target: "triceps",
@@ -4034,7 +4034,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wCPfoJkBKTXXyA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1mZhT-pXYuMiVZ",
     id: "0307",
     name: "dumbbell decline twist fly",
     target: "pectorals",
@@ -4042,7 +4042,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/42NoH1L5HVbRrJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/czr47enR7VN0lt",
     id: "1437",
     name: "dumbbell finger curls",
     target: "forearms",
@@ -4050,7 +4050,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xCyl-qDUXf_Hwj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9feXHNqas7VCQ1",
     id: "0308",
     name: "dumbbell fly",
     target: "pectorals",
@@ -4058,7 +4058,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hdf2kf7=9XlFNk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HEC3Vryj5jiNig",
     id: "1277",
     name: "dumbbell fly on exercise ball",
     target: "pectorals",
@@ -4066,7 +4066,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cgi6VPGPG5BY3q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tuAH4eKB16EGLD",
     id: "1732",
     name: "dumbbell forward lunge triceps extension",
     target: "triceps",
@@ -4074,7 +4074,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CyKyaUad7-IVx6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/osBX9Moki2770o",
     id: "0310",
     name: "dumbbell front raise",
     target: "delts",
@@ -4082,7 +4082,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Bcb-DdVQhkdCC1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oa3qrFCPxg3Hhp",
     id: "0309",
     name: "dumbbell front raise v. 2",
     target: "delts",
@@ -4090,7 +4090,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nX1yVrMU2D8WwI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8rtn-Ouaa44JCu",
     id: "0311",
     name: "dumbbell full can lateral raise",
     target: "delts",
@@ -4098,7 +4098,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Jc48f9tPxaIKhR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HzKTg3CdoHsIur",
     id: "1760",
     name: "dumbbell goblet squat",
     target: "quads",
@@ -4106,7 +4106,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q7AYaQG-aas7Ds",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xDTNQWmP-ThFHG",
     id: "0313",
     name: "dumbbell hammer curl",
     target: "biceps",
@@ -4114,7 +4114,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VDuil+4jmD3yVU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aBq8PRrFmhdu4r",
     id: "1659",
     name: "dumbbell hammer curl on exercise ball",
     target: "biceps",
@@ -4122,7 +4122,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/j9rjNj_rJq-z5B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Sg5ZFDU5CiSjTH",
     id: "0312",
     name: "dumbbell hammer curl v. 2",
     target: "biceps",
@@ -4130,7 +4130,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VqbVXF9nzybYaz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qoOJQwK2ji9973",
     id: "2402",
     name: "dumbbell hammer curls (with arm blaster)",
     target: "biceps",
@@ -4138,7 +4138,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FMjklaiz7qrQ1h",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1oPgFisiZPwqeX",
     id: "1664",
     name: "dumbbell high curl",
     target: "biceps",
@@ -4146,7 +4146,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uF_MtqpJgpQNKp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HeJv1Ss3gO6Brf",
     id: "3545",
     name: "dumbbell incline alternate press",
     target: "pectorals",
@@ -4154,7 +4154,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2ZnBLAWZ_M8dgT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1wzAi4lh8UISj8",
     id: "0314",
     name: "dumbbell incline bench press",
     target: "pectorals",
@@ -4162,7 +4162,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/irYapruXARytAT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Oe3mjsVN4af45C",
     id: "0315",
     name: "dumbbell incline biceps curl",
     target: "biceps",
@@ -4170,7 +4170,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WnO1u-urSCnceq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fyezgmcbratSm8",
     id: "0316",
     name: "dumbbell incline breeding",
     target: "pectorals",
@@ -4178,7 +4178,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Wue3+R3tiiYnHv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SxHvFW3VK54E--",
     id: "0318",
     name: "dumbbell incline curl",
     target: "biceps",
@@ -4186,7 +4186,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2NtNm0PTxjWg0C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6nUrkujJpqmaVx",
     id: "0317",
     name: "dumbbell incline curl v. 2",
     target: "biceps",
@@ -4194,7 +4194,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1je0xYRnmF8QbY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e-7artluV3brzx",
     id: "0319",
     name: "dumbbell incline fly",
     target: "pectorals",
@@ -4202,7 +4202,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JsqHlH5pwTY1m0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Rv98heTFGk4ppr",
     id: "1278",
     name: "dumbbell incline fly on exercise ball",
     target: "pectorals",
@@ -4210,7 +4210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/B4-AGKdz0d28D8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-u5iNavmx8aUgJ",
     id: "0320",
     name: "dumbbell incline hammer curl",
     target: "biceps",
@@ -4218,7 +4218,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/itLbV_PkJ2DUE7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/P5dONS1S4jegJh",
     id: "0321",
     name: "dumbbell incline hammer press",
     target: "pectorals",
@@ -4226,7 +4226,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/R_W2TXbo38UNbQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/35FI9zJpspM0Fg",
     id: "1618",
     name: "dumbbell incline hammer press on exercise ball",
     target: "triceps",
@@ -4234,7 +4234,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nHi2T7+HjwknjD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mqOgchev5PMhMn",
     id: "0322",
     name: "dumbbell incline inner biceps curl",
     target: "biceps",
@@ -4242,7 +4242,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gwaaktsgIcYk6W",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7Hhpe4HeUNSr0K",
     id: "1279",
     name: "dumbbell incline one arm fly",
     target: "pectorals",
@@ -4250,7 +4250,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VrOYNUtvTz8zQi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/f4KxeZ49XXetqi",
     id: "1280",
     name: "dumbbell incline one arm fly on exercise ball",
     target: "pectorals",
@@ -4258,7 +4258,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/u3f64fbc-Eul7U",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SVJ1L0pPU1rRLN",
     id: "1619",
     name: "dumbbell incline one arm hammer press",
     target: "triceps",
@@ -4266,7 +4266,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HnIgDEic6OqF3p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/D2yTqMSIMXAjmG",
     id: "1620",
     name: "dumbbell incline one arm hammer press on exercise ball",
     target: "triceps",
@@ -4274,7 +4274,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P_=sE6GvfDzOU4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-D0xg2oL5ps0o7",
     id: "0323",
     name: "dumbbell incline one arm lateral raise",
     target: "delts",
@@ -4282,7 +4282,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FbqvW9vONKL5hP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4NgF526IGsCJHr",
     id: "1281",
     name: "dumbbell incline one arm press",
     target: "pectorals",
@@ -4290,7 +4290,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/k1KmXZXBDQbQau",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/44QtENuFx49vb3",
     id: "1282",
     name: "dumbbell incline one arm press on exercise ball",
     target: "pectorals",
@@ -4298,7 +4298,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8L=_PSRBq1T0cU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/82RoVx8SAjRwge",
     id: "0324",
     name: "dumbbell incline palm-in press",
     target: "pectorals",
@@ -4306,7 +4306,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tYj+=HMP=vThEo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7z0SZ6NGdgmLiM",
     id: "1283",
     name: "dumbbell incline press on exercise ball",
     target: "pectorals",
@@ -4314,7 +4314,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YKqt97PCri3PMQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/om4QtVCpBVRgVF",
     id: "0325",
     name: "dumbbell incline raise",
     target: "delts",
@@ -4322,7 +4322,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LbORkhi893VM_X",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SxuU58SZdA9jF6",
     id: "0326",
     name: "dumbbell incline rear lateral raise",
     target: "delts",
@@ -4330,7 +4330,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/R8C5TmBblncyXW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fyVdttAJSpTtrZ",
     id: "0327",
     name: "dumbbell incline row",
     target: "upper back",
@@ -4338,7 +4338,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8wFpJfSaL7D_Vo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2gis89HTxmalif",
     id: "0328",
     name: "dumbbell incline shoulder raise",
     target: "serratus anterior",
@@ -4346,7 +4346,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DUzNGpl7_R8z+4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SsZ6k11DeYIcab",
     id: "0329",
     name: "dumbbell incline shrug",
     target: "traps",
@@ -4354,7 +4354,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3v6MwmTztk4caQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VnxG5xjmk4syZ4",
     id: "3542",
     name: "dumbbell incline t-raise",
     target: "delts",
@@ -4362,7 +4362,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ob=2FXLds_964I",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aKKzMCjyjc-84b",
     id: "0330",
     name: "dumbbell incline triceps extension",
     target: "triceps",
@@ -4370,7 +4370,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/73UoAMn7M6SzYu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TldjkkeX7LjfOp",
     id: "0331",
     name: "dumbbell incline twisted flyes",
     target: "pectorals",
@@ -4378,7 +4378,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hP4ET3i+42hTA+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3c8zL1xC8sHF4f",
     id: "1733",
     name: "dumbbell incline two arm extension",
     target: "triceps",
@@ -4386,7 +4386,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6fAswrhUg87+qz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/20voSx1wASoDAO",
     id: "3541",
     name: "dumbbell incline y-raise",
     target: "upper back",
@@ -4394,7 +4394,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yBIuuZUzA-xix2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QW9Sew37U5ap5I",
     id: "0332",
     name: "dumbbell iron cross",
     target: "delts",
@@ -4402,7 +4402,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LS-NZVswx4xNs5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tsEYiGRIm5Sx6n",
     id: "0333",
     name: "dumbbell kickback",
     target: "triceps",
@@ -4410,7 +4410,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AbQnXImnn=Z+z7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bxp-lk41JkANuC",
     id: "1734",
     name: "dumbbell kickbacks on exercise ball",
     target: "triceps",
@@ -4418,7 +4418,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wBwBxmtnNg7eTd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LRCWVW9iAkc35D",
     id: "1660",
     name: "dumbbell kneeling bicep curl exercise ball",
     target: "biceps",
@@ -4426,7 +4426,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Cm7RejPW+k0XCY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bxrDBWwofQydKC",
     id: "0334",
     name: "dumbbell lateral raise",
     target: "delts",
@@ -4434,7 +4434,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FLrNtYP=51PnpY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zwGsU1eBVj94uI",
     id: "0335",
     name: "dumbbell lateral to front raise",
     target: "delts",
@@ -4442,7 +4442,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BnYKWC-PewQ2tU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JBxmDnq5CPJeiz",
     id: "0336",
     name: "dumbbell lunge",
     target: "glutes",
@@ -4450,7 +4450,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NSmQ3sAiUQcLsu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OS13hZ5VeSF4DJ",
     id: "1658",
     name: "dumbbell lunge with bicep curl",
     target: "biceps",
@@ -4458,7 +4458,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oY_EH6jGepscC=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cz6l5hqK8TkKEF",
     id: "0337",
     name: "dumbbell lying  extension (across face)",
     target: "triceps",
@@ -4466,7 +4466,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VSUkjGuiAGauu0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CDN2N5raBMWEbg",
     id: "1729",
     name: "dumbbell lying alternate extension",
     target: "triceps",
@@ -4474,7 +4474,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/T0KTkw1L5pYC8e",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dd-XrJDi4qtqap",
     id: "0338",
     name: "dumbbell lying elbow press",
     target: "triceps",
@@ -4482,7 +4482,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2_2HJ59aUn=sTp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/o63-V5T5ChPH6L",
     id: "0863",
     name: "dumbbell lying external shoulder rotation",
     target: "delts",
@@ -4490,7 +4490,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VLqj9uGYBLS=s5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GfzUtvhCEctZ9v",
     id: "0339",
     name: "dumbbell lying femoral",
     target: "hamstrings",
@@ -4498,7 +4498,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pQiLTsucb=HeIH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u1acqBZxqCGx1I",
     id: "0340",
     name: "dumbbell lying hammer press",
     target: "pectorals",
@@ -4506,7 +4506,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PHNOlERprA=CuY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RwHYmbS0M2LzWV",
     id: "2470",
     name: "dumbbell lying on floor rear delt raise",
     target: "delts",
@@ -4514,7 +4514,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Uc=KJtLdO7gPCk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u3Wt0VVoEdmy1E",
     id: "0341",
     name: "dumbbell lying one arm deltoid rear",
     target: "delts",
@@ -4522,7 +4522,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0vC1gDsPEh5ASZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MIQzn0YQYrsiQl",
     id: "0343",
     name: "dumbbell lying one arm press",
     target: "pectorals",
@@ -4530,7 +4530,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5b3weL5SyNAW+k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6qHgt67bLIf3-6",
     id: "0342",
     name: "dumbbell lying one arm press v. 2",
     target: "pectorals",
@@ -4538,7 +4538,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jmnoQB5kWvJ27B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Mj6miq9Rboc95g",
     id: "0344",
     name: "dumbbell lying one arm pronated triceps extension",
     target: "triceps",
@@ -4546,7 +4546,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9nXSvriHhnw4rZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HpLaOzdPqn8mMv",
     id: "0345",
     name: "dumbbell lying one arm rear lateral raise",
     target: "delts",
@@ -4554,7 +4554,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=1sRnmoyOmEWTS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lfRJ18qSRpxWmV",
     id: "0346",
     name: "dumbbell lying one arm supinated triceps extension",
     target: "triceps",
@@ -4562,7 +4562,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8R1IWu5cqjGaAf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qCzRzIA2FIpgKs",
     id: "0347",
     name: "dumbbell lying pronation",
     target: "forearms",
@@ -4570,7 +4570,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/28YYS-JxFyx9W5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Q9rsZ8sFFqX9Y4",
     id: "2705",
     name: "dumbbell lying pronation on floor",
     target: "forearms",
@@ -4578,7 +4578,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jkyPbLEUXM2lv7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nq88SRTgyrPQ1h",
     id: "1284",
     name: "dumbbell lying pullover on exercise ball",
     target: "pectorals",
@@ -4586,7 +4586,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+R8MUXFr4BTNIU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lCabAzjGUYjNo8",
     id: "1328",
     name: "dumbbell lying rear delt row",
     target: "upper back",
@@ -4594,7 +4594,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0p993cRwBv2kzL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fh9SkeYxdYi5rM",
     id: "0348",
     name: "dumbbell lying rear lateral raise",
     target: "delts",
@@ -4602,7 +4602,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NVGZ9yS9YmiUIT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xtyb-ewlryTz49",
     id: "1735",
     name: "dumbbell lying single extension",
     target: "triceps",
@@ -4610,7 +4610,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wRS0K-J25jlC29",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/c5xrdIjHTH3u7O",
     id: "0349",
     name: "dumbbell lying supination",
     target: "forearms",
@@ -4618,7 +4618,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/67pMubajhSYRvo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/43JI9E09c5c288",
     id: "2706",
     name: "dumbbell lying supination on floor",
     target: "forearms",
@@ -4626,7 +4626,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NMS12MWJJJr=Ns",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vXNUmQek9AjwiJ",
     id: "1661",
     name: "dumbbell lying supine biceps curl",
     target: "biceps",
@@ -4634,7 +4634,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tgvB0rg4wWspXA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qsW4ogx7SjthlT",
     id: "0350",
     name: "dumbbell lying supine curl",
     target: "biceps",
@@ -4642,7 +4642,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/T84UWQY-3ZjDO4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hjp6KM2D2BEoSS",
     id: "0351",
     name: "dumbbell lying triceps extension",
     target: "triceps",
@@ -4650,7 +4650,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_+r0PRfkqtl-Gh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qCDCaHE3Llf4Li",
     id: "1662",
     name: "dumbbell lying wide curl",
     target: "biceps",
@@ -4658,7 +4658,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_iC31APWrJJfp5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YsNkQp2TmRF8zG",
     id: "0352",
     name: "dumbbell neutral grip bench press",
     target: "triceps",
@@ -4666,7 +4666,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PbUHbJzOCvlEH2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WammbDeR4mgEWz",
     id: "1285",
     name: "dumbbell one arm bench fly",
     target: "pectorals",
@@ -4674,7 +4674,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sJcMIab0I74h9k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/H4HqpHyttjyWCB",
     id: "0292",
     name: "dumbbell one arm bent-over row",
     target: "upper back",
@@ -4682,7 +4682,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NxYOx8XeDI0N5Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CO2reWPO6oNsV4",
     id: "1286",
     name: "dumbbell one arm chest fly on exercise ball",
     target: "pectorals",
@@ -4690,7 +4690,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3lLqcbK2unS7Fq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aNm6KXWEdwebZg",
     id: "0353",
     name: "dumbbell one arm concetration curl (on stability ball)",
     target: "biceps",
@@ -4698,7 +4698,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3hMP+7i6vRdwS6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/22-Ibk0KqhCn0F",
     id: "1287",
     name: "dumbbell one arm decline chest press",
     target: "pectorals",
@@ -4706,7 +4706,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XTbbmgP1RPG_mq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Rn0qPVxupQFd1C",
     id: "1288",
     name: "dumbbell one arm fly on exercise ball",
     target: "pectorals",
@@ -4714,7 +4714,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RO2Z=6wNmqHLur",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LUVK2GDryOM6na",
     id: "1736",
     name: "dumbbell one arm french press on exercise ball",
     target: "triceps",
@@ -4722,7 +4722,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Iazyh7omtkJWYZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Z0TiS16aF4Lm4Z",
     id: "1663",
     name: "dumbbell one arm hammer preacher curl",
     target: "biceps",
@@ -4730,7 +4730,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_b9DZ2G_Sz4BEI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yC7OmB-y9Hf6-X",
     id: "1621",
     name: "dumbbell one arm hammer press on exercise ball",
     target: "triceps",
@@ -4738,7 +4738,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YT2sSK+utzI+qk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hwgPZe-BHOj8RG",
     id: "1289",
     name: "dumbbell one arm incline chest press",
     target: "pectorals",
@@ -4746,7 +4746,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F1rTvnLx2yWE-N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eZpUutL9GZbuJ4",
     id: "0354",
     name: "dumbbell one arm kickback",
     target: "triceps",
@@ -4754,7 +4754,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/eysEzyfsW3fZ4F",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/au2J4y09k6Uy1U",
     id: "0355",
     name: "dumbbell one arm lateral raise",
     target: "delts",
@@ -4762,7 +4762,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2emb6hdN3cZWdY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uLEdSbPOzi2mAX",
     id: "0356",
     name: "dumbbell one arm lateral raise with support",
     target: "delts",
@@ -4770,7 +4770,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aVILgNDEI=t13G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cxAKqH7bUX0COE",
     id: "1290",
     name: "dumbbell one arm press on exercise ball",
     target: "pectorals",
@@ -4778,7 +4778,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YA6Qj2ccrYBarc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZxvsEaHdAp9oqP",
     id: "1665",
     name: "dumbbell one arm prone curl",
     target: "biceps",
@@ -4786,7 +4786,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0J9WAOsU8vT0m9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kTkBSDqhXDQ8hJ",
     id: "1666",
     name: "dumbbell one arm prone hammer curl",
     target: "biceps",
@@ -4794,7 +4794,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/K3mijyTD2m3onb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RmJpWUy6fek7sI",
     id: "1291",
     name: "dumbbell one arm pullover on exercise ball",
     target: "pectorals",
@@ -4802,7 +4802,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1wNSN21r1+lkX6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2pWYETNO7PiaMN",
     id: "0358",
     name: "dumbbell one arm revers wrist curl",
     target: "forearms",
@@ -4810,7 +4810,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pMNDfZ9YHbBBTx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ckm61iudNDZjvL",
     id: "0359",
     name: "dumbbell one arm reverse fly (with support)",
     target: "delts",
@@ -4818,7 +4818,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qV+WXj0-CS2uIS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eI2fvdfyYi213Y",
     id: "1622",
     name: "dumbbell one arm reverse grip press",
     target: "pectorals",
@@ -4826,7 +4826,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FInzfTDX=VvVHM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oh-NkCLi2OF3C3",
     id: "1414",
     name: "dumbbell one arm reverse preacher curl",
     target: "biceps",
@@ -4834,7 +4834,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QNh4p3YJZbCdgM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SAfJYuv1Yf9HkT",
     id: "1667",
     name: "dumbbell one arm reverse spider curl",
     target: "biceps",
@@ -4842,7 +4842,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wwOKVzOgFOB0WX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2QLrEwvFp4wxcZ",
     id: "1668",
     name: "dumbbell one arm seated bicep curl on exercise ball",
     target: "biceps",
@@ -4850,7 +4850,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Du8Eh7DP5J721z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jykyOwFKPmtkFI",
     id: "1669",
     name: "dumbbell one arm seated hammer curl",
     target: "biceps",
@@ -4858,7 +4858,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Jw1eg-lKbDPleu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mw94SIaXc46nNf",
     id: "1415",
     name: "dumbbell one arm seated neutral wrist curl",
     target: "forearms",
@@ -4866,7 +4866,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8s3D9QvPTEEQiu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/05AP6GSFTUICBn",
     id: "0361",
     name: "dumbbell one arm shoulder press",
     target: "delts",
@@ -4874,7 +4874,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g-Lz=zhUHLexnw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DjLKVSmEnUfQuj",
     id: "0360",
     name: "dumbbell one arm shoulder press v. 2",
     target: "delts",
@@ -4882,7 +4882,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/y8SqrtW_EvIbWR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KrF6oNTj6bZZ48",
     id: "3888",
     name: "dumbbell one arm snatch",
     target: "glutes",
@@ -4890,7 +4890,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/96+YoBpiSZv+Zw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Z3UpeDc5PjHvZe",
     id: "1670",
     name: "dumbbell one arm standing curl",
     target: "biceps",
@@ -4898,7 +4898,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KfIGmYdSD66tTe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QAFKIOFhgPLEP6",
     id: "1671",
     name: "dumbbell one arm standing hammer curl",
     target: "biceps",
@@ -4906,7 +4906,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VDig6oeRqKlEv+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MMrl722EycAG9n",
     id: "0362",
     name: "dumbbell one arm triceps extension (on bench)",
     target: "triceps",
@@ -4914,7 +4914,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lBBofYcPk4Ruo4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZnziAoqTqZCkuv",
     id: "0363",
     name: "dumbbell one arm upright row",
     target: "delts",
@@ -4922,7 +4922,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yxP_qIZukPBmcC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zTuYKKcV-VK1hN",
     id: "0364",
     name: "dumbbell one arm wrist curl",
     target: "forearms",
@@ -4930,7 +4930,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KBhIR3sk7iwBfW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wcbrDHUgliuvLl",
     id: "1672",
     name: "dumbbell one arm zottman preacher curl",
     target: "biceps",
@@ -4938,7 +4938,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hTrFA3a64GqcSG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cE2KBNo-QZfmQN",
     id: "1292",
     name: "dumbbell one leg fly on exercise ball",
     target: "pectorals",
@@ -4946,7 +4946,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zlJMvtB1JFHkpG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/etytrFVQes6Ec9",
     id: "0365",
     name: "dumbbell over bench neutral wrist curl",
     target: "biceps",
@@ -4954,7 +4954,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uuf7pjDLtyqRFY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IRr2tagkuZERW5",
     id: "0366",
     name: "dumbbell over bench one arm  neutral wrist curl",
     target: "biceps",
@@ -4962,7 +4962,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nCZ0uPRsjD0iS-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lGsuEouJvVhUfJ",
     id: "1441",
     name: "dumbbell over bench one arm reverse wrist curl",
     target: "forearms",
@@ -4970,7 +4970,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/C0IcHg8m5PJkOk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZvtMyEH4kvzAIw",
     id: "0367",
     name: "dumbbell over bench one arm wrist curl",
     target: "forearms",
@@ -4978,7 +4978,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JwYzXKHTsf_8PV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/05-vK7VHEN4RD9",
     id: "0368",
     name: "dumbbell over bench revers wrist curl",
     target: "forearms",
@@ -4986,7 +4986,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aoO1zmtlAvnjEc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bZS7V-aM6orb0Z",
     id: "0369",
     name: "dumbbell over bench wrist curl",
     target: "forearms",
@@ -4994,7 +4994,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1zjm_uJAP3RdkU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/J8w43qYdfE2pNT",
     id: "1329",
     name: "dumbbell palm rotational bent over row",
     target: "upper back",
@@ -5002,7 +5002,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JO8LmL1ucKNmo3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZFMyGd0P9usY2T",
     id: "1623",
     name: "dumbbell palms in incline bench press",
     target: "triceps",
@@ -5010,7 +5010,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sRy36utHEDERTO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oMVizQ2RnuZmkV",
     id: "0370",
     name: "dumbbell peacher hammer curl",
     target: "biceps",
@@ -5018,7 +5018,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/So-eWqHTeEiApE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/n4KF4xNL7AT1iO",
     id: "0371",
     name: "dumbbell plyo squat",
     target: "glutes",
@@ -5026,7 +5026,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qvTQ=UW2UdmXh6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hDFzF6a97eciZu",
     id: "0372",
     name: "dumbbell preacher curl",
     target: "biceps",
@@ -5034,7 +5034,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RQ+FoURUtCmy-L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u4dnh8rnJutdcQ",
     id: "1673",
     name: "dumbbell preacher curl over exercise ball",
     target: "biceps",
@@ -5042,7 +5042,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/V_4zPEk9fNauKD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fpf3lN1DOb1ihM",
     id: "1293",
     name: "dumbbell press on exercise ball",
     target: "pectorals",
@@ -5050,7 +5050,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=zjUFM20c=Jxgx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/b4E0Wce8evaalQ",
     id: "0373",
     name: "dumbbell pronate-grip triceps extension",
     target: "triceps",
@@ -5058,7 +5058,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/liXJI=YPyHEyjn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eOuUQCw-9--U9p",
     id: "0374",
     name: "dumbbell prone incline curl",
     target: "biceps",
@@ -5066,7 +5066,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oPQkMkXq9Q=7I2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-1nSYW8h9rlH2a",
     id: "1674",
     name: "dumbbell prone incline hammer curl",
     target: "biceps",
@@ -5074,7 +5074,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b8D2IxQPmQh3kN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yEyzQD9SrZxRIV",
     id: "0375",
     name: "dumbbell pullover",
     target: "pectorals",
@@ -5082,7 +5082,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dJG8HTafOAvKkG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/41htXkhOoaYjKu",
     id: "1294",
     name: "dumbbell pullover hip extension on exercise ball",
     target: "pectorals",
@@ -5090,7 +5090,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8uNIohgAHWA7lV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rlQpvD7PjS8N44",
     id: "1295",
     name: "dumbbell pullover on exercise ball",
     target: "pectorals",
@@ -5098,7 +5098,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KTX6j6ywYr29mO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4GfE5yx4OBHK6S",
     id: "1700",
     name: "dumbbell push press",
     target: "delts",
@@ -5106,7 +5106,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mElaJhH4hdGsJz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8499Zko8IEhZLt",
     id: "0376",
     name: "dumbbell raise",
     target: "delts",
@@ -5114,7 +5114,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KRLPwdMr1avrT_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UFtP5quKgaCXh7",
     id: "2292",
     name: "dumbbell rear delt raise",
     target: "delts",
@@ -5122,7 +5122,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UQFqYm4farM6g=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qShX1oG1rZEmUQ",
     id: "0377",
     name: "dumbbell rear delt row_shoulder",
     target: "delts",
@@ -5130,7 +5130,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RRpQadhXV3yYfp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/X9WEgwDvJeK6WX",
     id: "0378",
     name: "dumbbell rear fly",
     target: "delts",
@@ -5138,7 +5138,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VDGJXfOtUKeCtf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uEIoMM4DSrjWCu",
     id: "0380",
     name: "dumbbell rear lateral raise",
     target: "delts",
@@ -5146,7 +5146,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W_vcDlcVA2ev=w",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jcjCl6X2IpL6O1",
     id: "0379",
     name: "dumbbell rear lateral raise (support head)",
     target: "delts",
@@ -5154,7 +5154,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kPeN+eES-PaMaZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MDZc08z5KAvClO",
     id: "0381",
     name: "dumbbell rear lunge",
     target: "glutes",
@@ -5162,7 +5162,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/V0r4fwjPs2IX8i",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jlBcszzvgDUf6U",
     id: "0382",
     name: "dumbbell revers grip biceps curl",
     target: "biceps",
@@ -5170,7 +5170,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XSrOOS2gO0s+3u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BoRVkPl6tiOPzD",
     id: "1624",
     name: "dumbbell reverse bench press",
     target: "pectorals",
@@ -5178,7 +5178,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/119H1oOIZB2ZBv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rGDg2E7du2Qg2S",
     id: "0383",
     name: "dumbbell reverse fly",
     target: "delts",
@@ -5186,7 +5186,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/muo9cfbd0xdW-W",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jDXLlKelgrJu3V",
     id: "1330",
     name: "dumbbell reverse grip incline bench one arm row",
     target: "upper back",
@@ -5194,7 +5194,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qG=UDC0I9COpdc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LXEkNKpWL4OYDE",
     id: "1331",
     name: "dumbbell reverse grip incline bench two arm row",
     target: "upper back",
@@ -5202,7 +5202,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IQj5f=BnLgaYYo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/B2VwCKrmtneCbW",
     id: "2327",
     name: "dumbbell reverse grip row (female)",
     target: "upper back",
@@ -5210,7 +5210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FiD__Ckm19c=4p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5iHQtfxMbGZdXw",
     id: "0384",
     name: "dumbbell reverse preacher curl",
     target: "biceps",
@@ -5218,7 +5218,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w883Nw2tcO6aUF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0DmRiUD1v8-DGQ",
     id: "1675",
     name: "dumbbell reverse spider curl",
     target: "biceps",
@@ -5226,7 +5226,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FFu_PJbOa1yn94",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DDnVRxlN5mUmIB",
     id: "0385",
     name: "dumbbell reverse wrist curl",
     target: "forearms",
@@ -5234,7 +5234,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0PxeXBxl9jMgnh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YIWXoR3xMLJ8Gw",
     id: "1459",
     name: "dumbbell romanian deadlift",
     target: "glutes",
@@ -5242,7 +5242,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xRv_tRJMRJQ_ka",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Nnni1wYsOY-930",
     id: "0386",
     name: "dumbbell rotation reverse fly",
     target: "delts",
@@ -5250,7 +5250,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+zi93vRe2HFZb+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tjCot4EVC2xjVl",
     id: "2397",
     name: "dumbbell scott press",
     target: "delts",
@@ -5258,7 +5258,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IyRPzuPuoUrYQ4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/En3EQjz2xmfYSg",
     id: "0387",
     name: "dumbbell seated alternate front raise",
     target: "delts",
@@ -5266,7 +5266,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/s6rU==ZrT5EvaX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1ySEfFU3reXX0Q",
     id: "1676",
     name: "dumbbell seated alternate hammer curl on exercise ball",
     target: "biceps",
@@ -5274,7 +5274,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9N2MM7r9ic04v=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/02tFh2LWtsFEhw",
     id: "0388",
     name: "dumbbell seated alternate press",
     target: "delts",
@@ -5282,7 +5282,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5Nx0Vx5hPFLEOz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4UG8i4gMGxrpIM",
     id: "3546",
     name: "dumbbell seated alternate shoulder",
     target: "delts",
@@ -5290,7 +5290,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pt_UG8dYDUrZEa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/r56Sh2pedjd8zf",
     id: "0389",
     name: "dumbbell seated bench extension",
     target: "triceps",
@@ -5298,7 +5298,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/A5fev44Y7VICsI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Z6kh9xh11wslf3",
     id: "2317",
     name: "dumbbell seated bent arm lateral raise",
     target: "delts",
@@ -5306,7 +5306,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YZLdyO1eWQ2MOJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eOYXtufLUYrV7A",
     id: "1730",
     name: "dumbbell seated bent over alternate kickback",
     target: "triceps",
@@ -5314,7 +5314,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7Fv++67C3dQiRQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fBE-ulcvCW7CYQ",
     id: "1737",
     name: "dumbbell seated bent over triceps extension",
     target: "triceps",
@@ -5322,7 +5322,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QAEthaD_eFlcIC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/p9utPmIGgsHubE",
     id: "1677",
     name: "dumbbell seated bicep curl",
     target: "biceps",
@@ -5330,7 +5330,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PbzLEKD9BWcQkX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sPsHKBbmCMKlUh",
     id: "0390",
     name: "dumbbell seated biceps curl (on stability ball)",
     target: "biceps",
@@ -5338,7 +5338,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Je7=3rvz6EHqTD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KAPXEVW-2elM6n",
     id: "3547",
     name: "dumbbell seated biceps curl to shoulder press",
     target: "biceps",
@@ -5346,7 +5346,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dE9dyB28KsZ+Uy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rEHUweImJYRVUY",
     id: "1379",
     name: "dumbbell seated calf raise",
     target: "calves",
@@ -5354,7 +5354,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DC0ETw1dozRt4z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Mw5W6bEaaKL3rG",
     id: "0391",
     name: "dumbbell seated curl",
     target: "biceps",
@@ -5362,7 +5362,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NY-D924uAs9Ggt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PXHm3PIatXrFK2",
     id: "0392",
     name: "dumbbell seated front raise",
     target: "delts",
@@ -5370,7 +5370,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Pn7Xo5E9vrwWPG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8ICh3CjfO6FHCn",
     id: "1678",
     name: "dumbbell seated hammer curl",
     target: "biceps",
@@ -5378,7 +5378,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YbpmWZOjfYW61A",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ScxXRe3RIjSPDr",
     id: "0393",
     name: "dumbbell seated inner biceps curl",
     target: "biceps",
@@ -5386,7 +5386,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Xby6tL_ng2xI6a",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zyuX2W930EFdXv",
     id: "0394",
     name: "dumbbell seated kickback",
     target: "triceps",
@@ -5394,7 +5394,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W_11SOlDtENXjO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XroWwionqKhsLG",
     id: "0396",
     name: "dumbbell seated lateral raise",
     target: "delts",
@@ -5402,7 +5402,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3iaya6Q-M0btkG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/W8JGmpznjQ8XcW",
     id: "0395",
     name: "dumbbell seated lateral raise v. 2",
     target: "delts",
@@ -5410,7 +5410,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-SU91hsZ6qQMOq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2kbyoUcEMfakgi",
     id: "0397",
     name: "dumbbell seated neutral wrist curl",
     target: "biceps",
@@ -5418,7 +5418,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rnNW7GODC+W-SC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gbZ1QUXhjD-8h7",
     id: "1679",
     name: "dumbbell seated one arm bicep curl on exercise ball with leg raised",
     target: "biceps",
@@ -5426,7 +5426,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WByIhVuEtDFYd_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YxnwrgoCu02vwR",
     id: "0398",
     name: "dumbbell seated one arm kickback",
     target: "triceps",
@@ -5434,7 +5434,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/J5w1I-pqj5Rxd+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rZEU9A8Kxt3jHO",
     id: "0399",
     name: "dumbbell seated one arm rotate",
     target: "forearms",
@@ -5442,7 +5442,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/54-L=E4tAkgsCP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lbDXIvu3fFb3St",
     id: "0400",
     name: "dumbbell seated one leg calf raise",
     target: "calves",
@@ -5450,7 +5450,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JNpYjfN26TGhJb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Rvi25ppkTKdHoE",
     id: "1380",
     name: "dumbbell seated one leg calf raise - hammer grip",
     target: "calves",
@@ -5458,7 +5458,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/djZYWzT3bvNflY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SRUWmrg8YNVFHC",
     id: "1381",
     name: "dumbbell seated one leg calf raise - palm up",
     target: "calves",
@@ -5466,7 +5466,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O1YTX8AQ=X_Op1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/J7MVYeRTEGF5ZA",
     id: "0401",
     name: "dumbbell seated palms up wrist curl",
     target: "forearms",
@@ -5474,7 +5474,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NSLE4WNZnq5g+-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aaLERYtRe2x7h5",
     id: "0402",
     name: "dumbbell seated preacher curl",
     target: "biceps",
@@ -5482,7 +5482,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ydyIuP8aK=n+z+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/i1kppknlPRP33m",
     id: "0403",
     name: "dumbbell seated revers grip concentration curl",
     target: "biceps",
@@ -5490,7 +5490,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3lYbDyIoSpl9vA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vK2D0jxEkKn5Lr",
     id: "1738",
     name: "dumbbell seated reverse grip one arm overhead tricep extension",
     target: "triceps",
@@ -5498,7 +5498,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1wqya6Czy_85NW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5GF7lo8ffUt3GB",
     id: "0405",
     name: "dumbbell seated shoulder press",
     target: "delts",
@@ -5506,7 +5506,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hQSDgOtS_4XZrt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w0qJ8FHs8iy3dG",
     id: "0404",
     name: "dumbbell seated shoulder press (parallel grip)",
     target: "delts",
@@ -5514,7 +5514,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M1Qxm3hUsDRkL7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u0UGleAL4vueuk",
     id: "2188",
     name: "dumbbell seated triceps extension",
     target: "triceps",
@@ -5522,7 +5522,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o8+ib3X06fhNvu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/G4EDV3ZNWFNhvh",
     id: "0406",
     name: "dumbbell shrug",
     target: "traps",
@@ -5530,7 +5530,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bNaarwMANP6N0_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Q3VYlJpi3yj09k",
     id: "0407",
     name: "dumbbell side bend",
     target: "abs",
@@ -5538,7 +5538,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1L4zp3YNq-z+RD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6jaMMPuTAijDBM",
     id: "0408",
     name: "dumbbell side lying one hand raise",
     target: "delts",
@@ -5546,7 +5546,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/H6PxZEjEa8TUBp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YEeOv6zuf9CPBd",
     id: "3664",
     name: "dumbbell side plank with rear fly",
     target: "upper back",
@@ -5554,7 +5554,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M4BgQPYflegLY2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/icpLasY7ESsUG4",
     id: "3548",
     name: "dumbbell single arm overhead carry",
     target: "delts",
@@ -5562,7 +5562,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DTRtO5-qA8Noxw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gJaq6PJILHUeSL",
     id: "0409",
     name: "dumbbell single leg calf raise",
     target: "calves",
@@ -5570,7 +5570,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0EYbUSAt3tTtBh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yj7a745lCHOQrc",
     id: "1757",
     name: "dumbbell single leg deadlift",
     target: "glutes",
@@ -5578,7 +5578,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5CUpYCfswnecrF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/s26T87wike0taw",
     id: "2805",
     name: "dumbbell single leg deadlift with stepbox support",
     target: "glutes",
@@ -5586,7 +5586,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FT6RBOeRdD=EGR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZbsYV9Y4C4isx1",
     id: "0410",
     name: "dumbbell single leg split squat",
     target: "quads",
@@ -5594,7 +5594,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qPMeYVsW16fzYD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GhYnNMxnojEN3u",
     id: "0411",
     name: "dumbbell single leg squat",
     target: "glutes",
@@ -5602,7 +5602,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YN_yTrwnaRlaWq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RdMUsaZI9QdhhF",
     id: "0413",
     name: "dumbbell squat",
     target: "glutes",
@@ -5610,7 +5610,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zSx5QHRsDB4Dzf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0wxliMjAZ21kfg",
     id: "3560",
     name: "dumbbell standing alternate hammer curl and press",
     target: "biceps",
@@ -5618,7 +5618,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9kRggBG9BL3Yej",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Va5El16wGb5GqD",
     id: "0414",
     name: "dumbbell standing alternate overhead press",
     target: "delts",
@@ -5626,7 +5626,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/V9Im6CQEIpBGUh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zs2Nr6MRsrpBBJ",
     id: "0415",
     name: "dumbbell standing alternate raise",
     target: "delts",
@@ -5634,7 +5634,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lH5tEf_v3rupBe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FxXhthJw7g2cJT",
     id: "1739",
     name: "dumbbell standing alternating tricep kickback",
     target: "triceps",
@@ -5642,7 +5642,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qw-mU9CPfyQyLa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/k-SP3-XXa3Dk4s",
     id: "2143",
     name: "dumbbell standing around world",
     target: "delts",
@@ -5650,7 +5650,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=OP8QxzdU=C3Hx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4bpwu7oc0NFtbs",
     id: "1740",
     name: "dumbbell standing bent over one arm triceps extension",
     target: "triceps",
@@ -5658,7 +5658,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NHxg-2=lEtm=eP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qKB5EQngcWFaGF",
     id: "1741",
     name: "dumbbell standing bent over two arm triceps extension",
     target: "triceps",
@@ -5666,7 +5666,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1xwYJt2EQ=IeDT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CTWPzVBjMTnbBM",
     id: "0416",
     name: "dumbbell standing biceps curl",
     target: "biceps",
@@ -5674,7 +5674,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1zUHxBrpc1vxNA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IXoyDzFhoCv7Cx",
     id: "0417",
     name: "dumbbell standing calf raise",
     target: "calves",
@@ -5682,7 +5682,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_XNKRgd=sWJw_o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/l0kCYP647XwDWB",
     id: "0418",
     name: "dumbbell standing concentration curl",
     target: "biceps",
@@ -5690,7 +5690,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZSdxbyX3JYFK=K",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ewwZm29AWNZu6W",
     id: "0419",
     name: "dumbbell standing front raise above head",
     target: "delts",
@@ -5698,7 +5698,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/E3uykf-4FWoMb3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5If72PqVXUbuKs",
     id: "2321",
     name: "dumbbell standing inner biceps curl v. 2",
     target: "biceps",
@@ -5706,7 +5706,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mOz64uMOEUInI6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wf36xCOZXYWjZr",
     id: "0420",
     name: "dumbbell standing kickback",
     target: "triceps",
@@ -5714,7 +5714,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l=WtWThRngQ7sS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WXI13pARx2Ixg7",
     id: "0421",
     name: "dumbbell standing one arm concentration curl",
     target: "biceps",
@@ -5722,7 +5722,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2fJJffsGrX4wer",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WciO6ZCktR2u2g",
     id: "0422",
     name: "dumbbell standing one arm curl (over incline bench)",
     target: "biceps",
@@ -5730,7 +5730,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JDRwleHyIntsL7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YatDjRfX5hQaxd",
     id: "1680",
     name: "dumbbell standing one arm curl over incline bench",
     target: "biceps",
@@ -5738,7 +5738,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P7hsUz=shaEb=Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4I955Pb2LpSWwc",
     id: "0423",
     name: "dumbbell standing one arm extension",
     target: "triceps",
@@ -5746,7 +5746,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZJ2Ap8SibMQaXb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RQzjiGenNDv8EZ",
     id: "0424",
     name: "dumbbell standing one arm palm in press",
     target: "delts",
@@ -5754,7 +5754,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gCU0NetZ_n0rhq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/30oHtoVcJQKYk8",
     id: "0425",
     name: "dumbbell standing one arm reverse curl",
     target: "biceps",
@@ -5762,7 +5762,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5LKFmfvKVtOkB8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/b8or52F377Kcfj",
     id: "0426",
     name: "dumbbell standing overhead press",
     target: "delts",
@@ -5770,7 +5770,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q1x5i2VH2G_jcH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jthgXfiBsDslDU",
     id: "0427",
     name: "dumbbell standing palms in press",
     target: "delts",
@@ -5778,7 +5778,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KE0dTfGsePzH3_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zrD0bA0ArulNLG",
     id: "0428",
     name: "dumbbell standing preacher curl",
     target: "biceps",
@@ -5786,7 +5786,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wLDrCQHchGi3OG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TcoTunZ9FFKjtK",
     id: "0429",
     name: "dumbbell standing reverse curl",
     target: "biceps",
@@ -5794,7 +5794,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IOgQ4HJAL=i_CN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TXyDFanlwHOmSg",
     id: "0430",
     name: "dumbbell standing triceps extension",
     target: "triceps",
@@ -5802,7 +5802,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IlyuIBxSan1vBS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jH0bVny6a1diSG",
     id: "2293",
     name: "dumbbell standing zottman preacher curl",
     target: "biceps",
@@ -5810,7 +5810,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=bQTWzmV2gR43Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e8D795b3J93Uon",
     id: "1684",
     name: "dumbbell step up single leg balance with bicep curl",
     target: "biceps",
@@ -5818,7 +5818,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-v5gfaJnvv6wh_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vUFPPrYOvWg4WY",
     id: "0431",
     name: "dumbbell step-up",
     target: "glutes",
@@ -5826,7 +5826,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KXfF-fohkCA0lq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mguMUo0JtRtSfQ",
     id: "2796",
     name: "dumbbell step-up lunge",
     target: "quads",
@@ -5834,7 +5834,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FhA+gd4zM2m1PW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gEkVl5Kqelhu1j",
     id: "2812",
     name: "dumbbell step-up split squat",
     target: "quads",
@@ -5842,7 +5842,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mZ1MH2V0AWyHGs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MlEvBiNFINSkSb",
     id: "0432",
     name: "dumbbell stiff leg deadlift",
     target: "glutes",
@@ -5850,7 +5850,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fq=+bT1wmNyJ+d",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4ZcJiECnREZW1-",
     id: "0433",
     name: "dumbbell straight arm pullover",
     target: "pectorals",
@@ -5858,7 +5858,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ju-68wb7OyIXmd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-Leddxbb--E8eQ",
     id: "0434",
     name: "dumbbell straight leg deadlift",
     target: "glutes",
@@ -5866,7 +5866,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Tz4wsYyI-Q5+_I",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kb4Mq6CXhVmWTN",
     id: "2808",
     name: "dumbbell sumo pull through",
     target: "glutes",
@@ -5874,7 +5874,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Xs50pwIkJCHHBv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IIcS5X-6lnQa3e",
     id: "2803",
     name: "dumbbell supported squat",
     target: "quads",
@@ -5882,7 +5882,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LVMDgS5H9V7VW7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YhtvCsb6PY49ws",
     id: "0436",
     name: "dumbbell tate press",
     target: "triceps",
@@ -5890,7 +5890,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hu=SDeVONIH8NT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-3yMEHnthIKTOx",
     id: "1742",
     name: "dumbbell tricep kickback with stork stance",
     target: "triceps",
@@ -5898,7 +5898,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2t0iGwuJVw6Gpz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bgbPQ0zRye-lNT",
     id: "1743",
     name: "dumbbell twisting bench press",
     target: "triceps",
@@ -5906,7 +5906,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GT4_Op5GkENLmk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uL7IXkBTPJMhFD",
     id: "0437",
     name: "dumbbell upright row",
     target: "delts",
@@ -5914,7 +5914,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wA8DWJRUA34Qie",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GD-JitFZK1CTMG",
     id: "1765",
     name: "dumbbell upright row (back pov)",
     target: "delts",
@@ -5922,7 +5922,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9hIMu4eoJt76Rf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KTHW-x93ZvkbMO",
     id: "0864",
     name: "dumbbell upright shoulder external rotation",
     target: "delts",
@@ -5930,7 +5930,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Rc0EKPsz2UEarO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0sjOC-YMgLkwte",
     id: "5201",
     name: "dumbbell waiter biceps curl",
     target: "biceps",
@@ -5938,7 +5938,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JmkeK4jRiDg-zU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KnMTXP7H9cRmlN",
     id: "0438",
     name: "dumbbell w-press",
     target: "delts",
@@ -5946,7 +5946,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w9lH3ABr2QgFDa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NfWBbluFlNj4MX",
     id: "0439",
     name: "dumbbell zottman curl",
     target: "biceps",
@@ -5954,7 +5954,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xMXzWQfLy46d+F",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JyaJ6bSpVWaQqY",
     id: "2294",
     name: "dumbbell zottman preacher curl",
     target: "biceps",
@@ -5962,7 +5962,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dz1jvud6zb8dxR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fdrgEB3jF-RXYC",
     id: "2189",
     name: "dumbbells seated triceps extension",
     target: "triceps",
@@ -5970,7 +5970,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4LEw56ZFUx0r6O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KxYUcx4kLkax7x",
     id: "1167",
     name: "dynamic chest stretch (male)",
     target: "pectorals",
@@ -5978,7 +5978,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QkNym-QW7DIWHS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qeb7heVMMOqiXt",
     id: "3287",
     name: "elbow dips",
     target: "triceps",
@@ -5986,7 +5986,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cFdkPe3QjnOR5D",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pqy-KBhnWN04eJ",
     id: "1772",
     name: "elbow lift - reverse push-up",
     target: "upper back",
@@ -5994,7 +5994,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SZIm_rHAeSqrri",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/R5LLD1b15xnqWE",
     id: "0443",
     name: "elbow-to-knee",
     target: "abs",
@@ -6002,7 +6002,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gEX4Hz5ahLM9fU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VhF6L7g-PY5Apq",
     id: "3292",
     name: "elevator",
     target: "upper back",
@@ -6010,7 +6010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iDSb7E0UXgW0=G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7rjfVP25IUspKj",
     id: "1332",
     name: "exercise ball alternating arm ups",
     target: "lats",
@@ -6018,7 +6018,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yyjOuJHljOZrf0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XK-qXGJVn3to1x",
     id: "1333",
     name: "exercise ball back extension with arms extended",
     target: "spine",
@@ -6026,7 +6026,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o0VVwTxlV6grZY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NXHJbQPHyBd8aP",
     id: "1334",
     name: "exercise ball back extension with hands behind head",
     target: "spine",
@@ -6034,7 +6034,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/be0jnor4IH6844",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OqhtMvF5uXfRMT",
     id: "1335",
     name: "exercise ball back extension with knees off ground",
     target: "spine",
@@ -6042,7 +6042,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YTG3Ojyxax19cd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GgzL1S1IFunrEb",
     id: "1336",
     name: "exercise ball back extension with rotation",
     target: "spine",
@@ -6050,7 +6050,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cr66M=4LtvfOSr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4FQ6DmggJgpQ3l",
     id: "1744",
     name: "exercise ball dip",
     target: "triceps",
@@ -6058,7 +6058,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AiXkpyjpN_tQGA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HYKqezs7wkdJl4",
     id: "1559",
     name: "exercise ball hip flexor stretch",
     target: "glutes",
@@ -6066,7 +6066,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=_tlfTpmLAKSVo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6jSkWfgS0FcDV7",
     id: "1338",
     name: "exercise ball hug",
     target: "spine",
@@ -6074,7 +6074,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tCtQi2y3ZOwAAp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hHXwmu4j6I9s0r",
     id: "1339",
     name: "exercise ball lat stretch",
     target: "lats",
@@ -6082,7 +6082,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Do7o=DUR28cba9",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NWxYz63VYpm88J",
     id: "1341",
     name: "exercise ball lower back stretch (pyramid)",
     target: "lats",
@@ -6090,7 +6090,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tZQdOIgj9xwx8h",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kuvS6yZ74b8Tu9",
     id: "1342",
     name: "exercise ball lying side lat stretch",
     target: "lats",
@@ -6098,7 +6098,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GafXuQuQ+XHerx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kOn1hLaakZ70p3",
     id: "1382",
     name: "exercise ball on the wall calf raise",
     target: "calves",
@@ -6106,7 +6106,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lfDkRUbXmZOniD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/I3gJYCKQhNg2Ih",
     id: "3241",
     name: "exercise ball on the wall calf raise (tennis ball between ankles)",
     target: "calves",
@@ -6114,7 +6114,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/I7iusxfrrF8SOd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ga4zvLFAXvqTwQ",
     id: "3240",
     name: "exercise ball on the wall calf raise (tennis ball between knees)",
     target: "calves",
@@ -6122,7 +6122,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wUQvRfCBoyU9wJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iM72TPQP05DkX1",
     id: "1416",
     name: "exercise ball one leg prone lower body rotation",
     target: "glutes",
@@ -6130,7 +6130,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QC_eZx9OtDOhy6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-wlB9GYbOWjD3I",
     id: "1417",
     name: "exercise ball one legged diagonal kick hamstring curl",
     target: "glutes",
@@ -6138,7 +6138,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FBo7+6kOziOnM3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bg52aOvQVfpM7a",
     id: "1296",
     name: "exercise ball pike push up",
     target: "pectorals",
@@ -6146,7 +6146,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FoRus+cqSaSXj4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sN1sFP2hnRaybQ",
     id: "1343",
     name: "exercise ball prone leg raise",
     target: "spine",
@@ -6154,7 +6154,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5KhnQ8Yy75iDR8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8oAvwl9fjddofo",
     id: "1560",
     name: "exercise ball seated hamstring stretch",
     target: "hamstrings",
@@ -6162,7 +6162,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Sj5lvOBCKe25Eg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/78heAnTYIn5C3r",
     id: "1745",
     name: "exercise ball seated triceps stretch",
     target: "triceps",
@@ -6170,7 +6170,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wqJMWlwZdtbnFE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CkxbVX9rQTscSs",
     id: "1746",
     name: "exercise ball supine triceps extension",
     target: "triceps",
@@ -6178,7 +6178,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/12FP4JwQ9ut_fa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VY0U1Cwb2UqfKC",
     id: "1747",
     name: "ez bar french press on exercise ball",
     target: "triceps",
@@ -6186,7 +6186,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oWvR7wpl2KwAvF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4I9d2IdeIdAXMd",
     id: "3010",
     name: "ez bar lying bent arms pullover",
     target: "lats",
@@ -6194,7 +6194,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QHitwHUpOtDpqJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pQ2r8vc0ESHlA9",
     id: "1748",
     name: "ez bar lying close grip triceps extension behind head",
     target: "triceps",
@@ -6202,7 +6202,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GD-wzQsSDhHb=b",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Cunh6NlGIEQcCC",
     id: "1344",
     name: "ez bar reverse grip bent over row",
     target: "upper back",
@@ -6210,7 +6210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+UJraYexCYWW+j",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xWcZidF19Ydtdc",
     id: "1682",
     name: "ez bar seated close grip concentration curl",
     target: "biceps",
@@ -6218,7 +6218,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/L+Bvo_tY2WRCwn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1vDbOJyoocswpp",
     id: "1749",
     name: "ez bar standing french press",
     target: "triceps",
@@ -6226,7 +6226,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4Bl5ZcwSqB4kda",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UW6-vmtNM-MZ6s",
     id: "0445",
     name: "ez barbell anti gravity press",
     target: "delts",
@@ -6234,7 +6234,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bR_Kd906lVoxqY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Zk63ZadFGhSJnu",
     id: "1627",
     name: "ez barbell close grip preacher curl",
     target: "biceps",
@@ -6242,7 +6242,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sdotnA8UuR-sOQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UwNthJoT01ypfj",
     id: "0446",
     name: "ez barbell close-grip curl",
     target: "biceps",
@@ -6250,7 +6250,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OmhXRmBJQ=WujK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JUtwO998VyBGeY",
     id: "0447",
     name: "ez barbell curl",
     target: "biceps",
@@ -6258,7 +6258,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Oh0aPPZsGYphbv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yWGiejBvWlIPVu",
     id: "0448",
     name: "ez barbell decline close grip face press",
     target: "triceps",
@@ -6266,7 +6266,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yt-3L=7-LG0=rv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/G6Zd1GDUCJGyqF",
     id: "2186",
     name: "ez barbell decline triceps extension",
     target: "triceps",
@@ -6274,7 +6274,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7DtKqHT_u3y_wD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8NJcH9Y39AkAYh",
     id: "0449",
     name: "ez barbell incline triceps extension",
     target: "triceps",
@@ -6282,7 +6282,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dBA3cnGajXL77s",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LCvw37WSKaDw4C",
     id: "0450",
     name: "ez barbell jm bench press",
     target: "triceps",
@@ -6290,7 +6290,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KRzujFAhj4Y0Me",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/p1xoirUeXvKAAt",
     id: "0451",
     name: "ez barbell reverse grip curl",
     target: "biceps",
@@ -6298,7 +6298,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wc3CHoeLntSMa2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qnZtHcpEGYuz5e",
     id: "0452",
     name: "ez barbell reverse grip preacher curl",
     target: "biceps",
@@ -6306,7 +6306,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/K1lLflZNOIw=1c",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3qV3Kq32XmXjoM",
     id: "1458",
     name: "ez barbell seated curls",
     target: "biceps",
@@ -6314,7 +6314,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UndWUM7RUq1GC8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XlDj8A-JoxrE8E",
     id: "0453",
     name: "ez barbell seated triceps extension",
     target: "triceps",
@@ -6322,7 +6322,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+rGG9BJlFE-RdW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mHJvYnT-wRF9tD",
     id: "0454",
     name: "ez barbell spider curl",
     target: "biceps",
@@ -6330,7 +6330,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=FYR7jur_QfIpR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/M6zAOZ4sy7XoT9",
     id: "1628",
     name: "ez barbell spider curl",
     target: "biceps",
@@ -6338,7 +6338,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MuXHmZBJMgu2D8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8GiqITvtuEO5aQ",
     id: "2404",
     name: "ez-bar biceps curl (with arm blaster)",
     target: "biceps",
@@ -6346,7 +6346,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_l-Ghu8Xta9EsM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Efz8OFnr-BxMw4",
     id: "2432",
     name: "ez-bar close-grip bench press",
     target: "triceps",
@@ -6354,7 +6354,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "ez barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6Dou3Haq0WmgLR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vE61fGqtnzlbTA",
     id: "2741",
     name: "ez-barbell standing wide grip biceps curl",
     target: "biceps",
@@ -6362,7 +6362,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qMjapneHqTUpUL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/81iMNWERBz1WNX",
     id: "2133",
     name: "farmers walk",
     target: "quads",
@@ -6370,7 +6370,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yi7l_lPSantt_C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gEttDqgBK2YIoS",
     id: "0455",
     name: "finger curls",
     target: "forearms",
@@ -6378,7 +6378,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/a0VrDwF2Z+T4d1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0NTU5HehdzTCKM",
     id: "3303",
     name: "flag",
     target: "abs",
@@ -6386,7 +6386,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1IwyVLmqhRQPuq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BdRI-dSdkzLcpp",
     id: "0456",
     name: "flexion leg sit up (bent knee)",
     target: "abs",
@@ -6394,7 +6394,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/x-taBC-_kAo1MT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CVq8L8DYf0W6s8",
     id: "0457",
     name: "flexion leg sit up (straight arm)",
     target: "abs",
@@ -6402,7 +6402,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uEFhDXOvGpPsuG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LkakbHFpd33Btt",
     id: "0458",
     name: "floor fly (with barbell)",
     target: "pectorals",
@@ -6410,7 +6410,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GcaLVkQ10ejZ62",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uoJRxyqF8EM2lz",
     id: "0459",
     name: "flutter kicks",
     target: "glutes",
@@ -6418,7 +6418,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b942+hnUXbFkoH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tWkksTit9mypYF",
     id: "1472",
     name: "forward jump",
     target: "quads",
@@ -6426,7 +6426,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SkQc_NVECR+N+O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NAI1reN0AButfc",
     id: "3470",
     name: "forward lunge (male)",
     target: "glutes",
@@ -6434,7 +6434,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JZwInod_veSlby",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/v8eeKSGD3RK9xa",
     id: "3194",
     name: "frankenstein squat",
     target: "glutes",
@@ -6442,7 +6442,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p6Uo9rF01j2U+B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zuNpDxPT3PmzS-",
     id: "2429",
     name: "frog crunch",
     target: "abs",
@@ -6450,7 +6450,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/B4PanNDLbvwNI-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zws4lRsF1hG2kM",
     id: "3301",
     name: "frog planche",
     target: "abs",
@@ -6458,7 +6458,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ij7G+uItwllbLI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gpwGcWx7DjrIHx",
     id: "3296",
     name: "front lever",
     target: "abs",
@@ -6466,7 +6466,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_K3bxtooh-6cYO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4EBPpgAgTI5f-T",
     id: "3295",
     name: "front lever reps",
     target: "upper back",
@@ -6474,7 +6474,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KRAJoBX+NYJVgI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KG7xQKFpdFhEtz",
     id: "0464",
     name: "front plank with twist",
     target: "abs",
@@ -6482,7 +6482,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OvhMoEx8Wok3hP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/470hM83qUpyRxO",
     id: "3315",
     name: "full maltese",
     target: "abs",
@@ -6490,7 +6490,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O8MdyxnMe=vd=x",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x7qpBUEBd3Ojx7",
     id: "3299",
     name: "full planche",
     target: "abs",
@@ -6498,7 +6498,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-0=OGf41LPI9T2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wHrR322BpSVwmg",
     id: "3327",
     name: "full planche push-up",
     target: "pectorals",
@@ -6506,7 +6506,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M5AxSa1xCHKpwO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/E4Laglu8aZ4on6",
     id: "0466",
     name: "gironda sternum chin",
     target: "lats",
@@ -6514,7 +6514,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZBG8C+I3AKqR+1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4mreQM7bXfJ6W4",
     id: "3561",
     name: "glute bridge march",
     target: "glutes",
@@ -6522,7 +6522,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kX_OubvYVRljvx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/t0H5D3PQkZJL0F",
     id: "3523",
     name: "glute bridge two legs on bench (male)",
     target: "glutes",
@@ -6530,7 +6530,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6M6GMgkoE2UlHU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CJivGilK2u8S0e",
     id: "3193",
     name: "glute-ham raise",
     target: "hamstrings",
@@ -6538,7 +6538,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ubw9YtG=8_qwZz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XAW0yHzoDtKtRH",
     id: "0467",
     name: "gorilla chin",
     target: "abs",
@@ -6546,7 +6546,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bFvzkScgdhhEcb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/emokrs7mbVwx8x",
     id: "0469",
     name: "groin crunch",
     target: "abs",
@@ -6554,7 +6554,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1n3IC5KmTiPkr3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qJiQBSd9qddsnA",
     id: "1383",
     name: "hack calf raise",
     target: "calves",
@@ -6562,7 +6562,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OxqK5+hYhyTZQO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/m4yGEhIDWwCHIv",
     id: "1384",
     name: "hack one leg calf raise",
     target: "calves",
@@ -6570,7 +6570,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pga7sXQpM+xu2R",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DP1q3IMw0cP8wj",
     id: "3221",
     name: "half knee bends (male)",
     target: "cardiovascular system",
@@ -6578,7 +6578,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5Ll1AQt2nT4OTr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/THoWYVXQSI6z8G",
     id: "3202",
     name: "half sit-up (male)",
     target: "abs",
@@ -6586,7 +6586,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DUsJlbxpqyXuzr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rsKGEvYOInOuN9",
     id: "1511",
     name: "hamstring stretch",
     target: "hamstrings",
@@ -6594,7 +6594,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "upper body ergometer",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lRf=OvFGWezEch",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lAj4BhOp1gvMog",
     id: "2139",
     name: "hands bike",
     target: "pectorals",
@@ -6602,7 +6602,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iwZg-sHnJkAQyR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DkBfhQaQxGgmuc",
     id: "3218",
     name: "hands clasped circular toe touch (male)",
     target: "glutes",
@@ -6610,7 +6610,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bYzBpJSyFXBUfs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/v7Nq9gGS8feGjr",
     id: "3215",
     name: "hands reversed clasped circular toe touch (male)",
     target: "glutes",
@@ -6618,7 +6618,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nxKY6rPzFZcEbu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DfTWkqN25bphBO",
     id: "3302",
     name: "handstand",
     target: "triceps",
@@ -6626,7 +6626,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4-bUh8CiWB0qT5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZNri17YmfkNzuu",
     id: "0471",
     name: "handstand push-up",
     target: "triceps",
@@ -6634,7 +6634,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/No9dhfthjSpZga",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/l0ZhKSEAFFlLPw",
     id: "1764",
     name: "hanging leg hip raise",
     target: "abs",
@@ -6642,7 +6642,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zOHfznWH32RqWd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Mf7qdx0KFqoXcy",
     id: "0472",
     name: "hanging leg raise",
     target: "abs",
@@ -6650,7 +6650,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6V4NH5uBNEuAM7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/u0Ljpc028oosVu",
     id: "1761",
     name: "hanging oblique knee raise",
     target: "abs",
@@ -6658,7 +6658,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=g=KVzU-S31=lp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kV9NIVSd0HFNT1",
     id: "0473",
     name: "hanging pike",
     target: "abs",
@@ -6666,7 +6666,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O5c78HCOjt_SRs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7wRCHV3aJuxbC2",
     id: "0474",
     name: "hanging straight leg hip raise",
     target: "abs",
@@ -6674,7 +6674,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GLyNF-=91fnQb=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iWp2cOfvl1iUOB",
     id: "0475",
     name: "hanging straight leg raise",
     target: "abs",
@@ -6682,7 +6682,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/518Xh=gONR-COh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AcMUNYGnm9gWAn",
     id: "0476",
     name: "hanging straight twisting leg hip raise",
     target: "abs",
@@ -6690,7 +6690,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Rs5RMXU9uIgbQS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/texak48hCt98ZD",
     id: "3636",
     name: "high knee against wall",
     target: "cardiovascular system",
@@ -6698,7 +6698,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NkVgmU7XhSdr_p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/y6zTukrjMPb-Hn",
     id: "0484",
     name: "hip raise (bent knee)",
     target: "abs",
@@ -6706,7 +6706,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CY5RA8ru2KTj7I",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6d4IoCkwuO9HfT",
     id: "1418",
     name: "hug keens to chest",
     target: "glutes",
@@ -6714,7 +6714,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hAYIbvvQR=KYOf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mFrUDLLLIgfuxS",
     id: "3234",
     name: "hyght dumbbell fly",
     target: "pectorals",
@@ -6722,7 +6722,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W-39Htvu43jQNK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1KKo3INOc1afd2",
     id: "0489",
     name: "hyperextension",
     target: "spine",
@@ -6730,7 +6730,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/junGWgBAS8dPmv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MozR3VDD22YCH6",
     id: "0488",
     name: "hyperextension (on bench)",
     target: "spine",
@@ -6738,7 +6738,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ScWShmoYXmvTDl",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/teiA7ipjEpq5lB",
     id: "3289",
     name: "impossible dips",
     target: "triceps",
@@ -6746,7 +6746,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8aCQudzjkJJeNE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vgX3cDBa1y6Lsp",
     id: "1471",
     name: "inchworm",
     target: "abs",
@@ -6754,7 +6754,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fzDmq2r=t5TBBe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/apFPnfKSxeN-kQ",
     id: "3698",
     name: "inchworm v. 2",
     target: "abs",
@@ -6762,7 +6762,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xJYwOFkyeONuPj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AbEgpRP2ZZTEu-",
     id: "0490",
     name: "incline close-grip push-up",
     target: "triceps",
@@ -6770,7 +6770,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JmlM0BCYkadcW_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GaHSjHNg5iccE5",
     id: "0491",
     name: "incline leg hip raise (leg straight)",
     target: "abs",
@@ -6778,7 +6778,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MN+RakhbJD=r8o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pC1knfxU11hs8n",
     id: "0492",
     name: "incline push up depth jump",
     target: "pectorals",
@@ -6786,7 +6786,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/v7XDpqVP-lpAMr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V3dpt1liJYlM5d",
     id: "0493",
     name: "incline push-up",
     target: "pectorals",
@@ -6794,7 +6794,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-1tU38=JNq7iln",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KNnXOtuWag958z",
     id: "3785",
     name: "incline push-up (on box)",
     target: "pectorals",
@@ -6802,7 +6802,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3JXZMm12IY==1v",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/P1ieRgDQe5oVLw",
     id: "0494",
     name: "incline reverse grip push-up",
     target: "pectorals",
@@ -6810,7 +6810,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gqF=h0_s8J31Hu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LxxbOwBkOrB3RS",
     id: "3011",
     name: "incline scapula push up",
     target: "serratus anterior",
@@ -6818,7 +6818,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3UqXXPfnV4YVeg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GvsVOPlR25oH64",
     id: "0495",
     name: "incline twisting sit-up",
     target: "abs",
@@ -6826,7 +6826,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ua2r1wHhLF2a2P",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lOptAgPN9mOzik",
     id: "1564",
     name: "intermediate hip flexor and quad stretch",
     target: "quads",
@@ -6834,7 +6834,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lHidwaIJll3ruH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0kToElSomFOw-W",
     id: "0496",
     name: "inverse leg curl (bench support)",
     target: "hamstrings",
@@ -6842,7 +6842,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-bPAalShOPAJeX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cPrvm95h-5qqY-",
     id: "2400",
     name: "inverse leg curl (on pull-up cable machine)",
     target: "hamstrings",
@@ -6850,7 +6850,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NPWQNwvpGNmvY5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iM7wWi-WqLVZpu",
     id: "0499",
     name: "inverted row",
     target: "upper back",
@@ -6858,7 +6858,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VfdbEqL150V_Uw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/21n1TFStutCV4F",
     id: "2300",
     name: "inverted row bent knees",
     target: "upper back",
@@ -6866,7 +6866,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BNm0ROu1FZBK2c",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/z7oqvI6IZALO-y",
     id: "2298",
     name: "inverted row on bench",
     target: "upper back",
@@ -6874,7 +6874,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r+pnrhwVY+v4F2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hpUoPlJAni42qi",
     id: "0497",
     name: "inverted row v. 2",
     target: "upper back",
@@ -6882,7 +6882,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZVpvtAUE1i8pcf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vnQ06Pb3MLIpDB",
     id: "0498",
     name: "inverted row with straps",
     target: "upper back",
@@ -6890,7 +6890,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Apumbk1W1bikKe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/O-NRf6L6EzYo-1",
     id: "1419",
     name: "iron cross stretch",
     target: "glutes",
@@ -6898,7 +6898,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8P+uFRJPwf4McX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vmqvEi-pog9NI0",
     id: "1297",
     name: "isometric chest squeeze",
     target: "pectorals",
@@ -6906,7 +6906,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ke7r017eXHEaCH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uNKCt1kIfC0nre",
     id: "0500",
     name: "isometric wipers",
     target: "pectorals",
@@ -6914,7 +6914,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OJ-pCZIJUH0GHj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZvadgozBBHH70G",
     id: "0501",
     name: "jack burpee",
     target: "cardiovascular system",
@@ -6922,7 +6922,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aS_x423M=t=ZMF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BGUKNMyds6QVPG",
     id: "3224",
     name: "jack jump (male)",
     target: "cardiovascular system",
@@ -6930,7 +6930,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Lm6C2Jx6gAOk_1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yc1k-hviQAa0ff",
     id: "0507",
     name: "jackknife sit-up",
     target: "abs",
@@ -6938,7 +6938,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MAqN4rADWLJaj4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NV0ItG60rGOxfr",
     id: "0508",
     name: "janda sit-up",
     target: "abs",
@@ -6946,7 +6946,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p3wTPf3usQVr7j",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7zsjYShj5waF-I",
     id: "2612",
     name: "jump rope",
     target: "cardiovascular system",
@@ -6954,7 +6954,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CXgXrCL8Y4sLSQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/q5fNunRinQZtUU",
     id: "0514",
     name: "jump squat",
     target: "glutes",
@@ -6962,7 +6962,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zSq-o4NgJwIYdp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1DhKqbSoLTiuZo",
     id: "0513",
     name: "jump squat v. 2",
     target: "glutes",
@@ -6970,7 +6970,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/owPkQ29eVM=kyf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WBb0I8J57uesaX",
     id: "0517",
     name: "kettlebell advanced windmill",
     target: "abs",
@@ -6978,7 +6978,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jRiG1lkz2wJvYC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-2HXIeHpC6jvLj",
     id: "0518",
     name: "kettlebell alternating hang clean",
     target: "forearms",
@@ -6986,7 +6986,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1=Vf+veJ2D9lS=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TUEum9aQWSKgQK",
     id: "0520",
     name: "kettlebell alternating press",
     target: "delts",
@@ -6994,7 +6994,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kBfAFolKbm1PSj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/47VbG1HMBPtNXu",
     id: "0519",
     name: "kettlebell alternating press on floor",
     target: "pectorals",
@@ -7002,7 +7002,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SyKSoKxJ_SZJsi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w6ZbEdMMLYrMpl",
     id: "0521",
     name: "kettlebell alternating renegade row",
     target: "upper back",
@@ -7010,7 +7010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=qqtN-+8Vw4WzJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GU3X493uLaYo1y",
     id: "0522",
     name: "kettlebell alternating row",
     target: "upper back",
@@ -7018,7 +7018,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HkfT35nW8cc12A",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zZpKEHB74tOpp1",
     id: "0523",
     name: "kettlebell arnold press",
     target: "delts",
@@ -7026,7 +7026,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Qwsi-7lbeB_FLA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/X1O7yuSukizAvJ",
     id: "0524",
     name: "kettlebell bent press",
     target: "abs",
@@ -7034,7 +7034,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/a9Jdna6j7h-lJx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ITQJ-mRqGiHWIA",
     id: "0525",
     name: "kettlebell bottoms up clean from the hang position",
     target: "biceps",
@@ -7042,7 +7042,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zy4_GJ4UQ_2Cw0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/l6zB3LVwv7YJxb",
     id: "0526",
     name: "kettlebell double alternating hang clean",
     target: "biceps",
@@ -7050,7 +7050,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/B=3iuWuf2L4RWF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2xKAqR2KfAyBsT",
     id: "0527",
     name: "kettlebell double jerk",
     target: "delts",
@@ -7058,7 +7058,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=gr-jkPatsS8KM",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/oIuv5xFcb1Qd1p",
     id: "0528",
     name: "kettlebell double push press",
     target: "delts",
@@ -7066,7 +7066,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XwlJpCAkSi78KN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Rjfp0kMhXUtVdP",
     id: "0529",
     name: "kettlebell double snatch",
     target: "delts",
@@ -7074,7 +7074,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CSsvx=TmFFPBPT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NN64TckPXkje90",
     id: "0530",
     name: "kettlebell double windmill",
     target: "abs",
@@ -7082,7 +7082,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wTJZ94LOlVRYZO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2rzazj6J15bn1y",
     id: "0531",
     name: "kettlebell extended range one arm press on floor",
     target: "pectorals",
@@ -7090,7 +7090,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Snk+5DwbOUVojQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/obzed5-sMJSIFG",
     id: "0532",
     name: "kettlebell figure 8",
     target: "abs",
@@ -7098,7 +7098,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XEF9KJBAPnK1ZO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MUVGvvYGZtNCqA",
     id: "0533",
     name: "kettlebell front squat",
     target: "glutes",
@@ -7106,7 +7106,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1KgfYR_6F6JX0f",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tz75gbYcR9kLcO",
     id: "0534",
     name: "kettlebell goblet squat",
     target: "glutes",
@@ -7114,7 +7114,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OXPy_0dHzKI5GO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/U00Cr3BiVjKp9Z",
     id: "0535",
     name: "kettlebell hang clean",
     target: "hamstrings",
@@ -7122,7 +7122,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/S3o4SZt3n9aQFq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NxSPtHJJbcAoSS",
     id: "0536",
     name: "kettlebell lunge pass through",
     target: "glutes",
@@ -7130,7 +7130,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hrOhkLWkbT=lor",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/T9vrHQQQRUE7d6",
     id: "0537",
     name: "kettlebell one arm clean and jerk",
     target: "delts",
@@ -7138,7 +7138,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+-pwNpcMbrnyrY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gZukxkaLNdSdCM",
     id: "1298",
     name: "kettlebell one arm floor press",
     target: "pectorals",
@@ -7146,7 +7146,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zCyKO7E13wDEUu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wJCkCIEIoJZcty",
     id: "0538",
     name: "kettlebell one arm jerk",
     target: "delts",
@@ -7154,7 +7154,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PxzSvkl_+5=ccS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VzmUVwFQKkGoTy",
     id: "0539",
     name: "kettlebell one arm military press to the side",
     target: "delts",
@@ -7162,7 +7162,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VFk9h5o2vavUp4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3fboO9O574wQzp",
     id: "0540",
     name: "kettlebell one arm push press",
     target: "delts",
@@ -7170,7 +7170,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uRKEyjA+_QF8Gf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/X79hWlhzsLNEYl",
     id: "0541",
     name: "kettlebell one arm row",
     target: "upper back",
@@ -7178,7 +7178,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8vRWqjZz=Rs2en",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gj35VH2QxIhO3p",
     id: "0542",
     name: "kettlebell one arm snatch",
     target: "delts",
@@ -7186,7 +7186,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q6PQL3ARVQfRJ8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6qylSFl5U9uT6E",
     id: "0543",
     name: "kettlebell pirate supper legs",
     target: "delts",
@@ -7194,7 +7194,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hk7anllThWM4W2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DTl6zqau01SSUY",
     id: "0544",
     name: "kettlebell pistol squat",
     target: "glutes",
@@ -7202,7 +7202,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HqmCXHvGEq=kY6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fbWJEDFKo5Z-EZ",
     id: "0545",
     name: "kettlebell plyo push-up",
     target: "pectorals",
@@ -7210,7 +7210,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xGDJzRZRewGq0Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/reblUca7SgxSkx",
     id: "0546",
     name: "kettlebell seated press",
     target: "delts",
@@ -7218,7 +7218,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JRg6b88z-Iwc6l",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HYQx4ukwzbGArR",
     id: "1438",
     name: "kettlebell seated two arm military press",
     target: "delts",
@@ -7226,7 +7226,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WEPfmquawrlA5v",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kIxPTgkJIOJwd1",
     id: "0547",
     name: "kettlebell seesaw press",
     target: "delts",
@@ -7234,7 +7234,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9tGUbiQe403YMR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ey6KkSakY45M0M",
     id: "0548",
     name: "kettlebell sumo high pull",
     target: "traps",
@@ -7242,7 +7242,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BlqJS3-ip=ZdE+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xf-CRvA8zoUyoi",
     id: "0549",
     name: "kettlebell swing",
     target: "glutes",
@@ -7250,7 +7250,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aDt3EYb4XQDiiw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TCaiQoxzxqhYlm",
     id: "0550",
     name: "kettlebell thruster",
     target: "delts",
@@ -7258,7 +7258,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/La_FXhm3pcHFYm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mc10FSgHBRFdqH",
     id: "0551",
     name: "kettlebell turkish get up (squat style)",
     target: "glutes",
@@ -7266,7 +7266,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Qc_OkkGaUBezaw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hMx3eRz8qhpmCp",
     id: "0552",
     name: "kettlebell two arm clean",
     target: "delts",
@@ -7274,7 +7274,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l6=wQUi-CmRU9u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WypLaxVaJycwT9",
     id: "0553",
     name: "kettlebell two arm military press",
     target: "delts",
@@ -7282,7 +7282,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YAeQSLiwmuw3YX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XWQ2yXqVWoceBT",
     id: "1345",
     name: "kettlebell two arm row",
     target: "upper back",
@@ -7290,7 +7290,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "kettlebell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OqRfmhguRCipS=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PeX2g1SS1wckSE",
     id: "0554",
     name: "kettlebell windmill",
     target: "abs",
@@ -7298,7 +7298,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pQtey6ngBvHC9V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vmuYoVixTlVrim",
     id: "0555",
     name: "kick out sit",
     target: "hamstrings",
@@ -7306,7 +7306,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qX6Ny5AZ5GCHfL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6uRWIQgL07QPEl",
     id: "0558",
     name: "kipping muscle up",
     target: "lats",
@@ -7314,7 +7314,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lshS8=hE4NZG8q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-vj6L7AaZFjFxx",
     id: "3640",
     name: "knee touch crunch",
     target: "abs",
@@ -7322,7 +7322,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/47baleb7XLOcee",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TTLApVaZtqvMj2",
     id: "1420",
     name: "kneeling jump squat",
     target: "glutes",
@@ -7330,7 +7330,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3LWUh6Erby=vSn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/teJm79OoJPT2He",
     id: "1346",
     name: "kneeling lat stretch",
     target: "lats",
@@ -7338,7 +7338,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/edpONLth8nSHhm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/o8JLMlS65Sl7KE",
     id: "3239",
     name: "kneeling plank tap shoulder (male)",
     target: "abs",
@@ -7346,7 +7346,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xD3P_ekTSij-ua",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vWQgXoWOJkCbz7",
     id: "3211",
     name: "kneeling push-up (male)",
     target: "pectorals",
@@ -7354,7 +7354,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/teBRNO_48C7EYo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/A8a9xuck-td1FF",
     id: "3288",
     name: "korean dips",
     target: "pectorals",
@@ -7362,7 +7362,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/axJkvwa8PTZdky",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zTAx1moGNK96qd",
     id: "3418",
     name: "l-pull-up",
     target: "lats",
@@ -7370,7 +7370,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cJNNQwIVmxee7k",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OfADzGVaSlYme0",
     id: "3419",
     name: "l-sit on floor",
     target: "abs",
@@ -7378,7 +7378,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b5qWusfOqtaAEt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/0R8ko0Qy9Jc-Nf",
     id: "0562",
     name: "landmine 180",
     target: "abs",
@@ -7386,7 +7386,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=byh1LF9IXhqWL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bCDFkFaC8TiAb-",
     id: "3237",
     name: "landmine lateral raise",
     target: "delts",
@@ -7394,7 +7394,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3KbImhHjeF_S6J",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vh4rj5m5qnsyxk",
     id: "3300",
     name: "lean planche",
     target: "abs",
@@ -7402,7 +7402,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jVwl8WvKYJL1ip",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ss1VoC9D2iFFsl",
     id: "2271",
     name: "left hook. boxing",
     target: "delts",
@@ -7410,7 +7410,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vmOAD-CXK7JYWf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FYq69yFWSfZ69B",
     id: "0570",
     name: "leg pull in flat bench",
     target: "abs",
@@ -7418,7 +7418,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/xLd+wYAnktbwvD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dFOhDPJbsZcrk8",
     id: "1576",
     name: "leg up hamstring stretch",
     target: "hamstrings",
@@ -7426,7 +7426,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PneEgYMdWElpn2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZlxayqpXpkUrEm",
     id: "2287",
     name: "lever alternate leg press ",
     target: "quads",
@@ -7434,7 +7434,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Vsx0DXQAz-S2RW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LUPgGmJQ6PQWv9",
     id: "0571",
     name: "lever alternating narrow grip seated row ",
     target: "upper back",
@@ -7442,7 +7442,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tCVz0il9Ul760u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AUx6qiLsUO4t-W",
     id: "0572",
     name: "lever assisted chin-up",
     target: "lats",
@@ -7450,7 +7450,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hft_zMeYwLGu5f",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HadoB74fI1PTMc",
     id: "0573",
     name: "lever back extension",
     target: "spine",
@@ -7458,7 +7458,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mEeCE_uJxewVjx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TqeYAAnS3WvmPj",
     id: "0574",
     name: "lever bent over row ",
     target: "upper back",
@@ -7466,7 +7466,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/px_TTrXFZp6T91",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QNVOCR1ptr2Hcf",
     id: "3200",
     name: "lever bent-over row with v-bar ",
     target: "upper back",
@@ -7474,7 +7474,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Sq=rwGpnI+NotF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ji3UeFMs4Y5VG-",
     id: "0575",
     name: "lever bicep curl",
     target: "biceps",
@@ -7482,7 +7482,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/L8bGZTZ5x1GXvK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ess6G2CyrpVZrS",
     id: "2289",
     name: "lever calf press ",
     target: "calves",
@@ -7490,7 +7490,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9t3jb8oy-XTDUY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dzsfDjKftexZE1",
     id: "0577",
     name: "lever chest press",
     target: "pectorals",
@@ -7498,7 +7498,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/J=FBjL=5Ha7Zid",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6QMwXIUd1r6W7W",
     id: "0576",
     name: "lever chest press ",
     target: "pectorals",
@@ -7506,7 +7506,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ShGjcNCQm-UvhO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dJlqcpIzDzZbQf",
     id: "0578",
     name: "lever deadlift ",
     target: "glutes",
@@ -7514,7 +7514,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/j8O51mbLsyA_XO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YoTJgJ8beUWTX-",
     id: "1300",
     name: "lever decline chest press",
     target: "pectorals",
@@ -7522,7 +7522,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fx+kjWBTVGnlql",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/l84l2Zh4ualUAC",
     id: "1253",
     name: "lever donkey calf raise",
     target: "calves",
@@ -7530,7 +7530,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tblxQZmgeM=oLV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SgmJnyFKV3Wjmw",
     id: "0579",
     name: "lever front pulldown",
     target: "lats",
@@ -7538,7 +7538,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/C2uIpXo3JQ4wFx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Nh2TGixlPzUKoh",
     id: "0580",
     name: "lever gripless shrug",
     target: "traps",
@@ -7546,7 +7546,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pNnmbjuL7ysBqO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sbFm9OV-dHcJPJ",
     id: "1439",
     name: "lever gripless shrug v. 2",
     target: "traps",
@@ -7554,7 +7554,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Zl_X6Vz28wd0BN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GUvwo6IrcgvFEB",
     id: "2288",
     name: "lever gripper hands ",
     target: "forearms",
@@ -7562,7 +7562,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/L+NRIEUyICZWr-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OGVjFx8PPBB72u",
     id: "1615",
     name: "lever hammer grip preacher curl",
     target: "biceps",
@@ -7570,7 +7570,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/z_v67G=uNcFlAP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PNLTxAHzGGohR0",
     id: "0581",
     name: "lever high row ",
     target: "upper back",
@@ -7578,7 +7578,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5=uhlohvzCOc1a",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Jvw3HAEna3Z7oz",
     id: "2286",
     name: "lever hip extension v. 2",
     target: "glutes",
@@ -7586,7 +7586,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7VnWkTQWhNc9i4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Od3SYwVChtSjOt",
     id: "2611",
     name: "lever horizontal one leg press",
     target: "glutes",
@@ -7594,7 +7594,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O1JaybjwYM0wko",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gaz1mIn6my2Hr7",
     id: "1299",
     name: "lever incline chest press",
     target: "pectorals",
@@ -7602,7 +7602,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tuNmBRIywHoKOj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jEX3vH62z7xnJn",
     id: "1479",
     name: "lever incline chest press v. 2",
     target: "pectorals",
@@ -7610,7 +7610,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/M7_N9i=MmJG_V5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IbTsVdtvWFHxGL",
     id: "0582",
     name: "lever kneeling leg curl ",
     target: "hamstrings",
@@ -7618,7 +7618,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mHiO+inL7QVGVf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iZgpg2paSRMitG",
     id: "0583",
     name: "lever kneeling twist",
     target: "abs",
@@ -7626,7 +7626,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/P_jobxWkptIA1l",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VTRjTSU8Jwe2I6",
     id: "0584",
     name: "lever lateral raise",
     target: "delts",
@@ -7634,7 +7634,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TI8=zSruzQGYfG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mcWRWxL-jldcy-",
     id: "0585",
     name: "lever leg extension",
     target: "quads",
@@ -7642,7 +7642,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uOgVy42VcrHQlr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Yl6WTAKD0NWsrA",
     id: "0586",
     name: "lever lying leg curl",
     target: "hamstrings",
@@ -7650,7 +7650,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aHEy+RgMBHH5w4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WkDX7uqp3xKYq-",
     id: "3195",
     name: "lever lying two-one leg curl",
     target: "hamstrings",
@@ -7658,7 +7658,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/c9Gu0QDa0Klu1C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KOqCfVywhdmjqq",
     id: "0587",
     name: "lever military press ",
     target: "delts",
@@ -7666,7 +7666,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1TgKJuD76EQPko",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nEuV9zQD57V5Cx",
     id: "0588",
     name: "lever narrow grip seated row ",
     target: "upper back",
@@ -7674,7 +7674,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dtS++KGB6m3E6t",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8-R2hi6uRNAaxU",
     id: "0589",
     name: "lever one arm bent over row ",
     target: "upper back",
@@ -7682,7 +7682,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZsitQf_PvDJK_v",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Pl62yzF0Ghj2fq",
     id: "1356",
     name: "lever one arm lateral high row",
     target: "upper back",
@@ -7690,7 +7690,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/adlZILnt9Rt4=+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3gKTtWTv3NxjHh",
     id: "1347",
     name: "lever one arm lateral wide pulldown ",
     target: "lats",
@@ -7698,7 +7698,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9P9q2c=VFgq5A-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uBYtrGkAlD2Hj8",
     id: "0590",
     name: "lever one arm shoulder press ",
     target: "delts",
@@ -7706,7 +7706,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/B9-Hi2ldzzq1WD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jmOntN0HIdnWs6",
     id: "0591",
     name: "lever overhand triceps dip",
     target: "triceps",
@@ -7714,7 +7714,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3d-2=3CXqL-bm8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9I6XQh9tRRPSDU",
     id: "0592",
     name: "lever preacher curl",
     target: "biceps",
@@ -7722,7 +7722,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UHN5ZNS268+O6y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sw7abBm6i6Ho23",
     id: "1614",
     name: "lever preacher curl v. 2",
     target: "biceps",
@@ -7730,7 +7730,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sopBE7SHexyKd6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WUt-OnOPvSNntO",
     id: "2285",
     name: "lever pullover ",
     target: "lats",
@@ -7738,7 +7738,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sFJN=U8VNrlUyD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HLEUBHa3Uo2x3V",
     id: "2736",
     name: "lever reverse grip lateral pulldown ",
     target: "lats",
@@ -7746,7 +7746,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/77J=8o1jrL_PdU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/T35AWtnG0TdN46",
     id: "1616",
     name: "lever reverse grip preacher curl",
     target: "biceps",
@@ -7754,7 +7754,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qpz_o69SsBUxHH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Woqumvq8Q3vDAX",
     id: "1348",
     name: "lever reverse grip vertical row",
     target: "upper back",
@@ -7762,7 +7762,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8ruUV4oDI6xIst",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nkItM6sNGKhxA7",
     id: "0593",
     name: "lever reverse hyperextension ",
     target: "glutes",
@@ -7770,7 +7770,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LPPbR28Dl=GZ9Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/963-Umu4tpqM5Y",
     id: "1349",
     name: "lever reverse t-bar row",
     target: "upper back",
@@ -7778,7 +7778,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ndw58M=b-B+qkt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xa8Jq4GFzxw8GJ",
     id: "2315",
     name: "lever rotary calf",
     target: "calves",
@@ -7786,7 +7786,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/j-5TV_tYWpjKAT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3J-pkr90W5eQqc",
     id: "2335",
     name: "lever seated calf press",
     target: "calves",
@@ -7794,7 +7794,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GS_Vp5i_-elHTZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cN9lQb9BjIExIJ",
     id: "0594",
     name: "lever seated calf raise ",
     target: "calves",
@@ -7802,7 +7802,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KUUwBs8kkoU5Dw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GkhhJYVzpdwWNB",
     id: "1452",
     name: "lever seated crunch",
     target: "abs",
@@ -7810,7 +7810,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-iDvrwpHlnOLPZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cQmCkM9OPiLVkl",
     id: "0595",
     name: "lever seated crunch (chest pad)",
     target: "abs",
@@ -7818,7 +7818,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ML=yKQL=q_e8UK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-R7qTUPrg0uXDF",
     id: "3760",
     name: "lever seated crunch v. 2",
     target: "abs",
@@ -7826,7 +7826,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/v1Zf6LV8MWF-gQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8jQCcg8Ot-Qt8m",
     id: "1451",
     name: "lever seated dip",
     target: "triceps",
@@ -7834,7 +7834,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IP9QXx1YvO2USe",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/72vjILqCav1pM3",
     id: "0596",
     name: "lever seated fly",
     target: "pectorals",
@@ -7842,7 +7842,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YQwhepJSsrca1X",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IkaLytAfiXLLcJ",
     id: "3759",
     name: "lever seated good morning",
     target: "glutes",
@@ -7850,7 +7850,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W-wk2ftVnBgBH0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qE8in5IVLZ32Hs",
     id: "0597",
     name: "lever seated hip abduction",
     target: "abductors",
@@ -7858,7 +7858,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vZPqYYc81No7G0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eO9r82FA-Q27Vq",
     id: "0598",
     name: "lever seated hip adduction",
     target: "adductors",
@@ -7866,7 +7866,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q=NUo9FHUAYiQc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GJTlNxXAtzdODi",
     id: "0599",
     name: "lever seated leg curl",
     target: "hamstrings",
@@ -7874,7 +7874,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3yG2sRr9vu2Glh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5SYRTqV8oUcplb",
     id: "0600",
     name: "lever seated leg raise crunch ",
     target: "abs",
@@ -7882,7 +7882,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Jg2_8M2OSoxpWC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VF0FHjt-lRpURD",
     id: "0602",
     name: "lever seated reverse fly",
     target: "delts",
@@ -7890,7 +7890,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1013AevD9iyx9C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uxrgwsPTp45Rwf",
     id: "0601",
     name: "lever seated reverse fly (parallel grip)",
     target: "delts",
@@ -7898,7 +7898,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5PpDcdL+APlP3L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tG3nSEDiuSZ1LJ",
     id: "1350",
     name: "lever seated row",
     target: "upper back",
@@ -7906,7 +7906,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6N8Dd1tQ+qokuP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Hnodl6juaI-ppp",
     id: "1385",
     name: "lever seated squat calf raise on leg press machine",
     target: "calves",
@@ -7914,7 +7914,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NW2_kFslpMOlmg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-fO5nPSh90oWVV",
     id: "0603",
     name: "lever shoulder press ",
     target: "delts",
@@ -7922,7 +7922,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AT4gC7g6A8rVsZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bVI6kdmE1iCeV9",
     id: "0869",
     name: "lever shoulder press  v. 2",
     target: "delts",
@@ -7930,7 +7930,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kLgFcdo0nqokRh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8vIWEpVU50Obt4",
     id: "2318",
     name: "lever shoulder press  v. 3",
     target: "delts",
@@ -7938,7 +7938,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/G0e7j3-qI9xd=W",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xc8g8gaQnL-yuf",
     id: "0604",
     name: "lever shrug ",
     target: "traps",
@@ -7946,7 +7946,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kJKO6DwLL2DPA0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TvHa3l2RdhfwId",
     id: "0605",
     name: "lever standing calf raise",
     target: "calves",
@@ -7954,7 +7954,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gSBON5ouqZuhp5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bg6f2UTBu3Ljvi",
     id: "3758",
     name: "lever standing chest press",
     target: "pectorals",
@@ -7962,7 +7962,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Vge1sI6SDaWFgU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4Hw6szKcpgpDOa",
     id: "0606",
     name: "lever t bar row ",
     target: "upper back",
@@ -7970,7 +7970,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aoE-36q_fEu=G2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CH8QmcenpQohv8",
     id: "1351",
     name: "lever t-bar reverse grip row",
     target: "upper back",
@@ -7978,7 +7978,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o3o9MuUgprnC8c",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QYJcMpQfctfb4M",
     id: "0607",
     name: "lever triceps extension",
     target: "triceps",
@@ -7986,7 +7986,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OdEOpX2zgps4Kd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nEFXV4KjsFl4Ob",
     id: "1313",
     name: "lever unilateral row",
     target: "upper back",
@@ -7994,7 +7994,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dDsmiR0Ja=qZCF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yvEeWQw2m4zCw7",
     id: "0609",
     name: "london bridge",
     target: "upper back",
@@ -8002,7 +8002,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g4Zlbrr3jctjoj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2NXtb3bYfLDtc6",
     id: "3013",
     name: "low glute bridge on floor",
     target: "glutes",
@@ -8010,7 +8010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XPmjkgWRFhy8Zr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rkznqrseOo6MKt",
     id: "1352",
     name: "lower back curl",
     target: "spine",
@@ -8018,7 +8018,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=r3w4GgMIU=ZSi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sDImU5XWglWZsQ",
     id: "3582",
     name: "lunge with jump",
     target: "glutes",
@@ -8026,7 +8026,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1mxIWvRMB6SpTc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WFdF0XsavK4PZj",
     id: "1688",
     name: "lunge with twist",
     target: "abs",
@@ -8034,7 +8034,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_B_AUfILpPAV8Z",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9LuKIiL88oUPuP",
     id: "0613",
     name: "lying (side) quads stretch",
     target: "quads",
@@ -8042,7 +8042,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g5F-_J5QCsOFFN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e-MTpQf5BLD1ft",
     id: "2312",
     name: "lying elbow to knee",
     target: "abs",
@@ -8050,7 +8050,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tTkJNtqzHRBOZ=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rISmBD1oZjY9Pf",
     id: "0620",
     name: "lying leg raise flat bench",
     target: "abs",
@@ -8058,7 +8058,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SB=bO3UBS97BtU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Hou06mia1vASBN",
     id: "0865",
     name: "lying leg-hip raise",
     target: "abs",
@@ -8066,7 +8066,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KH4PM8sIiVpVFZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BVTcq3cNjz7vGX",
     id: "1301",
     name: "machine inner chest press",
     target: "pectorals",
@@ -8074,7 +8074,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kjdUfDmG4c_qck",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/slx5X8eOkXato-",
     id: "0624",
     name: "march sit (wall)",
     target: "glutes",
@@ -8082,7 +8082,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l5geZgxLt=-FmO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/b9K1-k8WYl-YGX",
     id: "1353",
     name: "medicine ball catch and overhead throw",
     target: "lats",
@@ -8090,7 +8090,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9yE_eCqyCzyYVy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zhgAKF1iqE7-fT",
     id: "1302",
     name: "medicine ball chest pass",
     target: "pectorals",
@@ -8098,7 +8098,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sY7gTSf38kknfd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HCCHf0fMMlc7Et",
     id: "1303",
     name: "medicine ball chest push from 3 point stance",
     target: "pectorals",
@@ -8106,7 +8106,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FBpuQYV8-+AWB4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/s9CMSvLZS2fkV0",
     id: "1304",
     name: "medicine ball chest push multiple response",
     target: "pectorals",
@@ -8114,7 +8114,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/thEOZXQVYpmmDD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KUhzXKtXA5oQfN",
     id: "1305",
     name: "medicine ball chest push single response",
     target: "pectorals",
@@ -8122,7 +8122,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rYSc8PofWI6bKr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FNT4jJvl9Slx4O",
     id: "1312",
     name: "medicine ball chest push with run release",
     target: "pectorals",
@@ -8130,7 +8130,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hevrLDFRlhge7p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nwkQM1lBe5fIzT",
     id: "1701",
     name: "medicine ball close grip push up",
     target: "triceps",
@@ -8138,7 +8138,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9wVoKaYfGu8U5h",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7rkW9CUhq9kYgY",
     id: "1354",
     name: "medicine ball overhead slam",
     target: "upper back",
@@ -8146,7 +8146,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Y18LvdXEyonIfb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MiZNyl-2AFmAZK",
     id: "1750",
     name: "medicine ball supine chest throw",
     target: "triceps",
@@ -8154,7 +8154,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ACs_7dwni=7CoE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XNdhByURmGrkK3",
     id: "0627",
     name: "mixed grip chin-up",
     target: "lats",
@@ -8162,7 +8162,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/V7x5-QioxVrbBh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/j96fvhuh3Il6kI",
     id: "3217",
     name: "modified hindu push-up (male)",
     target: "pectorals",
@@ -8170,7 +8170,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ladTBW6HLdjBT7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cmXfJTAx7LXk19",
     id: "1421",
     name: "modified push up to lower arms",
     target: "forearms",
@@ -8178,7 +8178,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/D=LnZQav1z-oe8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PONHlvraHFQOIr",
     id: "0628",
     name: "monster walk",
     target: "glutes",
@@ -8186,7 +8186,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1Q-643q8Wj0p1=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JHP6j9td9oYb0O",
     id: "0630",
     name: "mountain climber",
     target: "cardiovascular system",
@@ -8194,7 +8194,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/RJZTMPtLRhUrwA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dTQOl-JGb3Ncnx",
     id: "0631",
     name: "muscle up",
     target: "lats",
@@ -8202,7 +8202,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Z+F2mjrZyCWcyg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ls3SeXFgSjgnkw",
     id: "1401",
     name: "muscle-up (on vertical bar)",
     target: "lats",
@@ -8210,7 +8210,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IrvwkWDahQEAzB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LLgWNRCnJDy2hH",
     id: "2328",
     name: "narrow push-up on exercise ball",
     target: "triceps",
@@ -8218,7 +8218,7 @@ export const data = [
   {
     bodyPart: "neck",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ils5IC2uFmCotE",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aMqNN77ickxTOf",
     id: "1403",
     name: "neck side stretch",
     target: "levator scapulae",
@@ -8226,7 +8226,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=aSB90Sqg-TQoQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sU97byzGn9XfsW",
     id: "0634",
     name: "negative crunch",
     target: "abs",
@@ -8234,7 +8234,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/BvXPRwy5+_RxPY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/E888PZ6xAXqqLY",
     id: "1495",
     name: "oblique crunch v. 2",
     target: "abs",
@@ -8242,7 +8242,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gs0KO9hH6_E1Xk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ezyudy8Y-iX1CQ",
     id: "0635",
     name: "oblique crunches floor",
     target: "abs",
@@ -8250,7 +8250,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "olympic barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F4qVpO7279kHSy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xfvMZO6cwAkDUl",
     id: "0636",
     name: "olympic barbell hammer curl",
     target: "biceps",
@@ -8258,7 +8258,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "olympic barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ulTh_jygCHxHc2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1JE-fXARhxndsy",
     id: "0637",
     name: "olympic barbell triceps extension",
     target: "triceps",
@@ -8266,7 +8266,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NZWf36sq2HInlw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ea1tgexmwAvjwN",
     id: "1355",
     name: "one arm against wall",
     target: "lats",
@@ -8274,7 +8274,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cSHHQjlG9Vb1J2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MnnaB-G83VhV2p",
     id: "0638",
     name: "one arm chin-up",
     target: "lats",
@@ -8282,7 +8282,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HD7xmiAjYaTZ6o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RyBrxUvv926CY0",
     id: "0639",
     name: "one arm dip",
     target: "triceps",
@@ -8290,7 +8290,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5v5hoo8x2qECsQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7kzko5PmBRu1HM",
     id: "0640",
     name: "one arm slam (with medicine ball)",
     target: "abs",
@@ -8298,7 +8298,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/albEXu21u+OAGo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AV67VVZEeuV863",
     id: "1773",
     name: "one arm towel row",
     target: "upper back",
@@ -8306,7 +8306,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fh2-4ks3D53w-q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VpcRAXuEiM6qMH",
     id: "1386",
     name: "one leg donkey calf raise",
     target: "calves",
@@ -8314,7 +8314,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bEvgwwLs8yosmZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6pVyOZHvPQTCGt",
     id: "1387",
     name: "one leg floor calf raise",
     target: "calves",
@@ -8322,7 +8322,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vsU6t2cvmGKuBr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x5aZW50oSfQ9-o",
     id: "1476",
     name: "one leg squat",
     target: "glutes",
@@ -8330,7 +8330,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ow4PxeB4GQgYxp",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Xt0-YmgjFjo9sK",
     id: "0641",
     name: "otis up",
     target: "abs",
@@ -8338,7 +8338,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2bBQX=8SaY5Q1h",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WYkC6KHh-ADLxv",
     id: "0642",
     name: "outside leg kick push-up",
     target: "glutes",
@@ -8346,7 +8346,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZlU_0a+mVSnOJG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rrQoqW4qwduo1W",
     id: "0643",
     name: "overhead triceps stretch",
     target: "triceps",
@@ -8354,7 +8354,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/x_o-sTHhLLW==+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/czV1YG9qN1Xcy5",
     id: "3147",
     name: "pelvic tilt",
     target: "abs",
@@ -8362,7 +8362,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QGV_to7aQ0oUvS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/miKKD9W21LXyD7",
     id: "1422",
     name: "pelvic tilt into bridge",
     target: "glutes",
@@ -8370,7 +8370,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MktfcIJ28_oOui",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Bdd-k2HU6WDSx0",
     id: "1388",
     name: "peroneals stretch",
     target: "calves",
@@ -8378,7 +8378,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2qX0PI9PvhOMLC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6cKmsncvrC4a-A",
     id: "3662",
     name: "pike-to-cobra push-up",
     target: "glutes",
@@ -8386,7 +8386,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/z5-8fcXBByEhAf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ELPGedbkWF91Wu",
     id: "1306",
     name: "plyo push up",
     target: "pectorals",
@@ -8394,7 +8394,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/p=Y6dXEq35a4uW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rr3wPxmQwZkD3v",
     id: "1687",
     name: "posterior step to overhead reach",
     target: "abs",
@@ -8402,7 +8402,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OlU-rAEFmr5b5C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VtsnRkOX-jkYzF",
     id: "1389",
     name: "posterior tibialis stretch",
     target: "calves",
@@ -8410,7 +8410,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tFNDlKx1PW=M3o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/clO92B6Qsz4Pe0",
     id: "3119",
     name: "potty squat",
     target: "abs",
@@ -8418,7 +8418,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kGiFE5xpv8RIn-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dQUzs67P-0xIXW",
     id: "3132",
     name: "potty squat with support",
     target: "glutes",
@@ -8426,7 +8426,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SIwC8yAdE2GVVT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4IMR5t5CPipEt9",
     id: "0648",
     name: "power clean",
     target: "hamstrings",
@@ -8434,7 +8434,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pjki_mkW30Gjyv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JkYU6ecsATd927",
     id: "3665",
     name: "power point plank",
     target: "abs",
@@ -8442,7 +8442,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/a4O8_m513ZfVs8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LL9R5z3909i7AS",
     id: "3203",
     name: "prisoner half sit-up (male)",
     target: "abs",
@@ -8450,7 +8450,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JcP3C2cwOrmX3Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Ek2rOZiDK7t9OE",
     id: "1707",
     name: "prone twist on stability ball",
     target: "abs",
@@ -8458,7 +8458,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+Hwg8vB4JYBDTu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/psb3IF78xKScW-",
     id: "0651",
     name: "pull up (neutral grip)",
     target: "lats",
@@ -8466,7 +8466,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/y8j_KMNAdwkZrf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ePGiixetoA0o4O",
     id: "0650",
     name: "pull-in (on stability ball)",
     target: "abs",
@@ -8474,7 +8474,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/UBUXpprHM3iJ4l",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3zqcLXItfjOqFj",
     id: "0652",
     name: "pull-up",
     target: "lats",
@@ -8482,7 +8482,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WjThE-B4xTrPwJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fOkDaQxetWkxKT",
     id: "1689",
     name: "push and pull bodyweight",
     target: "pectorals",
@@ -8490,7 +8490,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/X4EBM0rHF0ek7_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/L-ekXoJ-IVIBKl",
     id: "3638",
     name: "push to run",
     target: "cardiovascular system",
@@ -8498,7 +8498,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "bosu ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/QJoQP4VwwBDkRm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xm7-J3rDLBlvJe",
     id: "1307",
     name: "push up on bosu ball",
     target: "pectorals",
@@ -8506,7 +8506,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0ZRZ7bVmdTBsqr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-oq3yIbfCkIE3Q",
     id: "0662",
     name: "push-up",
     target: "pectorals",
@@ -8514,7 +8514,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "bosu ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b1nF70==8LaA5V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YlwiwE7i-STwPk",
     id: "0653",
     name: "push-up (bosu ball)",
     target: "pectorals",
@@ -8522,7 +8522,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fsqGZ5G+ohEQaj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6dVs2nMnp8QVDX",
     id: "0655",
     name: "push-up (on stability ball)",
     target: "pectorals",
@@ -8530,7 +8530,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/17mdHjFieR_E-N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/A5WufjEONoO9yx",
     id: "0656",
     name: "push-up (on stability ball)",
     target: "pectorals",
@@ -8538,7 +8538,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5roYOjmRXU=gLL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/36fGM0BjeUgCTt",
     id: "0659",
     name: "push-up (wall)",
     target: "pectorals",
@@ -8546,7 +8546,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cwq3oXFrjwdqAv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eRhTvziVRjukKS",
     id: "0658",
     name: "push-up (wall) v. 2",
     target: "pectorals",
@@ -8554,7 +8554,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/10d72HU8a4DYeq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GxR9WDvv-jUQED",
     id: "0660",
     name: "push-up close-grip off dumbbell",
     target: "triceps",
@@ -8562,7 +8562,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-W2miqvlYJSFzv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4JCne4PGIKKH8X",
     id: "0661",
     name: "push-up inside leg kick",
     target: "glutes",
@@ -8570,7 +8570,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+gAQmR_gEM0skw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CPtU5tlPvNWO4J",
     id: "0663",
     name: "push-up medicine ball",
     target: "pectorals",
@@ -8578,7 +8578,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7S3vS_uq5MqBQd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/aGqai91tATxzNZ",
     id: "1467",
     name: "push-up on lower arms",
     target: "triceps",
@@ -8586,7 +8586,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/H4yKRne+b02R3o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vJPsmMhnwMKi8O",
     id: "3145",
     name: "push-up plus",
     target: "pectorals",
@@ -8594,7 +8594,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_1y+5s68nLTdEA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TuCAEZTVLZITjW",
     id: "0664",
     name: "push-up to side plank",
     target: "abs",
@@ -8602,7 +8602,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aaTxbPu_rI5wUI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xoSbo4TLXamVO1",
     id: "3533",
     name: "quads",
     target: "quads",
@@ -8610,7 +8610,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_1So7Vj_lXw41n",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jpr8EtF20sD1uL",
     id: "3201",
     name: "quarter sit-up",
     target: "abs",
@@ -8618,7 +8618,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O-0=74+Trxx6+O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/c6a6E1G3KONjmo",
     id: "3552",
     name: "quick feet v. 2",
     target: "quads",
@@ -8626,7 +8626,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/eg5YJ7Ddr_-v0S",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JFVH9zwXYAHjb3",
     id: "0666",
     name: "raise single arm push-up",
     target: "pectorals",
@@ -8634,7 +8634,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/j=6=uf5z5iU9r4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FzXOSC5Y8tqDNu",
     id: "0668",
     name: "rear decline bridge",
     target: "glutes",
@@ -8642,7 +8642,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KIb3V88XJhFwW+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IQproQH1gk-vst",
     id: "0669",
     name: "rear deltoid stretch",
     target: "delts",
@@ -8650,7 +8650,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/V4yY=leDHsmnwY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Zdx6KAQ8Q-vYD5",
     id: "0670",
     name: "rear pull-up",
     target: "lats",
@@ -8658,7 +8658,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TNuHBN6IfcLTjF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Pnouh25uEnnFxu",
     id: "1582",
     name: "reclining big toe pose with rope",
     target: "hamstrings",
@@ -8666,7 +8666,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/yrIh-fAGW2kXgQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qpQ-HAtvGV7skR",
     id: "3236",
     name: "resistance band hip thrusts on knees (female)",
     target: "glutes",
@@ -8674,7 +8674,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/u8G1B-oEmxmQeX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CcFJW2YC3uVV8W",
     id: "3007",
     name: "resistance band leg extension",
     target: "quads",
@@ -8682,7 +8682,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O_pW96Pe6zhk4m",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gNRfqPqAICukup",
     id: "3123",
     name: "resistance band seated biceps curl",
     target: "biceps",
@@ -8690,7 +8690,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6DmhosaGYg_dOT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iZlvX4oJW1QAww",
     id: "3124",
     name: "resistance band seated chest press",
     target: "pectorals",
@@ -8698,7 +8698,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/EWWQVfHCk63atQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yDQYp4Pdx-j11U",
     id: "3006",
     name: "resistance band seated hip abduction",
     target: "abductors",
@@ -8706,7 +8706,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vbNWPJp+EW46=J",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/d4v61jdaG9bjxg",
     id: "3122",
     name: "resistance band seated shoulder press",
     target: "delts",
@@ -8714,7 +8714,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "resistance band",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/t1h1fRX0bTPZmm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/G2wBaghg7QrV6t",
     id: "3144",
     name: "resistance band seated straight back row",
     target: "upper back",
@@ -8722,7 +8722,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/k7rHNf7_JlyFGt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/S7RCoWabzH5Ivg",
     id: "0872",
     name: "reverse crunch",
     target: "abs",
@@ -8730,7 +8730,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HamTraiCKSxA-u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h4MJHUVAiBbCJE",
     id: "0672",
     name: "reverse dip",
     target: "triceps",
@@ -8738,7 +8738,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nCkhAdc3mcLEkZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nHu7zOfreayvkI",
     id: "0673",
     name: "reverse grip machine lat pulldown",
     target: "lats",
@@ -8746,7 +8746,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IZGUOXk6rT07L-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/13wnkIDDs3iVoQ",
     id: "0674",
     name: "reverse grip pull-up",
     target: "lats",
@@ -8754,7 +8754,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8BJqWQIHH18dsG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5VeOIkgA7Is7kp",
     id: "0675",
     name: "reverse hyper extension (on stability ball)",
     target: "glutes",
@@ -8762,7 +8762,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3ETGhvu0vzNZ1I",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Qwr0DLAlrNNQC8",
     id: "1423",
     name: "reverse hyper on flat bench",
     target: "glutes",
@@ -8770,7 +8770,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aUZIzBpXNdrsKC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kVbjSdcTzKKdfa",
     id: "3663",
     name: "reverse plank with leg lift",
     target: "abs",
@@ -8778,7 +8778,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7_d2v9Zf2zYoc6",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wA4lCDKuMFDV1n",
     id: "0677",
     name: "ring dips",
     target: "triceps",
@@ -8786,7 +8786,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tsd+SsQ6MP-Rmw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NKrO7cKj9dCFx8",
     id: "2571",
     name: "rocking frog stretch",
     target: "glutes",
@@ -8794,7 +8794,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/h+6OVFwubIg-t=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9Dek75ZSNxR9C-",
     id: "0678",
     name: "rocky pull-up pulldown",
     target: "lats",
@@ -8802,7 +8802,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2ZDfa8HO93QQvR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/13af6faMlGnzKZ",
     id: "2208",
     name: "roller back stretch",
     target: "spine",
@@ -8810,7 +8810,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-Vxfb0_-rRJSJX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GI6juxFxXfGBAE",
     id: "2204",
     name: "roller body saw",
     target: "abs",
@@ -8818,7 +8818,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DgsPkEdRHB8e6J",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/v0pSxhp8eZBxru",
     id: "2205",
     name: "roller hip lat stretch",
     target: "glutes",
@@ -8826,7 +8826,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JB1Ixnw296nAv1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yIF0PoDt0B7eE7",
     id: "2202",
     name: "roller hip stretch",
     target: "glutes",
@@ -8834,7 +8834,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=o0Bv4zH+sFOkq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6RRaWiqQjN1hub",
     id: "2206",
     name: "roller reverse crunch",
     target: "abs",
@@ -8842,7 +8842,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/68=I7r0B_W6erG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fwe9PLJOqH1DDJ",
     id: "2203",
     name: "roller seated shoulder flexor depresor retractor",
     target: "pectorals",
@@ -8850,7 +8850,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OIygyYerVr5T=w",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nwJG3ai6oJRYNQ",
     id: "2209",
     name: "roller seated single leg shoulder flexor depresor retractor",
     target: "pectorals",
@@ -8858,7 +8858,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/f89mTsSeZfYKAS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/M1cs29gx2gIsID",
     id: "2207",
     name: "roller side lat stretch",
     target: "lats",
@@ -8866,7 +8866,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PamKlgkHna20n0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/z8gWyWz8jmJJSY",
     id: "0680",
     name: "rope climb",
     target: "upper back",
@@ -8874,7 +8874,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/D1VffyGg8o0Ups",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1qHGTDPWNMBCHs",
     id: "0685",
     name: "run",
     target: "cardiovascular system",
@@ -8882,7 +8882,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0NJTrJlcHynniO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/38yro2L2-uh2AE",
     id: "0684",
     name: "run (equipment)",
     target: "cardiovascular system",
@@ -8890,7 +8890,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/m6FXpeqv_rRmvU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BTr8u8qOliH6A1",
     id: "1585",
     name: "runners stretch",
     target: "hamstrings",
@@ -8898,7 +8898,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hKB2AKtke9XYVC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/08lYkHwK9cLZEY",
     id: "0687",
     name: "russian twist",
     target: "abs",
@@ -8906,7 +8906,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O9LO-IFHIV4vEi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uVliKhpP8hkUgG",
     id: "3012",
     name: "scapula dips",
     target: "traps",
@@ -8914,7 +8914,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fKyHKImxMOVIbo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SlcfO7oORUeWGt",
     id: "3021",
     name: "scapula push-up",
     target: "serratus anterior",
@@ -8922,7 +8922,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6xifpvJPNzGTdm",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XIyV-9Wi7gOj0u",
     id: "0688",
     name: "scapular pull-up",
     target: "traps",
@@ -8930,7 +8930,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PX-ELtB33u09Gr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eWscOBTnE984Wy",
     id: "3219",
     name: "scissor jumps (male)",
     target: "cardiovascular system",
@@ -8938,7 +8938,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1_HXX2P3w6M0QN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/WY-p7qxxDcTeEa",
     id: "1390",
     name: "seated calf stretch (male)",
     target: "calves",
@@ -8946,7 +8946,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/o98E5t59MY=VpY",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/56IlfDLF6Q6S4K",
     id: "1424",
     name: "seated glute stretch",
     target: "glutes",
@@ -8954,7 +8954,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Qc5NklEfrvzCXO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/l2NMvT0eIhHq-s",
     id: "0689",
     name: "seated leg raise",
     target: "abs",
@@ -8962,7 +8962,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/i4Oh9lhu6F2ggD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eGmAarOQo1SRKt",
     id: "0690",
     name: "seated lower back stretch",
     target: "lats",
@@ -8970,7 +8970,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GaUPearJU6E5ZI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/OUAzbNimZRFfRc",
     id: "2567",
     name: "seated piriformis stretch",
     target: "glutes",
@@ -8978,7 +8978,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KdzQvkRv8Fywx-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/bMa5WgwwKCDlk2",
     id: "0691",
     name: "seated side crunch (wall)",
     target: "abs",
@@ -8986,7 +8986,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w-AIpEm=1vkFT3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hEPsQ7YJ-V6Mqh",
     id: "1587",
     name: "seated wide angle pose sequence",
     target: "hamstrings",
@@ -8994,7 +8994,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/J7Oi3q8atY_XON",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3hRa8XvsNTqxyc",
     id: "0697",
     name: "self assisted inverse leg curl",
     target: "hamstrings",
@@ -9002,7 +9002,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kAMlXUbRwXjNTH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2UotkVXzxiuTKp",
     id: "1766",
     name: "self assisted inverse leg curl",
     target: "hamstrings",
@@ -9010,7 +9010,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NwKPCnBeEO3QPk",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lWDJDkySeW6pq3",
     id: "0696",
     name: "self assisted inverse leg curl (on floor)",
     target: "hamstrings",
@@ -9018,7 +9018,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_K_RIC1VZoi+Bb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/E25jMzFT9TQray",
     id: "3222",
     name: "semi squat jump (male)",
     target: "cardiovascular system",
@@ -9026,7 +9026,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XHzoAB4WmC8i3F",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w-nvG2hMnGQ4HF",
     id: "3656",
     name: "short stride run",
     target: "cardiovascular system",
@@ -9034,7 +9034,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l-PKRsVlLVlcbS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xPFvzsghkHZIlA",
     id: "1763",
     name: "shoulder grip pull-up",
     target: "lats",
@@ -9042,7 +9042,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qKnRgYUVLkMU_K",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IP1ci5xOEWOPIC",
     id: "3699",
     name: "shoulder tap",
     target: "abs",
@@ -9050,7 +9050,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/NttWfwEnppvzYF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xfYbzf18Qc7FzJ",
     id: "0699",
     name: "shoulder tap push-up",
     target: "pectorals",
@@ -9058,7 +9058,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/t8G2YmIQjxypix",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/A7Mic2FWeSx6zK",
     id: "1774",
     name: "side bridge hip abduction",
     target: "abductors",
@@ -9066,7 +9066,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/EhE8-GTlHwn6Bc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yYx6xDo9ZpMMC3",
     id: "0705",
     name: "side bridge v. 2",
     target: "abs",
@@ -9074,7 +9074,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zXDynxp4auF2aA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nBC-v9an7ys0h-",
     id: "0709",
     name: "side hip (on parallel bars)",
     target: "abs",
@@ -9082,7 +9082,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bXw5lyR2MK9YiW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6CoYKqgpd6mTyx",
     id: "0710",
     name: "side hip abduction",
     target: "abductors",
@@ -9090,7 +9090,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/VtI3PxeGgVWA82",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uHavICbJ47PBnh",
     id: "1358",
     name: "side lying floor stretch",
     target: "lats",
@@ -9098,7 +9098,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+ZV1PH0sYixSKB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AlrSBG6-SxvAN8",
     id: "3667",
     name: "side lying hip adduction (male)",
     target: "adductors",
@@ -9106,7 +9106,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XJUpJzqRg8-RgW",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/I8zkgGQsxe-5sg",
     id: "1775",
     name: "side plank hip adduction",
     target: "adductors",
@@ -9114,7 +9114,7 @@ export const data = [
   {
     bodyPart: "neck",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sV_lNhXQX=1LT5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yAjIM-TD18-IqX",
     id: "0716",
     name: "side push neck stretch",
     target: "levator scapulae",
@@ -9122,7 +9122,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/88F0RxIkGHVJrL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/HZyCNU-Q-9nTay",
     id: "0717",
     name: "side push-up",
     target: "triceps",
@@ -9130,7 +9130,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tL5RxXVaebTe=w",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3vP6uZPAr5xhY8",
     id: "0721",
     name: "side wrist pull stretch",
     target: "forearms",
@@ -9138,7 +9138,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2VtegnFMvFcd+p",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XPSXQyhQ05c0F8",
     id: "0720",
     name: "side-to-side chin",
     target: "lats",
@@ -9146,7 +9146,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ab_JML2D7Cfyn+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TymqVSsVfkP6sW",
     id: "3213",
     name: "side-to-side toe touch (male)",
     target: "abs",
@@ -9154,7 +9154,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/X54QfFhv1RvgX3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jBnoiAZRPjwHXR",
     id: "0725",
     name: "single arm push-up",
     target: "pectorals",
@@ -9162,7 +9162,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r43J-e_6svXeJz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XaF9ghejqGt22f",
     id: "3645",
     name: "single leg bridge with outstretched leg",
     target: "glutes",
@@ -9170,7 +9170,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9L3gAFk=8dqNlV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ACj42sXFIudk9y",
     id: "0727",
     name: "single leg calf raise (on a dumbbell)",
     target: "calves",
@@ -9178,7 +9178,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HO9y0RpVvosaTU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JNFpnB-jkFbY67",
     id: "0730",
     name: "single leg platform slide",
     target: "hamstrings",
@@ -9186,7 +9186,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uLWdE_wIU=6hRy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zs5xNMEmxDTTpU",
     id: "1759",
     name: "single leg squat (pistol) male",
     target: "glutes",
@@ -9194,7 +9194,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rLc7wrk3FrYivh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pqZvogRkQPw6W5",
     id: "1489",
     name: "sissy squat",
     target: "quads",
@@ -9202,7 +9202,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/JI=dlMFg0EqZpT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sIIXDmylltRHR1",
     id: "0735",
     name: "sit-up v. 2",
     target: "abs",
@@ -9210,7 +9210,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/i9VEOxKW_S=Y7L",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GELCaTUkBgyka3",
     id: "3679",
     name: "sit-up with arms on chest",
     target: "abs",
@@ -9218,7 +9218,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/A_eBobbgllgtlU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rTlBp93yyaTwa3",
     id: "3361",
     name: "skater hops",
     target: "cardiovascular system",
@@ -9226,7 +9226,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "skierg machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/S9rbUiIL0M1TiO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Tqjh1L9pyL-24X",
     id: "2142",
     name: "ski ergometer",
     target: "triceps",
@@ -9234,7 +9234,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8o5=o5TFDFCIEw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vmJePHePRr2o0a",
     id: "3671",
     name: "ski step",
     target: "cardiovascular system",
@@ -9242,7 +9242,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HBvfNpqQs-rzMz",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QFO04JUldIw3Sm",
     id: "3304",
     name: "skin the cat",
     target: "upper back",
@@ -9250,7 +9250,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/KYMuf4KAa51ZCV",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/kvRIyVDeIWBpI-",
     id: "1425",
     name: "sled 45 degrees one leg press",
     target: "glutes",
@@ -9258,7 +9258,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Qshb4+_AJbYE-o",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Sospzb7C8HCIb5",
     id: "0738",
     name: "sled 45в° calf press",
     target: "calves",
@@ -9266,7 +9266,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TcecDIF9fA_pW2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/M5-3JEG47DSNvR",
     id: "0739",
     name: "sled 45в° leg press",
     target: "glutes",
@@ -9274,7 +9274,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/z+eKtPt-HaKsLO",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QM67FkYZOri99F",
     id: "1464",
     name: "sled 45в° leg press (back pov)",
     target: "glutes",
@@ -9282,7 +9282,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2SbZ6BUZ0uwgmb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Q8hGI8pecZ85T7",
     id: "1463",
     name: "sled 45в° leg press (side pov)",
     target: "glutes",
@@ -9290,7 +9290,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/N9z+e2cwHdOvUi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/s71XrDO8IJ0EqD",
     id: "0740",
     name: "sled 45в° leg wide press",
     target: "glutes",
@@ -9298,7 +9298,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-vV91Tg24vYXK=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PPdgl0MAZFrVnX",
     id: "1391",
     name: "sled calf press on leg press",
     target: "calves",
@@ -9306,7 +9306,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mfH6B=7DyFKKfS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/2hBP50k-4cXEtl",
     id: "0741",
     name: "sled closer hack squat",
     target: "glutes",
@@ -9314,7 +9314,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/a9XO3Vbydy9w_l",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VFE0RovDafj6Tr",
     id: "0742",
     name: "sled forward angled calf raise",
     target: "calves",
@@ -9322,7 +9322,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AoWR2h3r9WlJgb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fsCwVNCHGac91Q",
     id: "0743",
     name: "sled hack squat",
     target: "glutes",
@@ -9330,7 +9330,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bA5AUu_CZG-qE=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/c7jqnPjATzYNbd",
     id: "2334",
     name: "sled lying calf press",
     target: "calves",
@@ -9338,7 +9338,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1rZ-Hhgiy=R62s",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/p4PvOP3yW0u24V",
     id: "0744",
     name: "sled lying squat",
     target: "glutes",
@@ -9346,7 +9346,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "sled machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lp=EyNq+HI8ynX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gzBgYcsYg94Bt3",
     id: "1392",
     name: "sled one leg calf press on leg press",
     target: "calves",
@@ -9354,7 +9354,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "hammer",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GUs0zty30xNasg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/x7QK8kSAExrL9z",
     id: "1496",
     name: "sledge hammer",
     target: "abs",
@@ -9362,7 +9362,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/aO3QRZg6twVLGs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vKvfH6m2lbgomY",
     id: "0746",
     name: "smith back shrug",
     target: "traps",
@@ -9370,7 +9370,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3dcmd=_8llHTjq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VQWtvBCULF8Lqn",
     id: "0747",
     name: "smith behind neck press",
     target: "delts",
@@ -9378,7 +9378,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/eySQd+yORTi8gy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iEdNhpuA0yGBV2",
     id: "0748",
     name: "smith bench press",
     target: "pectorals",
@@ -9386,7 +9386,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8R6+96Jw7rcpf1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/wK4fIlXdEJB0Pn",
     id: "0749",
     name: "smith bent knee good morning",
     target: "glutes",
@@ -9394,7 +9394,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Tor6nYqPMc+=n_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IEVWXDbyJ30ukn",
     id: "1359",
     name: "smith bent over row",
     target: "upper back",
@@ -9402,7 +9402,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1+ulVaRrGcjbiv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FpYlw31j7pBPBf",
     id: "0750",
     name: "smith chair squat",
     target: "quads",
@@ -9410,7 +9410,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9JGZUR6QAixnIh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yH7SB7yZcDxs5P",
     id: "0751",
     name: "smith close-grip bench press",
     target: "triceps",
@@ -9418,7 +9418,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GPnE4Qs9EOFxya",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jMjANFkZBY59ly",
     id: "0752",
     name: "smith deadlift",
     target: "glutes",
@@ -9426,7 +9426,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wcXs8oTB8P0s8B",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/sNeQ8mmCEeRgFG",
     id: "0753",
     name: "smith decline bench press",
     target: "pectorals",
@@ -9434,7 +9434,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TRxTiZX+S7nOTf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/5yELkhdyG-X-Gu",
     id: "0754",
     name: "smith decline reverse-grip press",
     target: "pectorals",
@@ -9442,7 +9442,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4uixBTgjgo7mL=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GDkET2XQY2PDwi",
     id: "1433",
     name: "smith front squat (clean grip)",
     target: "glutes",
@@ -9450,7 +9450,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3gwqPWa6OP0HOd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KKxtHH926YNWuK",
     id: "3281",
     name: "smith full squat",
     target: "glutes",
@@ -9458,7 +9458,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/objAwGo8ZIJFtu",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fGtGvj08rg7yIU",
     id: "0755",
     name: "smith hack squat",
     target: "glutes",
@@ -9466,7 +9466,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MeV9s=kYVywCmH",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NcVJJ4If9YvTZJ",
     id: "0756",
     name: "smith hip raise",
     target: "abs",
@@ -9474,7 +9474,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cHjb+BnHSwtnk_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XF9sO-npGlhhsW",
     id: "0757",
     name: "smith incline bench press",
     target: "pectorals",
@@ -9482,7 +9482,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/jRWgyZOF5WEbmf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EChtWFNsYrbVCy",
     id: "0758",
     name: "smith incline reverse-grip press",
     target: "pectorals",
@@ -9490,7 +9490,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/k_ZjgNC+ik5-aN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vJ2tiVOgvw3RCH",
     id: "0759",
     name: "smith incline shoulder raises",
     target: "serratus anterior",
@@ -9498,7 +9498,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/f_CocQZYFp8RIq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zGJJP6pHo2eD3s",
     id: "0760",
     name: "smith leg press",
     target: "glutes",
@@ -9506,7 +9506,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LiLl0OxUJdFr-Q",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/o4VFIGZcMMfCSb",
     id: "1434",
     name: "smith low bar squat",
     target: "glutes",
@@ -9514,7 +9514,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/fWflQoUZdVk956",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/PnuZYU0LCdHsMF",
     id: "1683",
     name: "smith machine bicep curl",
     target: "biceps",
@@ -9522,7 +9522,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MNh+iec5t_02oQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tYLwHOT55TAqaA",
     id: "1625",
     name: "smith machine decline close grip bench press",
     target: "triceps",
@@ -9530,7 +9530,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/9chB9hze0eegmg",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/CuN3MpyOEgt7Hb",
     id: "1752",
     name: "smith machine incline tricep extension",
     target: "triceps",
@@ -9538,7 +9538,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/EJChgwOm3jRjzt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fUGPpplHYUMvfS",
     id: "1626",
     name: "smith machine reverse decline close grip bench press",
     target: "pectorals",
@@ -9546,7 +9546,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/w1ltWIn4IXt7T0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KoBu4SCXPF2IZu",
     id: "0761",
     name: "smith narrow row",
     target: "upper back",
@@ -9554,7 +9554,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hy1prFBmfVgvB+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mLMsbr1YyZXS0R",
     id: "1360",
     name: "smith one arm row",
     target: "upper back",
@@ -9562,7 +9562,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pPljrTBACrQD7S",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xl-0IXQVP679Wd",
     id: "1393",
     name: "smith one leg floor calf raise",
     target: "calves",
@@ -9570,7 +9570,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/vFFNWpge=j6E+u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rYftGfVWWiGp1e",
     id: "0762",
     name: "smith rear delt row",
     target: "delts",
@@ -9578,7 +9578,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dF-GvMrkDguhYb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1XJDwRag8AHPlC",
     id: "0763",
     name: "smith reverse calf raises",
     target: "calves",
@@ -9586,7 +9586,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/LnMYHBzMNMPyNj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JBtd2usNClqU91",
     id: "1394",
     name: "smith reverse calf raises",
     target: "calves",
@@ -9594,7 +9594,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6ha5f7CFhr_nlN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1g8XkqIOSreHkI",
     id: "1361",
     name: "smith reverse grip bent over row",
     target: "upper back",
@@ -9602,7 +9602,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7WMBvGVzRBgoGK",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JDQ-hncPdl0Xte",
     id: "0764",
     name: "smith reverse-grip press",
     target: "pectorals",
@@ -9610,7 +9610,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ywi79YsJZkJ0AD",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/MVkPT-kukZovQe",
     id: "1395",
     name: "smith seated one leg calf raise",
     target: "calves",
@@ -9618,7 +9618,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ox6LmSBDlWdyC2",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/e4kmA2C2oLr7-f",
     id: "0765",
     name: "smith seated shoulder press",
     target: "delts",
@@ -9626,7 +9626,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gw7h=f_VR6QQbG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IIeOWbS6HDvUF5",
     id: "1426",
     name: "smith seated wrist curl",
     target: "forearms",
@@ -9634,7 +9634,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/HWd2M+Hfg73nBi",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nbGoQLqx5EOuGq",
     id: "0766",
     name: "smith shoulder press",
     target: "delts",
@@ -9642,7 +9642,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/b374UVZSvQa6WN",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iHNc2R2tQSB7ED",
     id: "0767",
     name: "smith shrug",
     target: "traps",
@@ -9650,7 +9650,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uJqCnlHNlxYccj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SdIVc847Gj4oX4",
     id: "0768",
     name: "smith single leg split squat",
     target: "quads",
@@ -9658,7 +9658,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZHP+tjBIOpsO2C",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/6tovsmix94mUxN",
     id: "0769",
     name: "smith sprint lunge",
     target: "glutes",
@@ -9666,7 +9666,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/3DcGyD-Y0_YBi-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3b892ZKl64ubH2",
     id: "0770",
     name: "smith squat",
     target: "glutes",
@@ -9674,7 +9674,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/cSq-h96RPPRtTP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ZqqLlPlskrGB6Z",
     id: "0771",
     name: "smith standing back wrist curl",
     target: "forearms",
@@ -9682,7 +9682,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ZAQ8cASj7ulMR-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hL3GuvgVwXkrA1",
     id: "0772",
     name: "smith standing behind head military press",
     target: "delts",
@@ -9690,7 +9690,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/nrK7tB0aaqv3Rt",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Y7wxzlgy7k0A9U",
     id: "0773",
     name: "smith standing leg calf raise",
     target: "calves",
@@ -9698,7 +9698,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4vEWDezVJjop8a",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vZ3Pnp1acde-L2",
     id: "0774",
     name: "smith standing military press",
     target: "delts",
@@ -9706,7 +9706,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WHb45qtKnCjL-1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ciqYcCMoXCvBx3",
     id: "3142",
     name: "smith sumo squat",
     target: "glutes",
@@ -9714,7 +9714,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1heirKBqI_Reh3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/RDAxnrdj-6AaCf",
     id: "1396",
     name: "smith toe raise",
     target: "calves",
@@ -9722,7 +9722,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zLFN66lZ2i6rln",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LnEGp2mVf8d1a3",
     id: "0775",
     name: "smith upright row",
     target: "delts",
@@ -9730,7 +9730,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ibVzU9vnX1HPYl",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Es6a9tySREvpTV",
     id: "1308",
     name: "smith wide grip bench press",
     target: "pectorals",
@@ -9738,7 +9738,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "smith machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/AWG3-TyBT=JiHl",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/f3W2GfyADQpK5u",
     id: "1309",
     name: "smith wide grip decline bench press",
     target: "pectorals",
@@ -9746,7 +9746,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qdySMT=hfEPZEj",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/uKL26bN8SjRRqx",
     id: "0776",
     name: "snatch pull",
     target: "quads",
@@ -9754,7 +9754,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "dumbbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XErSpCLB3albvL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/321IoOe6DDHuF0",
     id: "0777",
     name: "spell caster",
     target: "abs",
@@ -9762,7 +9762,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/+52KvOjgN9ixJU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/89G2CNDt2HefUt",
     id: "1362",
     name: "sphinx",
     target: "spine",
@@ -9770,7 +9770,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ItE21TyC+Fkrc4",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/F72CgwCQCOhN4j",
     id: "0778",
     name: "spider crawl push up",
     target: "glutes",
@@ -9778,7 +9778,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wWTDMLMqf-wkGv",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9seX0Rkjs6qqdK",
     id: "1363",
     name: "spine stretch",
     target: "spine",
@@ -9786,7 +9786,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gaSNf4c9cqwYnf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ragLpajsrFuXAG",
     id: "2329",
     name: "spine twist",
     target: "abs",
@@ -9794,7 +9794,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/XtoTV0XN7JX8Un",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qeCWoIK4KuQlkR",
     id: "2368",
     name: "split squats",
     target: "quads",
@@ -9802,7 +9802,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4I4Tkpj5DTyo6_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/tkdjvmHe2efKAZ",
     id: "0786",
     name: "squat jerk",
     target: "quads",
@@ -9810,7 +9810,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "bosu ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bSZtRbhx7z5Xt8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xUDsSLX569E6Pk",
     id: "1705",
     name: "squat on bosu ball",
     target: "quads",
@@ -9818,7 +9818,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7tldc0EWkLZf7g",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/ppel1NK5JKKud6",
     id: "1685",
     name: "squat to overhead reach",
     target: "quads",
@@ -9826,7 +9826,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/FCMw59ujN1qeIF",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gQQXKlxAmyf0gb",
     id: "1686",
     name: "squat to overhead reach with twist",
     target: "quads",
@@ -9834,7 +9834,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "stability ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1aMYXgR0qxI7Ny",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h2rSQHfLdEN4gQ",
     id: "2297",
     name: "stability ball crunch (full range hands behind head)",
     target: "abs",
@@ -9842,7 +9842,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/eUnWly_xEbiHwQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/1hDnkK4EhkHSXQ",
     id: "3291",
     name: "stalder press",
     target: "triceps",
@@ -9850,7 +9850,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/sOy7QzgP71nCkl",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yYYnual8X3gk6i",
     id: "3669",
     name: "standing archer",
     target: "upper back",
@@ -9858,7 +9858,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "barbell",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0eeuLxsmFYvRy=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/4ols5c3gQXohMr",
     id: "0788",
     name: "standing behind neck press",
     target: "delts",
@@ -9866,7 +9866,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ulY-F21ZSXPokc",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KmMoMM7HWXamEo",
     id: "1490",
     name: "standing calf raise (on a staircase)",
     target: "calves",
@@ -9874,7 +9874,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ipmN7BHHOj4VSG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/R22ymzPku5FMlU",
     id: "1397",
     name: "standing calves",
     target: "calves",
@@ -9882,7 +9882,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/c2u1hwvnTa3IQn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lA8xEXX9GvXyaF",
     id: "1398",
     name: "standing calves calf stretch",
     target: "calves",
@@ -9890,7 +9890,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "rope",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q0pK56nJv=9NBT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/o2IP0bVe87MbbT",
     id: "1599",
     name: "standing hamstring and calf stretch with strap",
     target: "hamstrings",
@@ -9898,7 +9898,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/bWPi4Ai8Z2nknG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/EFmQW1mhU-jh4G",
     id: "0794",
     name: "standing lateral stretch",
     target: "lats",
@@ -9906,7 +9906,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0DA+qc_PvUU7Q=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/cFsomtF8IP3JTF",
     id: "1364",
     name: "standing pelvic tilt",
     target: "spine",
@@ -9914,7 +9914,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/zkv0AP96f4bL_=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FZMFXnH3rWMRPG",
     id: "0795",
     name: "standing single leg curl",
     target: "hamstrings",
@@ -9922,7 +9922,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "wheel roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6oVA-Tn0KP_ZmI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DXx6XQHi3Z3ucD",
     id: "0796",
     name: "standing wheel rollerout",
     target: "abs",
@@ -9930,7 +9930,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/TGP1cBiWVvOFt8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/jaCjhn9hOvsDrz",
     id: "3223",
     name: "star jump (male)",
     target: "cardiovascular system",
@@ -9938,7 +9938,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "stationary bike",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Rohj+TJriJAK3-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Pn3hOw4OwnT2KT",
     id: "2138",
     name: "stationary bike run v. 3",
     target: "cardiovascular system",
@@ -9946,7 +9946,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SJ0ttlxHJV49l8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/02BryzcrANOrNu",
     id: "0798",
     name: "stationary bike walk",
     target: "cardiovascular system",
@@ -9954,7 +9954,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/2j3dK0Uv6o65T+",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/iyjiJaxsazJ21O",
     id: "3314",
     name: "straddle maltese",
     target: "abs",
@@ -9962,7 +9962,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GIP_IL52n4menR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/icFNWzCNseOzzA",
     id: "3298",
     name: "straddle planche",
     target: "abs",
@@ -9970,7 +9970,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iHxG6pWX2RFNff",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/QP3MAlMrWCPXvy",
     id: "1427",
     name: "straight leg outer hip abductor",
     target: "abductors",
@@ -9978,7 +9978,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_K8jTYr-NgG8ZA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/y8Eh5IbEhNBWVy",
     id: "0803",
     name: "superman push-up",
     target: "pectorals",
@@ -9986,7 +9986,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/d0KyUZn-mYHcl7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/NWrqs6dLSsEHrS",
     id: "0805",
     name: "suspended abdominal fallout",
     target: "abs",
@@ -9994,7 +9994,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/F1jrrxHV+irIBA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3PvgVMk5QW7WIV",
     id: "0806",
     name: "suspended push-up",
     target: "pectorals",
@@ -10002,7 +10002,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mSRBaEL5w1dW-e",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/H1dhbmGDSBaSA9",
     id: "0807",
     name: "suspended reverse crunch",
     target: "abs",
@@ -10010,7 +10010,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/A2qTEHnoR+op2i",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/i8SQEnfySgzIZr",
     id: "0808",
     name: "suspended row",
     target: "upper back",
@@ -10018,7 +10018,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/gLOLsRwaEon0+8",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/efig9DcTtxObin",
     id: "0809",
     name: "suspended split squat",
     target: "quads",
@@ -10026,7 +10026,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/_zrOFYSZjPbJpd",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VYRhiA1dK7E8TG",
     id: "3433",
     name: "swimmer kicks v. 2 (male)",
     target: "glutes",
@@ -10034,7 +10034,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Z=-PHrNI8w7cWb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/vI9xQaL-omSA8N",
     id: "3318",
     name: "swing 360",
     target: "cardiovascular system",
@@ -10042,7 +10042,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/i-fnLgjY_xx0xa",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-7J0d-OJJRckhn",
     id: "1753",
     name: "three bench dip",
     target: "triceps",
@@ -10050,7 +10050,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "tire",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/PEp8K85S9j4A0N",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/-uqV-3giPBvLc6",
     id: "2459",
     name: "tire flip",
     target: "glutes",
@@ -10058,7 +10058,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "trap bar",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ol+VRni65SipqZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xwuBY6ig84pWBi",
     id: "0811",
     name: "trap bar deadlift",
     target: "glutes",
@@ -10066,7 +10066,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8fo+KarlchxUp=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/UXc7bMVpXmLost",
     id: "0814",
     name: "triceps dip",
     target: "triceps",
@@ -10074,7 +10074,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/7FeuRhvT6ezt37",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8FDaXpVUujaiH2",
     id: "0812",
     name: "triceps dip (bench leg)",
     target: "triceps",
@@ -10082,7 +10082,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/CwtRfV3KS3D-oX",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/w5MqZGqiGgwR4H",
     id: "0813",
     name: "triceps dip (between benches)",
     target: "triceps",
@@ -10090,7 +10090,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=CVJxJQyPEt3Xx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mO3VVkOrj8IY6l",
     id: "0815",
     name: "triceps dips floor",
     target: "triceps",
@@ -10098,7 +10098,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mewERbEyscXufb",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V5LOZnNVQ1KVsM",
     id: "0816",
     name: "triceps press",
     target: "triceps",
@@ -10106,7 +10106,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Da+JaM3lYwAT6R",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/k8lzriMXaE1Uar",
     id: "0817",
     name: "triceps stretch",
     target: "triceps",
@@ -10114,7 +10114,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/R_ELJGraLliZRT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9zXAoPPAevNPXW",
     id: "0871",
     name: "tuck crunch",
     target: "abs",
@@ -10122,7 +10122,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "cable",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/oHdCCTuhvmOkUA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/KXFz6tPYw1GNjC",
     id: "0818",
     name: "twin handle parallel grip lat pulldown",
     target: "lats",
@@ -10130,7 +10130,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tyBtBikKvUu96S",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/rI47uBiH9ibpWa",
     id: "1466",
     name: "twist hip lift",
     target: "glutes",
@@ -10138,7 +10138,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r6h5-EuaFJMxcR",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/nMtFfiaBNo6zm5",
     id: "2802",
     name: "twisted leg raise",
     target: "abs",
@@ -10146,7 +10146,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8EfGPxKOwHFDXh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/SP-xGKhhO96deT",
     id: "2801",
     name: "twisted leg raise (female)",
     target: "abs",
@@ -10154,7 +10154,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ds25o=m0Y2gFJJ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/v4sfcRU-d3oyF9",
     id: "3231",
     name: "two toe touch (male)",
     target: "spine",
@@ -10162,7 +10162,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/-ubxykZCharNtI",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/W6PBkmFxtRKnLc",
     id: "1365",
     name: "upper back stretch",
     target: "upper back",
@@ -10170,7 +10170,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Zu7gAcGnLIuLOU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TginMTor9uWoTH",
     id: "1366",
     name: "upward facing dog",
     target: "spine",
@@ -10178,7 +10178,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r60WfJICkIiJd1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/d5QtQGBzVK5MY8",
     id: "3420",
     name: "v-sit on floor",
     target: "abs",
@@ -10186,7 +10186,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Gt5=GEF4GS2kP1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/XKB89BXaMLwI1x",
     id: "0826",
     name: "vertical leg raise (on parallel bars)",
     target: "abs",
@@ -10194,7 +10194,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "elliptical machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Dv=g9ahRjYwsvA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qHpgD5k9Z7nem5",
     id: "2141",
     name: "walk elliptical cross trainer",
     target: "cardiovascular system",
@@ -10202,7 +10202,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/qlmRZdGh0IVZP_",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8cw-sjutNAhID8",
     id: "3655",
     name: "walking high knees lunge",
     target: "cardiovascular system",
@@ -10210,7 +10210,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/DRi8swYuwbjvgh",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/8k1tl5dpqDBp5f",
     id: "1460",
     name: "walking lunge",
     target: "glutes",
@@ -10218,7 +10218,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "leverage machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Z83JXm2G+z9Z1u",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/h0lMMZcQ-QKs78",
     id: "3666",
     name: "walking on incline treadmill",
     target: "cardiovascular system",
@@ -10226,7 +10226,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "stepmill machine",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Mxd1xOO41EF=Og",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dk4giNgj6eF6qn",
     id: "2311",
     name: "walking on stepmill",
     target: "cardiovascular system",
@@ -10234,7 +10234,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/hNumcZKDhVsXk0",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/mLQo596s7-oze8",
     id: "0830",
     name: "weighted bench dip",
     target: "triceps",
@@ -10242,7 +10242,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/8bKNoQEaSS2Ze=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qOnsgZgZn4haQC",
     id: "2987",
     name: "weighted close grip chin-up on dip cage",
     target: "lats",
@@ -10250,7 +10250,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Q7WGZ0LqSI_aWf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/zeHcLOkVj-3sn4",
     id: "3643",
     name: "weighted cossack squats (male)",
     target: "glutes",
@@ -10258,7 +10258,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/s3cjVNimD4dEQ=",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/TqUH1I70Ktk5tz",
     id: "0832",
     name: "weighted crunch",
     target: "abs",
@@ -10266,7 +10266,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/O58ud4SrETDXvq",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/I1uwe5Y42bnuD2",
     id: "3670",
     name: "weighted decline sit-up",
     target: "abs",
@@ -10274,7 +10274,7 @@ export const data = [
   {
     bodyPart: "lower legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/l7UqYLOT1dGfUQ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/FbqOeFAMpohgQG",
     id: "0833",
     name: "weighted donkey calf raise",
     target: "calves",
@@ -10282,7 +10282,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g=Sp_X3KJQ+XeZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/7Tq2VVXf30YjJ8",
     id: "1310",
     name: "weighted drop push up",
     target: "pectorals",
@@ -10290,7 +10290,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/mCYgD0C0BNaaDw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/V-tKjXK8GB6wB9",
     id: "2135",
     name: "weighted front plank",
     target: "abs",
@@ -10298,7 +10298,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/q7xp3PSpv-nG1f",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/xDSKUzCTsjTmmu",
     id: "0834",
     name: "weighted front raise",
     target: "delts",
@@ -10306,7 +10306,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/WRX3a-Vc2O-qdB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/y7kAGrQoCcjOwo",
     id: "0866",
     name: "weighted hanging leg-hip raise",
     target: "abs",
@@ -10314,7 +10314,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/K=DvSoR_Gn2MAy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/BfYUC5aIojWYDg",
     id: "0835",
     name: "weighted hyperextension (on stability ball)",
     target: "spine",
@@ -10322,7 +10322,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=-So5m7bpGcjNy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/y79CLmF7WCOruS",
     id: "3641",
     name: "weighted kneeling step with swing",
     target: "delts",
@@ -10330,7 +10330,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Eh9+c0lrVSSRHL",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YlUkI6uBJYUJr1",
     id: "3644",
     name: "weighted lunge with swing",
     target: "glutes",
@@ -10338,7 +10338,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/lM=P9ufQYPOOfA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VyJgtEFjc4Y8TS",
     id: "3286",
     name: "weighted muscle up",
     target: "lats",
@@ -10346,7 +10346,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YwWnJPXlQipDz3",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IVgh-5UEYtCfeo",
     id: "3312",
     name: "weighted muscle up (on bar)",
     target: "lats",
@@ -10354,7 +10354,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/0l7OzOgDpNDaYs",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/qIuoYREUvMGCaU",
     id: "3290",
     name: "weighted one hand pull up",
     target: "lats",
@@ -10362,7 +10362,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/ClkUmsZLRN=b0G",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/VnyBksDYrikRlm",
     id: "0840",
     name: "weighted overhead crunch (on stability ball)",
     target: "abs",
@@ -10370,7 +10370,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/OlhlPqvP3iA7Sn",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/JRXCoo4SXzrong",
     id: "0841",
     name: "weighted pull-up",
     target: "lats",
@@ -10378,7 +10378,7 @@ export const data = [
   {
     bodyPart: "shoulders",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/SrbM2z9rXbUiVo",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/imXFTtXwWWfO-g",
     id: "0844",
     name: "weighted round arm",
     target: "delts",
@@ -10386,7 +10386,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/6RjYAGp-9=TpSG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/dWUxaZC9zyQdF6",
     id: "0846",
     name: "weighted russian twist",
     target: "abs",
@@ -10394,7 +10394,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/g7jfFVlmyljp8V",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/U3BW5-U71i1oRw",
     id: "0845",
     name: "weighted russian twist (legs up)",
     target: "abs",
@@ -10402,7 +10402,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iRx4IfCHlx6QYr",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fIppZWNmX44xkL",
     id: "2371",
     name: "weighted russian twist v. 2",
     target: "abs",
@@ -10410,7 +10410,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "medicine ball",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/W5uABpd3DE=uZZ",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/yKe3uVOoCzizEy",
     id: "0847",
     name: "weighted seated bicep curl  (on stability ball)",
     target: "biceps",
@@ -10418,7 +10418,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/pJzq3Cp9qYRRc1",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/hrpdX2kpsJhmws",
     id: "0849",
     name: "weighted seated twist (on stability ball)",
     target: "abs",
@@ -10426,7 +10426,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/iY=Aipo4pOwOv7",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/pg7zEuQtVufARL",
     id: "0850",
     name: "weighted side bend (on stability ball)",
     target: "abs",
@@ -10434,7 +10434,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/Ib-B4MZ9M+XMZ5",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/YC6Eckc4K24kHi",
     id: "0851",
     name: "weighted sissy squat",
     target: "quads",
@@ -10442,7 +10442,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/avFP+llKGjZnK-",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eKCserhON8g93j",
     id: "0852",
     name: "weighted squat",
     target: "glutes",
@@ -10450,7 +10450,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/IYz1XKygINfX1O",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/fOpo1QQGXEFQqa",
     id: "0853",
     name: "weighted standing curl",
     target: "biceps",
@@ -10458,7 +10458,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/550e86KkTpI2rf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LkOnhuKix9hdSq",
     id: "0854",
     name: "weighted standing hand squeeze",
     target: "forearms",
@@ -10466,7 +10466,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/wk=_64_AsYVCrA",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Cckffzxg5ESXw7",
     id: "3313",
     name: "weighted straight bar dip",
     target: "pectorals",
@@ -10474,7 +10474,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/5ZYNNNe33L4DDf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/DVPebJCPoeszdX",
     id: "3642",
     name: "weighted stretch lunge",
     target: "glutes",
@@ -10482,7 +10482,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/4Cc02clxEXxC+y",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/Xc9AlKT3hjM2we",
     id: "0856",
     name: "weighted svend press",
     target: "pectorals",
@@ -10490,7 +10490,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/GQ6wD1sI029qTf",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3AShkrwgsqgwNj",
     id: "1754",
     name: "weighted three bench dips",
     target: "triceps",
@@ -10498,7 +10498,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/rRlG_l=kiNtKbB",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/9v1GVSBkpHNwSC",
     id: "1755",
     name: "weighted tricep dips",
     target: "triceps",
@@ -10506,7 +10506,7 @@ export const data = [
   {
     bodyPart: "upper arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/=+kiP9FG9OsWYT",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/3w76YIfFNkARWK",
     id: "1767",
     name: "weighted triceps dip on high parallel bars",
     target: "triceps",
@@ -10514,7 +10514,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "wheel roller",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/tMB922gjUSRsjG",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/LZ7xhvMIasKiP7",
     id: "0857",
     name: "wheel rollerout",
     target: "abs",
@@ -10522,7 +10522,7 @@ export const data = [
   {
     bodyPart: "cardio",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/YoR5dgZK16XP+M",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/L5qh4cBJojzq0W",
     id: "3637",
     name: "wheel run",
     target: "cardiovascular system",
@@ -10530,7 +10530,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/r7GnwlIgDUOAEP",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/IoR0AiRcLl5U-t",
     id: "1429",
     name: "wide grip pull-up",
     target: "lats",
@@ -10538,7 +10538,7 @@ export const data = [
   {
     bodyPart: "back",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/MswKXOQMIruA05",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/AifhNyEOYIs91Z",
     id: "1367",
     name: "wide grip rear pull-up",
     target: "lats",
@@ -10546,7 +10546,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/kKeL8sjcusTmfx",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/gjVw1mUznuGQrj",
     id: "1311",
     name: "wide hand push up",
     target: "pectorals",
@@ -10554,7 +10554,7 @@ export const data = [
   {
     bodyPart: "chest",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/1ckU_fQs6Rs-rC",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/lhsOenkuoYsQnz",
     id: "2363",
     name: "wide-grip chest dip on high parallel bars",
     target: "pectorals",
@@ -10562,7 +10562,7 @@ export const data = [
   {
     bodyPart: "waist",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/dxbwOrHl5Vk4xy",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/t5KyC6gLxmanSp",
     id: "0858",
     name: "wind sprints",
     target: "abs",
@@ -10570,7 +10570,7 @@ export const data = [
   {
     bodyPart: "upper legs",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/H3Xa3Xc8R-fDgS",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/crkHhC6Z4c7aD0",
     id: "1604",
     name: "world greatest stretch",
     target: "hamstrings",
@@ -10578,7 +10578,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "body weight",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/==vOvGjbkDJmFw",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/eui2PtTl66YJez",
     id: "1428",
     name: "wrist circles",
     target: "forearms",
@@ -10586,7 +10586,7 @@ export const data = [
   {
     bodyPart: "lower arms",
     equipment: "weighted",
-    gifUrl: "https://edbv2-ff7foj6vca-uc.a.run.app/image/uH3Et2FHhEu5HU",
+    gifUrl: "https://edb-4rme8.ondigitalocean.app/image/GiX5Sjqi29NUkY",
     id: "0859",
     name: "wrist rollerer",
     target: "forearms",

@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import WorkoutSummary from "../screens/WorkoutSummary";
 import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
+import ProgressNavigation from "./ProgressNavigation";
 
 const Tab = createBottomTabNavigator();
 
@@ -25,6 +26,17 @@ const CoreNavigation = () => {
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="barbell-outline" size={35} color={color} />
           ),
+        }}
+      />
+      <Tab.Screen
+        name="YourProgress"
+        component={ProgressNavigation}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="analytics-outline" size={35} color={color} />
+          ),
+          headerShown: true,
+          title: "Your Progress",
         }}
       />
       <Tab.Screen
