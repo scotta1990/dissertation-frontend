@@ -18,3 +18,13 @@ export const getAllWorkouts = async (token) => {
 
   return response.data;
 };
+
+export const getExerciseData = async (token) => {
+  const url = `${baseUrl}/workouts/exercise/data`;
+
+  const response = await axios.get(url, {
+    headers: { "x-access-token": token },
+  });
+
+  return response.data;
+};

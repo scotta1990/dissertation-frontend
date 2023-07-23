@@ -1,6 +1,7 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { StyleSheet } from "react-native";
-import Progress from "../screens/Progress";
+import MeasurementProgress from "../screens/MeasurementProgress";
+import ExerciseProgress from "../screens/ExerciseProgress";
 import { GlobalStyles } from "../constants/styles";
 
 const Tab = createMaterialTopTabNavigator();
@@ -10,7 +11,7 @@ const ProgressNavigation = () => {
     <Tab.Navigator>
       <Tab.Screen
         name="MeasurementProgress"
-        component={Progress}
+        component={MeasurementProgress}
         options={{
           title: "Measurements",
           tabBarIndicatorStyle: { backgroundColor: GlobalStyles.colors.accent },
@@ -18,7 +19,7 @@ const ProgressNavigation = () => {
       />
       <Tab.Screen
         name="ExerciseProgress"
-        component={Progress}
+        component={ExerciseProgress}
         options={{
           title: "Exercises",
           tabBarIndicatorStyle: { backgroundColor: GlobalStyles.colors.accent },
