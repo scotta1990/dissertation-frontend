@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createSelector } from "@reduxjs/toolkit";
 
 import { data } from "../../temporary-exercise";
 
@@ -20,3 +20,10 @@ export const exercisesSlice = createSlice({
 
 export const { setBodyPartFilter } = exercisesSlice.actions;
 export default exercisesSlice.reducer;
+
+export const getExerciseById = createSelector(
+  (state) => state.exercises.exerciseList,
+  (_, exerciseId) => exerciseId,
+  (exerciseList, exerciseId) =>
+    exerciseList.filter((exercise) => exercise.id === exerciseId)
+);

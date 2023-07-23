@@ -1,11 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import WorkoutSummary from "../screens/WorkoutSummary";
 import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
-import Progress from "../screens/Progress";
 import ProgressNavigation from "./ProgressNavigation";
 
 const Tab = createBottomTabNavigator();
