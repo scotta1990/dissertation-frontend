@@ -7,7 +7,7 @@ function renderSetRow(item, index, workoutItemId) {
   return <SetRow set={item} setIndex={index} workoutItemId={workoutItemId} />;
 }
 
-const WorkoutSetsList = ({ workoutItemId, workoutSets }) => {
+const WorkoutSetsList = ({ workoutItemId, workoutSets, bodyPart }) => {
   return (
     <Card>
       <View style={styles.setContainer}>
@@ -15,10 +15,14 @@ const WorkoutSetsList = ({ workoutItemId, workoutSets }) => {
           <Text style={styles.headerText}>Set</Text>
         </View>
         <View style={styles.setItemContainer}>
-          <Text style={styles.headerText}>kg</Text>
+          <Text style={styles.headerText}>
+            {bodyPart !== "cardio" ? "kg" : "km"}
+          </Text>
         </View>
         <View style={styles.setItemContainer}>
-          <Text style={styles.headerText}>Reps</Text>
+          <Text style={styles.headerText}>
+            {bodyPart !== "cardio" ? "Reps" : "Time"}
+          </Text>
         </View>
         <View style={styles.setItemContainer}>
           <Text style={styles.headerText}>Done</Text>

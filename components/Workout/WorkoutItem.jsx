@@ -32,6 +32,7 @@ const WorkoutItem = ({ workoutItem }) => {
           <WorkoutSetsList
             workoutItemId={workoutItem.id}
             workoutSets={workoutItem.sets}
+            bodyPart={workoutItem.exercise.bodyPart}
           />
           <Button
             backgroundColor={GlobalStyles.colors.accent}
