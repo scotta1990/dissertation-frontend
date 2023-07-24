@@ -46,7 +46,7 @@ const SetRow = ({ set, setIndex, workoutItemId }) => {
   const isAlternate = setIndex % 2 == 0;
 
   function workoutDone(value) {
-    if (measurementValue > 0 && countValue > 0) {
+    if (countValue > 0) {
       setIsDone(value);
       dispatch(
         updateSet({
