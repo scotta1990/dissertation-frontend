@@ -1,5 +1,5 @@
 export function convertDateToString(dateValue) {
-  return new Date(dateValue).toLocaleString();
+  return new Date(dateValue).toLocaleString("en-gb");
 }
 
 export function convertDurationToString(durationValue) {

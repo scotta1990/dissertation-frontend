@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import YouSummary from "../screens/YouSummary";
 import UpdateYourMeasurements from "../screens/UpdateYourMeasurements";
 import { GlobalStyles } from "../constants/styles";
+import Account from "../screens/Account";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,8 +25,16 @@ const ProfileNavigation = () => {
       <Stack.Screen
         name="UpdateYourMeasurements"
         component={UpdateYourMeasurements}
+        initialParams={{ testing: false }}
         options={{
           title: "Update Your Measurements",
+        }}
+      />
+      <Stack.Screen
+        name="Account"
+        component={Account}
+        options={{
+          title: "Your Account",
         }}
       />
     </Stack.Navigator>
