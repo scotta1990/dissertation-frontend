@@ -10,6 +10,7 @@ import { getRecentMeasurementsByType } from "../../utils/database/yourMeasuremen
 import LoadingOverlay from "../UI/LoadingOverlay";
 import ErrorOverlay from "../UI/ErrorOverlay";
 import { getExerciseById } from "../../store/redux/exercises";
+import MessageBox from "../UI/MessageBox";
 
 const ProgressChart = ({
   measurementTypeId,
@@ -52,6 +53,19 @@ const ProgressChart = ({
       <Card>
         <LoadingOverlay />
       </Card>
+    );
+  }
+
+  if (!(measurementData.length > 1)) {
+    return (
+      <MessageBox
+        messageSubject={`${measurementTypeName
+          .charAt(0)
+          .toUpperCase()}${measurementTypeName.slice(1)}`}
+        messageBody={
+          "You just need a little more data for this measurement so we can display your progress."
+        }
+      />
     );
   }
 
