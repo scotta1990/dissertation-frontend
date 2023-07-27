@@ -31,7 +31,6 @@ const ExerciseProgress = () => {
       try {
         const exerciseData = await getExerciseData(token);
         setExerciseData(exerciseData);
-        console.log(exerciseData);
       } catch (error) {
         console.log(error);
       }
