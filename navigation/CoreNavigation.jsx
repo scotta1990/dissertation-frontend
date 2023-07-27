@@ -37,6 +37,8 @@ const CoreNavigation = () => {
           ),
           headerShown: true,
           title: "Your Progress",
+          headerStyle: { backgroundColor: GlobalStyles.colors.primary },
+          headerTintColor: GlobalStyles.colors.primaryWhite,
         }}
       />
       <Tab.Screen

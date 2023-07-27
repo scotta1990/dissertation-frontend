@@ -8,7 +8,12 @@ const Tab = createMaterialTopTabNavigator();
 
 const ProgressNavigation = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{
+        tabBarStyle: { backgroundColor: GlobalStyles.colors.primary },
+        tabBarActiveTintColor: GlobalStyles.colors.primaryWhite,
+      }}
+    >
       <Tab.Screen
         name="MeasurementProgress"
         component={MeasurementProgress}
