@@ -39,17 +39,18 @@ const ExerciseProgress = () => {
   const [exerciseData, setExerciseData] = useState();
   const token = useSelector((store) => store.auth.token);
 
+  const getData = async () => {
+    setIsFetching(true);
+    try {
+      const exerciseData = await getExerciseData(token);
+      setExerciseData(exerciseData);
+    } catch (error) {
+      console.log(error);
+    }
+    setIsFetching(false);
+  };
   useEffect(() => {
-    (async () => {
-      setIsFetching(true);
-      try {
-        const exerciseData = await getExerciseData(token);
-        setExerciseData(exerciseData);
-      } catch (error) {
-        console.log(error);
-      }
-      setIsFetching(false);
-    })();
+    getData();
   }, [token]);
 
   if (isFetching) {
@@ -62,6 +63,8 @@ const ExerciseProgress = () => {
       renderItem={renderProgressChart}
       keyExtractor={(item) => item._id}
       ListEmptyComponent={emptyListComponent}
+      onRefresh={getData}
+      refreshing={isFetching}
     />
   );
 };

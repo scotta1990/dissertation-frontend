@@ -24,25 +24,26 @@ const MeasurementProgress = () => {
   const measurementTypes = useSelector(
     (store) => store.yourMeasurements.measurementTypes
   );
+  const [refresh, setRefresh] = useState();
+
+  const getData = async () => {
+    setIsFetching(true);
+    try {
+      const measurementTypes = await getMeasurementTypes(token);
+      dispatch(
+        setMeasurementTypes({
+          measurementTypes: measurementTypes,
+        })
+      );
+    } catch (error) {
+      console.log(error);
+    }
+    setIsFetching(false);
+  };
 
   useEffect(() => {
-    (async () => {
-      setIsFetching(true);
-      try {
-        if (measurementTypes.length < 1) {
-          const measurementTypes = await getMeasurementTypes(token);
-          dispatch(
-            setMeasurementTypes({
-              measurementTypes: measurementTypes,
-            })
-          );
-        }
-      } catch (error) {
-        console.log(error);
-      }
-      setIsFetching(false);
-    })();
-  }, [measurementTypes, token]);
+    getData();
+  }, [refresh, token]);
 
   if (isFetching) {
     return <LoadingOverlay />;
@@ -53,6 +54,10 @@ const MeasurementProgress = () => {
       data={measurementTypes}
       renderItem={renderProgressChart}
       keyExtractor={(item) => item._id}
+      onRefresh={() => {
+        setRefresh(!refresh);
+      }}
+      refreshing={isFetching}
     />
   );
 };
