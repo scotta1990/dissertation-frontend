@@ -8,17 +8,16 @@ import { cancelCurrentWorkout } from "../store/redux/currentWorkout";
 import { Alert } from "react-native";
 import Toast from "react-native-toast-notifications";
 import { useRef } from "react";
-import { addWorkout } from "../store/redux/workouts";
 import { KeyboardAwareFlatList } from "react-native-keyboard-aware-scroll-view";
-import { createWorkout } from "../utils/database/workouts";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
 };
 
 const CurrentWorkout = ({ navigation }) => {
-  const currentWorkout = useSelector((store) => store.currentWorkout);
-  const token = useSelector((store) => store.auth.token);
+  const workoutItems = useSelector(
+    (store) => store.currentWorkout.workoutItems
+  );
   const dispatch = useDispatch();
   const toastRef = useRef();
 
@@ -47,40 +46,12 @@ const CurrentWorkout = ({ navigation }) => {
   }
 
   async function finishWorkoutOnPressHandler() {
-    const doneWorkoutItems = currentWorkout.workoutItems.filter(
-      (workoutItem) => {
-        return workoutItem.sets.find((set) => set.done == true);
-      }
-    );
+    const doneWorkoutItems = workoutItems.filter((workoutItem) => {
+      return workoutItem.sets.find((set) => set.done == true);
+    });
 
     if (doneWorkoutItems.length > 0) {
-      newWorkout = {
-        startDate: currentWorkout.workoutStartDate,
-        endDate: Date.now(),
-        duration: currentWorkout.duration,
-        workoutItems: currentWorkout.workoutItems.map((item) => {
-          return { ...item, exerciseId: item.exercise.id };
-        }),
-      };
-      try {
-        await createWorkout(newWorkout, token);
-        dispatch(
-          addWorkout({
-            workout: newWorkout,
-          })
-        );
-        dispatch(cancelCurrentWorkout());
-        navigation.navigate("WorkoutSummary");
-        return;
-      } catch (error) {
-        console.log(error);
-        toastRef.current.show(error.response.data, {
-          type: "warning",
-          placement: "top",
-          duration: 6000,
-          animationType: "zoom-in",
-        });
-      }
+      navigation.replace("CompleteWorkout");
     }
     toastRef.current.show(
       "You need to add some completed exercises to your workout to finish it.",
@@ -97,9 +68,9 @@ const CurrentWorkout = ({ navigation }) => {
     <View style={styles.mainContainer}>
       <Toast ref={toastRef} />
       <View style={styles.mainContainer}>
-        {currentWorkout.workoutItems.length > 0 ? (
+        {workoutItems.length > 0 ? (
           <KeyboardAwareFlatList
-            data={currentWorkout.workoutItems}
+            data={workoutItems}
             keyExtractor={(item) => item.id}
             renderItem={renderWorkoutItem}
             removeClippedSubviews={false}
