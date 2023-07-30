@@ -32,6 +32,7 @@ const WorkoutItem = ({ workoutItem }) => {
           <WorkoutSetsList
             workoutItemId={workoutItem.id}
             workoutSets={workoutItem.sets}
+            equipmentType={workoutItem.exercise.equipment}
             bodyPart={workoutItem.exercise.bodyPart}
           />
           <Button
