@@ -10,7 +10,7 @@ const authenticate = async (mode, email, password) => {
       email: email,
       password: password,
     },
-    { timeout: 900 }
+    { timeout: 9000 }
   );
 };
 

@@ -6,6 +6,7 @@ import Button from "../components/UI/Button";
 import WorkoutNavigationHeader from "../components/Workout/WorkoutNavigationHeader";
 import CoreNavigation from "./CoreNavigation";
 import AddWorkoutExercise from "../screens/AddWorkoutExercise";
+import CompleteWorkout from "../screens/CompleteWorkout";
 
 const Stack = createNativeStackNavigator();
 
@@ -44,6 +45,13 @@ const WorkoutNavigation = () => {
         name="AddWorkoutExercise"
         component={AddWorkoutExercise}
         options={{ title: "Select Exercise" }}
+      />
+      <Stack.Screen
+        name="CompleteWorkout"
+        component={CompleteWorkout}
+        options={{
+          headerShown: false,
+        }}
       />
     </Stack.Navigator>
   );
