@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { GlobalStyles } from "../../constants/styles";
 import YourMeasurementTile from "./YourMeasurementTile";
 import { FlatList } from "react-native";
 import { KeyboardAwareFlatList } from "react-native-keyboard-aware-scroll-view";
@@ -38,6 +37,7 @@ const YourMeasurementsList = ({
   }
   return (
     <FlatList
+      contentContainerStyle={{ paddingBottom: 20 }}
       data={yourMeasurements}
       renderItem={renderYourMeasurementItem}
       keyExtractor={(item) => item.measurementType.name}
