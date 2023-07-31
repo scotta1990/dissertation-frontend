@@ -4,40 +4,44 @@ import DateTimePicker from "@react-native-community/datetimepicker";
 import { useState } from "react";
 import Button from "../UI/Button";
 import { GlobalStyles } from "../../constants/styles";
+import { Platform } from "react-native";
 
-const DateInput = ({ dateInput, setDateInput }) => {
-  const [pickerVisible, setPickerVisible] = useState(false);
+const DateInput = ({ dateRef, title = "Entry Date", inputMode = "date" }) => {
+  const [date, setDate] = useState(new Date());
+  const [mode, setMode] = useState(inputMode);
+  const [show, setShow] = useState(Platform.OS === "ios");
 
-  function datePickerChange(event, date) {
-    setDateInput(date);
-    setPickerVisible(false);
-  }
+  const onChange = (event, selectedDate) => {
+    const currentDate = selectedDate || date;
+    setShow(Platform.OS === "ios");
+    setDate(currentDate);
+    dateRef.current = currentDate;
+  };
 
-  console.log(pickerVisible);
+  const showMode = (currentMode) => {
+    setShow(true);
+    setMode(currentMode);
+  };
 
   return (
     <View style={styles.dateInputContainer}>
       <View style={styles.titleContainer}>
-        <Text style={styles.titleText}>DATE SELECTION</Text>
+        <Text style={styles.titleText}>{title}</Text>
       </View>
-      <Button
-        textStyle={styles.buttonText}
-        onPress={() => {
-          setPickerVisible(true);
-        }}
-      >
-        {dateInput.toLocaleDateString("en-gb")}
-      </Button>
-      {pickerVisible ? (
+      {Platform.OS !== "ios" && (
+        <Button textStyle={styles.buttonText} onPress={() => showMode(mode)}>
+          {date.toLocaleDateString("en-gb")}
+        </Button>
+      )}
+      {show && (
         <DateTimePicker
-          value={dateInput}
-          onChange={datePickerChange}
-          onLayout={() => {
-            setPickerVisible(false);
-          }}
+          testID="dateTimePicker"
+          value={date}
+          mode={mode}
+          is24Hour={true}
+          display="default"
+          onChange={onChange}
         />
-      ) : (
-        ""
       )}
     </View>
   );
