@@ -7,7 +7,7 @@ import Card from "../components/UI/Card";
 const Account = ({ navigation }) => {
   const measurementTestMenuPressHandler = () => {
     navigation.navigate("UpdateYourMeasurements", {
-      testing: true,
+      historical: true,
     });
   };
 
