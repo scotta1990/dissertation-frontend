@@ -25,7 +25,7 @@ const ProfileNavigation = () => {
       <Stack.Screen
         name="UpdateYourMeasurements"
         component={UpdateYourMeasurements}
-        initialParams={{ testing: false }}
+        initialParams={{ historical: false }}
         options={{
           title: "Update Your Measurements",
         }}

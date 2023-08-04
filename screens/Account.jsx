@@ -3,9 +3,24 @@ import React from "react";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
 import Card from "../components/UI/Card";
+import { useDispatch, useSelector } from "react-redux";
+import { startWorkout } from "../store/redux/currentWorkout";
 
 const Account = ({ navigation }) => {
-  const measurementTestMenuPressHandler = () => {
+  const workoutInProgress = useSelector(
+    (store) => store.currentWorkout.workoutInProgress
+  );
+  const dispatch = useDispatch();
+  const workoutPressHandler = () => {
+    if (workoutInProgress) {
+      navigation.navigate("CurrentWorkout");
+    } else {
+      dispatch(startWorkout({ historical: true }));
+      navigation.navigate("CurrentWorkout");
+    }
+  };
+
+  const measurementPressHandler = () => {
     navigation.navigate("UpdateYourMeasurements", {
       historical: true,
     });
@@ -23,13 +38,14 @@ const Account = ({ navigation }) => {
         <Button
           backgroundColor={GlobalStyles.colors.secondary}
           style={styles.button}
+          onPress={workoutPressHandler}
         >
           Workout
         </Button>
         <Button
           backgroundColor={GlobalStyles.colors.secondary}
           style={styles.button}
-          onPress={measurementTestMenuPressHandler}
+          onPress={measurementPressHandler}
         >
           Measurement
         </Button>
