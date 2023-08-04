@@ -5,8 +5,14 @@ import { useState } from "react";
 import Button from "../UI/Button";
 import { GlobalStyles } from "../../constants/styles";
 import { Platform } from "react-native";
+import { getYesterdaysDate } from "../../utils/utils";
 
-const DateInput = ({ dateRef, title = "Entry Date", inputMode = "date" }) => {
+const DateInput = ({
+  dateRef,
+  title = "Entry Date",
+  inputMode = "date",
+  future = false,
+}) => {
   const [date, setDate] = useState(new Date());
   const [mode, setMode] = useState(inputMode);
   const [show, setShow] = useState(Platform.OS === "ios");
@@ -30,7 +36,9 @@ const DateInput = ({ dateRef, title = "Entry Date", inputMode = "date" }) => {
       </View>
       {Platform.OS !== "ios" && (
         <Button textStyle={styles.buttonText} onPress={() => showMode(mode)}>
-          {date.toLocaleDateString("en-gb")}
+          {mode === "date"
+            ? date.toLocaleDateString("en-gb")
+            : date.toLocaleTimeString("en-gb")}
         </Button>
       )}
       {show && (
@@ -41,6 +49,7 @@ const DateInput = ({ dateRef, title = "Entry Date", inputMode = "date" }) => {
           is24Hour={true}
           display="default"
           onChange={onChange}
+          maximumDate={getYesterdaysDate()}
         />
       )}
     </View>
@@ -52,9 +61,12 @@ export default DateInput;
 const styles = StyleSheet.create({
   dateInputContainer: {
     flexDirection: "row",
-    justifyContent: "space-between",
-    margin: 12,
-    padding: 8,
+    justifyContent: "center",
+    alignItems: "center",
+    marginHorizontal: 12,
+    marginVertical: 6,
+    padding: 2,
+    paddingHorizontal: 8,
     borderColor: GlobalStyles.colors.primary,
     borderWidth: 1,
     borderRadius: 8,
@@ -63,6 +75,7 @@ const styles = StyleSheet.create({
   titleText: {
     color: GlobalStyles.colors.primaryBlack,
     fontWeight: "bold",
+    fontSize: 12,
   },
   buttonText: {
     color: GlobalStyles.colors.primaryBlack,
