@@ -2,17 +2,21 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import WorkoutTimer from "./WorkoutTimer";
 import { GlobalStyles } from "../../constants/styles";
+import { useSelector } from "react-redux";
 
 const WorkoutNavigationHeader = () => {
+  const historical = useSelector((store) => store.currentWorkout.historical);
   return (
     <View>
       <Text style={styles.headerText}>Workout</Text>
       <View style={styles.durationContainer}>
-        <Text style={styles.durationText}>Duration</Text>
-        <WorkoutTimer
-          containerStyle={styles.workoutTimerContainer}
-          textStyle={styles.workoutTimerText}
-        />
+        {!historical && <Text style={styles.durationText}>Duration</Text>}
+        {!historical && (
+          <WorkoutTimer
+            containerStyle={styles.workoutTimerContainer}
+            textStyle={styles.workoutTimerText}
+          />
+        )}
       </View>
     </View>
   );

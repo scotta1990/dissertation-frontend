@@ -11,6 +11,23 @@ export function convertDurationToString(durationValue) {
   } ${seconds + "s"}`;
 }
 
+export function addDateAndTime(date, time) {
+  return new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+    time.getHours(),
+    time.getMinutes()
+  );
+}
+
+export function getYesterdaysDate() {
+  const previousDate = new Date();
+  previousDate.setDate(previousDate.getDate() - 1);
+  previousDate.setHours(0, 0, 0, 0);
+  return previousDate;
+}
+
 export function combineMeasurementsAndTypes(
   yourMeasurements,
   measurementTypes

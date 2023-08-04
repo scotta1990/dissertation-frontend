@@ -26,9 +26,9 @@ const WorkoutNavigation = () => {
       <Stack.Screen
         name="CurrentWorkout"
         component={CurrentWorkout}
-        options={{
+        options={() => ({
           title: "",
-          headerTitle: ({ title }) => <WorkoutNavigationHeader />,
+          headerTitle: () => <WorkoutNavigationHeader />,
           // headerRight: () => (
           //   <Button
           //     backgroundColor={GlobalStyles.colors.successBackground}
@@ -39,7 +39,7 @@ const WorkoutNavigation = () => {
           //     Finish
           //   </Button>
           // ),
-        }}
+        })}
       />
       <Stack.Screen
         name="AddWorkoutExercise"
