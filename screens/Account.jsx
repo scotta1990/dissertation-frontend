@@ -5,6 +5,7 @@ import { GlobalStyles } from "../constants/styles";
 import Card from "../components/UI/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
+import { logout } from "../store/redux/auth";
 
 const Account = ({ navigation }) => {
   const workoutInProgress = useSelector(
@@ -24,6 +25,10 @@ const Account = ({ navigation }) => {
     navigation.navigate("UpdateYourMeasurements", {
       historical: true,
     });
+  };
+
+  const logoutPressHandler = () => {
+    dispatch(logout());
   };
 
   return (
@@ -51,7 +56,12 @@ const Account = ({ navigation }) => {
         </Button>
       </Card>
       <View style={styles.logoutContainer}>
-        <Button backgroundColor={GlobalStyles.colors.error}>Logout</Button>
+        <Button
+          backgroundColor={GlobalStyles.colors.error}
+          onPress={logoutPressHandler}
+        >
+          Logout
+        </Button>
       </View>
     </View>
   );
