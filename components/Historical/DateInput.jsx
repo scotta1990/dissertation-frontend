@@ -4,40 +4,53 @@ import DateTimePicker from "@react-native-community/datetimepicker";
 import { useState } from "react";
 import Button from "../UI/Button";
 import { GlobalStyles } from "../../constants/styles";
+import { Platform } from "react-native";
+import { getYesterdaysDate } from "../../utils/utils";
 
-const DateInput = ({ dateInput, setDateInput }) => {
-  const [pickerVisible, setPickerVisible] = useState(false);
+const DateInput = ({
+  dateRef,
+  title = "Entry Date",
+  inputMode = "date",
+  future = false,
+}) => {
+  const [date, setDate] = useState(new Date());
+  const [mode, setMode] = useState(inputMode);
+  const [show, setShow] = useState(Platform.OS === "ios");
 
-  function datePickerChange(event, date) {
-    setDateInput(date);
-    setPickerVisible(false);
-  }
+  const onChange = (event, selectedDate) => {
+    const currentDate = selectedDate || date;
+    setShow(Platform.OS === "ios");
+    setDate(currentDate);
+    dateRef.current = currentDate;
+  };
 
-  console.log(pickerVisible);
+  const showMode = (currentMode) => {
+    setShow(true);
+    setMode(currentMode);
+  };
 
   return (
     <View style={styles.dateInputContainer}>
       <View style={styles.titleContainer}>
-        <Text style={styles.titleText}>DATE SELECTION</Text>
+        <Text style={styles.titleText}>{title}</Text>
       </View>
-      <Button
-        textStyle={styles.buttonText}
-        onPress={() => {
-          setPickerVisible(true);
-        }}
-      >
-        {dateInput.toLocaleDateString("en-gb")}
-      </Button>
-      {pickerVisible ? (
+      {Platform.OS !== "ios" && (
+        <Button textStyle={styles.buttonText} onPress={() => showMode(mode)}>
+          {mode === "date"
+            ? date.toLocaleDateString("en-gb")
+            : date.toLocaleTimeString("en-gb")}
+        </Button>
+      )}
+      {show && (
         <DateTimePicker
-          value={dateInput}
-          onChange={datePickerChange}
-          onLayout={() => {
-            setPickerVisible(false);
-          }}
+          testID="dateTimePicker"
+          value={date}
+          mode={mode}
+          is24Hour={true}
+          display="default"
+          onChange={onChange}
+          maximumDate={getYesterdaysDate()}
         />
-      ) : (
-        ""
       )}
     </View>
   );
@@ -48,9 +61,12 @@ export default DateInput;
 const styles = StyleSheet.create({
   dateInputContainer: {
     flexDirection: "row",
-    justifyContent: "space-between",
-    margin: 12,
-    padding: 8,
+    justifyContent: "center",
+    alignItems: "center",
+    marginHorizontal: 12,
+    marginVertical: 6,
+    padding: 2,
+    paddingHorizontal: 8,
     borderColor: GlobalStyles.colors.primary,
     borderWidth: 1,
     borderRadius: 8,
@@ -59,6 +75,7 @@ const styles = StyleSheet.create({
   titleText: {
     color: GlobalStyles.colors.primaryBlack,
     fontWeight: "bold",
+    fontSize: 12,
   },
   buttonText: {
     color: GlobalStyles.colors.primaryBlack,

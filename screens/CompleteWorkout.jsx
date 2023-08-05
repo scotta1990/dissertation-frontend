@@ -27,9 +27,13 @@ const CompleteWorkout = ({ navigation }) => {
   const completeWorkout = async () => {
     setIsCompleting(true);
     setError(undefined);
+    console.log(currentWorkout);
+
     const completedWorkout = {
       startDate: currentWorkout.workoutStartDate,
-      endDate: Date.now(),
+      endDate: currentWorkout.historical
+        ? currentWorkout.workoutEndDate
+        : Date.now(),
       duration: currentWorkout.duration,
       workoutItems: currentWorkout.workoutItems.map((item) => {
         return { ...item, exerciseId: item.exercise.id };

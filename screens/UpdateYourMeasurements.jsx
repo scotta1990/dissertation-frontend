@@ -11,9 +11,10 @@ import {
 import { setMeasurementsProfile } from "../store/redux/yourMeasurements";
 import { combineMeasurementsAndTypes } from "../utils/utils";
 import DateInput from "../components/Historical/DateInput";
+import { useRef } from "react";
 
 const UpdateYourMeasurements = ({ navigation, route }) => {
-  const { testing } = route?.params;
+  const { historical } = route?.params;
 
   const measurementsProfile = useSelector(
     (store) => store.yourMeasurements.measurementsProfile
@@ -24,26 +25,26 @@ const UpdateYourMeasurements = ({ navigation, route }) => {
   const dispatch = useDispatch();
   const token = useSelector((store) => store.auth.token);
   const [inputs, setInputs] = useState({});
-  const [dateInput, setDateInput] = useState();
+  const dateInput = useRef();
 
   useEffect(() => {
-    if (testing) {
-      setDateInput(new Date());
+    if (historical) {
+      dateInput.current = new Date();
     }
   }, []);
-
-  function setDate(date) {
-    console.log(date);
-    setDateInput(date);
-  }
 
   async function onPressSubmitHandler() {
     const submit = async (key, value) => {
       try {
-        const response = await createMeasurement(token, {
+        const newMeasurement = {
           measurementTypeId: key,
           value: value,
-        });
+        };
+
+        if (historical) {
+          newMeasurement.dateCreated = dateInput.current;
+        }
+        const response = await createMeasurement(token, newMeasurement);
         const measurementsProfile = await getMeasurementsProfile(token);
         dispatch(
           setMeasurementsProfile({
@@ -66,11 +67,7 @@ const UpdateYourMeasurements = ({ navigation, route }) => {
 
   return (
     <View style={styles.mainContainer}>
-      {dateInput ? (
-        <DateInput dateInput={dateInput} setDateInput={setDate} />
-      ) : (
-        ""
-      )}
+      {historical && <DateInput dateRef={dateInput} />}
       <YourMeasurementsList
         yourMeasurements={measurementsProfile}
         isUpdatable={true}
