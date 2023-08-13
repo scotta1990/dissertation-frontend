@@ -5,6 +5,7 @@ import exercisesReducer from "./exercises";
 import workoutsReducer from "./workouts";
 import authReducer from "./auth";
 import yourMeasurementReducer from "./yourMeasurements";
+import yourGoals from "./yourGoals";
 
 export const store = configureStore({
   reducer: {
@@ -13,5 +14,6 @@ export const store = configureStore({
     currentWorkout: currentWorkoutReducer,
     exercises: exercisesReducer,
     yourMeasurements: yourMeasurementReducer,
+    yourGoals: yourGoals,
   },
 });
