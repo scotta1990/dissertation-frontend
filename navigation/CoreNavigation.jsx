@@ -6,6 +6,7 @@ import YouNavigation from "./YouNavigation";
 import { Ionicons } from "@expo/vector-icons";
 import { GlobalStyles } from "../constants/styles";
 import ProgressNavigation from "./ProgressNavigation";
+import useFeatureFlag from "../hooks/useFeatureFlag";
 
 const Tab = createBottomTabNavigator();
 
@@ -28,19 +29,21 @@ const CoreNavigation = () => {
           ),
         }}
       />
-      <Tab.Screen
-        name="YourProgress"
-        component={ProgressNavigation}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="analytics-outline" size={35} color={color} />
-          ),
-          headerShown: true,
-          title: "Your Progress",
-          headerStyle: { backgroundColor: GlobalStyles.colors.primary },
-          headerTintColor: GlobalStyles.colors.primaryWhite,
-        }}
-      />
+      {useFeatureFlag("Progress") ? (
+        <Tab.Screen
+          name="YourProgress"
+          component={ProgressNavigation}
+          options={{
+            tabBarIcon: ({ color, size }) => (
+              <Ionicons name="analytics-outline" size={35} color={color} />
+            ),
+            headerShown: true,
+            title: "Your Progress",
+            headerStyle: { backgroundColor: GlobalStyles.colors.primary },
+            headerTintColor: GlobalStyles.colors.primaryWhite,
+          }}
+        />
+      ) : null}
       <Tab.Screen
         name="You"
         component={YouNavigation}
