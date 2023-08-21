@@ -63,6 +63,7 @@ const FeatureFlagsAdmin = () => {
         </Text>
         {features.map((feature) => (
           <FeatureSwitch
+            key={feature._id}
             id={feature._id}
             token={token}
             title={feature.name}
