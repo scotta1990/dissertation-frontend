@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Switch, Text, View } from "react-native";
 import React from "react";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
@@ -6,11 +6,14 @@ import Card from "../components/UI/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
 import { logout } from "../store/redux/auth";
+import FeatureFlagsAdmin from "../components/FeatureFlags/FeatureFlagsAdmin";
 
 const Account = ({ navigation }) => {
   const workoutInProgress = useSelector(
     (store) => store.currentWorkout.workoutInProgress
   );
+  const userRole = useSelector((store) => store.auth.userRole);
+
   const dispatch = useDispatch();
   const workoutPressHandler = () => {
     if (workoutInProgress) {
@@ -55,6 +58,7 @@ const Account = ({ navigation }) => {
           Measurement
         </Button>
       </Card>
+      {userRole === "Admin" ? <FeatureFlagsAdmin /> : ""}
       <View style={styles.logoutContainer}>
         <Button
           backgroundColor={GlobalStyles.colors.error}
