@@ -63,7 +63,7 @@ const WorkoutSummary = ({ navigation }) => {
         backgroundColor={GlobalStyles.colors.accent}
         onPress={pressHandler}
       >
-        {workoutInProgress ? "Resume Workout" : "Start a Work"}
+        {workoutInProgress ? "Resume Workout" : "Start a Workout"}
       </Button>
     </SafeAreaView>
   );
@@ -80,7 +80,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   button: {
-    flex: 1,
     justifyContent: "flex-end",
     margin: 8,
     padding: 8,
