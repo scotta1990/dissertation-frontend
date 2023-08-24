@@ -101,7 +101,7 @@ export default YouSummary;
 
 const styles = StyleSheet.create({
   yourMeasurementsContainer: {
-    flex: 6,
+    flex: 5,
   },
   yourMeasurementsHeaderContainer: {
     flexDirection: "row",
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   },
   youMenu: {
     marginHorizontal: 8,
-    marginBottom: 10,
+    marginBottom: 8,
     padding: 8,
     justifyContent: "flex-end",
     flex: 1,
@@ -124,6 +124,6 @@ const styles = StyleSheet.create({
     marginTop: 0,
   },
   buttonText: {
-    fontSize: 13,
+    fontSize: 10,
   },
 });
