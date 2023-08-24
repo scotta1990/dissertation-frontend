@@ -13,6 +13,7 @@ import { getWorkoutGoal } from "../../utils/database/goals";
 import { setWeeklyWorkoutGoal } from "../../store/redux/yourGoals";
 import LoadingOverlay from "../UI/LoadingOverlay";
 import ErrorMessage from "../UI/ErrorMessage";
+import { KeyboardAvoidingView } from "react-native";
 
 const WorkoutGoalsSummary = () => {
   const [isFetching, setIsFetching] = useState(true);
@@ -65,12 +66,12 @@ const WorkoutGoalsSummary = () => {
   return (
     <View style={styles.outerContainer}>
       <Modal visible={modalVisible} transparent={true}>
-        <View style={styles.modalContainer}>
+        <KeyboardAvoidingView behavior="height" style={styles.modalContainer}>
           <WorkoutGoalInput
             currentGoalValue={weeklyWorkoutGoal}
             changeVisibility={changeModalVisibility}
           />
-        </View>
+        </KeyboardAvoidingView>
       </Modal>
       <View style={styles.workoutGoalSummaryContainer}>
         <Text style={styles.goalHeaderText}>Your Workout Goal</Text>
