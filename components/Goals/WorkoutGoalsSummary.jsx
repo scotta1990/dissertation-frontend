@@ -76,7 +76,7 @@ const WorkoutGoalsSummary = () => {
         <Text style={styles.goalHeaderText}>Your Workout Goal</Text>
         <View style={styles.workoutGoalSummaryInnerContainer}>
           <WorkoutCompletedCounter />
-          <WorkoutGoalAchievement testCount={3} />
+          <WorkoutGoalAchievement />
         </View>
       </View>
       <Card style={styles.editWorkoutGoalContainer}>
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     flex: 3,
   },
   workoutGoalSummaryInnerContainer: {
-    flexDirection: "row",
+    // flexDirection: "row",
     marginRight: 12,
     marginVertical: 8,
   },
@@ -121,12 +121,12 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   editWorkoutGoalText: {
-    fontSize: 12,
+    fontSize: 11,
     color: GlobalStyles.colors.primary,
     textAlign: "center",
   },
   editWorkoutGoalCount: {
-    fontSize: 37,
+    fontSize: 32,
     fontWeight: "bold",
     color: GlobalStyles.colors.primary,
   },

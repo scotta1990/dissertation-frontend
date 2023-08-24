@@ -50,21 +50,25 @@ const WorkoutSummary = ({ navigation }) => {
 
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <Card>
-        <View style={styles.recentWorkoutsHeaderContainer}>
-          <Text style={styles.recentWorkoutHeaderText}>
-            Your Recent Workouts
-          </Text>
-        </View>
-        <RecentWorkoutsList recentWorkouts={workoutsList} />
-      </Card>
-      <Button
-        style={styles.button}
-        backgroundColor={GlobalStyles.colors.accent}
-        onPress={pressHandler}
-      >
-        {workoutInProgress ? "Resume Workout" : "Start a Workout"}
-      </Button>
+      <View style={styles.recentWorkoutContainer}>
+        <Card>
+          <View style={styles.recentWorkoutsHeaderContainer}>
+            <Text style={styles.recentWorkoutHeaderText}>
+              Your Recent Workouts
+            </Text>
+          </View>
+          <RecentWorkoutsList recentWorkouts={workoutsList} />
+        </Card>
+      </View>
+      <View style={styles.buttonContainer}>
+        <Button
+          style={styles.button}
+          backgroundColor={GlobalStyles.colors.accent}
+          onPress={pressHandler}
+        >
+          {workoutInProgress ? "Resume Workout" : "Start a Workout"}
+        </Button>
+      </View>
     </SafeAreaView>
   );
 };
@@ -72,6 +76,9 @@ const WorkoutSummary = ({ navigation }) => {
 export default WorkoutSummary;
 
 const styles = StyleSheet.create({
+  recentWorkoutContainer: {
+    flex: 6,
+  },
   recentWorkoutsHeaderContainer: {
     marginLeft: 8,
     paddingLeft: 8,
@@ -79,9 +86,15 @@ const styles = StyleSheet.create({
   recentWorkoutHeaderText: {
     fontWeight: "bold",
   },
-  button: {
-    justifyContent: "flex-end",
-    margin: 8,
+  buttonContainer: {
+    marginHorizontal: 8,
+    marginBottom: 8,
     padding: 8,
+    justifyContent: "flex-end",
+    flex: 1,
+  },
+  button: {
+    margin: 10,
+    marginTop: 0,
   },
 });

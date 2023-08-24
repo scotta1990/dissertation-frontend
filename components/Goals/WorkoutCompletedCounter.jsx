@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   completedWorkoutCountText: {
-    fontSize: 37,
+    fontSize: 32,
     fontWeight: "bold",
     color: GlobalStyles.colors.primary,
   },
