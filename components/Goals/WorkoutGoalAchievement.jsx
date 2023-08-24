@@ -13,12 +13,12 @@ const renderWorkoutGoalAchievement = ({
 }) => {
   return (
     <View style={[styles.mainContainer, style]}>
+      <Ionicons name={icon} size={25} color={iconColor} />
       <View style={styles.textContainer}>
         <Text adjustsFontSizeToFit={true} style={[styles.text, textStyle]}>
           {firstLineText}
         </Text>
       </View>
-      <Ionicons name={icon} size={25} color={iconColor} />
     </View>
   );
 };
@@ -53,7 +53,7 @@ const WorkoutGoalAchievement = () => {
   // Already half way or more
   if (workoutCount >= goal / 2) {
     return renderWorkoutGoalAchievement({
-      firstLineText: "Past half way, Keep it up",
+      firstLineText: "Past halfway, Keep it up",
       icon: "arrow-forward",
       iconColor: GlobalStyles.colors.primary,
       textStyle: styles.workoutGoalAchievementText,
@@ -75,7 +75,7 @@ const WorkoutGoalAchievement = () => {
   // Not started yet
   if (workoutCount === 0) {
     return renderWorkoutGoalAchievement({
-      firstLineText: "Get going with by starting a workout",
+      firstLineText: "Get going by starting a workout",
       icon: "barbell",
       iconColor: GlobalStyles.colors.primary,
       textStyle: styles.notStartedText,
@@ -116,7 +116,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
   textContainer: {
-    // flex: 1,
+    flex: 1,
+    marginLeft: 5,
   },
   text: {
     color: GlobalStyles.colors.primaryWhite,
