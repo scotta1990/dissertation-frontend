@@ -3,7 +3,6 @@ import React from "react";
 import ExerciseItem from "./ExerciseItem";
 
 const ExercisesList = ({ exerciseData, onSelection }) => {
-  console.log(onSelection);
   const renderExerciseItem = ({ item }) => {
     return <ExerciseItem exercise={item} onPress={onSelection} />;
   };
