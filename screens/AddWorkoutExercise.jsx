@@ -2,14 +2,20 @@ import { StyleSheet, TextInput, View } from "react-native";
 import { useEffect, useState } from "react";
 import { GlobalStyles } from "../constants/styles";
 import ExercisesList from "../components/Exercise/ExercisesList";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import ExerciseBodyPartFilter from "../components/Exercise/ExerciseBodyPartFilter";
+import { addExercise } from "../store/redux/currentWorkout";
 
 const AddWorkoutExercise = () => {
   const exerciseList = useSelector((state) => state.exercises.exerciseList);
   const bodyPartsFilter = useSelector(
     (state) => state.exercises.bodyPartsFilter
   );
+  const dispatch = useDispatch();
+
+  const onSelectionHandler = (exercise) => {
+    dispatch(addExercise({ exercise: exercise }));
+  };
 
   const [exerciseFilter, setExerciseFilter] = useState("");
   const [filteredExercises, setFilteredExercises] = useState([]);
@@ -40,7 +46,10 @@ const AddWorkoutExercise = () => {
         onChangeText={setExerciseFilter}
       />
       <View style={styles.mainContainer}>
-        <ExercisesList exerciseData={filteredExercises} />
+        <ExercisesList
+          exerciseData={filteredExercises}
+          onSelection={onSelectionHandler}
+        />
       </View>
     </View>
   );
