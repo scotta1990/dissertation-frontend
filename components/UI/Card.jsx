@@ -1,8 +1,8 @@
 import { StyleSheet, View } from "react-native";
 import { GlobalStyles } from "../../constants/styles";
 
-const Card = ({ children }) => {
-  return <View style={styles.mainContainer}>{children}</View>;
+const Card = ({ children, style }) => {
+  return <View style={[styles.mainContainer, style]}>{children}</View>;
 };
 
 export default Card;
