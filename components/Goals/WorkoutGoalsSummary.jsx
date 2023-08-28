@@ -86,7 +86,7 @@ const WorkoutGoalsSummary = () => {
         </Text>
         <Text style={styles.editWorkoutGoalCount}>{weeklyWorkoutGoal}</Text>
         <Button
-          backgroundColor={GlobalStyles.colors.primary}
+          backgroundColor={GlobalStyles.colors.accent}
           textStyle={styles.editButtonText}
           style={styles.editButton}
           onPress={changeModalVisibility}
