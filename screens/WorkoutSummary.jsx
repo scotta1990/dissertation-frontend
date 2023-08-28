@@ -10,6 +10,8 @@ import { getAllWorkouts } from "../utils/database/workouts";
 import { setWorkouts } from "../store/redux/workouts";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
 import { useEffect } from "react";
+import { getAllExercises } from "../utils/database/exercises";
+import { setExercises } from "../store/redux/exercises";
 
 const WorkoutSummary = ({ navigation }) => {
   const [isFetching, setIsFetching] = useState(true);
@@ -27,6 +29,8 @@ const WorkoutSummary = ({ navigation }) => {
         try {
           const workouts = await getAllWorkouts(token);
           dispatch(setWorkouts({ workouts: workouts }));
+          const exercises = await getAllExercises(token);
+          dispatch(setExercises({ exercises: exercises }));
         } catch (error) {
           console.log(error);
         }
