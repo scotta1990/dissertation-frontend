@@ -1,17 +1,14 @@
-import { StyleSheet, TextInput, View } from "react-native";
-import { useEffect, useState } from "react";
-import { GlobalStyles } from "../constants/styles";
-import ExercisesList from "../components/Exercise/ExercisesList";
-import { useDispatch, useSelector } from "react-redux";
-import ExerciseBodyPartFilter from "../components/Exercise/ExerciseBodyPartFilter";
+import { StyleSheet, View } from "react-native";
+import { useDispatch } from "react-redux";
 import { addExercise } from "../store/redux/currentWorkout";
 import ExerciseSelector from "../components/Exercise/ExerciseSelector";
 
-const AddWorkoutExercise = () => {
+const AddWorkoutExercise = ({ navigation }) => {
   const dispatch = useDispatch();
 
   const onSelectionHandler = (exercise) => {
     dispatch(addExercise({ exercise: exercise }));
+    navigation.goBack();
   };
 
   return (

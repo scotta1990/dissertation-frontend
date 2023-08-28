@@ -10,7 +10,6 @@ const ExerciseItem = ({ exercise, onPress }) => {
 
   function onPressHandler() {
     onPress(exercise);
-    navigation.goBack();
   }
 
   return (
