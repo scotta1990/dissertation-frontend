@@ -18,3 +18,16 @@ export const getWorkoutGoal = async (token, goal) => {
   });
   return response.data;
 };
+
+export const getGoalByItemId = async (token, itemId) => {
+  const url = `${baseUrl}/goals/specific`;
+
+  const response = await axios.get(
+    url,
+    { itemId: itemId },
+    {
+      headers: { "x-access-token": token },
+    }
+  );
+  return response.data;
+};

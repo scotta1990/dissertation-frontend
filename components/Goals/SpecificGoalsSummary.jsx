@@ -15,10 +15,10 @@ const SpecificGoalCard = ({ title, goalCount, onPress }) => {
       <Button
         style={styles.viewGoalsCardButton}
         textStyle={styles.viewGoalsCardButtonText}
-        backgroundColor={GlobalStyles.colors.accent}
+        backgroundColor={GlobalStyles.colors.secondary}
         onPress={onPress}
       >
-        View Goals
+        View
       </Button>
     </Card>
   );
@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
   },
   specificGoalCardTitleText: {
     color: GlobalStyles.colors.primary,
+    textAlign: "center",
   },
   specificGoalCardCountText: {
     fontSize: 32,
@@ -81,6 +82,7 @@ const styles = StyleSheet.create({
     fontWeight: "normal",
   },
   viewGoalsCardButton: {
+    width: "80%",
     marginTop: 5,
   },
   viewGoalsCardButtonText: {
