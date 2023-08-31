@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { startWorkout } from "../store/redux/currentWorkout";
 import { logout } from "../store/redux/auth";
 import FeatureFlagsAdmin from "../components/FeatureFlags/FeatureFlagsAdmin";
+import { ScrollView } from "react-native";
 
 const Account = ({ navigation }) => {
   const workoutInProgress = useSelector(
@@ -36,31 +37,34 @@ const Account = ({ navigation }) => {
 
   return (
     <View style={styles.mainContainer}>
-      <Card>
-        <View style={styles.headerContainer}>
-          <Text style={styles.headerText}>Historical Input</Text>
-          <Text>
-            Add your historical data so you can view this in your progress.
-          </Text>
-        </View>
-        <Button
-          backgroundColor={GlobalStyles.colors.secondary}
-          style={styles.button}
-          onPress={workoutPressHandler}
-        >
-          Workout
-        </Button>
-        <Button
-          backgroundColor={GlobalStyles.colors.secondary}
-          style={styles.button}
-          onPress={measurementPressHandler}
-        >
-          Measurement
-        </Button>
-      </Card>
-      {userRole === "Admin" ? <FeatureFlagsAdmin /> : ""}
+      <ScrollView style={styles.mainContainer}>
+        <Card>
+          <View style={styles.headerContainer}>
+            <Text style={styles.headerText}>Historical Input</Text>
+            <Text>
+              Add your historical data so you can view this in your progress.
+            </Text>
+          </View>
+          <Button
+            backgroundColor={GlobalStyles.colors.secondary}
+            style={styles.button}
+            onPress={workoutPressHandler}
+          >
+            Workout
+          </Button>
+          <Button
+            backgroundColor={GlobalStyles.colors.secondary}
+            style={styles.button}
+            onPress={measurementPressHandler}
+          >
+            Measurement
+          </Button>
+        </Card>
+        {userRole === "Admin" ? <FeatureFlagsAdmin /> : ""}
+      </ScrollView>
       <View style={styles.logoutContainer}>
         <Button
+          style={styles.logoutButton}
           backgroundColor={GlobalStyles.colors.error}
           onPress={logoutPressHandler}
         >
@@ -88,9 +92,14 @@ const styles = StyleSheet.create({
     margin: 8,
   },
   logoutContainer: {
-    flex: 1,
+    flex: 0.18,
     justifyContent: "flex-end",
-    margin: 8,
+    marginHorizontal: 8,
+    marginBottom: 8,
     padding: 8,
+  },
+  logoutButton: {
+    margin: 10,
+    marginTop: 0,
   },
 });
