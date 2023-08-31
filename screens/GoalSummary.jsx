@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native";
 import { GlobalStyles } from "../constants/styles";
@@ -9,12 +9,14 @@ import SpecificGoalsSummary from "../components/Goals/SpecificGoalsSummary";
 const GoalSummary = () => {
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <Card style={styles.goalCard}>
-        <WorkoutGoalsSummary />
-      </Card>
-      <Card style={styles.goalCard}>
-        <SpecificGoalsSummary />
-      </Card>
+      <ScrollView>
+        <Card style={styles.goalCard}>
+          <WorkoutGoalsSummary />
+        </Card>
+        <Card style={styles.goalCard}>
+          <SpecificGoalsSummary />
+        </Card>
+      </ScrollView>
     </SafeAreaView>
   );
 };
