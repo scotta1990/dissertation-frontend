@@ -31,6 +31,8 @@ const CoreNavigation = () => {
           ),
         }}
       />
+      { useFeatureFlag("Goals") && (
+
       <Tab.Screen
         name="Goals"
         component={GoalNavigation}
@@ -40,7 +42,8 @@ const CoreNavigation = () => {
           ),
           title: "Goals",
         }}
-      />
+      />)
+      }
       {useFeatureFlag("Progress") ? (
         <Tab.Screen
           name="YourProgress"
