@@ -5,6 +5,7 @@ import ExerciseSelector from "../components/Exercise/ExerciseSelector";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
 import { getGoalByItemId } from "../utils/database/goals";
+import { useSelector } from "react-redux";
 
 const SelectorView = ({ children, changeModalVisibility }) => {
   return (
@@ -30,6 +31,7 @@ const SelectorView = ({ children, changeModalVisibility }) => {
 };
 
 const SpecificGoalManagement = ({ route }) => {
+  const token = useSelector((store) => store.auth.token)
   const { type } = route?.params;
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -39,12 +41,12 @@ const SpecificGoalManagement = ({ route }) => {
     setModalVisible(!modalVisible);
   };
 
-  const onSelectionHandler = (item) => {
+  const onSelectionHandler = async (item) => {
     changeModalVisibility();
     setSelectedItem(item);
 
     // If goal exists, populate goal
-    const goal = getGoalByItemId(item.id);
+    const goal = await getGoalByItemId(token, item.id);
     console.log(goal);
     // If goal doesn't exists, get data to help set goal
     // Get the most recent entry, take that and multiple by 0.1
