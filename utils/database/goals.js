@@ -20,11 +20,10 @@ export const getWorkoutGoal = async (token, goal) => {
 };
 
 export const getGoalByItemId = async (token, itemId) => {
-  const url = `${baseUrl}/goals/specific`;
+  const url = `${baseUrl}/goals/specific?itemId=${itemId}`;
 
   const response = await axios.get(
     url,
-    { itemId: itemId },
     {
       headers: { "x-access-token": token },
     }
