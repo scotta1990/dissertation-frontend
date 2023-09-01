@@ -1,4 +1,4 @@
-import { Modal, StyleSheet, Text, TextInput, View } from "react-native";
+import { Modal, SafeAreaView, StyleSheet, Text, TextInput, View } from "react-native";
 import React from "react";
 import { useState } from "react";
 import ExerciseSelector from "../components/Exercise/ExerciseSelector";
@@ -8,7 +8,7 @@ import { getGoalByItemId } from "../utils/database/goals";
 
 const SelectorView = ({ children, changeModalVisibility }) => {
   return (
-    <View style={styles.selectorViewOuterContainer}>
+    <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
       <View style={styles.selectorViewMainContainer}>
         <View style={styles.selectorViewHeaderTextContainer}>
           <Text style={styles.selectorViewHeaderText}>
@@ -25,7 +25,7 @@ const SelectorView = ({ children, changeModalVisibility }) => {
           Cancel Selection
         </Button>
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -102,6 +102,8 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   selectorViewHeaderText: {
+    paddingVertical: 5,
+    fontSize: 18,
     color: GlobalStyles.colors.primaryWhite,
   },
   selectionContainer: {
