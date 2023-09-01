@@ -4,6 +4,7 @@ import WorkoutNavigation from "./navigation/WorkoutNavigation";
 import { Provider, useSelector } from "react-redux";
 import { store } from "./store/redux/store";
 import { ToastProvider } from "react-native-toast-notifications";
+import { StatusBar } from "expo-status-bar";
 
 const navTheme = DefaultTheme;
 navTheme.colors.background = "#EEEEEE";
@@ -15,9 +16,12 @@ const Navigation = () => {
 
   if (testing) {
     return (
+      <>
+      
       <NavigationContainer theme={navTheme}>
         <WorkoutNavigation />
       </NavigationContainer>
+      </>
     );
   }
 
@@ -32,6 +36,7 @@ const Navigation = () => {
 export default function App() {
   return (
     <>
+    <StatusBar />
       <Provider store={store}>
         <ToastProvider>
           <Navigation />
