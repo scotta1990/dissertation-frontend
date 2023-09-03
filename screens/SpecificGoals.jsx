@@ -1,12 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { useNavigation, useRoute } from "@react-navigation/native";
 import { GlobalStyles } from "../constants/styles";
 import Button from "../components/UI/Button";
 
-const SpecificGoals = () => {
-  const route = useRoute();
-  const navigation = useNavigation();
+const SpecificGoals = ({ route, navigation }) => {
   const { type } = route?.params;
 
   const onPressHandler = () => {
