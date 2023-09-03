@@ -10,7 +10,20 @@ export const addGoal = async (token, goal) => {
   return response.data;
 };
 
-export const getWorkoutGoal = async (token, goal) => {
+export const updateGoal = async (token, goalId, value) => {
+  const url = `${baseUrl}/goals/${goalId}`;
+
+  const response = await axios.put(
+    url,
+    { value: value },
+    {
+      headers: { "x-access-token": token },
+    }
+  );
+  return response.data;
+};
+
+export const getWorkoutGoal = async (token) => {
   const url = `${baseUrl}/goals/workout`;
 
   const response = await axios.get(url, {
@@ -22,11 +35,17 @@ export const getWorkoutGoal = async (token, goal) => {
 export const getGoalByItemId = async (token, itemId) => {
   const url = `${baseUrl}/goals/specific?itemId=${itemId}`;
 
-  const response = await axios.get(
-    url,
-    {
-      headers: { "x-access-token": token },
-    }
-  );
+  const response = await axios.get(url, {
+    headers: { "x-access-token": token },
+  });
+  return response.data;
+};
+
+export const getGoalRecommendation = async (token, type, itemId) => {
+  const url = `${baseUrl}/goals/recommendation/${type}?itemId=${itemId}`;
+
+  const response = await axios.get(url, {
+    headers: { "x-access-token": token },
+  });
   return response.data;
 };
