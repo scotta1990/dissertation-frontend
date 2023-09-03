@@ -1,41 +1,29 @@
-import { Modal, SafeAreaView, StyleSheet, Text, TextInput, View } from "react-native";
+import { Modal, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { useState } from "react";
 import ExerciseSelector from "../components/Exercise/ExerciseSelector";
 import Button from "../components/UI/Button";
 import { GlobalStyles } from "../constants/styles";
-import { getGoalByItemId } from "../utils/database/goals";
+import {
+  getGoalByItemId,
+  getGoalRecommendation,
+} from "../utils/database/goals";
 import { useSelector } from "react-redux";
-
-const SelectorView = ({ children, changeModalVisibility }) => {
-  return (
-    <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <View style={styles.selectorViewMainContainer}>
-        <View style={styles.selectorViewHeaderTextContainer}>
-          <Text style={styles.selectorViewHeaderText}>
-            Select the item you want to add a goal for
-          </Text>
-        </View>
-        {children}
-      </View>
-      <View style={styles.selectorViewButtonContainer}>
-        <Button
-          onPress={changeModalVisibility}
-          backgroundColor={GlobalStyles.colors.error}
-        >
-          Cancel Selection
-        </Button>
-      </View>
-    </SafeAreaView>
-  );
-};
+import SpecificGoalRecommendation from "../components/Goals/SpecificGoalRecommendation";
+import SpecificGoalInput from "../components/Goals/SpecificGoalInput";
+import SpecificGoalSelectorView from "../components/Goals/SpecificGoalSelectorView";
+import Card from "../components/UI/Card";
+import MeasurementsSelector from "../components/YourMeasurements/MeasurementsSelector";
 
 const SpecificGoalManagement = ({ route }) => {
-  const token = useSelector((store) => store.auth.token)
+  const token = useSelector((store) => store.auth.token);
   const { type } = route?.params;
 
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState();
+  const [currentGoal, setCurrentGoal] = useState();
+  const [goalRecommendation, setGoalRecommendation] = useState();
+  const [currentGoalValue, setCurrentGoalValue] = useState(0);
 
   const changeModalVisibility = () => {
     setModalVisible(!modalVisible);
@@ -44,22 +32,35 @@ const SpecificGoalManagement = ({ route }) => {
   const onSelectionHandler = async (item) => {
     changeModalVisibility();
     setSelectedItem(item);
+    setCurrentGoal();
+    setGoalRecommendation();
+    setCurrentGoalValue(0);
 
     // If goal exists, populate goal
-    const goal = await getGoalByItemId(token, item.id);
-    console.log(goal);
-    // If goal doesn't exists, get data to help set goal
-    // Get the most recent entry, take that and multiple by 0.1
+    try {
+      var itemId = item.id ? item.id : item._id;
+      const goal = await getGoalByItemId(token, itemId);
+      setCurrentGoal(goal[0]);
+      setCurrentGoalValue(goal[0] ? goal[0].value : 0);
+
+      // If goal doesn't exists, get data to help set goal
+      const recommendation = await getGoalRecommendation(token, type, itemId);
+      setGoalRecommendation(recommendation[0]);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
     <View>
       <Modal visible={modalVisible}>
-        <SelectorView changeModalVisibility={changeModalVisibility}>
+        <SpecificGoalSelectorView onCancellation={changeModalVisibility}>
           {type === "exercise" ? (
             <ExerciseSelector onSelection={onSelectionHandler} />
-          ) : null}
-        </SelectorView>
+          ) : (
+            <MeasurementsSelector onSelection={onSelectionHandler} />
+          )}
+        </SpecificGoalSelectorView>
       </Modal>
       <View style={styles.selectionContainer}>
         <View style={styles.selectionTextContainer}>
@@ -80,6 +81,22 @@ const SpecificGoalManagement = ({ route }) => {
           Select {type}
         </Button>
       </View>
+      {selectedItem && (
+        <Card>
+          <SpecificGoalInput
+            currentGoalValue={currentGoalValue}
+            currentGoalId={currentGoal?._id}
+            item={selectedItem}
+            type={type}
+          />
+          {goalRecommendation ? (
+            <SpecificGoalRecommendation
+              recentAchievement={goalRecommendation.mostRecent.measurementsAvg}
+              recommendation={goalRecommendation.recommendation}
+            />
+          ) : null}
+        </Card>
+      )}
     </View>
   );
 };
@@ -87,27 +104,6 @@ const SpecificGoalManagement = ({ route }) => {
 export default SpecificGoalManagement;
 
 const styles = StyleSheet.create({
-  selectorViewOuterContainer: {
-    flex: 1,
-  },
-  selectorViewMainContainer: {
-    flex: 12,
-  },
-  selectorViewButtonContainer: {
-    flex: 1,
-    marginHorizontal: 8,
-    marginBottom: 8,
-    padding: 8,
-  },
-  selectorViewHeaderTextContainer: {
-    backgroundColor: GlobalStyles.colors.primary,
-    padding: 12,
-  },
-  selectorViewHeaderText: {
-    paddingVertical: 5,
-    fontSize: 18,
-    color: GlobalStyles.colors.primaryWhite,
-  },
   selectionContainer: {
     flexDirection: "row",
     borderColor: GlobalStyles.colors.primaryGoal,
@@ -115,6 +111,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 5,
     margin: 8,
+    marginBottom: 2,
     alignItems: "center",
   },
   selectionTextContainer: {
