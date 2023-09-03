@@ -31,8 +31,13 @@ const WorkoutGoalsSummary = () => {
     if (token) {
       try {
         const goal = await getWorkoutGoal(token);
-        dispatch(setWeeklyWorkoutGoal({ weeklyWorkoutGoal: goal[0].value }));
+        dispatch(
+          setWeeklyWorkoutGoal({
+            weeklyWorkoutGoal: goal.length > 0 ? goal[0].value : 0,
+          })
+        );
       } catch (error) {
+        console.log(error);
         setError(
           "Error collecting your workout goal right now... try again later"
         );
@@ -60,7 +65,14 @@ const WorkoutGoalsSummary = () => {
   }
 
   if (isFetching) {
-    return <LoadingOverlay message={"Collecting your workout goal..."} />;
+    return (
+      <LoadingOverlay
+        message={"Collecting your workout goal..."}
+        backgroundColor={GlobalStyles.colors.primaryWhite}
+        color={GlobalStyles.colors.primary}
+        fontSize={16}
+      />
+    );
   }
 
   return (
