@@ -2,19 +2,27 @@ import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { GlobalStyles } from "../../constants/styles";
 import { Text } from "react-native";
 
-const renderMessage = (message) => {
+const renderMessage = (message, fontSize) => {
   return (
     <View style={styles.messageContainer}>
-      <Text style={styles.messageText}>{message}</Text>
+      <Text style={[styles.messageText, { fontSize: fontSize }]}>
+        {message}
+      </Text>
     </View>
   );
 };
 
-export default function LoadingOverlay({ message }) {
+export default function LoadingOverlay({
+  message,
+  backgroundColor = GlobalStyles.colors.primary,
+  color = "white",
+  size = "large",
+  fontSize,
+}) {
   return (
-    <View style={styles.container}>
-      {message ? renderMessage(message) : ""}
-      <ActivityIndicator size="large" color="white" />
+    <View style={[styles.container, { backgroundColor: backgroundColor }]}>
+      {message ? renderMessage(message, fontSize) : ""}
+      <ActivityIndicator size={size} color={color} />
     </View>
   );
 }
