@@ -12,6 +12,8 @@ import LoadingOverlay from "../components/UI/LoadingOverlay";
 import { useEffect } from "react";
 import { getAllExercises } from "../utils/database/exercises";
 import { setExercises } from "../store/redux/exercises";
+import { getMeasurementTypes } from "../utils/database/yourMeasurements";
+import { setMeasurementTypes } from "../store/redux/yourMeasurements";
 
 const WorkoutSummary = ({ navigation }) => {
   const [isFetching, setIsFetching] = useState(true);
@@ -31,6 +33,8 @@ const WorkoutSummary = ({ navigation }) => {
           dispatch(setWorkouts({ workouts: workouts }));
           const exercises = await getAllExercises(token);
           dispatch(setExercises({ exercises: exercises }));
+          const measurementTypes = await getMeasurementTypes(token);
+          dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
         } catch (error) {
           console.log(error);
         }
