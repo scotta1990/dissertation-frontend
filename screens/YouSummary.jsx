@@ -33,9 +33,6 @@ const YouSummary = ({ navigation }) => {
     (async () => {
       setIsFetching(true);
       try {
-        const measurementTypes = await getMeasurementTypes(token);
-        dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
-
         const measurementsProfile = await getMeasurementsProfile(token);
         dispatch(
           setMeasurementsProfile({
