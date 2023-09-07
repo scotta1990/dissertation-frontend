@@ -1,16 +1,35 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { GlobalStyles } from "../../constants/styles";
 import { Ionicons } from "@expo/vector-icons";
-import Animated, { BounceIn, BounceOut } from "react-native-reanimated";
+import Animated, { BounceIn } from "react-native-reanimated";
 import { useEffect, useState } from "react";
 import YourMeasurementValueBox from "./YourMeasurementValueBox";
+import Feature from "../FeatureFlags/Feature";
+import { useSelector } from "react-redux";
+import { getGoalByItemId } from "../../utils/database/goals";
 
 const YourMeasurementTile = ({ measurement }) => {
+  const token = useSelector((store) => store.auth.token);
   const [collapsed, setCollapsed] = useState(true);
   const [current, setCurrent] = useState();
   const [previous, setPrevious] = useState();
+  const [goal, setGoal] = useState();
 
   useEffect(() => {
+    (async () => {
+      try {
+        const goal = await getGoalByItemId(
+          token,
+          measurement.measurementType._id
+        );
+        if (goal.length > 0) {
+          setGoal({ title: "Goal", ...goal[0] });
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    })();
+
     if (!measurement.measurements) {
       setCurrent({ title: "No measurement yet", value: "-", metric: "" });
       return;
@@ -79,7 +98,7 @@ const YourMeasurementTile = ({ measurement }) => {
               value={previous.value}
               metric={previous.metric}
               flat={true}
-              valueTextStyle={{ fontSize: 18 }}
+              valueTextStyle={{ fontSize: 17 }}
               style={{ flex: 0.7 }}
             />
           ) : (
@@ -89,7 +108,21 @@ const YourMeasurementTile = ({ measurement }) => {
             title={current.title}
             value={current.value}
             metric={current.metric}
+            backgroundColor={GlobalStyles.colors.primary}
           />
+          <Feature name={"Goals"}>
+            {goal ? (
+              <YourMeasurementValueBox
+                title={goal.title}
+                value={goal.value}
+                metric={current.metric}
+                valueTextStyle={{ fontSize: 17 }}
+                flat={true}
+                backgroundColor={GlobalStyles.colors.primaryGoal}
+                style={{ flex: 0.7 }}
+              />
+            ) : null}
+          </Feature>
         </View>
       </Animated.View>
     );
