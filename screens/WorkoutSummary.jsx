@@ -14,6 +14,8 @@ import { getAllExercises } from "../utils/database/exercises";
 import { setExercises } from "../store/redux/exercises";
 import { getMeasurementTypes } from "../utils/database/yourMeasurements";
 import { setMeasurementTypes } from "../store/redux/yourMeasurements";
+import { getAllGoals } from "../utils/database/goals";
+import { setGoals } from "../store/redux/yourGoals";
 
 const WorkoutSummary = ({ navigation }) => {
   const [isFetching, setIsFetching] = useState(true);
@@ -35,6 +37,8 @@ const WorkoutSummary = ({ navigation }) => {
           dispatch(setExercises({ exercises: exercises }));
           const measurementTypes = await getMeasurementTypes(token);
           dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
+          const goals = await getAllGoals(token);
+          dispatch(setGoals({ goals: goals }));
         } catch (error) {
           console.log(error);
         }
@@ -53,7 +57,11 @@ const WorkoutSummary = ({ navigation }) => {
   }
 
   if (isFetching) {
-    return <LoadingOverlay />;
+    return (
+      <LoadingOverlay
+        message={"Getting everything you need to smash your workout."}
+      />
+    );
   }
 
   return (

@@ -1,6 +1,14 @@
 import axios from "axios";
 import { baseUrl } from "./config";
 
+export const getAllGoals = async (token) => {
+  const url = `${baseUrl}/goals/`;
+  const response = await axios.get(url, {
+    headers: { "x-access-token": token },
+  });
+  return response.data;
+};
+
 export const addGoal = async (token, goal) => {
   const url = `${baseUrl}/goals/`;
 
