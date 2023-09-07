@@ -11,6 +11,8 @@ import LoadingOverlay from "../UI/LoadingOverlay";
 import ErrorOverlay from "../UI/ErrorOverlay";
 import { getExerciseById } from "../../store/redux/exercises";
 import MessageBox from "../UI/MessageBox";
+import useFeatureFlag from "../../hooks/useFeatureFlag";
+import { getGoalByItemId } from "../../utils/database/goals";
 
 const ProgressChart = ({
   measurementTypeId,
@@ -23,9 +25,18 @@ const ProgressChart = ({
   const [measurementData, setMeasurementData] = useState();
   const [errorMessage, setErrorMessage] = useState();
   const [exercise, setExercise] = useState();
+  const [goalData, setGoalData] = useState({
+    data: [],
+    color: (opacity = 1) => `rgba(255,183,3, ${opacity})`,
+  });
   const state = useSelector((state) => state);
+  const goalsEnabled = useFeatureFlag("Goals");
 
   useEffect(() => {
+    setGoalData({
+      data: [],
+      color: (opacity = 1) => `rgba(255,183,3, ${opacity})`,
+    });
     if (!exerciseData) {
       (async () => {
         setIsFetching(true);
@@ -35,6 +46,17 @@ const ProgressChart = ({
             measurementTypeId
           );
           setMeasurementData(measurementData);
+          if (goalsEnabled) {
+            const goal = await getGoalByItemId(token, measurementTypeId);
+            if (goal.length > 0 && measurementData.length > 0) {
+              const goalData = Array(measurementData.length).fill(
+                goal[0].value
+              );
+              setGoalData((prev) => {
+                return { ...prev, data: goalData };
+              });
+            }
+          }
         } catch (error) {
           setErrorMessage(error);
         }
@@ -46,7 +68,7 @@ const ProgressChart = ({
       setMeasurementData(exerciseData);
       setIsFetching(false);
     }
-  }, [token]);
+  }, [token, goalsEnabled]);
 
   if (isFetching) {
     return (
@@ -109,7 +131,9 @@ const ProgressChart = ({
               {
                 data: plotData(measurementData),
               },
+              goalData,
             ],
+            legend: goalData.data.length > 0 ? ["Achieved", "Goal"] : [],
           }}
           width={Dimensions.get("window").width * 0.9}
           height={220}
