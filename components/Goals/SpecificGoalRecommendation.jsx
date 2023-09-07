@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
 import { GlobalStyles } from "../../constants/styles";
-import { Modal } from "react-native-web";
 import Button from "../UI/Button";
 import Card from "../UI/Card";
 

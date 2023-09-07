@@ -4,6 +4,10 @@ import Button from "../UI/Button";
 import { GlobalStyles } from "../../constants/styles";
 import Card from "../UI/Card";
 import { useNavigation } from "@react-navigation/native";
+import { useSelector } from "react-redux";
+import { useEffect } from "react";
+import { useState } from "react";
+import { getGoalsByType } from "../../store/redux/yourGoals";
 
 const SpecificGoalCard = ({ title, goalCount, onPress }) => {
   return (
@@ -26,6 +30,16 @@ const SpecificGoalCard = ({ title, goalCount, onPress }) => {
 
 const SpecificGoalsSummary = () => {
   const navigation = useNavigation();
+  const state = useSelector((state) => state);
+  const [measurementGoalCount, setMeasurementGoalCount] = useState();
+  const [exerciseGoalCount, setExerciseGoalCount] = useState();
+
+  useEffect(() => {
+    const measurementGoals = getGoalsByType(state, "measurement");
+    setMeasurementGoalCount(measurementGoals.length);
+    const exerciseGoals = getGoalsByType(state, "exercise");
+    setExerciseGoalCount(exerciseGoals.length);
+  }, [state]);
 
   return (
     <>
@@ -33,14 +47,14 @@ const SpecificGoalsSummary = () => {
       <View style={styles.mainContainer}>
         <SpecificGoalCard
           title={"Measurement Goals"}
-          goalCount={2}
+          goalCount={measurementGoalCount}
           onPress={() => {
             navigation.navigate("SpecificGoals", { type: "measurement" });
           }}
         />
         <SpecificGoalCard
           title={"Exercise Goals"}
-          goalCount={5}
+          goalCount={exerciseGoalCount}
           onPress={() => {
             navigation.navigate("SpecificGoals", { type: "exercise" });
           }}

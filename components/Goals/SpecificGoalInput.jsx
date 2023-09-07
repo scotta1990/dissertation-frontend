@@ -4,13 +4,15 @@ import { GlobalStyles } from "../../constants/styles";
 import Button from "../UI/Button";
 import { useEffect } from "react";
 import { addGoal, updateGoal } from "../../utils/database/goals";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
+import { addGoalItem, updateGoalItem } from "../../store/redux/yourGoals";
 
 const SpecificGoalInput = ({ currentGoalValue, currentGoalId, item, type }) => {
   const navigation = useNavigation();
 
   const token = useSelector((store) => store.auth.token);
+  const dispatch = useDispatch();
   const [goalId, setGoalId] = useState();
   const [goalValue, setGoalValue] = useState();
   const [goalItem, setGoalItem] = useState();
@@ -28,6 +30,7 @@ const SpecificGoalInput = ({ currentGoalValue, currentGoalId, item, type }) => {
     try {
       if (goalId) {
         await updateGoal(token, goalId, goalValue);
+        dispatch(updateGoalItem({ goalId: goalId, value: goalValue }));
       } else {
         const item = await addGoal(token, {
           type: type,
@@ -35,6 +38,8 @@ const SpecificGoalInput = ({ currentGoalValue, currentGoalId, item, type }) => {
           itemName: goalItem.name,
           value: goalValue,
         });
+        dispatch(addGoalItem({ goal: item }));
+        console.log(item);
       }
 
       navigation.goBack();
