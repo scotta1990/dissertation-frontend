@@ -37,6 +37,20 @@ const ProgressChart = ({
       data: [],
       color: (opacity = 1) => `rgba(255,183,3, ${opacity})`,
     });
+    (async() => {
+      if (goalsEnabled) {
+        const goal = await getGoalByItemId(token, measurementTypeId);
+        if (goal.length > 0 && measurementData.length > 0) {
+          const goalData = Array(measurementData.length).fill(
+            goal[0].value
+          );
+          setGoalData((prev) => {
+            return { ...prev, data: goalData };
+          });
+        }
+      }
+    })()
+
     if (!exerciseData) {
       (async () => {
         setIsFetching(true);
@@ -46,17 +60,7 @@ const ProgressChart = ({
             measurementTypeId
           );
           setMeasurementData(measurementData);
-          if (goalsEnabled) {
-            const goal = await getGoalByItemId(token, measurementTypeId);
-            if (goal.length > 0 && measurementData.length > 0) {
-              const goalData = Array(measurementData.length).fill(
-                goal[0].value
-              );
-              setGoalData((prev) => {
-                return { ...prev, data: goalData };
-              });
-            }
-          }
+
         } catch (error) {
           setErrorMessage(error);
         }
