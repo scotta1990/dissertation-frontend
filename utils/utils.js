@@ -1,3 +1,5 @@
+import { EXERCISE_MEASUREMENTS } from "../constants/exerciseMeasurements";
+
 export function convertDateToString(dateValue) {
   return new Date(dateValue).toLocaleString("en-gb");
 }
@@ -51,4 +53,8 @@ export function combineMeasurementsAndTypes(
     yourMeasurementsCorrected.push(combinedMeasurement);
   });
   return yourMeasurementsCorrected;
+}
+
+export function getExerciseMetric(exerciseEquipmentName){
+  return EXERCISE_MEASUREMENTS.find((exercise) => exercise.name === exerciseEquipmentName).measurement
 }

@@ -38,3 +38,9 @@ export const getGoalsByType = createSelector(
   (_, type) => type,
   (goals, type) => goals.filter((goal) => goal.type === type.toUpperCase())
 );
+
+export const getGoalByItem = createSelector(
+  (goals) => goals,
+  (_, itemId) => itemId,
+  (goals, itemId) => goals.filter((goal) => goal.itemId === itemId)
+)
