@@ -9,13 +9,17 @@ import { getExerciseById } from "../../store/redux/exercises";
 import { EXERCISE_MEASUREMENTS } from "../../constants/exerciseMeasurements";
 import { GlobalStyles } from "../../constants/styles";
 import { ProgressChart } from "react-native-chart-kit";
+import LoadingOverlay from "../UI/LoadingOverlay";
+import { getExerciseMetric } from "../../utils/utils";
 
 const SpecificGoalItem = ({ item, token, type }) => {
+  const [isFetching, setIsFetching] = useState(true);
   const [mostRecent, setMostRecent] = useState(0);
-  const state = useSelector((state) => state);
+  const exerciseList = useSelector((state) => state.exercises.exerciseList);
   const measurementTypes = useSelector(
     (store) => store.yourMeasurements.measurementTypes
   );
+  const [goalAchievedPct, setGoalAchievedPct] = useState(0);
 
   var metric;
 
@@ -26,11 +30,9 @@ const SpecificGoalItem = ({ item, token, type }) => {
   }
 
   if (type === "exercise") {
-    metric = EXERCISE_MEASUREMENTS.filter(
-      (exerciseMeasurement) =>
-        exerciseMeasurement.name ===
-        getExerciseById(state, item.itemId)[0].equipment
-    )[0].measurement;
+    metric = getExerciseMetric(
+      getExerciseById(exerciseList, item.itemId)[0].equipment
+    );
   }
 
   const getMostRecentData = async () => {
@@ -49,8 +51,26 @@ const SpecificGoalItem = ({ item, token, type }) => {
   };
 
   useEffect(() => {
+    setIsFetching(true);
     getMostRecentData();
-  }, [token, item]);
+    const goalDifference = item.value - item.startingValue;
+    const currentDifference = item.value - mostRecent;
+    const currentGoalAchieved = goalDifference - currentDifference;
+
+    setGoalAchievedPct(currentGoalAchieved / goalDifference);
+    setIsFetching(false);
+  }, [token, item, getMostRecentData]);
+
+  if (isFetching) {
+    return (
+      <Card>
+        <LoadingOverlay
+          backgroundColor={GlobalStyles.colors.primaryWhite}
+          color={GlobalStyles.colors.primary}
+        />
+      </Card>
+    );
+  }
 
   return (
     <Card>
@@ -58,7 +78,7 @@ const SpecificGoalItem = ({ item, token, type }) => {
         <View style={styles.progressChartContainer}>
           <ProgressChart
             data={{
-              data: [mostRecent / item.value > 1 ? 1 : mostRecent / item.value],
+              data: [goalAchievedPct >= 1 ? 1 : goalAchievedPct],
               colors: [
                 mostRecent / item.value >= 1
                   ? `rgba(255, 183, 3, 1)`
@@ -87,6 +107,8 @@ const SpecificGoalItem = ({ item, token, type }) => {
             {Math.round(mostRecent)}/{item.value}
             {metric?.toUpperCase()}
           </Text>
+          <Text>{item.startingValue}</Text>
+          <Text>{goalAchievedPct}</Text>
         </View>
       </View>
     </Card>

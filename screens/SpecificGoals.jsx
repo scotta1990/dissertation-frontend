@@ -8,6 +8,7 @@ import { getGoalsByType } from "../store/redux/yourGoals";
 import { useEffect } from "react";
 import { FlatList } from "react-native";
 import SpecificGoalItem from "../components/Goals/SpecificGoalItem";
+import LoadingOverlay from "../components/UI/LoadingOverlay";
 
 const renderGoalItem = (item, type, token) => {
   return <SpecificGoalItem item={item} type={type} token={token} />;
@@ -18,17 +19,27 @@ const SpecificGoals = ({ route, navigation }) => {
   const token = useSelector((store) => store.auth.token);
 
   const state = useSelector((state) => state);
-
+  const [isFetching, setIsFetching] = useState(true);
   const [goals, setGoals] = useState();
 
-  useEffect(() => {
+  const getGoalsList = () => {
+    setIsFetching(true);
     const goalsList = getGoalsByType(state, type);
     setGoals(goalsList);
+    setIsFetching(false);
+  };
+
+  useEffect(() => {
+    getGoalsList();
   }, [type, state]);
 
   const onPressHandler = () => {
     navigation.navigate("SpecificGoalManagement", { type: type });
   };
+
+  if (isFetching) {
+    return <LoadingOverlay message={`Getting your ${type} goals`} />;
+  }
 
   return (
     <View style={styles.mainContainer}>
@@ -39,6 +50,8 @@ const SpecificGoals = ({ route, navigation }) => {
           renderItem={({ item }) => {
             return renderGoalItem(item, type, token);
           }}
+          onRefresh={getGoalsList}
+          refreshing={isFetching}
         />
       </View>
       <View style={styles.buttonContainer}>
