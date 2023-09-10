@@ -24,7 +24,7 @@ export const { setExercises, setBodyPartFilter } = exercisesSlice.actions;
 export default exercisesSlice.reducer;
 
 export const getExerciseById = createSelector(
-  (state) => state.exercises.exerciseList,
+  (exerciseList) => exerciseList,
   (_, exerciseId) => exerciseId,
   (exerciseList, exerciseId) =>
     exerciseList.filter((exercise) => exercise.id === exerciseId)
