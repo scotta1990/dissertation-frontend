@@ -7,6 +7,7 @@ import { addGoal, updateGoal } from "../../utils/database/goals";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import { addGoalItem, updateGoalItem } from "../../store/redux/yourGoals";
+import { useRef } from "react";
 
 const SpecificGoalInput = ({
   currentGoalValue,
@@ -23,8 +24,10 @@ const SpecificGoalInput = ({
   const [goalValue, setGoalValue] = useState();
   const [goalItem, setGoalItem] = useState();
   const [startingValue, setStartingValue] = useState();
+  const updating = useRef(false);
 
   useEffect(() => {
+    updating.current = false;
     setGoalValue(currentGoalValue.toString());
     setGoalId(currentGoalId);
     setGoalItem(item);
@@ -32,7 +35,7 @@ const SpecificGoalInput = ({
   }, [currentGoalValue, goalId, item, mostRecent]);
 
   const updatePressHandler = async () => {
-    console.log(startingValue);
+    updating.current = true;
     if (goalValue < 1) {
       return;
     }
@@ -78,7 +81,7 @@ const SpecificGoalInput = ({
       <Button
         backgroundColor={GlobalStyles.colors.primary}
         onPress={updatePressHandler}
-        disabled={goalValue == currentGoalValue}
+        disabled={goalValue == currentGoalValue || updating.current}
       >
         Update
       </Button>

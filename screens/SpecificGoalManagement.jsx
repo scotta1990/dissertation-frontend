@@ -1,5 +1,5 @@
 import { Modal, StyleSheet, Text, View } from "react-native";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import ExerciseSelector from "../components/Exercise/ExerciseSelector";
 import Button from "../components/UI/Button";
@@ -18,7 +18,7 @@ import MeasurementsSelector from "../components/YourMeasurements/MeasurementsSel
 
 const SpecificGoalManagement = ({ route }) => {
   const token = useSelector((store) => store.auth.token);
-  const { type } = route?.params;
+  const { type, updateItem } = route?.params;
 
   const [isFetching, setIsFetching] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
@@ -54,6 +54,26 @@ const SpecificGoalManagement = ({ route }) => {
     }
     setIsFetching(false);
   };
+
+  useEffect(() => {
+    if (updateItem) {
+      (async () => {
+        setSelectedItem({ id: updateItem.itemId, name: updateItem.itemName });
+        setCurrentGoal(updateItem);
+        setCurrentGoalValue(updateItem.value);
+        try {
+          const recommendation = await getGoalRecommendation(
+            token,
+            type,
+            updateItem.itemId
+          );
+          setGoalRecommendation(recommendation[0]);
+        } catch (error) {
+          console.log(error);
+        }
+      })();
+    }
+  }, [updateItem]);
 
   if (isFetching) {
     return (

@@ -4,23 +4,65 @@ import { useState } from "react";
 import { getGoalRecommendation } from "../../utils/database/goals";
 import { useEffect } from "react";
 import Card from "../UI/Card";
+import Button from "../UI/Button";
 import { useSelector } from "react-redux";
 import { getExerciseById } from "../../store/redux/exercises";
-import { EXERCISE_MEASUREMENTS } from "../../constants/exerciseMeasurements";
 import { GlobalStyles } from "../../constants/styles";
 import { ProgressChart } from "react-native-chart-kit";
 import LoadingOverlay from "../UI/LoadingOverlay";
 import { getExerciseMetric } from "../../utils/utils";
+import { useNavigation } from "@react-navigation/native";
 
 const SpecificGoalItem = ({ item, token, type }) => {
-  const [isFetching, setIsFetching] = useState(true);
-  const [mostRecent, setMostRecent] = useState(0);
+  const navigation = useNavigation();
   const exerciseList = useSelector((state) => state.exercises.exerciseList);
   const measurementTypes = useSelector(
     (store) => store.yourMeasurements.measurementTypes
   );
+  const [isFetching, setIsFetching] = useState(true);
+  const [mostRecent, setMostRecent] = useState(0);
   const [goalAchievedPct, setGoalAchievedPct] = useState(0);
+  const [currentGoalAchieved, setCurrentGoalAchieved] = useState(0);
 
+  const getMostRecentData = async () => {
+    try {
+      setIsFetching(true);
+      const mostRecentData = await getGoalRecommendation(
+        token,
+        type,
+        item.itemId
+      );
+      if (mostRecentData.length > 0) {
+        setMostRecent(Math.round(mostRecentData[0].mostRecent.measurementsAvg));
+      }
+      setIsFetching(false);
+    } catch (error) {
+      console.log(error);
+      setIsFetching(false);
+    }
+  };
+
+  useEffect(() => {
+    getMostRecentData();
+    const goalDifference = Math.abs(item.value - item.startingValue);
+    const currentDifference = Math.abs(item.value - mostRecent);
+    const currentGoalAchieved = goalDifference - currentDifference;
+    setCurrentGoalAchieved(currentGoalAchieved);
+    if (goalDifference > 0) {
+      setGoalAchievedPct(currentGoalAchieved / goalDifference);
+    }
+  }, [token, item]);
+
+  if (isFetching) {
+    return (
+      <Card>
+        <LoadingOverlay
+          backgroundColor={GlobalStyles.colors.primaryWhite}
+          color={GlobalStyles.colors.primary}
+        />
+      </Card>
+    );
+  }
   var metric;
 
   if (type === "measurement") {
@@ -34,44 +76,6 @@ const SpecificGoalItem = ({ item, token, type }) => {
       getExerciseById(exerciseList, item.itemId)[0].equipment
     );
   }
-
-  const getMostRecentData = async () => {
-    try {
-      const mostRecentData = await getGoalRecommendation(
-        token,
-        type,
-        item.itemId
-      );
-      if (mostRecentData.length > 0) {
-        setMostRecent(mostRecentData[0].mostRecent.measurementsAvg);
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    setIsFetching(true);
-    getMostRecentData();
-    const goalDifference = item.value - item.startingValue;
-    const currentDifference = item.value - mostRecent;
-    const currentGoalAchieved = goalDifference - currentDifference;
-
-    setGoalAchievedPct(currentGoalAchieved / goalDifference);
-    setIsFetching(false);
-  }, [token, item, getMostRecentData]);
-
-  if (isFetching) {
-    return (
-      <Card>
-        <LoadingOverlay
-          backgroundColor={GlobalStyles.colors.primaryWhite}
-          color={GlobalStyles.colors.primary}
-        />
-      </Card>
-    );
-  }
-
   return (
     <Card>
       <View style={styles.innerContainer}>
@@ -80,7 +84,7 @@ const SpecificGoalItem = ({ item, token, type }) => {
             data={{
               data: [goalAchievedPct >= 1 ? 1 : goalAchievedPct],
               colors: [
-                mostRecent / item.value >= 1
+                goalAchievedPct >= 1
                   ? `rgba(255, 183, 3, 1)`
                   : `rgba(5, 102, 141, 1)`,
               ],
@@ -104,11 +108,31 @@ const SpecificGoalItem = ({ item, token, type }) => {
         <View style={styles.goalTextContainer}>
           <Text style={styles.title}>{item.itemName}</Text>
           <Text style={styles.goalText}>
-            {Math.round(mostRecent)}/{item.value}
+            {mostRecent}/{item.value}
             {metric?.toUpperCase()}
           </Text>
-          <Text>{item.startingValue}</Text>
-          <Text>{goalAchievedPct}</Text>
+          <Text style={styles.infoText}>
+            Goal started at: {item.startingValue}
+            {metric}
+          </Text>
+          <Text style={styles.infoText}>
+            Progress made: {currentGoalAchieved}
+            {metric}
+          </Text>
+        </View>
+        <View style={styles.buttonContainer}>
+          <Button
+            textStyle={styles.buttonText}
+            backgroundColor={GlobalStyles.colors.primary}
+            onPress={() => {
+              navigation.navigate("SpecificGoalManagement", {
+                type: type,
+                updateItem: item,
+              });
+            }}
+          >
+            Update
+          </Button>
         </View>
       </View>
     </Card>
@@ -122,6 +146,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     margin: 5,
     padding: 2,
+  },
+  progressChartContainer: {
+    flex: 1.2,
+    alignItems: "flex-start",
+    justifyContent: "center",
   },
   title: {
     margin: 4,
@@ -138,9 +167,15 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     margin: 4,
   },
-  progressChartContainer: {
-    flex: 1,
-    alignItems: "flex-start",
-    justifyContent: "center",
+  infoText: {
+    fontSize: 12,
+    fontStyle: "italic",
+  },
+  buttonContainer: {
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
+  },
+  buttonText: {
+    fontSize: 10,
   },
 });
