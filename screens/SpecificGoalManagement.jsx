@@ -13,12 +13,14 @@ import SpecificGoalRecommendation from "../components/Goals/SpecificGoalRecommen
 import SpecificGoalInput from "../components/Goals/SpecificGoalInput";
 import SpecificGoalSelectorView from "../components/Goals/SpecificGoalSelectorView";
 import Card from "../components/UI/Card";
+import LoadingOverlay from "../components/UI/LoadingOverlay";
 import MeasurementsSelector from "../components/YourMeasurements/MeasurementsSelector";
 
 const SpecificGoalManagement = ({ route }) => {
   const token = useSelector((store) => store.auth.token);
   const { type } = route?.params;
 
+  const [isFetching, setIsFetching] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState();
   const [currentGoal, setCurrentGoal] = useState();
@@ -30,6 +32,7 @@ const SpecificGoalManagement = ({ route }) => {
   };
 
   const onSelectionHandler = async (item) => {
+    setIsFetching(true);
     changeModalVisibility();
     setSelectedItem(item);
     setCurrentGoal();
@@ -49,7 +52,19 @@ const SpecificGoalManagement = ({ route }) => {
     } catch (error) {
       console.log(error);
     }
+    setIsFetching(false);
   };
+
+  if (isFetching) {
+    return (
+      <Card>
+        <LoadingOverlay
+          backgroundColor={GlobalStyles.colors.primaryWhite}
+          color={GlobalStyles.colors.primary}
+        />
+      </Card>
+    );
+  }
 
   return (
     <View>
@@ -88,11 +103,16 @@ const SpecificGoalManagement = ({ route }) => {
             currentGoalId={currentGoal?._id}
             item={selectedItem}
             type={type}
+            mostRecent={goalRecommendation?.mostRecent.measurementsAvg}
           />
           {goalRecommendation ? (
             <SpecificGoalRecommendation
               recentAchievement={goalRecommendation.mostRecent.measurementsAvg}
-              recommendation={goalRecommendation.recommendation}
+              recommendation={
+                type === "exercise" && goalRecommendation.recommendation
+                  ? goalRecommendation.recommendation
+                  : null
+              }
             />
           ) : null}
         </Card>

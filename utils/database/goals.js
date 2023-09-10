@@ -18,16 +18,12 @@ export const addGoal = async (token, goal) => {
   return response.data;
 };
 
-export const updateGoal = async (token, goalId, value) => {
+export const updateGoal = async (token, goalId, values) => {
   const url = `${baseUrl}/goals/${goalId}`;
 
-  const response = await axios.put(
-    url,
-    { value: value },
-    {
-      headers: { "x-access-token": token },
-    }
-  );
+  const response = await axios.put(url, values, {
+    headers: { "x-access-token": token },
+  });
   return response.data;
 };
 

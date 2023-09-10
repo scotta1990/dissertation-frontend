@@ -8,7 +8,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import { addGoalItem, updateGoalItem } from "../../store/redux/yourGoals";
 
-const SpecificGoalInput = ({ currentGoalValue, currentGoalId, item, type }) => {
+const SpecificGoalInput = ({
+  currentGoalValue,
+  currentGoalId,
+  item,
+  type,
+  mostRecent,
+}) => {
   const navigation = useNavigation();
 
   const token = useSelector((store) => store.auth.token);
@@ -16,30 +22,42 @@ const SpecificGoalInput = ({ currentGoalValue, currentGoalId, item, type }) => {
   const [goalId, setGoalId] = useState();
   const [goalValue, setGoalValue] = useState();
   const [goalItem, setGoalItem] = useState();
+  const [startingValue, setStartingValue] = useState();
 
   useEffect(() => {
     setGoalValue(currentGoalValue.toString());
     setGoalId(currentGoalId);
     setGoalItem(item);
-  }, [currentGoalValue, goalId, item]);
+    setStartingValue(mostRecent);
+  }, [currentGoalValue, goalId, item, mostRecent]);
 
   const updatePressHandler = async () => {
+    console.log(startingValue);
     if (goalValue < 1) {
       return;
     }
     try {
       if (goalId) {
-        await updateGoal(token, goalId, goalValue);
-        dispatch(updateGoalItem({ goalId: goalId, value: goalValue }));
+        await updateGoal(token, goalId, {
+          value: goalValue,
+          startingValue: startingValue,
+        });
+        dispatch(
+          updateGoalItem({
+            goalId: goalId,
+            value: goalValue,
+            startingValue: startingValue,
+          })
+        );
       } else {
         const item = await addGoal(token, {
           type: type,
           itemId: goalItem.id ? goalItem.id : goalItem._id,
           itemName: goalItem.name,
           value: goalValue,
+          startingValue: startingValue ? startingValue : 0,
         });
         dispatch(addGoalItem({ goal: item }));
-        console.log(item);
       }
 
       navigation.goBack();
