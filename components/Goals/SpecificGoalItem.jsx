@@ -44,14 +44,17 @@ const SpecificGoalItem = ({ item, token, type }) => {
 
   useEffect(() => {
     getMostRecentData();
-    const goalDifference = Math.abs(item.value - item.startingValue);
-    const currentDifference = Math.abs(item.value - mostRecent);
-    const currentGoalAchieved = goalDifference - currentDifference;
-    setCurrentGoalAchieved(currentGoalAchieved);
-    if (goalDifference > 0) {
-      setGoalAchievedPct(currentGoalAchieved / goalDifference);
-    }
   }, [token, item]);
+
+  useEffect(() => {
+    const goalDifference = Math.abs(item.value - item.startingValue);
+      const currentDifference = Math.abs(item.value - mostRecent);
+      const currentGoalAchieved = goalDifference - currentDifference;
+      setCurrentGoalAchieved(currentGoalAchieved);
+      if (goalDifference > 0) {
+        setGoalAchievedPct(currentGoalAchieved / goalDifference);
+      }
+  }, [mostRecent])
 
   if (isFetching) {
     return (
