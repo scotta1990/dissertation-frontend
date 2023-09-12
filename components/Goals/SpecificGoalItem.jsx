@@ -15,6 +15,7 @@ import { useNavigation } from "@react-navigation/native";
 
 const SpecificGoalItem = ({ item, token, type }) => {
   const navigation = useNavigation();
+  const state = useSelector((state) => state);
   const exerciseList = useSelector((state) => state.exercises.exerciseList);
   const measurementTypes = useSelector(
     (store) => store.yourMeasurements.measurementTypes
@@ -44,17 +45,17 @@ const SpecificGoalItem = ({ item, token, type }) => {
 
   useEffect(() => {
     getMostRecentData();
-  }, [token, item]);
+  }, [token, item, state]);
 
   useEffect(() => {
     const goalDifference = Math.abs(item.value - item.startingValue);
-      const currentDifference = Math.abs(item.value - mostRecent);
-      const currentGoalAchieved = goalDifference - currentDifference;
-      setCurrentGoalAchieved(currentGoalAchieved);
-      if (goalDifference > 0) {
-        setGoalAchievedPct(currentGoalAchieved / goalDifference);
-      }
-  }, [mostRecent])
+    const currentDifference = Math.abs(item.value - mostRecent);
+    const currentGoalAchieved = goalDifference - currentDifference;
+    setCurrentGoalAchieved(currentGoalAchieved);
+    if (goalDifference > 0) {
+      setGoalAchievedPct(currentGoalAchieved / goalDifference);
+    }
+  }, [mostRecent]);
 
   if (isFetching) {
     return (
