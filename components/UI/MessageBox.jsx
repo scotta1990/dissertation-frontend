@@ -3,7 +3,14 @@ import React from "react";
 import Card from "./Card";
 import { GlobalStyles } from "../../constants/styles";
 
-const MessageBox = ({ messageSubject, messageBody }) => {
+const MessageBox = ({ messageSubject, messageBody, card=true }) => {
+if (!card) {
+  return (<View style={styles.messageContainer}>
+    <Text style={styles.messageHeaderText}>{messageSubject}</Text>
+    <Text>{messageBody}</Text>
+  </View>)
+}
+
   return (
     <Card>
       <View style={styles.messageContainer}>
