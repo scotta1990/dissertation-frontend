@@ -10,10 +10,6 @@ import { FlatList } from "react-native";
 import SpecificGoalItem from "../components/Goals/SpecificGoalItem";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
 
-const renderGoalItem = (item, type, token) => {
-  return <SpecificGoalItem item={item} type={type} token={token} />;
-};
-
 const SpecificGoals = ({ route, navigation }) => {
   const { type } = route?.params;
   const token = useSelector((store) => store.auth.token);
@@ -48,7 +44,7 @@ const SpecificGoals = ({ route, navigation }) => {
           data={goals}
           keyExtractor={(item) => item._id}
           renderItem={({ item }) => {
-            return renderGoalItem(item, type, token);
+            return <SpecificGoalItem item={item} type={type} token={token} />;
           }}
           onRefresh={getGoalsList}
           refreshing={isFetching}
