@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     padding: 8,
     justifyContent: "flex-end",
-    flex: 0.08,
+    flex: 0.1,
   },
   button: {
     margin: 10,
