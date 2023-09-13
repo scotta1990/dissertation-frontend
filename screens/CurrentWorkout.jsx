@@ -1,6 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
 import Button from "../components/UI/Button";
+import MessageBox from "../components/UI/MessageBox";
 import { GlobalStyles } from "../constants/styles";
 import WorkoutItem from "../components/Workout/WorkoutItem";
 import { useDispatch, useSelector } from "react-redux";
@@ -172,16 +173,18 @@ const CurrentWorkout = ({ navigation }) => {
             </View>
           </Card>
         )}
-        {workoutItems.length > 0 ? (
-          <KeyboardAwareFlatList
-            data={workoutItems}
-            keyExtractor={(item) => item.id}
-            renderItem={renderWorkoutItem}
-            removeClippedSubviews={false}
-          />
-        ) : (
-          ""
-        )}
+        <KeyboardAwareFlatList
+          data={workoutItems}
+          keyExtractor={(item) => item.id}
+          renderItem={renderWorkoutItem}
+          removeClippedSubviews={false}
+          ListEmptyComponent={
+            <MessageBox
+              messageSubject={"Get this workout started!"}
+              messageBody={`Select to add an exercise below...`}
+            />
+          }
+        />
       </View>
       <View style={styles.buttonsContainer}>
         <Button
