@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { FlatList } from "react-native";
 import SpecificGoalItem from "../components/Goals/SpecificGoalItem";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
+import MessageBox from "../components/UI/MessageBox";
 
 const SpecificGoals = ({ route, navigation }) => {
   const { type } = route?.params;
@@ -48,6 +49,12 @@ const SpecificGoals = ({ route, navigation }) => {
           }}
           onRefresh={getGoalsList}
           refreshing={isFetching}
+          ListEmptyComponent={
+            <MessageBox
+              messageSubject={"Nothing to show just yet..."}
+              messageBody={`Go ahead and set a ${type} goal below!`}
+            />
+          }
         />
       </View>
       <View style={styles.buttonContainer}>
