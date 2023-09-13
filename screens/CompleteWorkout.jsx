@@ -27,7 +27,6 @@ const CompleteWorkout = ({ navigation }) => {
   const completeWorkout = async () => {
     setIsCompleting(true);
     setError(undefined);
-    console.log(currentWorkout);
 
     const completedWorkout = {
       startDate: currentWorkout.workoutStartDate,

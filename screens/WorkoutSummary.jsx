@@ -12,6 +12,10 @@ import LoadingOverlay from "../components/UI/LoadingOverlay";
 import { useEffect } from "react";
 import { getAllExercises } from "../utils/database/exercises";
 import { setExercises } from "../store/redux/exercises";
+import { getMeasurementTypes } from "../utils/database/yourMeasurements";
+import { setMeasurementTypes } from "../store/redux/yourMeasurements";
+import { getAllGoals } from "../utils/database/goals";
+import { setGoals } from "../store/redux/yourGoals";
 
 const WorkoutSummary = ({ navigation }) => {
   const [isFetching, setIsFetching] = useState(true);
@@ -31,6 +35,10 @@ const WorkoutSummary = ({ navigation }) => {
           dispatch(setWorkouts({ workouts: workouts }));
           const exercises = await getAllExercises(token);
           dispatch(setExercises({ exercises: exercises }));
+          const measurementTypes = await getMeasurementTypes(token);
+          dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
+          const goals = await getAllGoals(token);
+          dispatch(setGoals({ goals: goals }));
         } catch (error) {
           console.log(error);
         }
@@ -49,26 +57,34 @@ const WorkoutSummary = ({ navigation }) => {
   }
 
   if (isFetching) {
-    return <LoadingOverlay />;
+    return (
+      <LoadingOverlay
+        message={"Getting everything you need to smash your workout."}
+      />
+    );
   }
 
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <Card>
-        <View style={styles.recentWorkoutsHeaderContainer}>
-          <Text style={styles.recentWorkoutHeaderText}>
-            Your Recent Workouts
-          </Text>
-        </View>
-        <RecentWorkoutsList recentWorkouts={workoutsList} />
-      </Card>
-      <Button
-        style={styles.button}
-        backgroundColor={GlobalStyles.colors.accent}
-        onPress={pressHandler}
-      >
-        {workoutInProgress ? "Resume Workout" : "Start a Workout"}
-      </Button>
+      <View style={styles.recentWorkoutContainer}>
+        <Card>
+          <View style={styles.recentWorkoutsHeaderContainer}>
+            <Text style={styles.recentWorkoutHeaderText}>
+              Your Recent Workouts
+            </Text>
+          </View>
+          <RecentWorkoutsList recentWorkouts={workoutsList} />
+        </Card>
+      </View>
+      <View style={styles.buttonContainer}>
+        <Button
+          style={styles.button}
+          backgroundColor={GlobalStyles.colors.accent}
+          onPress={pressHandler}
+        >
+          {workoutInProgress ? "Resume Workout" : "Start a Workout"}
+        </Button>
+      </View>
     </SafeAreaView>
   );
 };
@@ -76,6 +92,9 @@ const WorkoutSummary = ({ navigation }) => {
 export default WorkoutSummary;
 
 const styles = StyleSheet.create({
+  recentWorkoutContainer: {
+    flex: 6,
+  },
   recentWorkoutsHeaderContainer: {
     marginLeft: 8,
     paddingLeft: 8,
@@ -83,9 +102,15 @@ const styles = StyleSheet.create({
   recentWorkoutHeaderText: {
     fontWeight: "bold",
   },
-  button: {
-    justifyContent: "flex-end",
-    margin: 8,
+  buttonContainer: {
+    marginHorizontal: 8,
+    marginBottom: 8,
     padding: 8,
+    justifyContent: "flex-end",
+    flex: 1,
+  },
+  button: {
+    margin: 10,
+    marginTop: 0,
   },
 });

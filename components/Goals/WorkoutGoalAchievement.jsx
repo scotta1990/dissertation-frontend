@@ -4,92 +4,83 @@ import { GlobalStyles } from "../../constants/styles";
 import { useSelector } from "react-redux";
 import { getThisWeeksWorkoutCount } from "../../store/redux/workouts";
 
-const WorkoutGoalAchievement = ({ testCount }) => {
+const renderWorkoutGoalAchievement = ({
+  firstLineText,
+  icon,
+  iconColor,
+  style,
+  textStyle,
+}) => {
+  return (
+    <View style={[styles.mainContainer, style]}>
+      <Ionicons name={icon} size={25} color={iconColor} />
+      <View style={styles.textContainer}>
+        <Text adjustsFontSizeToFit={true} style={[styles.text, textStyle]}>
+          {firstLineText}
+        </Text>
+      </View>
+    </View>
+  );
+};
+
+const WorkoutGoalAchievement = () => {
   const goal = useSelector((store) => store.yourGoals.weeklyWorkoutGoal);
 
   const workoutCount = useSelector(getThisWeeksWorkoutCount);
 
-  // const workoutCount = testCount;
-
-  // Goal has been achieved
+  // No goal has been set
   if (goal === 0) {
-    return (
-      <View style={[styles.workoutGoalAchievementContainer, styles.noGoal]}>
-        <Ionicons
-          name="alert-circle-outline"
-          size={45}
-          color={GlobalStyles.colors.accent}
-        />
-        <Text style={styles.noGoalText}>No goal set</Text>
-      </View>
-    );
+    return renderWorkoutGoalAchievement({
+      firstLineText: "No goal set",
+      icon: "alert-circle-outline",
+      iconColor: GlobalStyles.colors.accent,
+      textStyle: styles.noGoalText,
+      style: styles.noGoal,
+    });
   }
 
   // Goal has been achieved
   if (workoutCount >= goal) {
-    return (
-      <View
-        style={[styles.workoutGoalAchievementContainer, styles.goalAchieved]}
-      >
-        <Ionicons
-          name="ribbon-outline"
-          size={45}
-          color={GlobalStyles.colors.primaryGoal}
-        />
-        <Text style={styles.workoutGoalAchievementText}>Goal Complete</Text>
-      </View>
-    );
+    return renderWorkoutGoalAchievement({
+      firstLineText: "Goal complete",
+      icon: "ribbon-outline",
+      iconColor: GlobalStyles.colors.primaryGoal,
+      textStyle: styles.workoutGoalAchievementText,
+      style: styles.goalAchieved,
+    });
   }
 
   // Already half way or more
   if (workoutCount >= goal / 2) {
-    return (
-      <View
-        style={[styles.workoutGoalAchievementContainer, styles.goalHalfway]}
-      >
-        <Ionicons
-          name="arrow-forward"
-          size={45}
-          color={GlobalStyles.colors.primary}
-        />
-        <Text style={styles.workoutGoalAchievementText}>Past half way</Text>
-        <Text style={styles.workoutGoalAchievementText}>Keep it up</Text>
-      </View>
-    );
+    return renderWorkoutGoalAchievement({
+      firstLineText: "Past halfway, Keep it up",
+      icon: "arrow-forward",
+      iconColor: GlobalStyles.colors.primary,
+      textStyle: styles.workoutGoalAchievementText,
+      style: styles.goalHalfway,
+    });
   }
 
   // Started working towards the goal
   if (workoutCount > 0) {
-    return (
-      <View
-        style={[styles.workoutGoalAchievementContainer, styles.goalHalfway]}
-      >
-        <Ionicons
-          name="thumbs-up"
-          size={32}
-          color={GlobalStyles.colors.primary}
-        />
-        <Text style={styles.workoutGoalAchievementText}>You started!</Text>
-        <Text style={styles.workoutGoalAchievementText}>Keep going</Text>
-      </View>
-    );
+    return renderWorkoutGoalAchievement({
+      firstLineText: "You started, now keep going!",
+      icon: "thumbs-up",
+      iconColor: GlobalStyles.colors.primary,
+      textStyle: styles.workoutGoalAchievementText,
+      style: styles.goalHalfway,
+    });
   }
 
   // Not started yet
   if (workoutCount === 0) {
-    return (
-      <View
-        style={[styles.workoutGoalAchievementContainer, styles.goalNotStarted]}
-      >
-        <Ionicons
-          name="barbell"
-          size={45}
-          color={GlobalStyles.colors.primary}
-        />
-        <Text style={styles.notStartedText}>Get started</Text>
-        <Text style={styles.notStartedText}>with a workout</Text>
-      </View>
-    );
+    return renderWorkoutGoalAchievement({
+      firstLineText: "Get going by starting a workout",
+      icon: "barbell",
+      iconColor: GlobalStyles.colors.primary,
+      textStyle: styles.notStartedText,
+      style: styles.goalNotStarted,
+    });
   }
 };
 
@@ -116,16 +107,21 @@ const styles = StyleSheet.create({
   noGoalText: {
     color: GlobalStyles.colors.accent,
   },
-  workoutGoalAchievementContainer: {
+  mainContainer: {
+    flexDirection: "row",
     padding: 10,
     borderRadius: 8,
     justifyContent: "center",
     alignItems: "center",
     marginLeft: 5,
   },
-  workoutGoalAchievementText: {
+  textContainer: {
+    flex: 1,
+    marginLeft: 5,
+  },
+  text: {
     color: GlobalStyles.colors.primaryWhite,
     fontWeight: "bold",
-    fontSize: 12,
+    // fontSize: 10,
   },
 });

@@ -13,6 +13,7 @@ import { getWorkoutGoal } from "../../utils/database/goals";
 import { setWeeklyWorkoutGoal } from "../../store/redux/yourGoals";
 import LoadingOverlay from "../UI/LoadingOverlay";
 import ErrorMessage from "../UI/ErrorMessage";
+import { KeyboardAvoidingView } from "react-native";
 
 const WorkoutGoalsSummary = () => {
   const [isFetching, setIsFetching] = useState(true);
@@ -30,8 +31,13 @@ const WorkoutGoalsSummary = () => {
     if (token) {
       try {
         const goal = await getWorkoutGoal(token);
-        dispatch(setWeeklyWorkoutGoal({ weeklyWorkoutGoal: goal[0].value }));
+        dispatch(
+          setWeeklyWorkoutGoal({
+            weeklyWorkoutGoal: goal.length > 0 ? goal[0].value : 0,
+          })
+        );
       } catch (error) {
+        console.log(error);
         setError(
           "Error collecting your workout goal right now... try again later"
         );
@@ -59,24 +65,31 @@ const WorkoutGoalsSummary = () => {
   }
 
   if (isFetching) {
-    return <LoadingOverlay message={"Collecting your workout goal..."} />;
+    return (
+      <LoadingOverlay
+        message={"Collecting your workout goal..."}
+        backgroundColor={GlobalStyles.colors.primaryWhite}
+        color={GlobalStyles.colors.primary}
+        fontSize={16}
+      />
+    );
   }
 
   return (
     <View style={styles.outerContainer}>
       <Modal visible={modalVisible} transparent={true}>
-        <View style={styles.modalContainer}>
+        <KeyboardAvoidingView behavior="height" style={styles.modalContainer}>
           <WorkoutGoalInput
             currentGoalValue={weeklyWorkoutGoal}
             changeVisibility={changeModalVisibility}
           />
-        </View>
+        </KeyboardAvoidingView>
       </Modal>
       <View style={styles.workoutGoalSummaryContainer}>
         <Text style={styles.goalHeaderText}>Your Workout Goal</Text>
         <View style={styles.workoutGoalSummaryInnerContainer}>
           <WorkoutCompletedCounter />
-          <WorkoutGoalAchievement testCount={3} />
+          <WorkoutGoalAchievement />
         </View>
       </View>
       <Card style={styles.editWorkoutGoalContainer}>
@@ -85,7 +98,7 @@ const WorkoutGoalsSummary = () => {
         </Text>
         <Text style={styles.editWorkoutGoalCount}>{weeklyWorkoutGoal}</Text>
         <Button
-          backgroundColor={GlobalStyles.colors.primary}
+          backgroundColor={GlobalStyles.colors.accent}
           textStyle={styles.editButtonText}
           style={styles.editButton}
           onPress={changeModalVisibility}
@@ -107,7 +120,7 @@ const styles = StyleSheet.create({
     flex: 3,
   },
   workoutGoalSummaryInnerContainer: {
-    flexDirection: "row",
+    // flexDirection: "row",
     marginRight: 12,
     marginVertical: 8,
   },
@@ -121,12 +134,12 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   editWorkoutGoalText: {
-    fontSize: 12,
+    fontSize: 11,
     color: GlobalStyles.colors.primary,
     textAlign: "center",
   },
   editWorkoutGoalCount: {
-    fontSize: 37,
+    fontSize: 32,
     fontWeight: "bold",
     color: GlobalStyles.colors.primary,
   },

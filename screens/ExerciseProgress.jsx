@@ -6,8 +6,6 @@ import { useEffect, useState } from "react";
 
 import LoadingOverlay from "../components/UI/LoadingOverlay";
 import { getExerciseData } from "../utils/database/workouts";
-import { GlobalStyles } from "../constants/styles";
-import Card from "../components/UI/Card";
 import MessageBox from "../components/UI/MessageBox";
 
 const renderProgressChart = ({ item }) => {
@@ -16,7 +14,7 @@ const renderProgressChart = ({ item }) => {
       <ProgressChart
         measurementTypeId={item._id}
         measurementTypeName={item._id}
-        measurementTypeMetric={"cm"}
+        measurementTypeMetric={"kg"}
         exerciseData={item.exerciseData}
       />
     );

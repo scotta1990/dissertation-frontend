@@ -31,6 +31,19 @@ const CoreNavigation = () => {
           ),
         }}
       />
+      { useFeatureFlag("Goals") && (
+
+      <Tab.Screen
+        name="Goals"
+        component={GoalNavigation}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="ribbon-outline" size={35} color={color} />
+          ),
+          title: "Goals",
+        }}
+      />)
+      }
       {useFeatureFlag("Progress") ? (
         <Tab.Screen
           name="YourProgress"
@@ -46,29 +59,7 @@ const CoreNavigation = () => {
           }}
         />
       ) : null}
-      <Tab.Screen
-        name="Goals"
-        component={GoalNavigation}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="ribbon-outline" size={35} color={color} />
-          ),
-          title: "Goals",
-        }}
-      />
-      <Tab.Screen
-        name="YourProgress"
-        component={ProgressNavigation}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="analytics-outline" size={35} color={color} />
-          ),
-          headerShown: true,
-          title: "Progress",
-          headerStyle: { backgroundColor: GlobalStyles.colors.primary },
-          headerTintColor: GlobalStyles.colors.primaryWhite,
-        }}
-      />
+
       <Tab.Screen
         name="You"
         component={YouNavigation}

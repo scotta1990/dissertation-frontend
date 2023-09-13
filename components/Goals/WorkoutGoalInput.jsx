@@ -1,4 +1,10 @@
-import { StyleSheet, Text, TextInput, View } from "react-native";
+import {
+  KeyboardAvoidingView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import { GlobalStyles } from "../../constants/styles";
@@ -46,7 +52,7 @@ const WorkoutGoalInput = ({ currentGoalValue = 0, changeVisibility }) => {
   };
 
   return (
-    <Card style={{ marginTop: 45 }}>
+    <Card style={{ marginTop: 35 }}>
       <View style={styles.goalInputContainer}>
         <Text style={styles.goalInputHeaderText}>Workout Goal</Text>
         <Text style={styles.goalInputSubtitleText}>

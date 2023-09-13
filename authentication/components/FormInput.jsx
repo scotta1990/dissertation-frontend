@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   },
   inputText: {
     borderBottomColor: GlobalStyles.colors.secondary,
-    borderBottomWidth: 0.2,
+    borderBottomWidth: 0.5,
     minHeight: 22,
     fontSize: 16,
   },

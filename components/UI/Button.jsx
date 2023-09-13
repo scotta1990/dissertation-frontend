@@ -9,12 +9,17 @@ const Button = ({
   backgroundColor,
   style,
   textStyle,
+  disabled = false,
 }) => {
   return (
     <View style={style}>
       <Pressable
         onPress={onPress}
-        style={({ pressed }) => pressed && styles.pressed}
+        style={({ pressed }) => [
+          pressed && styles.pressed,
+          disabled && styles.disabled,
+        ]}
+        disabled={disabled}
       >
         <View style={[styles.button, { backgroundColor: backgroundColor }]}>
           {icon ? <View style={styles.icon}>{icon}</View> : ""}
@@ -49,6 +54,10 @@ const styles = StyleSheet.create({
   },
   pressed: {
     opacity: 0.75,
+    borderRadius: 8,
+  },
+  disabled: {
+    opacity: 0.6,
     borderRadius: 8,
   },
 });

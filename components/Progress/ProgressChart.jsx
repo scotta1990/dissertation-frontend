@@ -11,6 +11,9 @@ import LoadingOverlay from "../UI/LoadingOverlay";
 import ErrorOverlay from "../UI/ErrorOverlay";
 import { getExerciseById } from "../../store/redux/exercises";
 import MessageBox from "../UI/MessageBox";
+import useFeatureFlag from "../../hooks/useFeatureFlag";
+import { getExerciseMetric } from "../../utils/utils";
+import { getGoalByItem } from "../../store/redux/yourGoals";
 
 const ProgressChart = ({
   measurementTypeId,
@@ -23,40 +26,78 @@ const ProgressChart = ({
   const [measurementData, setMeasurementData] = useState();
   const [errorMessage, setErrorMessage] = useState();
   const [exercise, setExercise] = useState();
-  const state = useSelector((state) => state);
+  const [metric, setMetric] = useState(measurementTypeMetric);
+  const [goalData, setGoalData] = useState([]);
+  const exerciseList = useSelector((state) => state.exercises.exerciseList);
+  const goals = useSelector((state) => state.yourGoals.goals);
+  const goalsEnabled = useFeatureFlag("Goals");
 
-  useEffect(() => {
-    if (!exerciseData) {
-      (async () => {
-        setIsFetching(true);
-        try {
-          const measurementData = await getRecentMeasurementsByType(
-            token,
-            measurementTypeId
-          );
-          setMeasurementData(measurementData);
-        } catch (error) {
-          setErrorMessage(error);
-        }
-        setIsFetching(false);
-      })();
-    } else {
-      const exercise = getExerciseById(state, measurementTypeId);
-      setExercise(exercise);
-      setMeasurementData(exerciseData);
+  const getProgressData = async () => {
+    try {
+      setIsFetching(true);
+      if (!exerciseData) {
+        const measurementData = await getRecentMeasurementsByType(
+          token,
+          measurementTypeId
+        );
+        setMeasurementData(measurementData);
+      } else {
+        const exercise = getExerciseById(exerciseList, measurementTypeId);
+        setExercise(exercise);
+        setMetric(getExerciseMetric(exercise[0].equipment));
+        setMeasurementData(exerciseData);
+      }
+      setIsFetching(false);
+    } catch (error) {
+      setErrorMessage(error);
       setIsFetching(false);
     }
+  };
+
+  const getGoalData = async () => {
+    if (goalsEnabled) {
+      setIsFetching(true);
+      const goal = getGoalByItem(goals, measurementTypeId);
+      if (goal?.length > 0) {
+        const goalData = Array(measurementData?.length).fill(goal[0].value);
+        setGoalData(goalData);
+      }
+      setIsFetching(false);
+    } else {
+      setGoalData([]);
+    }
+  };
+
+  useEffect(() => {
+    getProgressData();
   }, [token]);
+
+  useEffect(() => {
+    if (measurementData?.length > 0) {
+      getGoalData();
+    }
+  }, [token, goalsEnabled, measurementData, goals]);
 
   if (isFetching) {
     return (
       <Card>
-        <LoadingOverlay />
+        <LoadingOverlay
+          backgroundColor={GlobalStyles.colors.primaryWhite}
+          color={GlobalStyles.colors.primary}
+        />
       </Card>
     );
   }
 
-  if (!(measurementData.length > 1)) {
+  if (errorMessage && !isFetching) {
+    return (
+      <Card>
+        <ErrorOverlay message={errorMessage} />
+      </Card>
+    );
+  }
+
+  if (!(measurementData?.length > 1)) {
     return (
       <MessageBox
         messageSubject={`${measurementTypeName
@@ -103,17 +144,22 @@ const ProgressChart = ({
           data={{
             labels: plotLabels(
               measurementData.map((item) => item.DateString),
-              Math.ceil(measurementData.length / 2)
+              Math.ceil(measurementData?.length / 2)
             ),
             datasets: [
               {
                 data: plotData(measurementData),
               },
+              {
+                data: goalData,
+                color: (opacity = 1) => `rgba(255,183,3, ${opacity})`,
+              },
             ],
+            legend: goalData.length > 0 ? ["Achieved", "Goal"] : [],
           }}
           width={Dimensions.get("window").width * 0.9}
           height={220}
-          yAxisSuffix={measurementTypeMetric}
+          yAxisSuffix={metric}
           withInnerLines={false}
           withShadow={false}
           chartConfig={{
