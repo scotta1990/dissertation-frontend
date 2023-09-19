@@ -1,7 +1,7 @@
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 import React from "react";
-import { GlobalStyles } from "../../constants/styles";
 import RecentWorkoutItem from "./RecentWorkoutItem";
+import MessageBox from "../UI/MessageBox";
 
 const renderRecentWorkoutItem = ({ item, index }) => {
   const alternate = index % 2 == 0;
@@ -14,6 +14,7 @@ const RecentWorkoutsList = ({ recentWorkouts }) => {
       data={recentWorkouts}
       renderItem={renderRecentWorkoutItem}
       keyExtractor={(item) => item.startDate}
+      ListEmptyComponent={<MessageBox card={false} messageSubject={""} messageBody={"No recent workouts yet. Get started by completing a workout!"}/>}
     />
   );
 };

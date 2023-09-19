@@ -1,5 +1,7 @@
+import { EXERCISE_MEASUREMENTS } from "../constants/exerciseMeasurements";
+
 export function convertDateToString(dateValue) {
-  return new Date(dateValue).toLocaleString();
+  return new Date(dateValue).toLocaleString("en-gb");
 }
 
 export function convertDurationToString(durationValue) {
@@ -9,6 +11,23 @@ export function convertDurationToString(durationValue) {
   return `${hours > 0 ? hours + "h " : ""} ${
     minutes > 0 ? minutes + "m " : ""
   } ${seconds + "s"}`;
+}
+
+export function addDateAndTime(date, time) {
+  return new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+    time.getHours(),
+    time.getMinutes()
+  );
+}
+
+export function getYesterdaysDate() {
+  const previousDate = new Date();
+  previousDate.setDate(previousDate.getDate() - 1);
+  previousDate.setHours(0, 0, 0, 0);
+  return previousDate;
 }
 
 export function combineMeasurementsAndTypes(
@@ -34,4 +53,8 @@ export function combineMeasurementsAndTypes(
     yourMeasurementsCorrected.push(combinedMeasurement);
   });
   return yourMeasurementsCorrected;
+}
+
+export function getExerciseMetric(exerciseEquipmentName){
+  return EXERCISE_MEASUREMENTS.find((exercise) => exercise.name === exerciseEquipmentName).measurement
 }

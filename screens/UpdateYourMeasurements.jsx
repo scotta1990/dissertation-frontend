@@ -1,5 +1,5 @@
-import { StyleSheet, View } from "react-native";
-import React, { useState } from "react";
+import { StyleSheet, View, Text } from "react-native";
+import React, { useEffect, useState } from "react";
 import YourMeasurementsList from "../components/YourMeasurements/YourMeasurementsList";
 import { GlobalStyles } from "../constants/styles";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,8 +10,12 @@ import {
 } from "../utils/database/yourMeasurements";
 import { setMeasurementsProfile } from "../store/redux/yourMeasurements";
 import { combineMeasurementsAndTypes } from "../utils/utils";
+import DateInput from "../components/Historical/DateInput";
+import { useRef } from "react";
 
-const UpdateYourMeasurements = ({ navigation }) => {
+const UpdateYourMeasurements = ({ navigation, route }) => {
+  const { historical } = route?.params;
+
   const measurementsProfile = useSelector(
     (store) => store.yourMeasurements.measurementsProfile
   );
@@ -21,14 +25,26 @@ const UpdateYourMeasurements = ({ navigation }) => {
   const dispatch = useDispatch();
   const token = useSelector((store) => store.auth.token);
   const [inputs, setInputs] = useState({});
+  const dateInput = useRef();
+
+  useEffect(() => {
+    if (historical) {
+      dateInput.current = new Date();
+    }
+  }, []);
 
   async function onPressSubmitHandler() {
     const submit = async (key, value) => {
       try {
-        const response = await createMeasurement(token, {
+        const newMeasurement = {
           measurementTypeId: key,
           value: value,
-        });
+        };
+
+        if (historical) {
+          newMeasurement.dateCreated = dateInput.current;
+        }
+        const response = await createMeasurement(token, newMeasurement);
         const measurementsProfile = await getMeasurementsProfile(token);
         dispatch(
           setMeasurementsProfile({
@@ -51,6 +67,7 @@ const UpdateYourMeasurements = ({ navigation }) => {
 
   return (
     <View style={styles.mainContainer}>
+      {historical && <DateInput dateRef={dateInput} />}
       <YourMeasurementsList
         yourMeasurements={measurementsProfile}
         isUpdatable={true}
@@ -59,8 +76,9 @@ const UpdateYourMeasurements = ({ navigation }) => {
       <Button
         backgroundColor={GlobalStyles.colors.accent}
         onPress={onPressSubmitHandler}
+        style={styles.button}
       >
-        TEST
+        Submit
       </Button>
     </View>
   );
@@ -72,5 +90,9 @@ const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
     backgroundColor: GlobalStyles.colors.primaryWhite,
+  },
+  button: {
+    margin: 8,
+    padding: 8,
   },
 });

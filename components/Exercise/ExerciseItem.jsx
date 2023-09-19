@@ -1,21 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Image } from "expo-image";
-import React, { useContext } from "react";
 import Card from "../UI/Card";
 import { GlobalStyles } from "../../constants/styles";
 import Button from "../UI/Button";
 import { useNavigation } from "@react-navigation/native";
-import { useDispatch } from "react-redux";
-import { addExercise } from "../../store/redux/currentWorkout";
 
-const ExerciseItem = ({ exercise }) => {
-  const dispatch = useDispatch();
-
+const ExerciseItem = ({ exercise, onPress }) => {
   const navigation = useNavigation();
 
   function onPressHandler() {
-    dispatch(addExercise({ exercise: exercise }));
-    navigation.goBack();
+    onPress(exercise);
   }
 
   return (

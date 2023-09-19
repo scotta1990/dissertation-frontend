@@ -36,7 +36,7 @@ const rightSwipeActions = () => {
   );
 };
 
-const SetRow = ({ set, setIndex, workoutItemId }) => {
+const SetRow = ({ set, setIndex, workoutItemId, exerciseMeasurement }) => {
   const dispatch = useDispatch();
   const toast = useToast();
   const [measurementValue, setMeasurementValue] = useState(set.measurement);
@@ -46,7 +46,7 @@ const SetRow = ({ set, setIndex, workoutItemId }) => {
   const isAlternate = setIndex % 2 == 0;
 
   function workoutDone(value) {
-    if (measurementValue > 0 && countValue > 0) {
+    if (countValue > 0) {
       setIsDone(value);
       dispatch(
         updateSet({
@@ -95,14 +95,18 @@ const SetRow = ({ set, setIndex, workoutItemId }) => {
         </Text>
       </View>
       <View style={styles.setItemContainer}>
-        <TextInput
-          style={[styles.setText, isDone && { color: "white" }]}
-          placeholder="kg"
-          keyboardType="numeric"
-          value={measurementValue}
-          onChangeText={setMeasurementValue}
-          editable={!isDone}
-        />
+        {exerciseMeasurement.measurement !== "" ? (
+          <TextInput
+            style={[styles.setText, isDone && { color: "white" }]}
+            placeholder={exerciseMeasurement.measurement}
+            keyboardType="numeric"
+            value={measurementValue}
+            onChangeText={setMeasurementValue}
+            editable={!isDone}
+          />
+        ) : (
+          ""
+        )}
       </View>
       <View style={styles.setItemContainer}>
         <TextInput

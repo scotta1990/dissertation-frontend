@@ -6,7 +6,6 @@ import Card from "../components/UI/Card";
 import Button from "../components/UI/Button";
 import YourMeasurementsList from "../components/YourMeasurements/YourMeasurementsList";
 import { combineMeasurementsAndTypes } from "../utils/utils";
-// import { bodyMeasurementTypes } from "../constants/measurementTypes";
 import {
   getMeasurementTypes,
   getMeasurementsProfile,
@@ -34,8 +33,6 @@ const YouSummary = ({ navigation }) => {
     (async () => {
       setIsFetching(true);
       try {
-        const measurementTypes = await getMeasurementTypes(token);
-        dispatch(setMeasurementTypes({ measurementTypes: measurementTypes }));
         const measurementsProfile = await getMeasurementsProfile(token);
         dispatch(
           setMeasurementsProfile({
@@ -60,24 +57,39 @@ const YouSummary = ({ navigation }) => {
     navigation.navigate("UpdateYourMeasurements");
   }
 
+  function accountButtonPressHandler() {
+    navigation.navigate("Account");
+  }
+
   return (
     <SafeAreaView style={GlobalStyles.AndroidSafeArea.AndroidSafeArea}>
-      <Card>
-        <View style={styles.yourMeasurementsHeaderContainer}>
-          <Text style={styles.yourMeasurementsHeaderText}>
-            Your Measurements
-          </Text>
-          <Button
-            style={styles.button}
-            textStyle={styles.buttonText}
-            backgroundColor={GlobalStyles.colors.primary}
-            onPress={updateButtonPressHandler}
-          >
-            Update
-          </Button>
-        </View>
-        <YourMeasurementsList yourMeasurements={measurementsProfile} />
-      </Card>
+      <View style={styles.yourMeasurementsContainer}>
+        <Card>
+          <View style={styles.yourMeasurementsHeaderContainer}>
+            <Text style={styles.yourMeasurementsHeaderText}>
+              Your Measurements
+            </Text>
+            <Button
+              style={styles.button}
+              textStyle={styles.buttonText}
+              backgroundColor={GlobalStyles.colors.primary}
+              onPress={updateButtonPressHandler}
+            >
+              Update
+            </Button>
+          </View>
+          <YourMeasurementsList yourMeasurements={measurementsProfile} />
+        </Card>
+      </View>
+      <View style={styles.youMenu}>
+        <Button
+          style={styles.button}
+          backgroundColor={GlobalStyles.colors.primary}
+          onPress={accountButtonPressHandler}
+        >
+          Account
+        </Button>
+      </View>
     </SafeAreaView>
   );
 };
@@ -85,9 +97,8 @@ const YouSummary = ({ navigation }) => {
 export default YouSummary;
 
 const styles = StyleSheet.create({
-  mainContainer: {
-    margin: 8,
-    padding: 8,
+  yourMeasurementsContainer: {
+    flex: 5,
   },
   yourMeasurementsHeaderContainer: {
     flexDirection: "row",
@@ -98,11 +109,18 @@ const styles = StyleSheet.create({
   yourMeasurementsHeaderText: {
     fontWeight: "bold",
   },
+  youMenu: {
+    marginHorizontal: 8,
+    marginBottom: 8,
+    padding: 8,
+    justifyContent: "flex-end",
+    flex: 1,
+  },
   button: {
     margin: 10,
     marginTop: 0,
   },
   buttonText: {
-    fontSize: 13,
+    fontSize: 10,
   },
 });

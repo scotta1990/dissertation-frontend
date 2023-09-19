@@ -5,11 +5,16 @@ export const currentWorkoutSlice = createSlice({
   initialState: {
     workoutInProgress: false,
     workoutStartDate: "",
+    workoutEndDate: undefined,
     workoutItems: [],
     duration: 0,
+    historical: false,
   },
   reducers: {
     startWorkout: (state, action) => {
+      if (action.payload?.historical) {
+        state.historical = true;
+      }
       state.workoutStartDate = Date.now();
       state.workoutInProgress = true;
     },
@@ -17,8 +22,16 @@ export const currentWorkoutSlice = createSlice({
     cancelCurrentWorkout: (state, action) => {
       state.workoutInProgress = false;
       state.workoutStartDate = "";
+      state.workoutEndDate = undefined;
       state.workoutItems = [];
       state.duration = 0;
+      state.historical = false;
+    },
+
+    updateCurrentWorkout: (state, action) => {
+      state.workoutStartDate = action.payload.startDate;
+      state.workoutEndDate = action.payload.endDate;
+      state.duration = action.payload.duration;
     },
 
     addExercise: (state, action) => {
@@ -89,6 +102,7 @@ export const currentWorkoutSlice = createSlice({
 export const {
   startWorkout,
   cancelCurrentWorkout,
+  updateCurrentWorkout,
   addExercise,
   removeExercise,
   addSet,

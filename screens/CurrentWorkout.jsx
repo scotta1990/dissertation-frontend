@@ -1,24 +1,79 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
 import Button from "../components/UI/Button";
+import MessageBox from "../components/UI/MessageBox";
 import { GlobalStyles } from "../constants/styles";
 import WorkoutItem from "../components/Workout/WorkoutItem";
 import { useDispatch, useSelector } from "react-redux";
-import { cancelCurrentWorkout } from "../store/redux/currentWorkout";
+import {
+  cancelCurrentWorkout,
+  updateCurrentWorkout,
+} from "../store/redux/currentWorkout";
 import { Alert } from "react-native";
 import Toast from "react-native-toast-notifications";
 import { useRef } from "react";
-import { addWorkout } from "../store/redux/workouts";
 import { KeyboardAwareFlatList } from "react-native-keyboard-aware-scroll-view";
-import { createWorkout } from "../utils/database/workouts";
+import DateInput from "../components/Historical/DateInput";
+import Card from "../components/UI/Card";
+import { addDateAndTime, getYesterdaysDate } from "../utils/utils";
+import { useEffect } from "react";
 
 const renderWorkoutItem = ({ item, index }) => {
   return <WorkoutItem workoutItem={item} index={index} />;
 };
 
+const renderDateSelection = (
+  startDateRef,
+  startTimeRef,
+  endDateRef,
+  endDateTime
+) => {
+  return (
+    <Card>
+      <View style={styles.dateSelectionContainer}>
+        <View style={styles.dateSelection}>
+          <DateInput title="Start Date" dateRef={startDateRef} />
+          <DateInput
+            title="Start Time"
+            dateRef={startTimeRef}
+            inputMode="time"
+          />
+        </View>
+        <View style={styles.dateSelection}>
+          <DateInput title="End Date  " dateRef={endDateRef} />
+          <DateInput
+            title="End Time  "
+            dateRef={endDateTime}
+            inputMode="time"
+          />
+        </View>
+      </View>
+    </Card>
+  );
+};
+
 const CurrentWorkout = ({ navigation }) => {
-  const currentWorkout = useSelector((store) => store.currentWorkout);
-  const token = useSelector((store) => store.auth.token);
+  const historical = useSelector((store) => store.currentWorkout.historical);
+
+  const initialMount = useRef(true);
+  const historicalStartDate = useRef();
+  const historicalStartTime = useRef();
+  const historicalEndDate = useRef();
+  const historicalEndTime = useRef();
+
+  useEffect(() => {
+    if (historical && initialMount) {
+      initialMount.current = false;
+      historicalStartDate.current = getYesterdaysDate();
+      historicalStartTime.current = getYesterdaysDate();
+      historicalEndDate.current = getYesterdaysDate();
+      historicalEndTime.current = getYesterdaysDate();
+    }
+  }, []);
+
+  const workoutItems = useSelector(
+    (store) => store.currentWorkout.workoutItems
+  );
   const dispatch = useDispatch();
   const toastRef = useRef();
 
@@ -47,40 +102,39 @@ const CurrentWorkout = ({ navigation }) => {
   }
 
   async function finishWorkoutOnPressHandler() {
-    const doneWorkoutItems = currentWorkout.workoutItems.filter(
-      (workoutItem) => {
-        return workoutItem.sets.find((set) => set.done == true);
-      }
-    );
+    const doneWorkoutItems = workoutItems.filter((workoutItem) => {
+      return workoutItem.sets.find((set) => set.done == true);
+    });
 
     if (doneWorkoutItems.length > 0) {
-      newWorkout = {
-        startDate: currentWorkout.workoutStartDate,
-        endDate: Date.now(),
-        duration: currentWorkout.duration,
-        workoutItems: currentWorkout.workoutItems.map((item) => {
-          return { ...item, exerciseId: item.exercise.id };
-        }),
-      };
-      try {
-        await createWorkout(newWorkout, token);
-        dispatch(
-          addWorkout({
-            workout: newWorkout,
-          })
+      const historicalData = {};
+      if (historical) {
+        historicalData.historical = true;
+        historicalData.startDate = addDateAndTime(
+          historicalStartDate.current,
+          historicalStartTime.current
         );
-        dispatch(cancelCurrentWorkout());
-        navigation.navigate("WorkoutSummary");
-        return;
-      } catch (error) {
-        console.log(error);
-        toastRef.current.show(error.response.data, {
-          type: "warning",
-          placement: "top",
-          duration: 6000,
-          animationType: "zoom-in",
-        });
+        historicalData.endDate = addDateAndTime(
+          historicalEndDate.current,
+          historicalEndTime.current
+        );
+        if (historicalData.startDate >= historicalData.endDate) {
+          toastRef.current.show(
+            "You can't have the start datetime greater or equal to than the end datetime.",
+            {
+              type: "warning",
+              placement: "top",
+              duration: 6000,
+              animationType: "zoom-in",
+            }
+          );
+          return;
+        }
+        historicalData.duration =
+          (historicalData.endDate - historicalData.startDate) / 1000;
+        dispatch(updateCurrentWorkout(historicalData));
       }
+      navigation.replace("CompleteWorkout");
     }
     toastRef.current.show(
       "You need to add some completed exercises to your workout to finish it.",
@@ -97,16 +151,40 @@ const CurrentWorkout = ({ navigation }) => {
     <View style={styles.mainContainer}>
       <Toast ref={toastRef} />
       <View style={styles.mainContainer}>
-        {currentWorkout.workoutItems.length > 0 ? (
-          <KeyboardAwareFlatList
-            data={currentWorkout.workoutItems}
-            keyExtractor={(item) => item.id}
-            renderItem={renderWorkoutItem}
-            removeClippedSubviews={false}
-          />
-        ) : (
-          ""
+        {historical && (
+          <Card>
+            <View style={styles.dateSelectionContainer}>
+              <View style={styles.dateSelection}>
+                <DateInput title="Start Date" dateRef={historicalStartDate} />
+                <DateInput
+                  title="Start Time"
+                  dateRef={historicalStartTime}
+                  inputMode="time"
+                />
+              </View>
+              <View style={styles.dateSelection}>
+                <DateInput title="End Date  " dateRef={historicalEndDate} />
+                <DateInput
+                  title="End Time  "
+                  dateRef={historicalEndTime}
+                  inputMode="time"
+                />
+              </View>
+            </View>
+          </Card>
         )}
+        <KeyboardAwareFlatList
+          data={workoutItems}
+          keyExtractor={(item) => item.id}
+          renderItem={renderWorkoutItem}
+          removeClippedSubviews={false}
+          ListEmptyComponent={
+            <MessageBox
+              messageSubject={"Get this workout started!"}
+              messageBody={`Select to add an exercise below...`}
+            />
+          }
+        />
       </View>
       <View style={styles.buttonsContainer}>
         <Button
@@ -155,5 +233,11 @@ const styles = StyleSheet.create({
   },
   buttonRow: {
     width: "49%",
+  },
+  dateSelectionContainer: {
+    alignItems: "center",
+  },
+  dateSelection: {
+    flexDirection: "row",
   },
 });
